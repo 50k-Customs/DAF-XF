@@ -1,0 +1,17 @@
+SiiNunit
+{
+accessory_engine_data : mx300.daf.xf.50k.engine
+{
+	name: "PACCAR MX300"
+	price: 12600
+	unlock: 6
+	info[]: "410 @@hp@@ (300@@kw@@)"
+	info[]: "2@@dg@@000 @@nm@@"
+	info[]: "1@@dg@@000-1@@dg@@400 @@rpm@@"
+	icon: "engine_01"
+	torque: 2000
+	volume:	12.9
+	
+	defaults[]: "/def/vehicle/truck/daf.xf.50k/badge/50k_bdg_410.sii"
+}
+}

@@ -1,0 +1,73 @@
+Header {
+    FormatVersion: 5
+    Source: "Blender 2.74.0 (hash: 000dfc0), SCS Blender Tools: 0.5"
+    Type: "Model"
+    Name: "ui_shadow_4x2"
+}
+Global {
+    VertexCount: 4
+    TriangleCount: 2
+    MaterialCount: 1
+    PieceCount: 1
+    PartCount: 1
+    BoneCount: 0
+    LocatorCount: 0
+    Skeleton: "ui_shadow_4x2.pis"
+}
+Material {
+    Alias: "ui_shadow_4x2"
+    Effect: "eut2.dif.over"
+}
+Piece {
+    Index: 0
+    Material: 0
+    VertexCount: 4
+    TriangleCount: 2
+    StreamCount: 4
+    Stream {
+        Format: FLOAT3
+        Tag: "_POSITION"
+        0    ( &3ffd5dbf  &b4940e6f  &4069c6fe )
+        1    ( &3ffd5dbf  &348dadda  &c05fb530 )
+        2    ( &bffd5dbf  &348dadda  &c05fb530 )
+        3    ( &bffd5dbf  &b4940e6f  &4069c6fe )
+    }
+    Stream {
+        Format: FLOAT3
+        Tag: "_NORMAL"
+        0    ( &00000000  &3f800000  &33a22169 )
+        1    ( &00000000  &3f800000  &33a22169 )
+        2    ( &00000000  &3f800000  &33a22169 )
+        3    ( &00000000  &3f800000  &33a22169 )
+    }
+    Stream {
+        Format: FLOAT2
+        Tag: "_UV0"
+        AliasCount: 1
+        Aliases: "_TEXCOORD0"
+        0    ( &3f7ff973  &3f7ff973 )
+        1    ( &3f7ff973  &38d1a000 )
+        2    ( &38d1ac5c  &38d1a000 )
+        3    ( &38d1cc5a  &3f7ff973 )
+    }
+    Stream {
+        Format: FLOAT4
+        Tag: "_RGBA"
+        0    ( &3f808081  &3f808081  &3f808081  &3f800000 )
+        1    ( &3f808081  &3f808081  &3f808081  &3f800000 )
+        2    ( &3f808081  &3f808081  &3f808081  &3f800000 )
+        3    ( &3f808081  &3f808081  &3f808081  &3f800000 )
+    }
+    Triangles {
+        0    ( 2     1     0 )
+        1    ( 2     0     3 )
+    }
+}
+Part {
+    Name: "defaultpart"
+    PieceCount: 1
+    LocatorCount: 0
+    Pieces: 0
+    Locators:
+}
+

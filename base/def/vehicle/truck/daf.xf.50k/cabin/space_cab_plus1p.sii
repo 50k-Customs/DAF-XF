@@ -1,0 +1,28 @@
+SiiNunit
+{
+accessory_cabin_data : s_cab_plus1p.daf.xf.50k.cabin
+{
+	name: "Space with Side spoiler & painted mask"
+	price: 24320
+	unlock: 5
+	model: "/vehicle/truck/daf_xf_50k/truck.pmd"
+	lods[]: "/vehicle/truck/daf_xf/lod_02.pmd"
+	lods[]: "/vehicle/truck/daf_xf/lod_03.pmd"
+	collision: "/vehicle/truck/daf_xf_50k/truck.pmc"
+	variant: c_b_cabin
+	variant_uk: c_b_cabin_uk
+	look: default
+	icon: "cab_daf_xf_c"
+	wiper_model: "/vehicle/truck/daf_xf/wipers.pmd"
+	wiper_anim: "/vehicle/truck/daf_xf/wipers.pma"
+	wiper_model_uk: "/vehicle/truck/daf_xf_50k/wipers_uk.pmd"
+	wiper_anim_uk: "/vehicle/truck/daf_xf_50k/wipers_uk.pma"
+	defaults[]: "/def/vehicle/truck/daf.xf.50k/accessory/doorhndl/shape1.sii"
+	defaults[]: "/def/vehicle/truck/daf.xf.50k/accessory/mirror/shape1.sii"
+	defaults[]: "/def/vehicle/truck/daf.xf.50k/paint_job/color1.sii"
+	defaults[]: "/def/vehicle/truck/daf.xf.50k/head_light/standard.sii"
+	defaults[]: "/def/vehicle/truck/daf.xf.50k/interior/space.sii"
+	
+	defaults[]: "/def/vehicle/truck/daf.xf.50k/c_equip/50k_cab_grill_painted.sii"
+}
+}
