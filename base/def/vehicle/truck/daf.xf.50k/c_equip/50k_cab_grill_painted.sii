@@ -1,0 +1,14 @@
+SiiNunit
+{
+accessory_addon_data : cgrill_p.daf.xf.50k.c_equip
+{
+	exterior_model: "/vehicle/truck/upgrade/equipments/daf_xf_50k/50k_cab_grill_painted.pmd"
+	
+	suitable_for[]: "space_cab_p.daf.xf.50k.cabin"
+	suitable_for[]: "s_cab_plus_p.daf.xf.50k.cabin"
+	suitable_for[]: "s_cab_plus1p.daf.xf.50k.cabin"
+	suitable_for[]: "super_s_cabp.daf.xf.50k.cabin"
+
+		
+}
+}
