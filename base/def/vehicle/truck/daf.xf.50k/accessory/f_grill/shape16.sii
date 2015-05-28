@@ -1,0 +1,11 @@
+SiiNunit
+{
+accessory_addon_data : shape16.daf.xf.50k.f_grill
+{
+	name: "50k DAF XF: MultiBar"
+	price: 16740
+	unlock: 20
+	icon: "f_grill_02"
+	exterior_model: "/vehicle/truck/upgrade/frontgrill/daf_xf_50k/50k_frontgrill_01.pmd"
+}
+}

@@ -1,0 +1,16 @@
+SiiNunit
+{
+accessory_addon_data : side_stripe2.daf.xf.50k.exhaust_l
+{
+	name: "Elegance"
+	price: 5010
+	unlock: 15
+	icon: "sidestripe_02"
+	exterior_model: "/vehicle/truck/upgrade/sideskirt_stripe/daf_xf/stripe_02_l.pmd"
+	suitable_for[]: "shape1.daf.xf.50k.sideskirt"
+	suitable_for[]: "shape2.daf.xf.50k.sideskirt"
+	suitable_for[]: "shape3.daf.xf.50k.sideskirt"
+	suitable_for[]: "4x2.daf.xf.50k.chassis"
+	suitable_for[]: "4x2_p.daf.xf.50k.chassis"
+}
+}

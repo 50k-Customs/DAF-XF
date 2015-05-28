@@ -1,0 +1,11 @@
+SiiNunit
+{
+accessory_addon_data : shape6.daf.xf.50k.b_grill
+{
+	name: "Samurai"
+	price: 1200
+	unlock: 6
+	icon: "b_grill_06"
+	exterior_model: "/vehicle/truck/upgrade/bottomgrill/daf_xf/bottomgrill_06.pmd"
+}
+}

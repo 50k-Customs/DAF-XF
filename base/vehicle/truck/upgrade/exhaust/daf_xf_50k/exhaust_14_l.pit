@@ -8,7 +8,7 @@ Header {
     FormatVersion: 1
     Source: "Blender 2.74.0 (hash: 000dfc0), SCS Blender Tools: 0.5.b5d81c1"
     Type: "Trait"
-    Name: "bottomgrill_01_mud"
+    Name: "exhaust_14_l"
 }
 Global {
     LookCount: 1
@@ -19,10 +19,10 @@ Global {
 Look {
     Name: "default"
     Material {
-        Alias: "chrome_upgrade"
-        Effect: "eut2.dif.spec.add.env.nofresnel"
+        Alias: "color_DifSpecAddEnv"
+        Effect: "eut2.dif.spec.add.env"
         Flags: 0
-        AttributeCount: 6
+        AttributeCount: 7
         TextureCount: 2
         Attribute {
             Format: FLOAT3
@@ -32,7 +32,7 @@ Look {
         Attribute {
             Format: FLOAT3
             Tag: "specular"
-            Value: ( 0.7870000004768372 0.7870000004768372 0.7870000004768372 )
+            Value: ( 0.7742716073989868 0.7742716073989868 0.7742716073989868 )
         }
         Attribute {
             Format: FLOAT
@@ -42,7 +42,7 @@ Look {
         Attribute {
             Format: FLOAT
             Tag: "add_ambient"
-            Value: ( 1.0 )
+            Value: ( 0.0 )
         }
         Attribute {
             Format: FLOAT
@@ -52,11 +52,16 @@ Look {
         Attribute {
             Format: FLOAT3
             Tag: "env_factor"
-            Value: ( 0.31850001215934753 0.31850001215934753 0.31850001215934753 )
+            Value: ( 0.3185390532016754 0.3185390532016754 0.3185390532016754 )
+        }
+        Attribute {
+            Format: FLOAT2
+            Tag: "fresnel"
+            Value: ( 0.20000000298023224 0.8999999761581421 )
         }
         Texture {
             Tag: "texture[0]:texture_base"
-            Value: "/vehicle/truck/upgrade/share/upg_chrome"
+            Value: "/vehicle/truck/daf_xf_50k/color"
         }
         Texture {
             Tag: "texture[1]:texture_reflection"

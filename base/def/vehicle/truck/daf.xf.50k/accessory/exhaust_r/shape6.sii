@@ -1,0 +1,16 @@
+SiiNunit
+{
+accessory_addon_data : shape6.daf.xf.50k.exhaust_r
+{
+	name: "Magma II"
+	price: 3390
+	unlock: 16
+	icon: "exhaust_06"
+	exterior_model: "/vehicle/truck/upgrade/exhaust/daf_xf/exhaust_06_r.pmd"
+	suitable_for[]: "shape1.daf.xf.50k.sideskirt"
+	suitable_for[]: "shape2.daf.xf.50k.sideskirt"
+	suitable_for[]: "shape3.daf.xf.50k.sideskirt"
+	suitable_for[]: "4x2.daf.xf.50k.chassis"
+	suitable_for[]: "4x2_p.daf.xf.50k.chassis"
+}
+}

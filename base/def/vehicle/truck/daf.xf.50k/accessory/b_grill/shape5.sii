@@ -1,0 +1,11 @@
+SiiNunit
+{
+accessory_addon_data : shape5.daf.xf.50k.b_grill
+{
+	name: "Dragonfly"
+	price: 3090
+	unlock: 18
+	icon: "b_grill_05"
+	exterior_model: "/vehicle/truck/upgrade/bottomgrill/daf_xf/bottomgrill_05.pmd"
+}
+}

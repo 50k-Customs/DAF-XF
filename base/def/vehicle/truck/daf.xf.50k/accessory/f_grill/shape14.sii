@@ -1,0 +1,11 @@
+SiiNunit
+{
+accessory_addon_data : shape14.daf.xf.50k.f_grill
+{
+	name: "Vortex"
+	price: 25740
+	unlock: 30
+	icon: "f_grill_14"
+	exterior_model: "/vehicle/truck/upgrade/frontgrill/daf_xf/frontgrill_14.pmd"
+}
+}

@@ -1,0 +1,15 @@
+SiiNunit
+{
+accessory_addon_data : shape1l.daf.xf.50k.f_mirror
+{
+	name: "@@stock_long@@"
+	price: 1500
+	unlock: 0
+	icon: "f_mirror_01_daf_xf"
+	exterior_model: "/vehicle/truck/upgrade/mirror/daf_xf/front_mirror_01_long.pmd"
+	interior_model: "/vehicle/truck/upgrade/mirror/daf_xf/front_mirror_01_long_interior.pmd"
+	exterior_model_uk: "/vehicle/truck/upgrade/mirror/daf_xf/front_mirror_01_long_uk.pmd"
+	interior_model_uk: "/vehicle/truck/upgrade/mirror/daf_xf/front_mirror_01_long_interior_uk.pmd"
+	suitable_for[]: "super_s_cab.daf.xf.50k.cabin"
+}
+}

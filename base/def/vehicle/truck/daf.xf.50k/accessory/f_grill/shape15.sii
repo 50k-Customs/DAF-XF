@@ -1,0 +1,11 @@
+SiiNunit
+{
+accessory_addon_data : shape15.daf.xf.50k.f_grill
+{
+	name: "Accent"
+	price: 16740
+	unlock: 20
+	icon: "f_grill_15"
+	exterior_model: "/vehicle/truck/upgrade/frontgrill/daf_xf/frontgrill_15.pmd"
+}
+}

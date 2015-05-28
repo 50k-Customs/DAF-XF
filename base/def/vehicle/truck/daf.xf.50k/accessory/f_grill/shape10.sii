@@ -1,0 +1,11 @@
+SiiNunit
+{
+accessory_addon_data : shape10.daf.xf.50k.f_grill
+{
+	name: "Claw"
+	price: 14940
+	unlock: 17
+	icon: "f_grill_10"
+	exterior_model: "/vehicle/truck/upgrade/frontgrill/daf_xf/frontgrill_10.pmd"
+}
+}

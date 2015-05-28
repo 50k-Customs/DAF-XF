@@ -1,0 +1,16 @@
+SiiNunit
+{
+accessory_addon_data : shape8.daf.xf.50k.exhaust_r
+{
+	name: "Magma IV"
+	price: 4920
+	unlock: 29
+	icon: "exhaust_08"
+	exterior_model: "/vehicle/truck/upgrade/exhaust/daf_xf/exhaust_08_r.pmd"
+	suitable_for[]: "shape1.daf.xf.50k.sideskirt"
+	suitable_for[]: "shape2.daf.xf.50k.sideskirt"
+	suitable_for[]: "shape3.daf.xf.50k.sideskirt"
+	suitable_for[]: "4x2.daf.xf.50k.chassis"
+	suitable_for[]: "4x2_p.daf.xf.50k.chassis"
+}
+}

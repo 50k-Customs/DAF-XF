@@ -1,0 +1,11 @@
+SiiNunit
+{
+accessory_addon_data : shape3.daf.xf.50k.b_grill
+{
+	name: "Momentum"
+	price: 1050
+	unlock: 4
+	icon: "b_grill_03"
+	exterior_model: "/vehicle/truck/upgrade/bottomgrill/daf_xf/bottomgrill_03.pmd"
+}
+}

@@ -1,0 +1,11 @@
+SiiNunit
+{
+accessory_addon_data : shape4.daf.xf.50k.b_grill
+{
+	name: "Accent"
+	price: 1710
+	unlock: 14
+	icon: "b_grill_04"
+	exterior_model: "/vehicle/truck/upgrade/bottomgrill/daf_xf/bottomgrill_04.pmd"
+}
+}

@@ -1,0 +1,11 @@
+SiiNunit
+{
+accessory_addon_data : shape12.daf.xf.50k.f_grill
+{
+	name: "Bull-rider"
+	price: 15960
+	unlock: 19
+	icon: "f_grill_12"
+	exterior_model: "/vehicle/truck/upgrade/frontgrill/daf_xf/frontgrill_12.pmd"
+}
+}

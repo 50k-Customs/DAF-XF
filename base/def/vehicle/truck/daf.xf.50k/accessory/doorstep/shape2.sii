@@ -1,0 +1,11 @@
+SiiNunit
+{
+accessory_addon_data : shape2.daf.xf.50k.doorstep
+{
+	name: "Wave"
+	price: 1680
+	unlock: 9
+	icon: "doorstep_02_daf_xf"
+	exterior_model: "/vehicle/truck/upgrade/doorstep/daf_xf/doorstep_02.pmd"
+}
+}

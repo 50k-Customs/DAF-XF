@@ -1,0 +1,11 @@
+SiiNunit
+{
+accessory_addon_data : shape9.daf.xf.50k.f_grill
+{
+	name: "Wrestler"
+	price: 23940
+	unlock: 26
+	icon: "f_grill_09"
+	exterior_model: "/vehicle/truck/upgrade/frontgrill/daf_xf/frontgrill_09.pmd"
+}
+}

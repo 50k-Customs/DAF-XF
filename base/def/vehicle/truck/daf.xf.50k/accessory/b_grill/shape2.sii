@@ -1,0 +1,11 @@
+SiiNunit
+{
+accessory_addon_data : shape2.daf.xf.50k.b_grill
+{
+	name: "Mirage"
+	price: 1380
+	unlock: 4
+	icon: "b_grill_02"
+	exterior_model: "/vehicle/truck/upgrade/bottomgrill/daf_xf/bottomgrill_02.pmd"
+}
+}

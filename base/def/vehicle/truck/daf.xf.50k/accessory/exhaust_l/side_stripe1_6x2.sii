@@ -1,0 +1,13 @@
+SiiNunit
+{
+accessory_addon_data : side_str_6x2.daf.xf.50k.exhaust_l
+{
+	name: "Ranger"
+	price: 5220
+	unlock: 22
+	icon: "sidestripe_01"
+	exterior_model: "/vehicle/truck/upgrade/sideskirt_stripe/daf_xf_50k/stripe_01_l_6x2.pmd"
+	
+	suitable_for[]: "shape4.daf.xf.50k.sideskirt"
+}
+}
