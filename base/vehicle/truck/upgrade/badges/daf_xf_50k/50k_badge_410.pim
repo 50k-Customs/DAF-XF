@@ -1,6 +1,6 @@
 Header {
     FormatVersion: 5
-    Source: "Blender 2.74.0 (hash: 000dfc0), SCS Blender Tools: 0.5.4a529ad"
+    Source: "Blender 2.74.0 (hash: 000dfc0), SCS Blender Tools: 0.5.b5d81c1"
     Type: "Model"
     Name: "50k_badge_410"
 }
