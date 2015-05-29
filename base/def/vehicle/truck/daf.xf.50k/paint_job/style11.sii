@@ -1,0 +1,19 @@
+SiiNunit
+{
+accessory_paint_job_data : style11.daf.xf.50k.paint_job
+{
+	name: "Sunrise"
+	price: 22800
+	unlock: 10
+	icon: "paintjob_style11"
+	mask_r_color : (0.7912, 0.7156, 0.2831)
+	mask_r_locked: true
+	mask_g_color :  (0.913, 0.147, 0.0024)
+	mask_g_locked: false
+	mask_b_color : (0.9046, 0.5711, 0.0021)
+	mask_b_locked: false
+	base_color :   (0.8307, 0.8307, 0.8307)
+	base_color_locked: false
+	paint_job_mask: "/vehicle/truck/upgrade/paintjob/paintjob_011.tobj"
+}
+}

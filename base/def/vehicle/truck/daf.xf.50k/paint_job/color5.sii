@@ -1,0 +1,12 @@
+SiiNunit
+{
+accessory_paint_job_data : color5.daf.xf.50k.paint_job
+{
+	name: "Emerald Green"
+	price: 2600
+	unlock: 0
+	base_color : (0, 0.0481, 0.0097)
+	base_color_locked: true
+	stock: true
+}
+}

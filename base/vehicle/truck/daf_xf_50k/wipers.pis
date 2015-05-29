@@ -1,0 +1,40 @@
+Header {
+    FormatVersion: 1
+    Source: "Blender 2.74.0 (hash: 000dfc0), SCS Blender Tools: 0.5.b5d81c1"
+    Type: "Skeleton"
+    Name: "wipers"
+}
+Global {
+    BoneCount: 4
+}
+Bones {
+    0     ( Name:  "__root__"
+            Parent: ""
+            Matrix: ( &bf800000  &284d5c9b  &b4222169  &00000000 
+                      &27edcc70  &3f800000  &330885a4  &00000000
+                      &34222169  &b24cde28  &bf800000  &00000000
+                      &00000000  &00000000  &00000000  &3f800000 )
+       )
+    1     ( Name:  "joint1"
+            Parent: "__root__"
+            Matrix: ( &bf800000  &2d1b1d72  &b42252e7  &00000000 
+                      &b1fd7084  &3f7fb1c2  &3d48166e  &00000000
+                      &34222169  &3d481663  &bf7fb1c3  &00000000
+                      &bf722da6  &40045c16  &c03c42da  &3f800000 )
+       )
+    2     ( Name:  "joint2"
+            Parent: "__root__"
+            Matrix: ( &bf800000  &2d1b1d72  &b42252e7  &00000000 
+                      &b1fd7084  &3f7fb1c2  &3d48166e  &00000000
+                      &34222169  &3d481663  &bf7fb1c3  &00000000
+                      &beb0feb9  &40047043  &c03ddf5b  &3f800000 )
+       )
+    3     ( Name:  "joint3"
+            Parent: "__root__"
+            Matrix: ( &bf800000  &2d1b1d72  &b42252e7  &00000000 
+                      &b1fd7084  &3f7fb1c2  &3d48166e  &00000000
+                      &34222169  &3d481663  &bf7fb1c3  &00000000
+                      &3e84de02  &40047043  &c03ddf59  &3f800000 )
+       )
+}
+

@@ -13,8 +13,8 @@ accessory_cabin_data : s_cab_plus1.daf.xf.50k.cabin
 	variant_uk: c_b_cabin_uk
 	look: default
 	icon: "cab_daf_xf_c"
-	wiper_model: "/vehicle/truck/daf_xf/wipers.pmd"
-	wiper_anim: "/vehicle/truck/daf_xf/wipers.pma"
+	wiper_model: "/vehicle/truck/daf_xf_50k/wipers.pmd"
+	wiper_anim: "/vehicle/truck/daf_xf_50k/wipers.pma"
 	wiper_model_uk: "/vehicle/truck/daf_xf_50k/wipers_uk.pmd"
 	wiper_anim_uk: "/vehicle/truck/daf_xf_50k/wipers_uk.pma"
 	defaults[]: "/def/vehicle/truck/daf.xf.50k/accessory/doorhndl/shape1.sii"

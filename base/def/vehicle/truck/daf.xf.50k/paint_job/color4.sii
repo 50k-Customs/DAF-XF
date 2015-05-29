@@ -1,0 +1,12 @@
+SiiNunit
+{
+accessory_paint_job_data : color4.daf.xf.50k.paint_job
+{
+	name: "Milano Red"
+	price: 2600
+	unlock: 0
+	base_color : (0.4677, 0.0129, 0.0176)
+	base_color_locked: true
+	stock: true
+}
+}

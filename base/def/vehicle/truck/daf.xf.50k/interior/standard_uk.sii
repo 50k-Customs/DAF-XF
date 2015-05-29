@@ -1,0 +1,32 @@
+SiiNunit
+{
+accessory_interior_data: standard_uk.daf.xf.50k.interior
+{
+name: "@@standard@@"
+price: 12960
+unlock: 0
+icon: "interior_daf_xf_std"
+
+model: "/vehicle/truck/daf_xf/interior/model.pmd"
+animated_model: "/vehicle/truck/daf_xf/interior/anim.pmd"
+ui_3d_depth_model: "/vehicle/truck/daf_xf/interior/ui_3d_depth.pmd"
+look: look2
+variant: standard
+
+@include "animations.sui"
+
+dashboard_path:"/ui/dashboard/daf_xf.sii"
+gps_path:"/ui/gps.sii"
+panel_intensity_min: 0.01
+
+left_hand_traffic: true
+
+glass_panes[]: .daf.xf.50k.pane.front
+glass_panes[]: .daf.xf.50k.pane.close
+glass_panes[]: .daf.xf.50k.pane.far
+#glass_panes[]: .daf.xf.50k.pane.top
+
+
+}
+@include "glass.sui"
+}

@@ -1,0 +1,19 @@
+SiiNunit
+{
+accessory_paint_job_data : style10.daf.xf.50k.paint_job
+{
+	name: "Blade"
+	price: 32800
+	unlock: 16
+	icon: "paintjob_style10"
+	mask_r_color : (0.7912, 0.7156, 0.2831)
+	mask_r_locked: false
+	mask_g_color :  (0.0103, 0.0103, 0.0103)
+	mask_g_locked: false
+	mask_b_color : (0.0886, 0, 0)
+	mask_b_locked: false
+	base_color :   (0.6104, 0.6104, 0.6104)
+	base_color_locked: false
+	paint_job_mask: "/vehicle/truck/upgrade/paintjob/paintjob_010.tobj"
+}
+}
