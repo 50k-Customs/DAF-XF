@@ -1,0 +1,13 @@
+SiiNunit
+{
+accessory_addon_data : shape1.daf.xf.50k.r_grill
+{
+	name: "Mirage"
+	price: 2640
+	unlock: 1
+	icon: "r_grill_01"
+	exterior_model: "/vehicle/truck/upgrade/roofgrill/daf_xf/roofgrill_01.pmd"
+	suitable_for[]: "super_s_cab.daf.xf.50k.cabin"
+	suitable_for[]: "super_s_cabp.daf.xf.50k.cabin"
+}
+}

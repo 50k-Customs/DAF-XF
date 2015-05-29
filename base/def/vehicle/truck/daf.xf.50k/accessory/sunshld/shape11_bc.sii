@@ -1,0 +1,18 @@
+SiiNunit
+{
+accessory_addon_data: shape11_bc.daf.xf.50k.sunshld
+{
+	name: "@@stock@@"
+	price: 2160
+	unlock: 0
+	icon: "sunshield_11_daf_xf"
+	exterior_model: "/vehicle/truck/upgrade/sunshield/daf_xf_50k/sunshield_11_bc.pmd"
+	interior_model: "/vehicle/truck/upgrade/sunshield/daf_xf_50k/sunshield_11_bc.pmd"
+	suitable_for[]: "space_cab.daf.xf.50k.cabin"
+	suitable_for[]: "s_cab_plus1.daf.xf.50k.cabin"
+	suitable_for[]: "s_cab_plus.daf.xf.50k.cabin"
+	suitable_for[]: "space_cab_p.daf.xf.50k.cabin"
+	suitable_for[]: "s_cab_plus1p.daf.xf.50k.cabin"
+	suitable_for[]: "s_cab_plus_p.daf.xf.50k.cabin"
+}
+}

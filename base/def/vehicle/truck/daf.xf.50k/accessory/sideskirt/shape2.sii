@@ -1,0 +1,14 @@
+SiiNunit
+{
+accessory_addon_data : shape2.daf.xf.50k.sideskirt
+{
+	name: "50k DAF: Cage"
+	price: 2480
+	unlock: 5
+	icon: "sideskirt_01_daf_xf"
+	exterior_model: "/vehicle/truck/upgrade/sideskirts/daf_xf_50k/sideskirt_cage.pmd"
+	suitable_for[]: "4x2.daf.xf.50k.chassis"
+	suitable_for[]: "4x2_p.daf.xf.50k.chassis"
+	defaults[]: "/def/vehicle/truck/daf.xf.50k/accessory/exhaust_l/shape14.sii"
+}
+}
