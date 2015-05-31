@@ -24,3 +24,7 @@ Currently there is no direct usage of this mod yet, but it will be shortly insid
 ### CONTRIBUTION
 
 If you found bug or you have any reference material of DAF XF please use Issues on github.
+
+### ISSUES
+
+For now none. It was tested on 1.18.1s game version.
