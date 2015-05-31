@@ -4,7 +4,7 @@ This repository is meant for DAF XF 105 by 50k project mod for Euro Truck Simula
 
 Mod presents reworked SCS DAF XF 105 with some extra content and features.
 
-## USAGE
+### USAGE
 
 You have to download [Asset Conversion Tools](http://eurotrucksimulator2.com/conversion_tools.php#what-are-conversion-tools) provided by SCS Software and convert "base" folder of this repository.
 
@@ -21,6 +21,6 @@ Step by step conversion:
 If you are looking for regular mod file then you will have to wait a bit :P
 Currently there is no direct usage of this mod yet, but it will be shortly inside "release" folder.
 
-## CONTRIBUTION
+### CONTRIBUTION
 
 If you found bug or you have any reference material of DAF XF please use Issues on github.
