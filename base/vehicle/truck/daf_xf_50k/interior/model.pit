@@ -81,6 +81,49 @@ Look {
         }
     }
     Material {
+        Alias: "MlaaWeight"
+        Effect: "eut2.mlaaweight"
+        Flags: 0
+        AttributeCount: 0
+        TextureCount: 0
+    }
+    Material {
+        Alias: "Dashboard_DifSpecOver"
+        Effect: "eut2.dif.spec.over"
+        Flags: 0
+        AttributeCount: 5
+        TextureCount: 1
+        Attribute {
+            Format: FLOAT3
+            Tag: "diffuse"
+            Value: ( 1.0 1.0 1.0 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "specular"
+            Value: ( 0.05087609961628914 0.05087609961628914 0.05087609961628914 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "shininess"
+            Value: ( 30.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "add_ambient"
+            Value: ( 0.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "reflection"
+            Value: ( 0.0 )
+        }
+        Texture {
+            Tag: "texture[0]:texture_base"
+            Value: "/vehicle/truck/daf_xf_50k/interior/dashboard"
+        }
+    }
+    Material {
         Alias: "PlasticDoorHandle_DifSpec"
         Effect: "eut2.dif.spec.tsnmap"
         Flags: 0
@@ -537,13 +580,6 @@ Look {
         }
     }
     Material {
-        Alias: "MlaaWeight"
-        Effect: "eut2.mlaaweight"
-        Flags: 0
-        AttributeCount: 0
-        TextureCount: 0
-    }
-    Material {
         Alias: "PlasticBeige_DifSpec"
         Effect: "eut2.dif.spec.tsnmap"
         Flags: 0
@@ -746,42 +782,6 @@ Look {
         }
     }
     Material {
-        Alias: "Dashboard_DifSpecOver"
-        Effect: "eut2.dif.spec.over"
-        Flags: 0
-        AttributeCount: 5
-        TextureCount: 1
-        Attribute {
-            Format: FLOAT3
-            Tag: "diffuse"
-            Value: ( 1.0 1.0 1.0 )
-        }
-        Attribute {
-            Format: FLOAT3
-            Tag: "specular"
-            Value: ( 0.05087609961628914 0.05087609961628914 0.05087609961628914 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "shininess"
-            Value: ( 30.0 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "add_ambient"
-            Value: ( 0.0 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "reflection"
-            Value: ( 0.0 )
-        }
-        Texture {
-            Tag: "texture[0]:texture_base"
-            Value: "/vehicle/truck/daf_xf_50k/interior/dashboard"
-        }
-    }
-    Material {
         Alias: "Dash0BacklightRed_DifLum"
         Effect: "eut2.dif.lum.decal.add"
         Flags: 0
@@ -873,6 +873,49 @@ Look {
         Texture {
             Tag: "texture[1]:texture_reflection"
             Value: "/material/environment/vehicle_reflection"
+        }
+    }
+    Material {
+        Alias: "MlaaWeight"
+        Effect: "eut2.mlaaweight"
+        Flags: 0
+        AttributeCount: 0
+        TextureCount: 0
+    }
+    Material {
+        Alias: "Dashboard_DifSpecOver"
+        Effect: "eut2.dif.spec.over"
+        Flags: 0
+        AttributeCount: 5
+        TextureCount: 1
+        Attribute {
+            Format: FLOAT3
+            Tag: "diffuse"
+            Value: ( 1.0 1.0 1.0 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "specular"
+            Value: ( 0.05087609961628914 0.05087609961628914 0.05087609961628914 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "shininess"
+            Value: ( 30.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "add_ambient"
+            Value: ( 0.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "reflection"
+            Value: ( 0.0 )
+        }
+        Texture {
+            Tag: "texture[0]:texture_base"
+            Value: "/vehicle/truck/daf_xf_50k/interior/dashboard"
         }
     }
     Material {
@@ -1332,13 +1375,6 @@ Look {
         }
     }
     Material {
-        Alias: "MlaaWeight"
-        Effect: "eut2.mlaaweight"
-        Flags: 0
-        AttributeCount: 0
-        TextureCount: 0
-    }
-    Material {
         Alias: "PlasticBeige_DifSpec"
         Effect: "eut2.dif.spec.tsnmap"
         Flags: 0
@@ -1541,42 +1577,6 @@ Look {
         }
     }
     Material {
-        Alias: "Dashboard_DifSpecOver"
-        Effect: "eut2.dif.spec.over"
-        Flags: 0
-        AttributeCount: 5
-        TextureCount: 1
-        Attribute {
-            Format: FLOAT3
-            Tag: "diffuse"
-            Value: ( 1.0 1.0 1.0 )
-        }
-        Attribute {
-            Format: FLOAT3
-            Tag: "specular"
-            Value: ( 0.05087609961628914 0.05087609961628914 0.05087609961628914 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "shininess"
-            Value: ( 30.0 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "add_ambient"
-            Value: ( 0.0 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "reflection"
-            Value: ( 0.0 )
-        }
-        Texture {
-            Tag: "texture[0]:texture_base"
-            Value: "/vehicle/truck/daf_xf_50k/interior/dashboard"
-        }
-    }
-    Material {
         Alias: "Dash0BacklightRed_DifLum"
         Effect: "eut2.dif.lum.decal.add"
         Flags: 0
@@ -1616,21 +1616,21 @@ Look {
 Variant {
     Name: "default"
     Part {
-        Name: "super_space"
-        AttributeCount: 1
-        Attribute {
-            Format: INT
-            Tag: "visible"
-            Value: ( 0 )
-        }
-    }
-    Part {
         Name: "defaultpart"
         AttributeCount: 1
         Attribute {
             Format: INT
             Tag: "visible"
             Value: ( 1 )
+        }
+    }
+    Part {
+        Name: "excl_1_acc"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 0 )
         }
     }
     Part {
@@ -1661,7 +1661,7 @@ Variant {
         }
     }
     Part {
-        Name: "excl_1_acc"
+        Name: "super_space"
         AttributeCount: 1
         Attribute {
             Format: INT
@@ -1673,7 +1673,7 @@ Variant {
 Variant {
     Name: "standard"
     Part {
-        Name: "super_space"
+        Name: "defaultpart"
         AttributeCount: 1
         Attribute {
             Format: INT
@@ -1682,12 +1682,12 @@ Variant {
         }
     }
     Part {
-        Name: "defaultpart"
+        Name: "excl_1_acc"
         AttributeCount: 1
         Attribute {
             Format: INT
             Tag: "visible"
-            Value: ( 1 )
+            Value: ( 0 )
         }
     }
     Part {
@@ -1718,19 +1718,19 @@ Variant {
         }
     }
     Part {
-        Name: "excl_1_acc"
+        Name: "super_space"
         AttributeCount: 1
         Attribute {
             Format: INT
             Tag: "visible"
-            Value: ( 0 )
+            Value: ( 1 )
         }
     }
 }
 Variant {
     Name: "exclusive"
     Part {
-        Name: "super_space"
+        Name: "defaultpart"
         AttributeCount: 1
         Attribute {
             Format: INT
@@ -1739,12 +1739,12 @@ Variant {
         }
     }
     Part {
-        Name: "defaultpart"
+        Name: "excl_1_acc"
         AttributeCount: 1
         Attribute {
             Format: INT
             Tag: "visible"
-            Value: ( 1 )
+            Value: ( 0 )
         }
     }
     Part {
@@ -1775,33 +1775,33 @@ Variant {
         }
     }
     Part {
-        Name: "excl_1_acc"
+        Name: "super_space"
         AttributeCount: 1
         Attribute {
             Format: INT
             Tag: "visible"
-            Value: ( 0 )
+            Value: ( 1 )
         }
     }
 }
 Variant {
     Name: "space"
     Part {
-        Name: "super_space"
-        AttributeCount: 1
-        Attribute {
-            Format: INT
-            Tag: "visible"
-            Value: ( 0 )
-        }
-    }
-    Part {
         Name: "defaultpart"
         AttributeCount: 1
         Attribute {
             Format: INT
             Tag: "visible"
             Value: ( 1 )
+        }
+    }
+    Part {
+        Name: "excl_1_acc"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 0 )
         }
     }
     Part {
@@ -1832,7 +1832,7 @@ Variant {
         }
     }
     Part {
-        Name: "excl_1_acc"
+        Name: "super_space"
         AttributeCount: 1
         Attribute {
             Format: INT
@@ -1844,21 +1844,21 @@ Variant {
 Variant {
     Name: "space_ex"
     Part {
-        Name: "super_space"
-        AttributeCount: 1
-        Attribute {
-            Format: INT
-            Tag: "visible"
-            Value: ( 0 )
-        }
-    }
-    Part {
         Name: "defaultpart"
         AttributeCount: 1
         Attribute {
             Format: INT
             Tag: "visible"
             Value: ( 1 )
+        }
+    }
+    Part {
+        Name: "excl_1_acc"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 0 )
         }
     }
     Part {
@@ -1889,7 +1889,7 @@ Variant {
         }
     }
     Part {
-        Name: "excl_1_acc"
+        Name: "super_space"
         AttributeCount: 1
         Attribute {
             Format: INT
@@ -1901,7 +1901,7 @@ Variant {
 Variant {
     Name: "exclusive_1"
     Part {
-        Name: "super_space"
+        Name: "defaultpart"
         AttributeCount: 1
         Attribute {
             Format: INT
@@ -1910,7 +1910,7 @@ Variant {
         }
     }
     Part {
-        Name: "defaultpart"
+        Name: "excl_1_acc"
         AttributeCount: 1
         Attribute {
             Format: INT
@@ -1946,7 +1946,7 @@ Variant {
         }
     }
     Part {
-        Name: "excl_1_acc"
+        Name: "super_space"
         AttributeCount: 1
         Attribute {
             Format: INT
@@ -1958,16 +1958,16 @@ Variant {
 Variant {
     Name: "space_ex_1"
     Part {
-        Name: "super_space"
+        Name: "defaultpart"
         AttributeCount: 1
         Attribute {
             Format: INT
             Tag: "visible"
-            Value: ( 0 )
+            Value: ( 1 )
         }
     }
     Part {
-        Name: "defaultpart"
+        Name: "excl_1_acc"
         AttributeCount: 1
         Attribute {
             Format: INT
@@ -2003,12 +2003,12 @@ Variant {
         }
     }
     Part {
-        Name: "excl_1_acc"
+        Name: "super_space"
         AttributeCount: 1
         Attribute {
             Format: INT
             Tag: "visible"
-            Value: ( 1 )
+            Value: ( 0 )
         }
     }
 }

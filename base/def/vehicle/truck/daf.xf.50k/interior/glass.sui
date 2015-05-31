@@ -17,19 +17,19 @@ glass_pane_data : .daf.xf.50k.pane.front
 wiper_data : .daf.xf.50k.pane.wiper1
 {
 	center_bone: joint37
-	length: 0.55
+	length: 0.64
 }
 
 wiper_data : .daf.xf.50k.pane.wiper2
 {
 	center_bone: joint38
-	length: 0.55
+	length: 0.64
 }
 
 wiper_data : .daf.xf.50k.pane.wiper3
 {
 	center_bone: joint39
-	length: 0.55
+	length: 0.64
 }
 
 glass_pane_data : .daf.xf.50k.pane.close

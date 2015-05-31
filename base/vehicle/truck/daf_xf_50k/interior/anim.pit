@@ -26,8 +26,8 @@ Global {
 Look {
     Name: "look1"
     Material {
-        Alias: "DashboardHD_DifLum"
-        Effect: "eut2.dif.lum"
+        Alias: "Dash0BacklightRed_DifLum"
+        Effect: "eut2.dif.lum.decal.add"
         Flags: 0
         AttributeCount: 5
         TextureCount: 1
@@ -39,12 +39,12 @@ Look {
         Attribute {
             Format: FLOAT3
             Tag: "specular"
-            Value: ( 0.09462569653987885 0.09462569653987885 0.09462569653987885 )
+            Value: ( 0.10048100352287292 0.10048100352287292 0.10048100352287292 )
         }
         Attribute {
             Format: FLOAT
             Tag: "shininess"
-            Value: ( 50.0 )
+            Value: ( 120.0 )
         }
         Attribute {
             Format: FLOAT
@@ -58,7 +58,7 @@ Look {
         }
         Texture {
             Tag: "texture[0]:texture_base"
-            Value: "/vehicle/truck/daf_xf_50k/interior/dashboard_hd"
+            Value: "/vehicle/truck/daf_xf_50k/interior/dashboard_hd_backlight"
         }
     }
     Material {
@@ -98,8 +98,8 @@ Look {
         }
     }
     Material {
-        Alias: "Dash0BacklightRed_DifLum"
-        Effect: "eut2.dif.lum.decal.add"
+        Alias: "DashboardHD_DifLum"
+        Effect: "eut2.dif.lum"
         Flags: 0
         AttributeCount: 5
         TextureCount: 1
@@ -111,12 +111,12 @@ Look {
         Attribute {
             Format: FLOAT3
             Tag: "specular"
-            Value: ( 0.10048100352287292 0.10048100352287292 0.10048100352287292 )
+            Value: ( 0.09462569653987885 0.09462569653987885 0.09462569653987885 )
         }
         Attribute {
             Format: FLOAT
             Tag: "shininess"
-            Value: ( 120.0 )
+            Value: ( 50.0 )
         }
         Attribute {
             Format: FLOAT
@@ -130,7 +130,7 @@ Look {
         }
         Texture {
             Tag: "texture[0]:texture_base"
-            Value: "/vehicle/truck/daf_xf_50k/interior/dashboard_hd_backlight"
+            Value: "/vehicle/truck/daf_xf_50k/interior/dashboard_hd"
         }
     }
     Material {
@@ -171,42 +171,6 @@ Look {
         Texture {
             Tag: "texture[1]:texture_base"
             Value: "/vehicle/truck/daf_xf_50k/interior/swheel_03"
-        }
-    }
-    Material {
-        Alias: "Dashboard_DifLum"
-        Effect: "eut2.dif.spec"
-        Flags: 0
-        AttributeCount: 5
-        TextureCount: 1
-        Attribute {
-            Format: FLOAT3
-            Tag: "diffuse"
-            Value: ( 1.0 1.0 1.0 )
-        }
-        Attribute {
-            Format: FLOAT3
-            Tag: "specular"
-            Value: ( 0.33104801177978516 0.33104801177978516 0.33104801177978516 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "shininess"
-            Value: ( 60.0 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "add_ambient"
-            Value: ( 0.0 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "reflection"
-            Value: ( 0.0 )
-        }
-        Texture {
-            Tag: "texture[0]:texture_base"
-            Value: "/vehicle/truck/daf_xf_50k/interior/dashboard"
         }
     }
     Material {
@@ -427,12 +391,48 @@ Look {
             Value: "/vehicle/truck/daf_xf_50k/interior/dashboard"
         }
     }
+    Material {
+        Alias: "Dashboard_DifLum"
+        Effect: "eut2.dif.spec"
+        Flags: 0
+        AttributeCount: 5
+        TextureCount: 1
+        Attribute {
+            Format: FLOAT3
+            Tag: "diffuse"
+            Value: ( 1.0 1.0 1.0 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "specular"
+            Value: ( 0.33104801177978516 0.33104801177978516 0.33104801177978516 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "shininess"
+            Value: ( 60.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "add_ambient"
+            Value: ( 0.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "reflection"
+            Value: ( 0.0 )
+        }
+        Texture {
+            Tag: "texture[0]:texture_base"
+            Value: "/vehicle/truck/daf_xf_50k/interior/dashboard"
+        }
+    }
 }
 Look {
     Name: "look2"
     Material {
-        Alias: "DashboardHD_DifLum"
-        Effect: "eut2.dif.lum"
+        Alias: "Dash0BacklightRed_DifLum"
+        Effect: "eut2.dif.lum.decal.add"
         Flags: 0
         AttributeCount: 5
         TextureCount: 1
@@ -463,7 +463,7 @@ Look {
         }
         Texture {
             Tag: "texture[0]:texture_base"
-            Value: "/vehicle/truck/daf_xf_50k/interior/dashboard_hd"
+            Value: "/vehicle/truck/daf_xf_50k/interior/dashboard_hd_backlight"
         }
     }
     Material {
@@ -503,8 +503,8 @@ Look {
         }
     }
     Material {
-        Alias: "Dash0BacklightRed_DifLum"
-        Effect: "eut2.dif.lum.decal.add"
+        Alias: "DashboardHD_DifLum"
+        Effect: "eut2.dif.lum"
         Flags: 0
         AttributeCount: 5
         TextureCount: 1
@@ -535,7 +535,7 @@ Look {
         }
         Texture {
             Tag: "texture[0]:texture_base"
-            Value: "/vehicle/truck/daf_xf_50k/interior/dashboard_hd_backlight"
+            Value: "/vehicle/truck/daf_xf_50k/interior/dashboard_hd"
         }
     }
     Material {
@@ -576,42 +576,6 @@ Look {
         Texture {
             Tag: "texture[1]:texture_base"
             Value: "/vehicle/truck/daf_xf_50k/interior/swheel_03"
-        }
-    }
-    Material {
-        Alias: "Dashboard_DifLum"
-        Effect: "eut2.dif.spec"
-        Flags: 0
-        AttributeCount: 5
-        TextureCount: 1
-        Attribute {
-            Format: FLOAT3
-            Tag: "diffuse"
-            Value: ( 1.0 1.0 1.0 )
-        }
-        Attribute {
-            Format: FLOAT3
-            Tag: "specular"
-            Value: ( 0.33104801177978516 0.33104801177978516 0.33104801177978516 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "shininess"
-            Value: ( 60.0 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "add_ambient"
-            Value: ( 0.0 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "reflection"
-            Value: ( 0.0 )
-        }
-        Texture {
-            Tag: "texture[0]:texture_base"
-            Value: "/vehicle/truck/daf_xf_50k/interior/dashboard"
         }
     }
     Material {
@@ -826,6 +790,42 @@ Look {
             Format: FLOAT3
             Tag: "diffuse"
             Value: ( 1.0 1.0 1.0 )
+        }
+        Texture {
+            Tag: "texture[0]:texture_base"
+            Value: "/vehicle/truck/daf_xf_50k/interior/dashboard"
+        }
+    }
+    Material {
+        Alias: "Dashboard_DifLum"
+        Effect: "eut2.dif.spec"
+        Flags: 0
+        AttributeCount: 5
+        TextureCount: 1
+        Attribute {
+            Format: FLOAT3
+            Tag: "diffuse"
+            Value: ( 1.0 1.0 1.0 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "specular"
+            Value: ( 0.33104801177978516 0.33104801177978516 0.33104801177978516 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "shininess"
+            Value: ( 60.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "add_ambient"
+            Value: ( 0.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "reflection"
+            Value: ( 0.0 )
         }
         Texture {
             Tag: "texture[0]:texture_base"

@@ -15,12 +15,12 @@ Global {
     Skeleton: "sunshield_11_bc.pis"
 }
 Material {
-    Alias: "sunshield_DifSpec"
-    Effect: "eut2.dif.spec"
-}
-Material {
     Alias: "glass"
     Effect: "eut2.glass"
+}
+Material {
+    Alias: "sunshield_DifSpec"
+    Effect: "eut2.dif.spec"
 }
 Material {
     Alias: "shadowonly"
@@ -1481,7 +1481,7 @@ Piece {
 }
 Piece {
     Index: 1
-    Material: 0
+    Material: 1
     VertexCount: 224
     TriangleCount: 140
     StreamCount: 4

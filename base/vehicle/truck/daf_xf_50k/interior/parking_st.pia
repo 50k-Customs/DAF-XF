@@ -23,13 +23,13 @@ BoneChannel {
     Stream {
         Format: FLOAT4x4
         Tag: "_MATRIX"
-        0    (  &3f7fed2f  &3c0c04ef  &3cb75d90  &00000000 
+        0    (  &3f7fed2f  &3c0c04f3  &3cb75d87  &00000000 
                 &bc576e01  &3f7a06a3  &3e5b83c7  &00000000
-                &bca41418  &be5bc0ce  &3f79fba3  &00000000
+                &bca4140f  &be5bc0ce  &3f79fba3  &00000000
                 &be82907d  &bed1a241  &3f3c47a0  &3f800000 )
-        1    (  &3f7fed2f  &3c0c04f2  &3cb75d90  &00000000 
-                &3cadc110  &3df363cd  &bf7e20b0  &00000000
-                &bc369420  &3f7e2d22  &3df2f2e1  &00000000
+        1    (  &3f7fed2f  &3c0c04f6  &3cb75d87  &00000000 
+                &3cadc107  &3df363cd  &bf7e20b0  &00000000
+                &bc369421  &3f7e2d22  &3df2f2e1  &00000000
                 &be82907d  &bed1a241  &3f3c47a0  &3f800000 )
     }
 }

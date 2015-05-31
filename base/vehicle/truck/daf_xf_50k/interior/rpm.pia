@@ -13,14 +13,16 @@ Global {
 BoneChannel {
     Name: "joint8"
     StreamCount: 2
-    KeyframeCount: 4
+    KeyframeCount: 6
     Stream {
         Format: FLOAT
         Tag: "_TIME"
-        0    ( &3eaaaaab )
-        1    ( &3eaaaaab )
-        2    ( &3eaaaaab )
-        3    ( &3eaaaaab )
+        0    ( &3e4ccccd )
+        1    ( &3e4ccccd )
+        2    ( &3e4ccccd )
+        3    ( &3e4ccccd )
+        4    ( &3e4ccccd )
+        5    ( &3e4ccccd )
     }
     Stream {
         Format: FLOAT4x4
@@ -33,11 +35,19 @@ BoneChannel {
                 &3f68871e  &3ec8a48e  &3e15cb9c  &00000000
                 &b475fffb  &beb30e16  &3f6fd5bd  &00000000
                 &bddf3b64  &bee24dd3  &3f466666  &3f800000 )
-        2    (  &3ec03e8a  &3f5e495d  &3ea5f432  &00000000 
-                &bf6d44d5  &3eb41aef  &3e067644  &00000000
-                &b489d44b  &beb30e16  &3f6fd5bd  &00000000
+        2    (  &3f6f8803  &bea943da  &bdfcbcf0  &00000000 
+                &3eb4ac6f  &3f6067fb  &3ea7894e  &00000000
+                &b4705a98  &beb30e16  &3f6fd5bd  &00000000
                 &bddf3b64  &bee24dd3  &3f466666  &3f800000 )
-        3    (  &bf7fd593  &bd0a079c  &bc4e1a9b  &00000000 
+        3    (  &3f4dee23  &3f0e7a65  &3e54bde1  &00000000 
+                &bf1814cf  &3f40ed48  &3e9008d6  &00000000
+                &b484814a  &beb30e15  &3f6fd5bd  &00000000
+                &bddf3b64  &bee24dd3  &3f466666  &3f800000 )
+        4    (  &beb067ac  &3f61266e  &3ea81777  &00000000 
+                &bf70534e  &bea54410  &bdf6c484  &00000000
+                &b488710f  &beb30e16  &3f6fd5bd  &00000000
+                &bddf3b64  &bee24dd3  &3f466666  &3f800000 )
+        5    (  &bf7fd593  &bd0a079c  &bc4e1a9b  &00000000 
                 &3d135577  &bf6fae03  &beb2f06e  &00000000
                 &b48a2e5a  &beb30e16  &3f6fd5bd  &00000000
                 &bddf3b64  &bee24dd3  &3f466666  &3f800000 )
