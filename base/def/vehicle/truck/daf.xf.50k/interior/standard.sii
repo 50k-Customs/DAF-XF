@@ -7,9 +7,8 @@ price: 12960
 unlock: 0
 icon: "interior_daf_xf_std"
 
-model: "/vehicle/truck/daf_xf/interior/model.pmd"
-animated_model: "/vehicle/truck/daf_xf/interior/anim.pmd"
-ui_3d_depth_model: "/vehicle/truck/daf_xf/interior/ui_3d_depth.pmd"
+model: "/vehicle/truck/daf_xf_50k/interior/model.pmd"
+animated_model: "/vehicle/truck/daf_xf_50k/interior/anim.pmd"
 look: look2
 variant: standard
 
@@ -24,6 +23,8 @@ glass_panes[]: .daf.xf.50k.pane.close
 glass_panes[]: .daf.xf.50k.pane.far
 #glass_panes[]: .daf.xf.50k.pane.top
 
+suitable_for[]: "super_s_cab.daf.xf.50k.cabin"
+suitable_for[]: "super_s_cabp.daf.xf.50k.cabin"
 
 }
 @include "glass.sui"

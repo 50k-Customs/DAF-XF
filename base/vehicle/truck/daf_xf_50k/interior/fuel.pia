@@ -1,0 +1,36 @@
+Header {
+    FormatVersion: 3
+    Source: "Blender 2.74.0 (hash: 000dfc0), SCS Blender Tools: 0.5.b236e41"
+    Type: "Animation"
+    Name: "fuel"
+}
+Global {
+    Skeleton: "anim.pis"
+    TotalTime: 1.0
+    BoneChannelCount: 1
+    CustomChannelCount: 0
+}
+BoneChannel {
+    Name: "joint11"
+    StreamCount: 2
+    KeyframeCount: 2
+    Stream {
+        Format: FLOAT
+        Tag: "_TIME"
+        0    ( &3f800000 )
+        1    ( &3f800000 )
+    }
+    Stream {
+        Format: FLOAT4x4
+        Tag: "_MATRIX"
+        0    (  &3f441bc2  &bf1a296b  &be662fdc  &00000000 
+                &3f248d69  &3f37b9a9  &3e892a3b  &00000000
+                &b41ffffe  &beb30e1b  &3f6fd5bf  &00000000
+                &3da00766  &bec55969  &3f4bfd49  &3f800000 )
+        1    (  &3f441b39  &3f1a2a04  &3e6630d0  &00000000 
+                &bf248e0b  &3f37b929  &3e8929d5  &00000000
+                &b41ffffe  &beb30e1b  &3f6fd5bf  &00000000
+                &3da00766  &bec55969  &3f4bfd49  &3f800000 )
+    }
+}
+

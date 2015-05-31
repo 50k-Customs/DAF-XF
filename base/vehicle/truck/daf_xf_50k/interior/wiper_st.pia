@@ -1,0 +1,36 @@
+Header {
+    FormatVersion: 3
+    Source: "Blender 2.74.0 (hash: 000dfc0), SCS Blender Tools: 0.5.b236e41"
+    Type: "Animation"
+    Name: "wiper_st"
+}
+Global {
+    Skeleton: "anim.pis"
+    TotalTime: 1.0
+    BoneChannelCount: 1
+    CustomChannelCount: 0
+}
+BoneChannel {
+    Name: "joint35"
+    StreamCount: 2
+    KeyframeCount: 2
+    Stream {
+        Format: FLOAT
+        Tag: "_TIME"
+        0    ( &3f800000 )
+        1    ( &3f800000 )
+    }
+    Stream {
+        Format: FLOAT4x4
+        Tag: "_MATRIX"
+        0    (  &3f7fffff  &b4ac0000  &b3400000  &00000000 
+                &34a80003  &3f800001  &b50b0002  &00000000
+                &33000001  &350c0001  &3f800002  &00000000
+                &3e03c030  &38aa3600  &3abce170  &3f800000 )
+        1    (  &3f7fffff  &b4b40000  &b33ffffe  &00000000 
+                &346f9fda  &3f1bce6c  &3f4b206a  &00000000
+                &b481e964  &bf4b2066  &3f1bce6d  &00000000
+                &3e03c030  &38aa3600  &3abce170  &3f800000 )
+    }
+}
+

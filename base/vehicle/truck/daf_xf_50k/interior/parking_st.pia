@@ -1,0 +1,36 @@
+Header {
+    FormatVersion: 3
+    Source: "Blender 2.74.0 (hash: 000dfc0), SCS Blender Tools: 0.5.b236e41"
+    Type: "Animation"
+    Name: "parking_st"
+}
+Global {
+    Skeleton: "anim.pis"
+    TotalTime: 1.0
+    BoneChannelCount: 1
+    CustomChannelCount: 0
+}
+BoneChannel {
+    Name: "joint13"
+    StreamCount: 2
+    KeyframeCount: 2
+    Stream {
+        Format: FLOAT
+        Tag: "_TIME"
+        0    ( &3f800000 )
+        1    ( &3f800000 )
+    }
+    Stream {
+        Format: FLOAT4x4
+        Tag: "_MATRIX"
+        0    (  &3f7fed2f  &3c0c04ef  &3cb75d90  &00000000 
+                &bc576e01  &3f7a06a3  &3e5b83c7  &00000000
+                &bca41418  &be5bc0ce  &3f79fba3  &00000000
+                &be82907d  &bed1a241  &3f3c47a0  &3f800000 )
+        1    (  &3f7fed2f  &3c0c04f2  &3cb75d90  &00000000 
+                &3cadc110  &3df363cd  &bf7e20b0  &00000000
+                &bc369420  &3f7e2d22  &3df2f2e1  &00000000
+                &be82907d  &bed1a241  &3f3c47a0  &3f800000 )
+    }
+}
+

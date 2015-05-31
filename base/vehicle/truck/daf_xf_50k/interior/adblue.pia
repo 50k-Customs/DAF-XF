@@ -1,0 +1,36 @@
+Header {
+    FormatVersion: 3
+    Source: "Blender 2.74.0 (hash: 000dfc0), SCS Blender Tools: 0.5.b236e41"
+    Type: "Animation"
+    Name: "adblue"
+}
+Global {
+    Skeleton: "anim.pis"
+    TotalTime: 1.0
+    BoneChannelCount: 1
+    CustomChannelCount: 0
+}
+BoneChannel {
+    Name: "joint10"
+    StreamCount: 2
+    KeyframeCount: 2
+    Stream {
+        Format: FLOAT
+        Tag: "_TIME"
+        0    ( &3f800000 )
+        1    ( &3f800000 )
+    }
+    Stream {
+        Format: FLOAT4x4
+        Tag: "_MATRIX"
+        0    (  &3f50b5ce  &bf0ae1ec  &be4f5f6a  &00000000 
+                &3f143e47  &3f4387ff  &3e91faa0  &00000000
+                &b3600000  &beb30e1b  &3f6fd5c1  &00000000
+                &3cdb0fd6  &bef3d117  &3f43460a  &3f800000 )
+        1    (  &3f4535ce  &3f18ec58  &3e645677  &00000000 
+                &bf233af8  &3f38c1e5  &3e89ef7c  &00000000
+                &b3600000  &beb30e1b  &3f6fd5c1  &00000000
+                &3cdb0fd6  &bef3d117  &3f43460a  &3f800000 )
+    }
+}
+

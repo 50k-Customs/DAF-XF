@@ -1,0 +1,36 @@
+Header {
+    FormatVersion: 3
+    Source: "Blender 2.74.0 (hash: 000dfc0), SCS Blender Tools: 0.5.b236e41"
+    Type: "Animation"
+    Name: "cl_light"
+}
+Global {
+    Skeleton: "anim.pis"
+    TotalTime: 1.0
+    BoneChannelCount: 1
+    CustomChannelCount: 0
+}
+BoneChannel {
+    Name: "joint24"
+    StreamCount: 2
+    KeyframeCount: 2
+    Stream {
+        Format: FLOAT
+        Tag: "_TIME"
+        0    ( &3f800000 )
+        1    ( &3f800000 )
+    }
+    Stream {
+        Format: FLOAT4x4
+        Tag: "_MATRIX"
+        0    (  &3f800000  &9c000000  &1b97c1bb  &00000000 
+                &24091c7f  &3f7fffd2  &3b1811e5  &00000000
+                &2304fabd  &bb1811e5  &3f7fffd1  &00000000
+                &3de84576  &bee5c3ab  &bf5a9fbe  &3f800000 )
+        1    (  &3f800000  &9c000000  &1b97c1bb  &00000000 
+                &24091c7f  &3f7fffd2  &3b1811e5  &00000000
+                &2304fabd  &bb1811e5  &3f7fffd1  &00000000
+                &3deb8dbf  &bee67727  &3f45e99c  &3f800000 )
+    }
+}
+

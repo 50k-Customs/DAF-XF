@@ -1,0 +1,31 @@
+SiiNunit
+{
+accessory_interior_data: spaceplus.exclusive1.daf.xf.50k.interior
+{
+name: "50k DAF: exlusive with built-in GPS"
+price: 33900
+unlock: 12
+icon: "interior_daf_xf_lux"
+
+model: "/vehicle/truck/daf_xf_50k/interior/model.pmd"
+animated_model: "/vehicle/truck/daf_xf_50k/interior/anim.pmd"
+look: look2
+variant: space_ex
+
+@include "animations.sui"
+
+dashboard_path:"/ui/dashboard/daf_xf.sii"
+gps_path:"/ui/gps.sii"
+panel_intensity_min: 0.01
+
+glass_panes[]: .daf.xf.50k.pane.front
+glass_panes[]: .daf.xf.50k.pane.close
+glass_panes[]: .daf.xf.50k.pane.far
+#glass_panes[]: .daf.xf.50k.pane.top
+
+suitable_for[]: "s_cab_plus.daf.xf.50k.cabin"
+suitable_for[]: "s_cab_plus_p.daf.xf.50k.cabin"
+
+}
+@include "glass.sui"
+}

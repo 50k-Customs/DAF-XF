@@ -1,0 +1,41 @@
+Header {
+    FormatVersion: 3
+    Source: "Blender 2.74.0 (hash: 000dfc0), SCS Blender Tools: 0.5.b236e41"
+    Type: "Animation"
+    Name: "cl_knob"
+}
+Global {
+    Skeleton: "anim.pis"
+    TotalTime: 1.0
+    BoneChannelCount: 1
+    CustomChannelCount: 0
+}
+BoneChannel {
+    Name: "joint14"
+    StreamCount: 2
+    KeyframeCount: 3
+    Stream {
+        Format: FLOAT
+        Tag: "_TIME"
+        0    ( &3f000000 )
+        1    ( &3f000000 )
+        2    ( &3f000000 )
+    }
+    Stream {
+        Format: FLOAT4x4
+        Tag: "_MATRIX"
+        0    (  &3f5d362e  &bf004471  &bd433efd  &00000000 
+                &3ef95d10  &3f5b36b5  &be2ffdd9  &00000000
+                &3e01fa23  &3e004d7e  &3f7be53b  &00000000
+                &3aea211e  &36cb3a00  &be1ab1e7  &3f800000 )
+        1    (  &3f7f6109  &3cf2e111  &bd80fbbd  &00000000 
+                &bd1a8383  &3f7d9ac9  &be064f32  &00000000
+                &3d6f9ffc  &3e086a9a  &3f7d469d  &00000000
+                &3aea211e  &36cb3a00  &be1ab1e7  &3f800000 )
+        2    (  &3f507ffe  &3f13b496  &bd7b661f  &00000000 
+                &bf1489a0  &3f4f3844  &bdb89e1a  &00000000
+                &bb18b2a1  &3ddf4be0  &3f7e7921  &00000000
+                &3aea211e  &36cb3a00  &be1ab1e7  &3f800000 )
+    }
+}
+

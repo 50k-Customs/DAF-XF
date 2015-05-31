@@ -1,0 +1,36 @@
+Header {
+    FormatVersion: 3
+    Source: "Blender 2.74.0 (hash: 000dfc0), SCS Blender Tools: 0.5.b236e41"
+    Type: "Animation"
+    Name: "blinker_l"
+}
+Global {
+    Skeleton: "anim.pis"
+    TotalTime: 1.0
+    BoneChannelCount: 1
+    CustomChannelCount: 0
+}
+BoneChannel {
+    Name: "joint18"
+    StreamCount: 2
+    KeyframeCount: 2
+    Stream {
+        Format: FLOAT
+        Tag: "_TIME"
+        0    ( &3f800000 )
+        1    ( &3f800000 )
+    }
+    Stream {
+        Format: FLOAT4x4
+        Tag: "_MATRIX"
+        0    (  &3f800000  &9c000000  &1b97c1bb  &00000000 
+                &00000000  &3f800000  &1c200000  &00000000
+                &1b242aea  &1b200000  &3f800000  &00000000
+                &3d3a45f6  &bed8e68f  &bf5d9ac6  &3f800000 )
+        1    (  &3f800000  &9c000000  &1b97c1bb  &00000000 
+                &00000000  &3f800000  &1c200000  &00000000
+                &1b242aea  &1b200000  &3f800000  &00000000
+                &3d3a45f5  &bed7aab4  &3f473eca  &3f800000 )
+    }
+}
+

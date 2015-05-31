@@ -1,0 +1,36 @@
+Header {
+    FormatVersion: 3
+    Source: "Blender 2.74.0 (hash: 000dfc0), SCS Blender Tools: 0.5.b236e41"
+    Type: "Animation"
+    Name: "air"
+}
+Global {
+    Skeleton: "anim.pis"
+    TotalTime: 1.0
+    BoneChannelCount: 1
+    CustomChannelCount: 0
+}
+BoneChannel {
+    Name: "joint9"
+    StreamCount: 2
+    KeyframeCount: 2
+    Stream {
+        Format: FLOAT
+        Tag: "_TIME"
+        0    ( &3f800000 )
+        1    ( &3f800000 )
+    }
+    Stream {
+        Format: FLOAT4x4
+        Tag: "_MATRIX"
+        0    (  &3f489d5b  &bf14fc5e  &be5e7563  &00000000 
+                &3f1f070d  &3f3bf26a  &3e8c5117  &00000000
+                &b3900000  &beb30e1e  &3f6fd5c1  &00000000
+                &bcf711bc  &bef3d111  &3f43460d  &3f800000 )
+        1    (  &3f4ad63a  &3f125238  &3e5a7ada  &00000000 
+                &bf1c2eee  &3f3e075d  &3e8ddef9  &00000000
+                &b3900000  &beb30e1e  &3f6fd5c1  &00000000
+                &bcf711bc  &bef3d111  &3f43460d  &3f800000 )
+    }
+}
+

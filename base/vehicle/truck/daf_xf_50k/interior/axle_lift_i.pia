@@ -1,0 +1,59 @@
+Header {
+    FormatVersion: 3
+    Source: "Blender 2.74.0 (hash: 000dfc0), SCS Blender Tools: 0.5.b236e41"
+    Type: "Animation"
+    Name: "axle_lift_i"
+}
+Global {
+    Skeleton: "anim.pis"
+    TotalTime: 1.0
+    BoneChannelCount: 2
+    CustomChannelCount: 0
+}
+BoneChannel {
+    Name: "axle_lift"
+    StreamCount: 2
+    KeyframeCount: 2
+    Stream {
+        Format: FLOAT
+        Tag: "_TIME"
+        0    ( &3f800000 )
+        1    ( &3f800000 )
+    }
+    Stream {
+        Format: FLOAT4x4
+        Tag: "_MATRIX"
+        0    (  &3f800000  &9c000000  &1b97c1bb  &00000000 
+                &00000000  &3f800000  &1c200000  &00000000
+                &1b242aea  &1b200000  &3f800000  &00000000
+                &3dec5abc  &bed3c0d5  &bf5a2ff6  &3f800000 )
+        1    (  &3f800000  &9c000000  &1b97c1bb  &00000000 
+                &00000000  &3f800000  &1c200000  &00000000
+                &1b242aea  &1b200000  &3f800000  &00000000
+                &3dec5abc  &bed3c0d5  &3f498c34  &3f800000 )
+    }
+}
+BoneChannel {
+    Name: "axle_lift_btn"
+    StreamCount: 2
+    KeyframeCount: 2
+    Stream {
+        Format: FLOAT
+        Tag: "_TIME"
+        0    ( &3f800000 )
+        1    ( &3f800000 )
+    }
+    Stream {
+        Format: FLOAT4x4
+        Tag: "_MATRIX"
+        0    (  &bf3504f1  &32c11244  &bf3504f5  &00000000 
+                &277bbd2c  &3f800000  &330885a3  &00000000
+                &3f3504f5  &32c1123e  &bf3504f1  &00000000
+                &3e956d37  &bf15cc5e  &bf1d6db7  &3f800000 )
+        1    (  &bf3504f0  &330fb726  &bf3504f6  &00000000 
+                &be7e8378  &3f6fa9ff  &3e7e8375  &00000000
+                &3f2977d6  &3eb3f7df  &bf2977d1  &00000000
+                &3e956d37  &bf15cc5e  &bf1d6db7  &3f800000 )
+    }
+}
+

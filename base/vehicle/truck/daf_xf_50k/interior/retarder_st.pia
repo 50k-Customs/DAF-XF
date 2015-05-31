@@ -1,0 +1,36 @@
+Header {
+    FormatVersion: 3
+    Source: "Blender 2.74.0 (hash: 000dfc0), SCS Blender Tools: 0.5.b236e41"
+    Type: "Animation"
+    Name: "retarder_st"
+}
+Global {
+    Skeleton: "anim.pis"
+    TotalTime: 1.0
+    BoneChannelCount: 1
+    CustomChannelCount: 0
+}
+BoneChannel {
+    Name: "joint34"
+    StreamCount: 2
+    KeyframeCount: 2
+    Stream {
+        Format: FLOAT
+        Tag: "_TIME"
+        0    ( &3f800000 )
+        1    ( &3f800000 )
+    }
+    Stream {
+        Format: FLOAT4x4
+        Tag: "_MATRIX"
+        0    (  &3f5db3d6  &341941e8  &3f000001  &00000000 
+                &be99c773  &3f4caa62  &3f052d31  &00000000
+                &beccaa65  &bf19c770  &3f313ee0  &00000000
+                &bd40f50a  &3cd09202  &bc5163f2  &3f800000 )
+        1    (  &3f309d84  &bc33b4bd  &3f394c26  &00000000 
+                &bed20d43  &3f5160d5  &3ece8e32  &00000000
+                &bf18af42  &bf134577  &3f0f4c81  &00000000
+                &bd40f50a  &3cd09202  &bc5163f2  &3f800000 )
+    }
+}
+

@@ -6,7 +6,7 @@
 #
 Header {
     FormatVersion: 1
-    Source: "Blender 2.74.0 (hash: 000dfc0), SCS Blender Tools: 0.5.b5d81c1"
+    Source: "Blender 2.74.0 (hash: 000dfc0), SCS Blender Tools: 0.5.b236e41"
     Type: "Trait"
     Name: "sunshield_11_bc"
 }
@@ -68,7 +68,7 @@ Look {
         Attribute {
             Format: FLOAT3
             Tag: "specular"
-            Value: ( 0.5 0.5 0.5 )
+            Value: ( 0.710553765296936 0.710553765296936 0.710553765296936 )
         }
         Attribute {
             Format: FLOAT
@@ -93,7 +93,7 @@ Look {
         Attribute {
             Format: FLOAT3
             Tag: "tint"
-            Value: ( 0.7799999713897705 0.800000011920929 0.7900000214576721 )
+            Value: ( 0.622461199760437 0.6500048041343689 0.6375750303268433 )
         }
         Attribute {
             Format: FLOAT
