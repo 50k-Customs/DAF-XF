@@ -10,6 +10,7 @@
 	parking_stick_anim: "/vehicle/truck/daf_xf_50k/interior/parking_st.pma"
 	wiper_stick_anim: "/vehicle/truck/daf_xf_50k/interior/wiper_st.pma"
 	retarder_stick_anim: "/vehicle/truck/daf_xf_50k/interior/retarder_st.pma"
+	flasher_4way_anim: "/vehicle/truck/daf_xf_50k/interior/4way_st.pma"
 
 	tachometer_anim: "/vehicle/truck/daf_xf_50k/interior/rpm.pma"
 	tachometer_anim_max: 2500
@@ -37,6 +38,7 @@
 	indicator_axle_lift: "/vehicle/truck/daf_xf_50k/interior/axle_lift_i.pma"
 
 	generic_anim: "/vehicle/truck/daf_xf_50k/interior/generic.pma"
+	engine_start_anim: "/vehicle/truck/daf_xf_50k/interior/start.pma"
 
 	indicator_aux_lights_front:"/vehicle/truck/daf_xf_50k/interior/aux_front.pma"
 	indicator_aux_lights_roof:"/vehicle/truck/daf_xf_50k/interior/aux_top.pma"

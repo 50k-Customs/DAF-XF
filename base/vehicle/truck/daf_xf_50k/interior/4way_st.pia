@@ -1,0 +1,36 @@
+Header {
+    FormatVersion: 3
+    Source: "Blender 2.74.0 (hash: 000dfc0), SCS Blender Tools: 0.5.59a654c"
+    Type: "Animation"
+    Name: "4way_st"
+}
+Global {
+    Skeleton: "anim.pis"
+    TotalTime: 10.0
+    BoneChannelCount: 1
+    CustomChannelCount: 0
+}
+BoneChannel {
+    Name: "flasher"
+    StreamCount: 2
+    KeyframeCount: 2
+    Stream {
+        Format: FLOAT
+        Tag: "_TIME"
+        0    ( &41200000 )
+        1    ( &41200000 )
+    }
+    Stream {
+        Format: FLOAT4x4
+        Tag: "_MATRIX"
+        0    (  &bf800000  &27cbc9e8  &b4222169  &00000000 
+                &277bbd2c  &3f800000  &330885a3  &00000000
+                &34222169  &330885a4  &bf800000  &00000000
+                &3f104b89  &bf04964d  &bee4e1d4  &3f800000 )
+        1    (  &bf800000  &27cbc9e8  &b4222169  &00000000 
+                &b327d98f  &3f7746ea  &3e8483ef  &00000000
+                &341c9b26  &3e8483ef  &bf7746ea  &00000000
+                &3f104b89  &bf04964d  &bee4e1d4  &3f800000 )
+    }
+}
+

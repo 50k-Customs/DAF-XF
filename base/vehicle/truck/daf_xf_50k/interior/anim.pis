@@ -1,11 +1,11 @@
 Header {
     FormatVersion: 1
-    Source: "Blender 2.74.0 (hash: 000dfc0), SCS Blender Tools: 0.5.b236e41"
+    Source: "Blender 2.74.0 (hash: 000dfc0), SCS Blender Tools: 0.5.59a654c"
     Type: "Skeleton"
     Name: "anim"
 }
 Global {
-    BoneCount: 41
+    BoneCount: 43
 }
 Bones {
     0     ( Name:  "__root__"
@@ -232,68 +232,82 @@ Bones {
                       &bec76c9d  &3f3eaf0d  &bf0aaf0a  &00000000
                       &be2c01a5  &bed9f9df  &bf05b3ae  &3f800000 )
        )
-    32    ( Name:  "generic"
-            Parent: "__root__"
-            Matrix: ( &bf800000  &27cbc9e8  &b4222169  &00000000 
-                      &277bbd2c  &3f800000  &330885a3  &00000000
-                      &34222169  &330885a4  &bf800000  &00000000
-                      &3b39c99f  &bf0e4090  &bf6225a6  &3f800000 )
-       )
-    33    ( Name:  "generic2"
-            Parent: "__root__"
-            Matrix: ( &bf800000  &27cbc9e8  &b4222169  &00000000 
-                      &277bbd2c  &3f800000  &330885a3  &00000000
-                      &34222169  &330885a4  &bf800000  &00000000
-                      &3b39c998  &bf0e4090  &bf5b5682  &3f800000 )
-       )
-    34    ( Name:  "retarder_i"
+    32    ( Name:  "retarder_i"
             Parent: "__root__"
             Matrix: ( &bf800000  &27cbc9e8  &b4222169  &00000000 
                       &277bbd2c  &3f800000  &330885a3  &00000000
                       &34222169  &330885a4  &bf800000  &00000000
                       &3dbbb389  &bedb8c3a  &3f54b8fc  &3f800000 )
        )
-    35    ( Name:  "axle_lift"
+    33    ( Name:  "axle_lift"
             Parent: "__root__"
             Matrix: ( &bf800000  &27cbc9e8  &b4222169  &00000000 
                       &277bbd2c  &3f800000  &330885a3  &00000000
                       &34222169  &330885a4  &bf800000  &00000000
                       &bdec5acd  &bed3c0d6  &3f5a2ff5  &3f800000 )
        )
-    36    ( Name:  "aux_front"
+    34    ( Name:  "aux_front"
             Parent: "__root__"
             Matrix: ( &bf800000  &27cbc9e8  &b4222169  &00000000 
                       &277bbd2c  &3f800000  &330885a3  &00000000
                       &34222169  &330885a4  &bf800000  &00000000
                       &be39dad7  &bf080266  &bf3488ee  &3f800000 )
        )
-    37    ( Name:  "aux_front_i"
+    35    ( Name:  "aux_front_i"
             Parent: "aux_front"
             Matrix: ( &bf800000  &27cbc9e8  &b4222169  &00000000 
                       &33d4d5f6  &3f4122d4  &bf2807fb  &00000000
                       &33f4a27c  &bf2807fb  &bf4122d3  &00000000
                       &be39dad7  &bf08541d  &bf373ee1  &3f800000 )
        )
-    38    ( Name:  "aux_top"
+    36    ( Name:  "aux_top"
             Parent: "__root__"
             Matrix: ( &bf800000  &27cbc9e8  &b4222169  &00000000 
                       &277bbd2c  &3f800000  &330885a3  &00000000
                       &34222169  &330885a4  &bf800000  &00000000
                       &be1ef268  &bf080266  &bf3488ee  &3f800000 )
        )
-    39    ( Name:  "aux_top_i"
+    37    ( Name:  "aux_top_i"
             Parent: "aux_top"
             Matrix: ( &bf800000  &27cbc9e8  &b4222169  &00000000 
                       &33d4d5f6  &3f4122d4  &bf2807fb  &00000000
                       &33f4a27c  &bf2807fb  &bf4122d3  &00000000
                       &be1ef268  &bf08541d  &bf373ee1  &3f800000 )
        )
-    40    ( Name:  "axle_lift_btn"
+    38    ( Name:  "start"
+            Parent: "__root__"
+            Matrix: ( &bf800000  &27cbc9e8  &b4222169  &00000000 
+                      &277bbd2c  &3f800000  &330885a3  &00000000
+                      &34222169  &330885a4  &bf800000  &00000000
+                      &3b39c99f  &bf0e4090  &bf6225a6  &3f800000 )
+       )
+    39    ( Name:  "generic2"
+            Parent: "start"
+            Matrix: ( &bf800000  &27cbc9e8  &b4222169  &00000000 
+                      &277bbd2c  &3f800000  &330885a3  &00000000
+                      &34222169  &330885a4  &bf800000  &00000000
+                      &3b39c9ab  &bf0e4090  &bf6e5aea  &3f800000 )
+       )
+    40    ( Name:  "start_glass"
+            Parent: "start"
+            Matrix: ( &bf800000  &b314e15f  &b41b03f1  &00000000 
+                      &32b4a698  &3f6df30d  &bebcd994  &00000000
+                      &341dd054  &bebcd994  &bf6df30d  &00000000
+                      &3b39c995  &bf176f7f  &bf62da46  &3f800000 )
+       )
+    41    ( Name:  "axle_lift_btn"
             Parent: ""
             Matrix: ( &bf3504f1  &32c11243  &bf3504f5  &00000000 
                       &277bbd2c  &3f800000  &330885a3  &00000000
                       &3f3504f5  &32c1123f  &bf3504f1  &00000000
                       &3e956d37  &bf15cc5f  &bf1d6db7  &3f800000 )
+       )
+    42    ( Name:  "flasher"
+            Parent: ""
+            Matrix: ( &bf800000  &27cbc9e8  &b4222169  &00000000 
+                      &277bbd2c  &3f800000  &330885a3  &00000000
+                      &34222169  &330885a4  &bf800000  &00000000
+                      &3f104b89  &bf04964e  &bee4e1d5  &3f800000 )
        )
 }
 
