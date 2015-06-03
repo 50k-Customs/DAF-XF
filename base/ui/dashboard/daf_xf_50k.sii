@@ -1,0 +1,1026 @@
+SiiNunit
+{
+ui::window : 01e7bbc50 {
+ clip_children: true
+ window_handler: null
+ keep_aspect: none
+ fitting: false
+ my_children: 7
+ my_children[0]: 01e7bbc51
+ my_children[1]: 01e7bbc52
+ my_children[2]: 01e7bbc53
+ my_children[3]: 01e7bbc5c
+ my_children[4]: 0309d66d0
+ my_children[5]: 01e7bbc516
+ my_children[6]: 01e7bbc51d
+ name: ""
+ coords_l: 0
+ coords_r: 1152
+ coords_t: 864
+ coords_b: 0
+ area_l: 0
+ area_r: 1152
+ area_t: 864
+ area_b: 0
+ id: 0
+ layer: 0
+ tab: -1
+ p2p_pml: false
+ tooltip: ""
+ pointer: -1
+ apparent_depth: 0
+ my_parent: null
+}
+
+ui::text : 01e7bbc51 {
+ text: "<img src=/material/ui/white.mat xscale=stretch yscale=stretch color=FF2f3f35>"
+ name: BackgroundUnlit
+ coords_l: 0
+ coords_r: 1152
+ coords_t: 864
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 10
+ layer: -1
+ tab: -1
+ p2p_pml: false
+ tooltip: ""
+ pointer: -1
+ apparent_depth: 0
+ my_parent: 01e7bbc50
+}
+
+ui::text : 01e7bbc52 {
+ text: "<img src=/material/ui/white.mat xscale=stretch yscale=stretch color=AA133d9f>"
+ name: BackgroundLit
+ coords_l: 0
+ coords_r: 1152
+ coords_t: 864
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 20
+ layer: -1
+ tab: -1
+ p2p_pml: false
+ tooltip: ""
+ pointer: -1
+ apparent_depth: 0
+ my_parent: 01e7bbc50
+}
+
+ui::group : 01e7bbc53 {
+ fitting: false
+ my_children: 8
+ my_children[0]: 01e7bbc54
+ my_children[1]: 01e7bbc55
+ my_children[2]: 01e7bbc56
+ my_children[3]: 01e7bbc57
+ my_children[4]: 01e7bbc58
+ my_children[5]: 01e7bbc59
+ my_children[6]: 01e7bbc5a
+ my_children[7]: 01e7bbc5b
+ name: Display0
+ coords_l: 0
+ coords_r: 1152
+ coords_t: 864
+ coords_b: 0
+ area_l: 0
+ area_r: 1152
+ area_t: 864
+ area_b: 0
+ id: 100
+ layer: -1
+ tab: -1
+ p2p_pml: false
+ tooltip: ""
+ pointer: -1
+ apparent_depth: 0
+ my_parent: 01e7bbc50
+}
+
+ui::text_common : 01e7bbc54 {
+ value: "999|kmh"
+ look_template: txt.daf.speed
+ text: ""
+ name: Speed
+ coords_l: 246
+ coords_r: 1101
+ coords_t: 361
+ coords_b: 273
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1020
+ layer: 8
+ tab: -1
+ p2p_pml: false
+ tooltip: ""
+ pointer: -1
+ apparent_depth: 0
+ my_parent: 01e7bbc53
+}
+
+ui::text : 01e7bbc55 {
+ text: "<color value=FF30bcfe><img src=/material/ui/dashboard/daf_xf/pict.mat right=0.5 bottom=0.5 xscale=stretch yscale=stretch>"
+ name: icon
+ coords_l: &42240004
+ coords_r: 191
+ coords_t: 690
+ coords_b: 565
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 8
+ tab: -1
+ p2p_pml: false
+ tooltip: ""
+ pointer: -1
+ apparent_depth: 0
+ my_parent: 01e7bbc53
+}
+
+ui::text_common : 01e7bbc56 {
+ value: "@@db_trip_info@@"
+ look_template: txt.daf.text2
+ text: ""
+ name: info
+ coords_l: 215
+ coords_r: 1105
+ coords_t: 694
+ coords_b: 552
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 8
+ tab: -1
+ p2p_pml: false
+ tooltip: ""
+ pointer: -1
+ apparent_depth: 0
+ my_parent: 01e7bbc53
+}
+
+ui::text_common : 01e7bbc57 {
+ value: "@@db_speed@@"
+ look_template: txt.daf.text3
+ text: ""
+ name: Speed
+ coords_l: 59
+ coords_r: 949
+ coords_t: 363
+ coords_b: 254
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 8
+ tab: -1
+ p2p_pml: false
+ tooltip: ""
+ pointer: -1
+ apparent_depth: 0
+ my_parent: 01e7bbc53
+}
+
+ui::text_common : 01e7bbc58 {
+ value: "@@db_distance@@"
+ look_template: txt.daf.text3
+ text: ""
+ name: Distance
+ coords_l: 59
+ coords_r: 949
+ coords_t: 557
+ coords_b: 443
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 8
+ tab: -1
+ p2p_pml: false
+ tooltip: ""
+ pointer: -1
+ apparent_depth: 0
+ my_parent: 01e7bbc53
+}
+
+ui::text_common : 01e7bbc59 {
+ value: "@@db_c_control@@"
+ look_template: txt.daf.text3
+ text: ""
+ name: CruiseControl
+ coords_l: 59
+ coords_r: 949
+ coords_t: 460
+ coords_b: 344
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 8
+ tab: -1
+ p2p_pml: false
+ tooltip: ""
+ pointer: -1
+ apparent_depth: 0
+ my_parent: 01e7bbc53
+}
+
+ui::text_common : 01e7bbc5a {
+ value: "999|kmh"
+ look_template: txt.daf.speed
+ text: ""
+ name: CruiseControl
+ coords_l: 248
+ coords_r: 1101
+ coords_t: 458
+ coords_b: 370
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1100
+ layer: 8
+ tab: -1
+ p2p_pml: false
+ tooltip: ""
+ pointer: -1
+ apparent_depth: 0
+ my_parent: 01e7bbc53
+}
+
+ui::text_common : 01e7bbc5b {
+ value: "9999999|km"
+ look_template: txt.daf.speed
+ text: ""
+ name: Odo
+ coords_l: 240
+ coords_r: 1101
+ coords_t: 555
+ coords_b: 467
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1030
+ layer: 8
+ tab: -1
+ p2p_pml: false
+ tooltip: ""
+ pointer: -1
+ apparent_depth: 0
+ my_parent: 01e7bbc53
+}
+
+ui::group : 01e7bbc5c {
+ fitting: false
+ my_children: 9
+ my_children[0]: 01e7bbc5d
+ my_children[1]: 01e7bbc5e
+ my_children[2]: 01e7bbc510
+ my_children[3]: 01e7bbc511
+ my_children[4]: 01e7bbc513
+ my_children[5]: 01e7bbc514
+ my_children[6]: 01e7bbc515
+ my_children[7]: 02f6023e1
+ my_children[8]: 02f602b10
+ name: Display1
+ coords_l: 0
+ coords_r: 1152
+ coords_t: 864
+ coords_b: 0
+ area_l: 0
+ area_r: 1152
+ area_t: 864
+ area_b: 0
+ id: 200
+ layer: -1
+ tab: -1
+ p2p_pml: false
+ tooltip: ""
+ pointer: -1
+ apparent_depth: 0
+ my_parent: 01e7bbc50
+}
+
+ui::text : 01e7bbc5d {
+ text: "<color value=FF30bcfe><img src=/material/ui/dashboard/daf_xf/pict.mat left=0.5 bottom=0.5 xscale=stretch yscale=stretch>"
+ name: icon
+ coords_l: &42240004
+ coords_r: 191
+ coords_t: 690
+ coords_b: 565
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 8
+ tab: -1
+ p2p_pml: false
+ tooltip: ""
+ pointer: -1
+ apparent_depth: 0
+ my_parent: 01e7bbc5c
+}
+
+ui::text_common : 01e7bbc5e {
+ value: "@@db_fuel_info@@"
+ look_template: txt.daf.text2
+ text: ""
+ name: info
+ coords_l: 215
+ coords_r: 1105
+ coords_t: 694
+ coords_b: 552
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 8
+ tab: -1
+ p2p_pml: false
+ tooltip: ""
+ pointer: -1
+ apparent_depth: 0
+ my_parent: 01e7bbc5c
+}
+
+ui::text : 01e7bbc510 {
+ text: "<img src=/material/ui/white.mat xscale=stretch yscale=stretch color=FF30bcfe>"
+ name: FuelBar
+ coords_l: 59
+ coords_r: 1101
+ coords_t: &43b19641
+ coords_b: 318
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1070
+ layer: 8
+ tab: -1
+ p2p_pml: false
+ tooltip: ""
+ pointer: -1
+ apparent_depth: 0
+ my_parent: 01e7bbc5c
+}
+
+ui::text : 01e7bbc511 {
+ text: "<color value=FF30bcfe><img src=/material/ui/white.mat xscale=stretch height=15>\r\n<ret><img src=/material/ui/white.mat width=15 height=30>\r\n<ret><offset hshift=100><img src=/material/ui/white.mat width=15 height=30>\r\n<ret><offset hshift=200><img src=/material/ui/white.mat width=15 height=30>\r\n<ret><offset hshift=300><img src=/material/ui/white.mat width=15 height=30>\r\n<ret><offset hshift=401><img src=/material/ui/white.mat width=15 height=30>\r\n<ret><offset hshift=502><img src=/material/ui/white.mat width=15 height=30>\r\n<ret><offset hshift=606><img src=/material/ui/white.mat width=15 height=30>\r\n<ret><offset hshift=711><img src=/material/ui/white.mat width=15 height=30>\r\n<ret><offset hshift=818><img src=/material/ui/white.mat width=15 height=30>\r\n<ret><offset hshift=923><img src=/material/ui/white.mat width=15 height=30>\r\n<ret><offset hshift=1027><img src=/material/ui/white.mat width=15 height=30>"
+ name: fuel_hrabicky
+ coords_l: 59
+ coords_r: 1101
+ coords_t: 305
+ coords_b: 275
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 8
+ tab: -1
+ p2p_pml: false
+ tooltip: ""
+ pointer: -1
+ apparent_depth: 0
+ my_parent: 01e7bbc5c
+}
+
+ui::text : 01e7bbc513 {
+ text: "H~~0~~1"
+ name: FuelBarData
+ coords_l: 59
+ coords_r: 1101
+ coords_t: 356
+ coords_b: &439f69bf
+ area_l: 59
+ area_r: 1101
+ area_t: 356
+ area_b: &439f69bf
+ id: 1075
+ layer: 3
+ tab: -1
+ p2p_pml: false
+ tooltip: ""
+ pointer: -1
+ apparent_depth: 0
+ my_parent: 01e7bbc5c
+}
+
+ui::text_common : 01e7bbc514 {
+ value: "@@db_fuel_tank@@"
+ look_template: txt.daf.text3
+ text: ""
+ name: CruiseControl
+ coords_l: 59
+ coords_r: 949
+ coords_t: 460
+ coords_b: 344
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 8
+ tab: -1
+ p2p_pml: false
+ tooltip: ""
+ pointer: -1
+ apparent_depth: 0
+ my_parent: 01e7bbc5c
+}
+
+ui::text_common : 01e7bbc515 {
+ value: "@@db_distance@@"
+ look_template: txt.daf.text3
+ text: ""
+ name: Distance
+ coords_l: 59
+ coords_r: 949
+ coords_t: 557
+ coords_b: 443
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 8
+ tab: -1
+ p2p_pml: false
+ tooltip: ""
+ pointer: -1
+ apparent_depth: 0
+ my_parent: 01e7bbc5c
+}
+
+ui::text_common : 02f6023e1 {
+ value: "999|l"
+ look_template: txt.daf.fuel
+ text: ""
+ name: Fuel
+ coords_l: 470
+ coords_r: 1101
+ coords_t: 480
+ coords_b: 360
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1060
+ layer: 8
+ tab: -1
+ p2p_pml: false
+ tooltip: ""
+ pointer: -1
+ apparent_depth: 0
+ my_parent: 01e7bbc5c
+}
+
+ui::text_common : 02f602b10 {
+ value: "2156|km"
+ look_template: txt.daf.fuel
+ text: ""
+ name: Fuel_distance
+ coords_l: 469
+ coords_r: 1101
+ coords_t: 577
+ coords_b: 457
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1080
+ layer: 8
+ tab: -1
+ p2p_pml: false
+ tooltip: ""
+ pointer: -1
+ apparent_depth: 0
+ my_parent: 01e7bbc5c
+}
+
+ui::group : 0309d66d0 {
+ fitting: false
+ my_children: 4
+ my_children[0]: 03edf4940
+ my_children[1]: 03edf4941
+ my_children[2]: 03edf4944
+ my_children[3]: 03edf4945
+ name: Display2
+ coords_l: 0
+ coords_r: 1152
+ coords_t: 864
+ coords_b: 0
+ area_l: 0
+ area_r: 1152
+ area_t: 864
+ area_b: 0
+ id: 300
+ layer: -1
+ tab: -1
+ p2p_pml: false
+ tooltip: ""
+ pointer: -1
+ apparent_depth: 0
+ my_parent: 01e7bbc50
+}
+
+ui::text : 03edf4940 {
+ text: "<color value=FF30bcfe><img src=/material/ui/dashboard/daf_xf/pict.mat left=0.5 bottom=0.5 xscale=stretch yscale=stretch>"
+ name: icon
+ coords_l: &42240004
+ coords_r: 191
+ coords_t: 690
+ coords_b: 565
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 8
+ tab: -1
+ p2p_pml: false
+ tooltip: ""
+ pointer: -1
+ apparent_depth: 0
+ my_parent: 0309d66d0
+}
+
+ui::text_common : 03edf4941 {
+ value: "@@db_fuel_info@@"
+ look_template: txt.daf.text2
+ text: ""
+ name: info
+ coords_l: 215
+ coords_r: 1105
+ coords_t: 694
+ coords_b: 552
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 8
+ tab: -1
+ p2p_pml: false
+ tooltip: ""
+ pointer: -1
+ apparent_depth: 0
+ my_parent: 0309d66d0
+}
+
+ui::text_common : 03edf4944 {
+ value: "999|l/h"
+ look_template: txt.daf.fuel
+ text: ""
+ name: Fuel
+ coords_l: &42fdfff8
+ coords_r: 1101
+ coords_t: 480
+ coords_b: 360
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1160
+ layer: 8
+ tab: -1
+ p2p_pml: false
+ tooltip: ""
+ pointer: -1
+ apparent_depth: 0
+ my_parent: 0309d66d0
+}
+
+ui::text_common : 03edf4945 {
+ value: "2156|l/100km"
+ look_template: txt.daf.fuel
+ text: ""
+ name: Fuel_distance
+ coords_l: &42fbfff8
+ coords_r: 1101
+ coords_t: 577
+ coords_b: 457
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1170
+ layer: 8
+ tab: -1
+ p2p_pml: false
+ tooltip: ""
+ pointer: -1
+ apparent_depth: 0
+ my_parent: 0309d66d0
+}
+
+ui::group : 01e7bbc516 {
+ fitting: false
+ my_children: 6
+ my_children[0]: 01e7bbc517
+ my_children[1]: 01e7bbc518
+ my_children[2]: 01e7bbc519
+ my_children[3]: 01e7bbc51a
+ my_children[4]: 01e7bbc51b
+ my_children[5]: 01e7bbc51c
+ name: Display3
+ coords_l: 0
+ coords_r: 1152
+ coords_t: 864
+ coords_b: 0
+ area_l: 0
+ area_r: 1152
+ area_t: 864
+ area_b: 0
+ id: 400
+ layer: -1
+ tab: -1
+ p2p_pml: false
+ tooltip: ""
+ pointer: -1
+ apparent_depth: 0
+ my_parent: 01e7bbc50
+}
+
+ui::text : 01e7bbc517 {
+ text: "<color value=FF30bcfe><img src=/material/ui/dashboard/daf_xf/pict.mat left=0.5 top=0.5 xscale=stretch yscale=stretch>"
+ name: icon
+ coords_l: &42240004
+ coords_r: 191
+ coords_t: 690
+ coords_b: 565
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 8
+ tab: -1
+ p2p_pml: false
+ tooltip: ""
+ pointer: -1
+ apparent_depth: 0
+ my_parent: 01e7bbc516
+}
+
+ui::text_common : 01e7bbc518 {
+ value: "@@db_temp_info@@"
+ look_template: txt.daf.text2
+ text: ""
+ name: info
+ coords_l: 215
+ coords_r: 1105
+ coords_t: 694
+ coords_b: 552
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 8
+ tab: -1
+ p2p_pml: false
+ tooltip: ""
+ pointer: -1
+ apparent_depth: 0
+ my_parent: 01e7bbc516
+}
+
+ui::text_common : 01e7bbc519 {
+ value: "@@db_water@@"
+ look_template: txt.daf.text3
+ text: ""
+ name: water
+ coords_l: 59
+ coords_r: 949
+ coords_t: 557
+ coords_b: 443
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 8
+ tab: -1
+ p2p_pml: false
+ tooltip: ""
+ pointer: -1
+ apparent_depth: 0
+ my_parent: 01e7bbc516
+}
+
+ui::text_common : 01e7bbc51a {
+ value: "@@db_oil@@"
+ look_template: txt.daf.text3
+ text: ""
+ name: oil
+ coords_l: 59
+ coords_r: 949
+ coords_t: 460
+ coords_b: 344
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 8
+ tab: -1
+ p2p_pml: false
+ tooltip: ""
+ pointer: -1
+ apparent_depth: 0
+ my_parent: 01e7bbc516
+}
+
+ui::text_common : 01e7bbc51b {
+ value: "50|C"
+ look_template: txt.daf.temp2
+ text: ""
+ name: "oil temp"
+ coords_l: 248
+ coords_r: 1101
+ coords_t: 480
+ coords_b: 378
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1010
+ layer: 8
+ tab: -1
+ p2p_pml: false
+ tooltip: ""
+ pointer: -1
+ apparent_depth: 0
+ my_parent: 01e7bbc516
+}
+
+ui::text_common : 01e7bbc51c {
+ value: "122|F"
+ look_template: txt.daf.temp2
+ text: ""
+ name: "water temp"
+ coords_l: 248
+ coords_r: 1101
+ coords_t: 577
+ coords_b: 475
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1090
+ layer: 8
+ tab: -1
+ p2p_pml: false
+ tooltip: ""
+ pointer: -1
+ apparent_depth: 0
+ my_parent: 01e7bbc516
+}
+
+ui::group : 01e7bbc51d {
+ fitting: false
+ my_children: 6
+ my_children[0]: 01e7bbc51e
+ my_children[1]: 01e7bbc51f
+ my_children[2]: 01e7bbc520
+ my_children[3]: 01e7bbc521
+ my_children[4]: 01e7bbc522
+ my_children[5]: 01e7bbc523
+ name: ShareDisplay
+ coords_l: 0
+ coords_r: 1152
+ coords_t: 864
+ coords_b: 0
+ area_l: 0
+ area_r: 1152
+ area_t: 864
+ area_b: 0
+ id: 950
+ layer: -1
+ tab: -1
+ p2p_pml: false
+ tooltip: ""
+ pointer: -1
+ apparent_depth: 0
+ my_parent: 01e7bbc50
+}
+
+ui::text_common : 01e7bbc51e {
+ value: 14
+ look_template: txt.daf.text0
+ text: ""
+ name: Gear
+ coords_l: 0
+ coords_r: 1152
+ coords_t: 868
+ coords_b: 677
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1040
+ layer: 8
+ tab: -1
+ p2p_pml: false
+ tooltip: ""
+ pointer: -1
+ apparent_depth: 0
+ my_parent: 01e7bbc51d
+}
+
+ui::text : 01e7bbc51f {
+ text: "<ret><offset vshift=165 hshift=60><img src=/material/ui/white.mat height=10 width=1042 color=FF30bcfe>"
+ name: lines
+ coords_l: 0
+ coords_r: 1152
+ coords_t: 864
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 7
+ tab: -1
+ p2p_pml: false
+ tooltip: ""
+ pointer: -1
+ apparent_depth: 0
+ my_parent: 01e7bbc51d
+}
+
+ui::text_common : 01e7bbc520 {
+ value: "13:43"
+ look_template: txt.daf_50k.clock
+ text: ""
+ name: Clock
+ coords_l: 737
+ coords_r: 1152
+ coords_t: 145
+ coords_b: 6
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1050
+ layer: 8
+ tab: -1
+ p2p_pml: false
+ tooltip: ""
+ pointer: -1
+ apparent_depth: 0
+ my_parent: 01e7bbc51d
+}
+
+ui::text : 01e7bbc521 {
+ text: "<ret><offset hshift=0 vshift=0><img src=/material/ui/dashboard/daf_xf/display.mat height=869 width=1159>"
+ name: background
+ coords_l: 0
+ coords_r: 1152
+ coords_t: 864
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 5
+ tab: -1
+ p2p_pml: false
+ tooltip: ""
+ pointer: -1
+ apparent_depth: 0
+ my_parent: 01e7bbc51d
+}
+
+ui::text_common : 01e7bbc522 {
+ value: "-50|C"
+ look_template: txt.daf_50k.temp
+ text: ""
+ name: Temperature
+ coords_l: 6
+ coords_r: 350
+ coords_t: 145
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1000
+ layer: 8
+ tab: -1
+ p2p_pml: false
+ tooltip: ""
+ pointer: -1
+ apparent_depth: 0
+ my_parent: 01e7bbc51d
+}
+
+ui::group : 01e7bbc523 {
+ fitting: false
+ my_children: 3
+ my_children[0]: 01e7bbc526
+ my_children[1]: 01e7bbc527
+ my_children[2]: 01e7bbc528
+ name: Warning
+ coords_l: 0
+ coords_r: 1152
+ coords_t: 864
+ coords_b: 0
+ area_l: 0
+ area_r: 1152
+ area_t: 864
+ area_b: 0
+ id: 1190
+ layer: -1
+ tab: -1
+ p2p_pml: false
+ tooltip: ""
+ pointer: -1
+ apparent_depth: 0
+ my_parent: 01e7bbc51d
+}
+
+ui::text : 01e7bbc526 {
+ text: "<img src=/material/ui/white.mat xscale=stretch yscale=stretch color=992333cf>"
+ name: "red background"
+ coords_l: 0
+ coords_r: 1152
+ coords_t: 864
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ p2p_pml: false
+ tooltip: ""
+ pointer: -1
+ apparent_depth: 0
+ my_parent: 01e7bbc523
+}
+
+ui::text : 01e7bbc527 {
+ text: "<color value=FF2211FF><img src=/material/ui/dashboard/daf_xf/pict.mat right=0.5 top=0.5 xscale=stretch yscale=stretch>"
+ name: icon
+ coords_l: &42680004
+ coords_r: 198
+ coords_t: 829
+ coords_b: 711
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 8
+ tab: -1
+ p2p_pml: false
+ tooltip: ""
+ pointer: -1
+ apparent_depth: 0
+ my_parent: 01e7bbc523
+}
+
+ui::text : 01e7bbc528 {
+ text: "<img src=/material/ui/white.mat xscale=stretch yscale=stretch color=66001080>"
+ name: "red background"
+ coords_l: 0
+ coords_r: 1152
+ coords_t: 864
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 6
+ tab: -1
+ p2p_pml: false
+ tooltip: ""
+ pointer: -1
+ apparent_depth: 0
+ my_parent: 01e7bbc523
+}
+
+}

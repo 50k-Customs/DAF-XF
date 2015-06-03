@@ -26,6 +26,42 @@ Global {
 Look {
     Name: "look1"
     Material {
+        Alias: "DashScreen_DifLumDark"
+        Effect: "eut2.dif.lum"
+        Flags: 0
+        AttributeCount: 5
+        TextureCount: 1
+        Attribute {
+            Format: FLOAT3
+            Tag: "diffuse"
+            Value: ( 0.21402612328529358 0.21402612328529358 0.21402612328529358 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "specular"
+            Value: ( 0.10048100352287292 0.10048100352287292 0.10048100352287292 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "shininess"
+            Value: ( 64.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "add_ambient"
+            Value: ( 0.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "reflection"
+            Value: ( 0.0 )
+        }
+        Texture {
+            Tag: "texture[0]:texture_base"
+            Value: "/vehicle/truck/share/dashboard"
+        }
+    }
+    Material {
         Alias: "Windows_Glass"
         Effect: "eut2.glass"
         Flags: 0
@@ -414,42 +450,6 @@ Look {
         }
     }
     Material {
-        Alias: "DashScreen_DifLumDark"
-        Effect: "eut2.dif.lum"
-        Flags: 0
-        AttributeCount: 5
-        TextureCount: 1
-        Attribute {
-            Format: FLOAT3
-            Tag: "diffuse"
-            Value: ( 0.21402612328529358 0.21402612328529358 0.21402612328529358 )
-        }
-        Attribute {
-            Format: FLOAT3
-            Tag: "specular"
-            Value: ( 0.10048100352287292 0.10048100352287292 0.10048100352287292 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "shininess"
-            Value: ( 64.0 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "add_ambient"
-            Value: ( 0.0 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "reflection"
-            Value: ( 0.0 )
-        }
-        Texture {
-            Tag: "texture[0]:texture_base"
-            Value: "/vehicle/truck/share/dashboard"
-        }
-    }
-    Material {
         Alias: "Dashboard_DifSpecAddEnv"
         Effect: "eut2.dif.spec.add.env"
         Flags: 0
@@ -820,6 +820,42 @@ Look {
 }
 Look {
     Name: "look2"
+    Material {
+        Alias: "DashScreen_DifLumDark"
+        Effect: "eut2.dif.lum"
+        Flags: 0
+        AttributeCount: 5
+        TextureCount: 1
+        Attribute {
+            Format: FLOAT3
+            Tag: "diffuse"
+            Value: ( 0.21402612328529358 0.21402612328529358 0.21402612328529358 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "specular"
+            Value: ( 0.10048100352287292 0.10048100352287292 0.10048100352287292 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "shininess"
+            Value: ( 64.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "add_ambient"
+            Value: ( 0.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "reflection"
+            Value: ( 0.0 )
+        }
+        Texture {
+            Tag: "texture[0]:texture_base"
+            Value: "/vehicle/truck/share/dashboard"
+        }
+    }
     Material {
         Alias: "Windows_Glass"
         Effect: "eut2.glass"
@@ -1206,42 +1242,6 @@ Look {
         Texture {
             Tag: "texture[1]:texture_base"
             Value: "/vehicle/truck/daf_xf_50k/interior/plastic_beige_cheap"
-        }
-    }
-    Material {
-        Alias: "DashScreen_DifLumDark"
-        Effect: "eut2.dif.lum"
-        Flags: 0
-        AttributeCount: 5
-        TextureCount: 1
-        Attribute {
-            Format: FLOAT3
-            Tag: "diffuse"
-            Value: ( 0.21402612328529358 0.21402612328529358 0.21402612328529358 )
-        }
-        Attribute {
-            Format: FLOAT3
-            Tag: "specular"
-            Value: ( 0.10048100352287292 0.10048100352287292 0.10048100352287292 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "shininess"
-            Value: ( 64.0 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "add_ambient"
-            Value: ( 0.0 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "reflection"
-            Value: ( 0.0 )
-        }
-        Texture {
-            Tag: "texture[0]:texture_base"
-            Value: "/vehicle/truck/share/dashboard"
         }
     }
     Material {

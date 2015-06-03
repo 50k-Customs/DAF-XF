@@ -16,7 +16,7 @@ variant: space_ex
 
 left_hand_traffic: true
 
-dashboard_path:"/ui/dashboard/daf_xf.sii"
+dashboard_path:"/ui/dashboard/daf_xf_50k.sii"
 gps_path:"/ui/gps.sii"
 panel_intensity_min: 0.01
 
