@@ -1,6 +1,6 @@
 Header {
     FormatVersion: 3
-    Source: "Blender 2.74.0 (hash: 000dfc0), SCS Blender Tools: 0.5.59a654c"
+    Source: "Blender 2.74.0 (hash: 000dfc0), SCS Blender Tools: 0.5.a46f0c9"
     Type: "Animation"
     Name: "blinker_r"
 }
@@ -23,14 +23,14 @@ BoneChannel {
     Stream {
         Format: FLOAT4x4
         Tag: "_MATRIX"
-        0    (  &3f800000  &9c000000  &1b97c1bb  &00000000 
-                &00000000  &3f800000  &1c200000  &00000000
+        0    (  &3f800000  &34200001  &a7eaac7c  &00000000 
+                &b4200001  &3f800000  &26aa9c50  &00000000
                 &1b242aea  &1b200000  &3f800000  &00000000
-                &bcb9028d  &bed8e5f1  &bf6057f6  &3f800000 )
-        1    (  &3f800000  &9c000000  &1b97c1bb  &00000000 
-                &00000000  &3f800000  &1c200000  &00000000
+                &bcb903d5  &bed8e5f1  &bf6057f5  &3f800000 )
+        1    (  &3f800000  &34200001  &a7eaac7c  &00000000 
+                &b4200001  &3f800000  &26aa9c50  &00000000
                 &1b242aea  &1b200000  &3f800000  &00000000
-                &bcb9028d  &bed873b3  &3f47f5ec  &3f800000 )
+                &bcb903d5  &bed873b3  &3f47f5ed  &3f800000 )
     }
 }
 

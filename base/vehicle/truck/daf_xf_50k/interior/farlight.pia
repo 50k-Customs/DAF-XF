@@ -1,6 +1,6 @@
 Header {
     FormatVersion: 3
-    Source: "Blender 2.74.0 (hash: 000dfc0), SCS Blender Tools: 0.5.59a654c"
+    Source: "Blender 2.74.0 (hash: 000dfc0), SCS Blender Tools: 0.5.a46f0c9"
     Type: "Animation"
     Name: "farlight"
 }
@@ -23,14 +23,14 @@ BoneChannel {
     Stream {
         Format: FLOAT4x4
         Tag: "_MATRIX"
-        0    (  &3f800000  &9c000000  &1b97c1bb  &00000000 
-                &00000000  &3f800000  &1c200000  &00000000
+        0    (  &3f800000  &35200007  &272a9bd8  &00000000 
+                &b5200007  &3f800000  &26aa7300  &00000000
                 &1b242aea  &1b200000  &3f800000  &00000000
-                &3e00a765  &bededcc3  &bf54b8fc  &3f800000 )
-        1    (  &3f800000  &9c000000  &1b97c1bb  &00000000 
-                &00000000  &3f800000  &1c200000  &00000000
+                &3e00a73d  &bededcc1  &bf54b8fd  &3f800000 )
+        1    (  &3f800000  &35200007  &272a9bd8  &00000000 
+                &b5200007  &3f800000  &26aa7300  &00000000
                 &1b242aea  &1b200000  &3f800000  &00000000
-                &3e00a765  &bededcc3  &3f474398  &3f800000 )
+                &3e00a73d  &bededcc1  &3f474397  &3f800000 )
     }
 }
 

@@ -1,6 +1,6 @@
 Header {
     FormatVersion: 3
-    Source: "Blender 2.74.0 (hash: 000dfc0), SCS Blender Tools: 0.5.59a654c"
+    Source: "Blender 2.74.0 (hash: 000dfc0), SCS Blender Tools: 0.5.a46f0c9"
     Type: "Animation"
     Name: "speed"
 }
@@ -24,18 +24,18 @@ BoneChannel {
     Stream {
         Format: FLOAT4x4
         Tag: "_MATRIX"
-        0    (  &bf7fffe3  &bada0392  &ba22bf07  &00000000 
-                &3ae8b47f  &bf6fd5aa  &beb30e0c  &00000000
-                &338e0003  &beb30e26  &3f6fd5ca  &00000000
-                &3dd649cc  &bee27f81  &3f46859d  &3f800000 )
-        1    (  &3f22d789  &bf390ed7  &be8a28f2  &00000000 
-                &3f4587f2  &3f188f33  &3e63cb5f  &00000000
-                &338e0003  &beb30e26  &3f6fd5ca  &00000000
-                &3dd649cc  &bee27f81  &3f46859d  &3f800000 )
-        2    (  &3e31c905  &3f6c314d  &3eb055f7  &00000000 
-                &bf7c1cb6  &3e268f1f  &3d78b2cc  &00000000
-                &338e0003  &beb30e26  &3f6fd5ca  &00000000
-                &3dd649cc  &bee27f81  &3f46859d  &3f800000 )
+        0    (  &bf7fffe1  &bada0d19  &ba22c4f5  &00000000 
+                &3ae8be81  &bf6fd5a8  &beb30e0b  &00000000
+                &33b40004  &beb30e27  &3f6fd5cb  &00000000
+                &3dd64432  &bee27f81  &3f46859d  &3f800000 )
+        1    (  &3f22d78b  &bf390ed2  &be8a28ef  &00000000 
+                &3f4587ed  &3f188f35  &3e63cb62  &00000000
+                &33b40004  &beb30e27  &3f6fd5cb  &00000000
+                &3dd64432  &bee27f81  &3f46859d  &3f800000 )
+        2    (  &3e31c8d0  &3f6c314c  &3eb055f7  &00000000 
+                &bf7c1cb5  &3e268eed  &3d78b286  &00000000
+                &33b40004  &beb30e27  &3f6fd5cb  &00000000
+                &3dd64432  &bee27f81  &3f46859d  &3f800000 )
     }
 }
 

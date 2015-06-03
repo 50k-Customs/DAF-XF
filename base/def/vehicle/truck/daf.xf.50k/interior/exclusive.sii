@@ -2,7 +2,7 @@ SiiNunit
 {
 accessory_interior_data: exclusive.daf.xf.50k.interior
 {
-name: "50k DAF: exlusive with built-in GPS"
+name: "50k DAF: Exlusive built-in GPS"
 price: 33900
 unlock: 12
 icon: "interior_daf_xf_lux"

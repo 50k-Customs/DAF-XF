@@ -1,6 +1,6 @@
 Header {
     FormatVersion: 3
-    Source: "Blender 2.74.0 (hash: 000dfc0), SCS Blender Tools: 0.5.59a654c"
+    Source: "Blender 2.74.0 (hash: 000dfc0), SCS Blender Tools: 0.5.a46f0c9"
     Type: "Animation"
     Name: "parking"
 }
@@ -26,11 +26,11 @@ BoneChannel {
         0    (  &3f800000  &9c000000  &1b97c1bb  &00000000 
                 &00000000  &3f800000  &1c200000  &00000000
                 &1b242aea  &1b200000  &3f800000  &00000000
-                &3e001afc  &bed95905  &bf5a2ff6  &3f800000 )
+                &3e001ad4  &bed95905  &bf5a2ff5  &3f800000 )
         1    (  &3f800000  &9c000000  &1b97c1bb  &00000000 
                 &00000000  &3f800000  &1c200000  &00000000
                 &1b242aea  &1b200000  &3f800000  &00000000
-                &3e001afc  &bed95905  &3f48a6c4  &3f800000 )
+                &3e001ad4  &bed95905  &3f48a6c5  &3f800000 )
     }
 }
 

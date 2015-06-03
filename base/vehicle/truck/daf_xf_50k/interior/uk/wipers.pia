@@ -1,0 +1,247 @@
+Header {
+    FormatVersion: 3
+    Source: "Blender 2.74.0 (hash: 000dfc0), SCS Blender Tools: 0.5.a46f0c9"
+    Type: "Animation"
+    Name: "wipers"
+}
+Global {
+    Skeleton: "anim_uk.pis"
+    TotalTime: 2.0
+    BoneChannelCount: 3
+    CustomChannelCount: 0
+}
+BoneChannel {
+    Name: "joint16"
+    StreamCount: 2
+    KeyframeCount: 13
+    Stream {
+        Format: FLOAT
+        Tag: "_TIME"
+        0    ( &3e2aaaab )
+        1    ( &3e2aaaab )
+        2    ( &3e2aaaab )
+        3    ( &3e2aaaab )
+        4    ( &3e2aaaab )
+        5    ( &3e2aaaab )
+        6    ( &3e2aaaab )
+        7    ( &3e2aaaab )
+        8    ( &3e2aaaab )
+        9    ( &3e2aaaab )
+        10   ( &3e2aaaab )
+        11   ( &3e2aaaab )
+        12   ( &3e2aaaab )
+    }
+    Stream {
+        Format: FLOAT4x4
+        Tag: "_MATRIX"
+        0    (  &bf800000  &9c000000  &1b97c1bb  &00000000 
+                &00000000  &bf800000  &9c200000  &00000000
+                &1b242aea  &9b200000  &bf800000  &00000000
+                &bea575a7  &bed1a527  &3f927044  &3f800000 )
+        1    (  &bf7eef5c  &3dba1b45  &bbdc5827  &00000000 
+                &bdba1c59  &bf7ef0d6  &9c18714d  &00000000
+                &3bdb6ec2  &ba203073  &bf7ffe85  &00000000
+                &bea575a7  &bed1a527  &3f927044  &3f800000 )
+        2    (  &bf70ba83  &3eadabef  &bcd762ab  &00000000 
+                &beadbb4f  &bf70cfd3  &9bf9854e  &00000000
+                &3cca9b5a  &bc122b46  &bf7fe958  &00000000
+                &bea575a7  &bed1a527  &3f927044  &3f800000 )
+        3    (  &bf415cc8  &3f273109  &bd5ed539  &00000000 
+                &bf277083  &bf41a632  &9b8ecdaa  &00000000
+                &3d288f6a  &bd11bf08  &bf7f9ef2  &00000000
+                &bea575a7  &bed1a527  &3f927044  &3f800000 )
+        4    (  &bee677cd  &3f639f05  &bda8e5f9  &00000000 
+                &bf646632  &bee74178  &99923cc0  &00000000
+                &3d1892b5  &bd96b03f  &bf7f20c1  &00000000
+                &bea575a7  &bed1a527  &3f927044  &3f800000 )
+        5    (  &be2a5048  &3f7b14d0  &bdd0cece  &00000000 
+                &bf7c6587  &be2b34af  &1b403cda  &00000000
+                &3c8ba51c  &bdcdde62  &bf7eaa7b  &00000000
+                &bea575a7  &bed1a527  &3f927044  &3f800000 )
+        6    (  &bd694e43  &3f7e110b  &bdde80ba  &00000000 
+                &bf7f9455  &bd6ab1e8  &3003ff21  &00000000
+                &3bcbfc49  &bdde2325  &bf7e7c13  &00000000
+                &bea575a7  &bed1a527  &3f927044  &3f800000 )
+        7    (  &be2a5050  &3f7b14d0  &bdd0cecd  &00000000 
+                &bf7c6586  &be2b34b6  &30041733  &00000000
+                &3c8ba521  &bdcdde61  &bf7eaa7b  &00000000
+                &bea575a7  &bed1a527  &3f927044  &3f800000 )
+        8    (  &bee677d1  &3f639f04  &bda8e5f7  &00000000 
+                &bf646631  &bee7417b  &3004548c  &00000000
+                &3d1892b6  &bd96b03c  &bf7f20c1  &00000000
+                &bea575a7  &bed1a527  &3f927044  &3f800000 )
+        9    (  &bf415cc9  &3f273107  &bd5ed535  &00000000 
+                &bf277082  &bf41a633  &30049600  &00000000
+                &3d288f68  &bd11bf04  &bf7f9ef2  &00000000
+                &bea575a7  &bed1a527  &3f927044  &3f800000 )
+        10   (  &bf70ba82  &3eadabf2  &bcd762a5  &00000000 
+                &beadbb52  &bf70cfd2  &3004bc97  &00000000
+                &3cca9b54  &bc122b44  &bf7fe958  &00000000
+                &bea575a7  &bed1a527  &3f927044  &3f800000 )
+        11   (  &bf7eef5c  &3dba1b6a  &bbdc5813  &00000000 
+                &bdba1c7e  &bf7ef0d6  &3004c792  &00000000
+                &3bdb6ead  &ba20308c  &bf7ffe85  &00000000
+                &bea575a7  &bed1a527  &3f927044  &3f800000 )
+        12   (  &bf800000  &9c000000  &1b97c1bb  &00000000 
+                &00000000  &bf800000  &9c200000  &00000000
+                &1b242aea  &9b200000  &bf800000  &00000000
+                &bea575a7  &bed1a527  &3f927044  &3f800000 )
+    }
+}
+BoneChannel {
+    Name: "joint17"
+    StreamCount: 2
+    KeyframeCount: 13
+    Stream {
+        Format: FLOAT
+        Tag: "_TIME"
+        0    ( &3e2aaaab )
+        1    ( &3e2aaaab )
+        2    ( &3e2aaaab )
+        3    ( &3e2aaaab )
+        4    ( &3e2aaaab )
+        5    ( &3e2aaaab )
+        6    ( &3e2aaaab )
+        7    ( &3e2aaaab )
+        8    ( &3e2aaaab )
+        9    ( &3e2aaaab )
+        10   ( &3e2aaaab )
+        11   ( &3e2aaaab )
+        12   ( &3e2aaaab )
+    }
+    Stream {
+        Format: FLOAT4x4
+        Tag: "_MATRIX"
+        0    (  &bf800000  &9c000000  &1b97c1bb  &00000000 
+                &00000000  &bf800000  &9c200000  &00000000
+                &1b242aea  &9b200000  &bf800000  &00000000
+                &bf830d8a  &bed1a527  &3f927044  &3f800000 )
+        1    (  &bf7ef032  &3dba1be1  &bb9145c9  &00000000 
+                &bdba1c59  &bf7ef0d6  &9c18714d  &00000000
+                &3b90abe8  &b9d33994  &bf7fff5b  &00000000
+                &bf830d8a  &bed1a527  &3f927044  &3f800000 )
+        2    (  &bf70c68f  &3eadb4a0  &bc8e0308  &00000000 
+                &beadbb4f  &bf70cfd3  &9bf9854e  &00000000
+                &3c859621  &bbc0bfe9  &bf7ff627  &00000000
+                &bf830d8a  &bed1a527  &3f927044  &3f800000 )
+        3    (  &bf418647  &3f2754eb  &bd12f425  &00000000 
+                &bf277083  &bf41a632  &9b8ecdaa  &00000000
+                &3cde52ed  &bcc03bb4  &bf7fd5cf  &00000000
+                &bf830d8a  &bed1a527  &3f927044  &3f800000 )
+        4    (  &bee6e9c8  &3f640f98  &bd5ed9d4  &00000000 
+                &bf646632  &bee74178  &99923cc0  &00000000
+                &3cc94f8c  &bd46d2f7  &bf7f9eee  &00000000
+                &bf830d8a  &bed1a527  &3f927044  &3f800000 )
+        5    (  &be2ad15b  &3f7bd318  &bd89cd2c  &00000000 
+                &bf7c6587  &be2b34af  &1b403cda  &00000000
+                &3c3850d0  &bd87dc9d  &bf7f6b7a  &00000000
+                &bf830d8a  &bed1a527  &3f927044  &3f800000 )
+        6    (  &bd6a173b  &3f7eebe5  &bd92dbeb  &00000000 
+                &bf7f9455  &bd6ab1e8  &a83507d0  &00000000
+                &3b86a314  &bd929e27  &bf7f5749  &00000000
+                &bf830d8a  &bed1a527  &3f927044  &3f800000 )
+        7    (  &be2ad163  &3f7bd318  &bd89cd2d  &00000000 
+                &bf7c6586  &be2b34b6  &a8351621  &00000000
+                &3c3850d9  &bd87dc9e  &bf7f6b7a  &00000000
+                &bf830d8a  &bed1a527  &3f927044  &3f800000 )
+        8    (  &bee6e9cc  &3f640f97  &bd5ed9d3  &00000000 
+                &bf646631  &bee7417b  &a8353a9b  &00000000
+                &3cc94f8e  &bd46d2f6  &bf7f9eee  &00000000
+                &bf830d8a  &bed1a527  &3f927044  &3f800000 )
+        9    (  &bf418649  &3f2754e9  &bd12f424  &00000000 
+                &bf277082  &bf41a633  &a8356183  &00000000
+                &3cde52ed  &bcc03bb1  &bf7fd5cf  &00000000
+                &bf830d8a  &bed1a527  &3f927044  &3f800000 )
+        10   (  &bf70c68e  &3eadb4a3  &bc8e0308  &00000000 
+                &beadbb52  &bf70cfd2  &a8357872  &00000000
+                &3c859620  &bbc0bfec  &bf7ff627  &00000000
+                &bf830d8a  &bed1a527  &3f927044  &3f800000 )
+        11   (  &bf7ef031  &3dba1c06  &bb9145b1  &00000000 
+                &bdba1c7e  &bf7ef0d6  &a8357ef9  &00000000
+                &3b90abd0  &b9d3399b  &bf7fff5b  &00000000
+                &bf830d8a  &bed1a527  &3f927044  &3f800000 )
+        12   (  &bf800000  &9c000000  &1b97c1bb  &00000000 
+                &00000000  &bf800000  &9c200000  &00000000
+                &1b242aea  &9b200000  &bf800000  &00000000
+                &bf830d8a  &bed1a527  &3f927044  &3f800000 )
+    }
+}
+BoneChannel {
+    Name: "joint15"
+    StreamCount: 2
+    KeyframeCount: 13
+    Stream {
+        Format: FLOAT
+        Tag: "_TIME"
+        0    ( &3e2aaaab )
+        1    ( &3e2aaaab )
+        2    ( &3e2aaaab )
+        3    ( &3e2aaaab )
+        4    ( &3e2aaaab )
+        5    ( &3e2aaaab )
+        6    ( &3e2aaaab )
+        7    ( &3e2aaaab )
+        8    ( &3e2aaaab )
+        9    ( &3e2aaaab )
+        10   ( &3e2aaaab )
+        11   ( &3e2aaaab )
+        12   ( &3e2aaaab )
+    }
+    Stream {
+        Format: FLOAT4x4
+        Tag: "_MATRIX"
+        0    (  &bf7f6f70  &a5597688  &3d87f43b  &00000000 
+                &00000000  &bf800000  &9c200000  &00000000
+                &bd87f43b  &a483208a  &bf7f6f70  &00000000
+                &3ea89e86  &bed1a527  &3f8dd5e9  &3f800000 )
+        1    (  &bf7e84a9  &3dba1a80  &3d6ac83c  &00000000 
+                &bdb9b340  &bf7ef0d6  &3bc5ad02  &00000000
+                &bd6c0e5c  &ba51c7f2  &bf7f930d  &00000000
+                &3ea89e86  &bed1a527  &3f8dd5e9  &3f800000 )
+        2    (  &bf70b927  &3eada0f1  &3ce5d3e4  &00000000 
+                &bead5934  &bf70cfd3  &3cb8870a  &00000000
+                &bd0b626f  &bc3f67d9  &bf7fd592  &00000000
+                &3ea89e86  &bed1a527  &3f8dd5e9  &3f800000 )
+        3    (  &bf41f114  &3f2703aa  &bcabd34a  &00000000 
+                &bf2711f6  &bf41a632  &3d31d826  &00000000
+                &bc4c2688  &bd3ecce1  &bf7fb3c4  &00000000
+                &3ea89e86  &bed1a527  &3f8dd5e9  &3f800000 )
+        4    (  &bee910e2  &3f6310bf  &bd9f78ea  &00000000 
+                &bf63e538  &bee74178  &3d729795  &00000000
+                &bc8e3ac6  &bdc52dff  &bf7ec59e  &00000000
+                &3ea89e86  &bed1a527  &3f8dd5e9  &3f800000 )
+        5    (  &be325e12  &3f7a246a  &bdf9fb84  &00000000 
+                &bf7bd700  &be2b34af  &3d860a55  &00000000
+                &bd325b16  &be06a254  &bf7d8861  &00000000
+                &3ea89e86  &bed1a527  &3f8dd5e9  &3f800000 )
+        6    (  &bd873786  &3f7cfc97  &be0d4fbe  &00000000 
+                &bf7f0402  &bd6ab1e6  &3d87bb12  &00000000
+                &bd6be0dd  &be113fb5  &bf7cfb7d  &00000000
+                &3ea89e86  &bed1a527  &3f8dd5e9  &3f800000 )
+        7    (  &be325e1a  &3f7a2469  &bdf9fb83  &00000000 
+                &bf7bd6ff  &be2b34b6  &3d860a5a  &00000000
+                &bd325b1b  &be06a255  &bf7d8861  &00000000
+                &3ea89e86  &bed1a527  &3f8dd5e9  &3f800000 )
+        8    (  &bee910e5  &3f6310be  &bd9f78e8  &00000000 
+                &bf63e537  &bee7417b  &3d72979d  &00000000
+                &bc8e3ad2  &bdc52e00  &bf7ec59e  &00000000
+                &3ea89e86  &bed1a527  &3f8dd5e9  &3f800000 )
+        9    (  &bf41f115  &3f2703a9  &bcabd344  &00000000 
+                &bf2711f5  &bf41a633  &3d31d82e  &00000000
+                &bc4c26a0  &bd3ecce5  &bf7fb3c4  &00000000
+                &3ea89e86  &bed1a527  &3f8dd5e9  &3f800000 )
+        10   (  &bf70b927  &3eada0f4  &3ce5d3e8  &00000000 
+                &bead5937  &bf70cfd2  &3cb88721  &00000000
+                &bd0b6274  &bc3f67fd  &bf7fd592  &00000000
+                &3ea89e86  &bed1a527  &3f8dd5e9  &3f800000 )
+        11   (  &bf7e84a9  &3dba1aa5  &3d6ac843  &00000000 
+                &bdb9b365  &bf7ef0d6  &3bc5ad75  &00000000
+                &bd6c0e63  &ba51ca50  &bf7f930d  &00000000
+                &3ea89e86  &bed1a527  &3f8dd5e9  &3f800000 )
+        12   (  &bf7f6f70  &a5597688  &3d87f43b  &00000000 
+                &00000000  &bf800000  &9c200000  &00000000
+                &bd87f43b  &a483208a  &bf7f6f70  &00000000
+                &3ea89e86  &bed1a527  &3f8dd5e9  &3f800000 )
+    }
+}
+

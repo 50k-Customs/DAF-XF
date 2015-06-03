@@ -1,0 +1,59 @@
+Header {
+    FormatVersion: 3
+    Source: "Blender 2.74.0 (hash: 000dfc0), SCS Blender Tools: 0.5.a46f0c9"
+    Type: "Animation"
+    Name: "aux_front"
+}
+Global {
+    Skeleton: "anim_uk.pis"
+    TotalTime: 1.0
+    BoneChannelCount: 2
+    CustomChannelCount: 0
+}
+BoneChannel {
+    Name: "aux_front_i"
+    StreamCount: 2
+    KeyframeCount: 2
+    Stream {
+        Format: FLOAT
+        Tag: "_TIME"
+        0    ( &3f800000 )
+        1    ( &3f800000 )
+    }
+    Stream {
+        Format: FLOAT4x4
+        Tag: "_MATRIX"
+        0    (  &bf800000  &9c000000  &1b97c1bb  &00000000 
+                &27ab8e77  &bf4122d7  &bf2807fe  &00000000
+                &2712ef29  &3f2807fb  &bf4122d3  &00000000
+                &b181b674  &baa36ef3  &3c2d7cb6  &3f800000 )
+        1    (  &bf800000  &9c000000  &1b97c1bb  &00000000 
+                &27ab8e77  &bf4122d7  &bf2807fe  &00000000
+                &2712ef29  &3f2807fb  &bf4122d3  &00000000
+                &b1d5de8f  &3c627292  &bbdc8d4c  &3f800000 )
+    }
+}
+BoneChannel {
+    Name: "aux_front"
+    StreamCount: 2
+    KeyframeCount: 2
+    Stream {
+        Format: FLOAT
+        Tag: "_TIME"
+        0    ( &3f800000 )
+        1    ( &3f800000 )
+    }
+    Stream {
+        Format: FLOAT4x4
+        Tag: "_MATRIX"
+        0    (  &bf800000  &9c000000  &1b97c1bb  &00000000 
+                &00000000  &bf800000  &9c200000  &00000000
+                &1b242aea  &9b200000  &bf800000  &00000000
+                &3e39dade  &bf080266  &3f3488ed  &3f800000 )
+        1    (  &bf800000  &9c000000  &1b97c1bb  &00000000 
+                &9a609834  &bf708fb2  &3eaf1d43  &00000000
+                &1b1a4461  &beaf1d43  &bf708fb2  &00000000
+                &3e39dade  &bf080266  &3f3488ed  &3f800000 )
+    }
+}
+

@@ -1,6 +1,6 @@
 Header {
     FormatVersion: 3
-    Source: "Blender 2.74.0 (hash: 000dfc0), SCS Blender Tools: 0.5.59a654c"
+    Source: "Blender 2.74.0 (hash: 000dfc0), SCS Blender Tools: 0.5.a46f0c9"
     Type: "Animation"
     Name: "water"
 }
@@ -23,14 +23,14 @@ BoneChannel {
     Stream {
         Format: FLOAT4x4
         Tag: "_MATRIX"
-        0    (  &3f52ba60  &bf082e86  &be4b570b  &00000000 
-                &3f115c4a  &3f456bf6  &3e9363f4  &00000000
-                &b417ffff  &beb30e1c  &3f6fd5c1  &00000000
-                &bdaafaa3  &bec5595a  &3f4bfd58  &3f800000 )
-        1    (  &3f42f2a7  &3f1b72c2  &3e681bad  &00000000 
-                &bf25ecf5  &3f36a353  &3e885a69  &00000000
-                &b417ffff  &beb30e1c  &3f6fd5c1  &00000000
-                &bdaafaa3  &bec5595a  &3f4bfd58  &3f800000 )
+        0    (  &3f52ba5e  &bf082e88  &be4b570b  &00000000 
+                &3f115c4a  &3f456bf1  &3e9363f0  &00000000
+                &b427ffff  &beb30e1a  &3f6fd5c1  &00000000
+                &bdaafaa7  &bec5595a  &3f4bfd58  &3f800000 )
+        1    (  &3f42f2a8  &3f1b72bf  &3e681bab  &00000000 
+                &bf25ecef  &3f36a351  &3e885a66  &00000000
+                &b427ffff  &beb30e1a  &3f6fd5c1  &00000000
+                &bdaafaa7  &bec5595a  &3f4bfd58  &3f800000 )
     }
 }
 

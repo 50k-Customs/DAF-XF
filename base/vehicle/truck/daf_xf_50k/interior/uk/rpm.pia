@@ -1,0 +1,56 @@
+Header {
+    FormatVersion: 3
+    Source: "Blender 2.74.0 (hash: 000dfc0), SCS Blender Tools: 0.5.a46f0c9"
+    Type: "Animation"
+    Name: "rpm"
+}
+Global {
+    Skeleton: "anim_uk.pis"
+    TotalTime: 1.0
+    BoneChannelCount: 1
+    CustomChannelCount: 0
+}
+BoneChannel {
+    Name: "joint8"
+    StreamCount: 2
+    KeyframeCount: 6
+    Stream {
+        Format: FLOAT
+        Tag: "_TIME"
+        0    ( &3e4ccccd )
+        1    ( &3e4ccccd )
+        2    ( &3e4ccccd )
+        3    ( &3e4ccccd )
+        4    ( &3e4ccccd )
+        5    ( &3e4ccccd )
+    }
+    Stream {
+        Format: FLOAT4x4
+        Tag: "_MATRIX"
+        0    (  &bd135556  &bf6fadbb  &beb2f206  &00000000 
+                &3f7fd598  &bd0a079e  &bc4e1a7d  &00000000
+                &347c0000  &3eb30faf  &bf6fd576  &00000000
+                &3dd61624  &bee24dd3  &3f466666  &3f800000 )
+        1    (  &bed62a94  &bf59d80b  &bea2a4be  &00000000 
+                &3f688721  &bec8a457  &be15ccd7  &00000000
+                &347c0000  &3eb30faf  &bf6fd576  &00000000
+                &3dd61624  &bee24dd3  &3f466666  &3f800000 )
+        2    (  &bf6f8807  &bea943a4  &bdfcbf68  &00000000 
+                &3eb4ac74  &bf6067b9  &bea78ac7  &00000000
+                &34765a9c  &3eb30faf  &bf6fd576  &00000000
+                &3dd61624  &bee24dd3  &3f466666  &3f800000 )
+        3    (  &bf4dee28  &3f0e7a3d  &3e54bfb0  &00000000 
+                &bf1814cf  &bf40ed0c  &be900a29  &00000000
+                &3487814d  &3eb30fb0  &bf6fd576  &00000000
+                &3dd61624  &bee24dd3  &3f466666  &3f800000 )
+        4    (  &3eb067b3  &3f61262b  &3ea818fc  &00000000 
+                &bf705351  &3ea543eb  &3df6c684  &00000000
+                &34861f11  &3eb30fae  &bf6fd576  &00000000
+                &3dd61624  &bee24dd3  &3f466666  &3f800000 )
+        5    (  &3f7fd598  &bd0a079e  &bc4e1a9e  &00000000 
+                &3d135559  &3f6fadbb  &3eb2f206  &00000000
+                &345ca293  &3eb30faf  &bf6fd576  &00000000
+                &3dd61624  &bee24dd3  &3f466666  &3f800000 )
+    }
+}
+

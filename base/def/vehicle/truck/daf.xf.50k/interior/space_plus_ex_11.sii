@@ -2,7 +2,7 @@ SiiNunit
 {
 accessory_interior_data: spaceplus.exclusive_11.daf.xf.50k.interior
 {
-name: "50k DAF: exlusive without built-in GPS"
+name: "50k DAF: Exlusive no built-in GPS"
 price: 33900
 unlock: 14
 icon: "interior_daf_xf_lux"

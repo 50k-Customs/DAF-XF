@@ -1,6 +1,6 @@
 Header {
     FormatVersion: 3
-    Source: "Blender 2.74.0 (hash: 000dfc0), SCS Blender Tools: 0.5.59a654c"
+    Source: "Blender 2.74.0 (hash: 000dfc0), SCS Blender Tools: 0.5.a46f0c9"
     Type: "Animation"
     Name: "rpm"
 }
@@ -43,8 +43,8 @@ BoneChannel {
                 &bf1814cf  &3f40ed48  &3e9008d6  &00000000
                 &b484814a  &beb30e15  &3f6fd5bd  &00000000
                 &bddf3b64  &bee24dd3  &3f466666  &3f800000 )
-        4    (  &beb067ac  &3f61266e  &3ea81777  &00000000 
-                &bf70534e  &bea54410  &bdf6c484  &00000000
+        4    (  &beb067b4  &3f61266e  &3ea81776  &00000000 
+                &bf70534d  &bea54417  &bdf6c48f  &00000000
                 &b488710f  &beb30e16  &3f6fd5bd  &00000000
                 &bddf3b64  &bee24dd3  &3f466666  &3f800000 )
         5    (  &bf7fd593  &bd0a079c  &bc4e1a9b  &00000000 
