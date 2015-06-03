@@ -98,63 +98,8 @@ Look {
         }
     }
     Material {
-        Alias: "Windows_Glass"
-        Effect: "eut2.glass"
-        Flags: 0
-        AttributeCount: 8
-        TextureCount: 2
-        Attribute {
-            Format: FLOAT3
-            Tag: "diffuse"
-            Value: ( 1.0 1.0 1.0 )
-        }
-        Attribute {
-            Format: FLOAT3
-            Tag: "specular"
-            Value: ( 0.15048100054264069 0.15048100054264069 0.15048100054264069 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "shininess"
-            Value: ( 240.0 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "add_ambient"
-            Value: ( 0.0 )
-        }
-        Attribute {
-            Format: FLOAT3
-            Tag: "env_factor"
-            Value: ( 0.31854701042175293 0.31854701042175293 0.31854701042175293 )
-        }
-        Attribute {
-            Format: FLOAT2
-            Tag: "fresnel"
-            Value: ( 1.0 2.0 )
-        }
-        Attribute {
-            Format: FLOAT3
-            Tag: "tint"
-            Value: ( 0.7874119877815247 0.7874119877815247 0.7874119877815247 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "tint_opacity"
-            Value: ( 0.0 )
-        }
-        Texture {
-            Tag: "texture[0]:texture_base"
-            Value: "/vehicle/truck/daf_xf_50k/glass"
-        }
-        Texture {
-            Tag: "texture[1]:texture_reflection"
-            Value: "/material/environment/vehicle_reflection"
-        }
-    }
-    Material {
-        Alias: "DashboardHD_DifLum"
-        Effect: "eut2.dif.lum"
+        Alias: "Dashboard_DifLum"
+        Effect: "eut2.dif.spec"
         Flags: 0
         AttributeCount: 5
         TextureCount: 1
@@ -166,7 +111,59 @@ Look {
         Attribute {
             Format: FLOAT3
             Tag: "specular"
-            Value: ( 0.09462569653987885 0.09462569653987885 0.09462569653987885 )
+            Value: ( 0.33104801177978516 0.33104801177978516 0.33104801177978516 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "shininess"
+            Value: ( 60.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "add_ambient"
+            Value: ( 0.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "reflection"
+            Value: ( 0.0 )
+        }
+        Texture {
+            Tag: "texture[0]:texture_base"
+            Value: "/vehicle/truck/daf_xf_50k/interior/dashboard"
+        }
+    }
+    Material {
+        Alias: "Dashboard_UnlitVcolTexAOver"
+        Effect: "eut2.unlit.vcol.tex.a.over"
+        Flags: 0
+        AttributeCount: 1
+        TextureCount: 1
+        Attribute {
+            Format: FLOAT3
+            Tag: "diffuse"
+            Value: ( 1.0 1.0 1.0 )
+        }
+        Texture {
+            Tag: "texture[0]:texture_base"
+            Value: "/vehicle/truck/daf_xf_50k/interior/dashboard"
+        }
+    }
+    Material {
+        Alias: "Wheel2_DifSpec"
+        Effect: "eut2.dif.spec.tsnmap"
+        Flags: 0
+        AttributeCount: 5
+        TextureCount: 2
+        Attribute {
+            Format: FLOAT3
+            Tag: "diffuse"
+            Value: ( 1.0 1.0 1.0 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "specular"
+            Value: ( 0.32389000058174133 0.32389000058174133 0.32389000058174133 )
         }
         Attribute {
             Format: FLOAT
@@ -184,93 +181,17 @@ Look {
             Value: ( 0.0 )
         }
         Texture {
-            Tag: "texture[0]:texture_base"
-            Value: "/vehicle/truck/daf_xf_50k/interior/dashboard_hd"
-        }
-    }
-    Material {
-        Alias: "Wheel3_DifSpec"
-        Effect: "eut2.dif.spec.tsnmap"
-        Flags: 0
-        AttributeCount: 5
-        TextureCount: 2
-        Attribute {
-            Format: FLOAT3
-            Tag: "diffuse"
-            Value: ( 1.0 1.0 1.0 )
-        }
-        Attribute {
-            Format: FLOAT3
-            Tag: "specular"
-            Value: ( 0.33104801177978516 0.33104801177978516 0.33104801177978516 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "shininess"
-            Value: ( 60.0 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "add_ambient"
-            Value: ( 0.0 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "reflection"
-            Value: ( 0.0 )
-        }
-        Texture {
             Tag: "texture[0]:texture_nmap"
-            Value: "/vehicle/truck/daf_xf_50k/interior/swheel_03_n"
+            Value: "/vehicle/truck/daf_xf_50k/interior/swheel_01_n"
         }
         Texture {
             Tag: "texture[1]:texture_base"
-            Value: "/vehicle/truck/daf_xf_50k/interior/swheel_03"
+            Value: "/vehicle/truck/daf_xf_50k/interior/swheel_01"
         }
     }
     Material {
-        Alias: "Wheel_DifSpec"
-        Effect: "eut2.dif.spec.tsnmap"
-        Flags: 0
-        AttributeCount: 5
-        TextureCount: 2
-        Attribute {
-            Format: FLOAT3
-            Tag: "diffuse"
-            Value: ( 1.0 1.0 1.0 )
-        }
-        Attribute {
-            Format: FLOAT3
-            Tag: "specular"
-            Value: ( 0.33104801177978516 0.33104801177978516 0.33104801177978516 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "shininess"
-            Value: ( 60.0 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "add_ambient"
-            Value: ( 0.0 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "reflection"
-            Value: ( 0.0 )
-        }
-        Texture {
-            Tag: "texture[0]:texture_nmap"
-            Value: "/vehicle/truck/daf_xf_50k/interior/swheel_02_n"
-        }
-        Texture {
-            Tag: "texture[1]:texture_base"
-            Value: "/vehicle/truck/daf_xf_50k/interior/swheel_02"
-        }
-    }
-    Material {
-        Alias: "PlasticDark_DifSpec"
-        Effect: "eut2.dif.spec.weight"
+        Alias: "Dashboard_DifSpecOver"
+        Effect: "eut2.dif.spec.over"
         Flags: 0
         AttributeCount: 5
         TextureCount: 1
@@ -282,12 +203,12 @@ Look {
         Attribute {
             Format: FLOAT3
             Tag: "specular"
-            Value: ( 0.010048099793493748 0.010048099793493748 0.010048099793493748 )
+            Value: ( 0.05087609961628914 0.05087609961628914 0.05087609961628914 )
         }
         Attribute {
             Format: FLOAT
             Tag: "shininess"
-            Value: ( 64.0 )
+            Value: ( 30.0 )
         }
         Attribute {
             Format: FLOAT
@@ -301,7 +222,7 @@ Look {
         }
         Texture {
             Tag: "texture[0]:texture_base"
-            Value: "/vehicle/truck/daf_xf_50k/interior/plastic_dark"
+            Value: "/vehicle/truck/daf_xf_50k/interior/dashboard"
         }
     }
     Material {
@@ -355,8 +276,8 @@ Look {
         }
     }
     Material {
-        Alias: "Dashboard_DifSpecOver"
-        Effect: "eut2.dif.spec.over"
+        Alias: "PlasticDark_DifSpec"
+        Effect: "eut2.dif.spec.weight"
         Flags: 0
         AttributeCount: 5
         TextureCount: 1
@@ -368,12 +289,12 @@ Look {
         Attribute {
             Format: FLOAT3
             Tag: "specular"
-            Value: ( 0.05087609961628914 0.05087609961628914 0.05087609961628914 )
+            Value: ( 0.010048099793493748 0.010048099793493748 0.010048099793493748 )
         }
         Attribute {
             Format: FLOAT
             Tag: "shininess"
-            Value: ( 30.0 )
+            Value: ( 64.0 )
         }
         Attribute {
             Format: FLOAT
@@ -387,71 +308,15 @@ Look {
         }
         Texture {
             Tag: "texture[0]:texture_base"
-            Value: "/vehicle/truck/daf_xf_50k/interior/dashboard"
+            Value: "/vehicle/truck/daf_xf_50k/interior/plastic_dark"
         }
     }
     Material {
-        Alias: "Wheel2_DifSpec"
+        Alias: "Wheel_DifSpec"
         Effect: "eut2.dif.spec.tsnmap"
         Flags: 0
         AttributeCount: 5
         TextureCount: 2
-        Attribute {
-            Format: FLOAT3
-            Tag: "diffuse"
-            Value: ( 1.0 1.0 1.0 )
-        }
-        Attribute {
-            Format: FLOAT3
-            Tag: "specular"
-            Value: ( 0.32389000058174133 0.32389000058174133 0.32389000058174133 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "shininess"
-            Value: ( 50.0 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "add_ambient"
-            Value: ( 0.0 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "reflection"
-            Value: ( 0.0 )
-        }
-        Texture {
-            Tag: "texture[0]:texture_nmap"
-            Value: "/vehicle/truck/daf_xf_50k/interior/swheel_01_n"
-        }
-        Texture {
-            Tag: "texture[1]:texture_base"
-            Value: "/vehicle/truck/daf_xf_50k/interior/swheel_01"
-        }
-    }
-    Material {
-        Alias: "Dashboard_UnlitVcolTexAOver"
-        Effect: "eut2.unlit.vcol.tex.a.over"
-        Flags: 0
-        AttributeCount: 1
-        TextureCount: 1
-        Attribute {
-            Format: FLOAT3
-            Tag: "diffuse"
-            Value: ( 1.0 1.0 1.0 )
-        }
-        Texture {
-            Tag: "texture[0]:texture_base"
-            Value: "/vehicle/truck/daf_xf_50k/interior/dashboard"
-        }
-    }
-    Material {
-        Alias: "Dashboard_DifLum"
-        Effect: "eut2.dif.spec"
-        Flags: 0
-        AttributeCount: 5
-        TextureCount: 1
         Attribute {
             Format: FLOAT3
             Tag: "diffuse"
@@ -478,8 +343,143 @@ Look {
             Value: ( 0.0 )
         }
         Texture {
+            Tag: "texture[0]:texture_nmap"
+            Value: "/vehicle/truck/daf_xf_50k/interior/swheel_02_n"
+        }
+        Texture {
+            Tag: "texture[1]:texture_base"
+            Value: "/vehicle/truck/daf_xf_50k/interior/swheel_02"
+        }
+    }
+    Material {
+        Alias: "Wheel3_DifSpec"
+        Effect: "eut2.dif.spec.tsnmap"
+        Flags: 0
+        AttributeCount: 5
+        TextureCount: 2
+        Attribute {
+            Format: FLOAT3
+            Tag: "diffuse"
+            Value: ( 1.0 1.0 1.0 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "specular"
+            Value: ( 0.33104801177978516 0.33104801177978516 0.33104801177978516 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "shininess"
+            Value: ( 60.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "add_ambient"
+            Value: ( 0.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "reflection"
+            Value: ( 0.0 )
+        }
+        Texture {
+            Tag: "texture[0]:texture_nmap"
+            Value: "/vehicle/truck/daf_xf_50k/interior/swheel_03_n"
+        }
+        Texture {
+            Tag: "texture[1]:texture_base"
+            Value: "/vehicle/truck/daf_xf_50k/interior/swheel_03"
+        }
+    }
+    Material {
+        Alias: "DashboardHD_DifLum"
+        Effect: "eut2.dif.lum"
+        Flags: 0
+        AttributeCount: 5
+        TextureCount: 1
+        Attribute {
+            Format: FLOAT3
+            Tag: "diffuse"
+            Value: ( 1.0 1.0 1.0 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "specular"
+            Value: ( 0.09462569653987885 0.09462569653987885 0.09462569653987885 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "shininess"
+            Value: ( 50.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "add_ambient"
+            Value: ( 0.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "reflection"
+            Value: ( 0.0 )
+        }
+        Texture {
             Tag: "texture[0]:texture_base"
-            Value: "/vehicle/truck/daf_xf_50k/interior/dashboard"
+            Value: "/vehicle/truck/daf_xf_50k/interior/dashboard_hd"
+        }
+    }
+    Material {
+        Alias: "Windows_Glass"
+        Effect: "eut2.glass"
+        Flags: 0
+        AttributeCount: 8
+        TextureCount: 2
+        Attribute {
+            Format: FLOAT3
+            Tag: "diffuse"
+            Value: ( 1.0 1.0 1.0 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "specular"
+            Value: ( 0.15048100054264069 0.15048100054264069 0.15048100054264069 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "shininess"
+            Value: ( 240.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "add_ambient"
+            Value: ( 0.0 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "env_factor"
+            Value: ( 0.31854701042175293 0.31854701042175293 0.31854701042175293 )
+        }
+        Attribute {
+            Format: FLOAT2
+            Tag: "fresnel"
+            Value: ( 1.0 2.0 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "tint"
+            Value: ( 0.7874119877815247 0.7874119877815247 0.7874119877815247 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "tint_opacity"
+            Value: ( 0.0 )
+        }
+        Texture {
+            Tag: "texture[0]:texture_base"
+            Value: "/vehicle/truck/daf_xf_50k/glass"
+        }
+        Texture {
+            Tag: "texture[1]:texture_reflection"
+            Value: "/material/environment/vehicle_reflection"
         }
     }
 }
@@ -558,102 +558,11 @@ Look {
         }
     }
     Material {
-        Alias: "Windows_Glass"
-        Effect: "eut2.glass"
-        Flags: 0
-        AttributeCount: 8
-        TextureCount: 2
-        Attribute {
-            Format: FLOAT3
-            Tag: "diffuse"
-            Value: ( 1.0 1.0 1.0 )
-        }
-        Attribute {
-            Format: FLOAT3
-            Tag: "specular"
-            Value: ( 0.15048100054264069 0.15048100054264069 0.15048100054264069 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "shininess"
-            Value: ( 240.0 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "add_ambient"
-            Value: ( 0.0 )
-        }
-        Attribute {
-            Format: FLOAT3
-            Tag: "env_factor"
-            Value: ( 0.31854701042175293 0.31854701042175293 0.31854701042175293 )
-        }
-        Attribute {
-            Format: FLOAT2
-            Tag: "fresnel"
-            Value: ( 1.0 2.0 )
-        }
-        Attribute {
-            Format: FLOAT3
-            Tag: "tint"
-            Value: ( 0.7874119877815247 0.7874119877815247 0.7874119877815247 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "tint_opacity"
-            Value: ( 0.0 )
-        }
-        Texture {
-            Tag: "texture[0]:texture_base"
-            Value: "/vehicle/truck/daf_xf_50k/glass"
-        }
-        Texture {
-            Tag: "texture[1]:texture_reflection"
-            Value: "/material/environment/vehicle_reflection"
-        }
-    }
-    Material {
-        Alias: "DashboardHD_DifLum"
-        Effect: "eut2.dif.lum"
+        Alias: "Dashboard_DifLum"
+        Effect: "eut2.dif.spec"
         Flags: 0
         AttributeCount: 5
         TextureCount: 1
-        Attribute {
-            Format: FLOAT3
-            Tag: "diffuse"
-            Value: ( 1.0 1.0 1.0 )
-        }
-        Attribute {
-            Format: FLOAT3
-            Tag: "specular"
-            Value: ( 0.10048100352287292 0.10048100352287292 0.10048100352287292 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "shininess"
-            Value: ( 120.0 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "add_ambient"
-            Value: ( 0.0 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "reflection"
-            Value: ( 0.0 )
-        }
-        Texture {
-            Tag: "texture[0]:texture_base"
-            Value: "/vehicle/truck/daf_xf_50k/interior/dashboard_hd"
-        }
-    }
-    Material {
-        Alias: "Wheel3_DifSpec"
-        Effect: "eut2.dif.spec.tsnmap"
-        Flags: 0
-        AttributeCount: 5
-        TextureCount: 2
         Attribute {
             Format: FLOAT3
             Tag: "diffuse"
@@ -680,16 +589,28 @@ Look {
             Value: ( 0.0 )
         }
         Texture {
-            Tag: "texture[0]:texture_nmap"
-            Value: "/vehicle/truck/daf_xf_50k/interior/swheel_03_n"
-        }
-        Texture {
-            Tag: "texture[1]:texture_base"
-            Value: "/vehicle/truck/daf_xf_50k/interior/swheel_03"
+            Tag: "texture[0]:texture_base"
+            Value: "/vehicle/truck/daf_xf_50k/interior/dashboard"
         }
     }
     Material {
-        Alias: "Wheel_DifSpec"
+        Alias: "Dashboard_UnlitVcolTexAOver"
+        Effect: "eut2.unlit.vcol.tex.a.over"
+        Flags: 0
+        AttributeCount: 1
+        TextureCount: 1
+        Attribute {
+            Format: FLOAT3
+            Tag: "diffuse"
+            Value: ( 1.0 1.0 1.0 )
+        }
+        Texture {
+            Tag: "texture[0]:texture_base"
+            Value: "/vehicle/truck/daf_xf_50k/interior/dashboard"
+        }
+    }
+    Material {
+        Alias: "Wheel2_DifSpec"
         Effect: "eut2.dif.spec.tsnmap"
         Flags: 0
         AttributeCount: 5
@@ -702,12 +623,12 @@ Look {
         Attribute {
             Format: FLOAT3
             Tag: "specular"
-            Value: ( 0.33104801177978516 0.33104801177978516 0.33104801177978516 )
+            Value: ( 0.32389000058174133 0.32389000058174133 0.32389000058174133 )
         }
         Attribute {
             Format: FLOAT
             Tag: "shininess"
-            Value: ( 60.0 )
+            Value: ( 50.0 )
         }
         Attribute {
             Format: FLOAT
@@ -721,16 +642,16 @@ Look {
         }
         Texture {
             Tag: "texture[0]:texture_nmap"
-            Value: "/vehicle/truck/daf_xf_50k/interior/swheel_02_n"
+            Value: "/vehicle/truck/daf_xf_50k/interior/swheel_01_n"
         }
         Texture {
             Tag: "texture[1]:texture_base"
-            Value: "/vehicle/truck/daf_xf_50k/interior/swheel_02"
+            Value: "/vehicle/truck/daf_xf_50k/interior/swheel_01"
         }
     }
     Material {
-        Alias: "PlasticDark_DifSpec"
-        Effect: "eut2.dif.spec.weight"
+        Alias: "Dashboard_DifSpecOver"
+        Effect: "eut2.dif.spec.over"
         Flags: 0
         AttributeCount: 5
         TextureCount: 1
@@ -742,12 +663,12 @@ Look {
         Attribute {
             Format: FLOAT3
             Tag: "specular"
-            Value: ( 0.010048099793493748 0.010048099793493748 0.010048099793493748 )
+            Value: ( 0.05087609961628914 0.05087609961628914 0.05087609961628914 )
         }
         Attribute {
             Format: FLOAT
             Tag: "shininess"
-            Value: ( 64.0 )
+            Value: ( 30.0 )
         }
         Attribute {
             Format: FLOAT
@@ -761,7 +682,7 @@ Look {
         }
         Texture {
             Tag: "texture[0]:texture_base"
-            Value: "/vehicle/truck/daf_xf_50k/interior/plastic_dark_cheap"
+            Value: "/vehicle/truck/daf_xf_50k/interior/dashboard"
         }
     }
     Material {
@@ -815,8 +736,8 @@ Look {
         }
     }
     Material {
-        Alias: "Dashboard_DifSpecOver"
-        Effect: "eut2.dif.spec.over"
+        Alias: "PlasticDark_DifSpec"
+        Effect: "eut2.dif.spec.weight"
         Flags: 0
         AttributeCount: 5
         TextureCount: 1
@@ -828,12 +749,12 @@ Look {
         Attribute {
             Format: FLOAT3
             Tag: "specular"
-            Value: ( 0.05087609961628914 0.05087609961628914 0.05087609961628914 )
+            Value: ( 0.010048099793493748 0.010048099793493748 0.010048099793493748 )
         }
         Attribute {
             Format: FLOAT
             Tag: "shininess"
-            Value: ( 30.0 )
+            Value: ( 64.0 )
         }
         Attribute {
             Format: FLOAT
@@ -847,71 +768,15 @@ Look {
         }
         Texture {
             Tag: "texture[0]:texture_base"
-            Value: "/vehicle/truck/daf_xf_50k/interior/dashboard"
+            Value: "/vehicle/truck/daf_xf_50k/interior/plastic_dark_cheap"
         }
     }
     Material {
-        Alias: "Wheel2_DifSpec"
+        Alias: "Wheel_DifSpec"
         Effect: "eut2.dif.spec.tsnmap"
         Flags: 0
         AttributeCount: 5
         TextureCount: 2
-        Attribute {
-            Format: FLOAT3
-            Tag: "diffuse"
-            Value: ( 1.0 1.0 1.0 )
-        }
-        Attribute {
-            Format: FLOAT3
-            Tag: "specular"
-            Value: ( 0.32389000058174133 0.32389000058174133 0.32389000058174133 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "shininess"
-            Value: ( 50.0 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "add_ambient"
-            Value: ( 0.0 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "reflection"
-            Value: ( 0.0 )
-        }
-        Texture {
-            Tag: "texture[0]:texture_nmap"
-            Value: "/vehicle/truck/daf_xf_50k/interior/swheel_01_n"
-        }
-        Texture {
-            Tag: "texture[1]:texture_base"
-            Value: "/vehicle/truck/daf_xf_50k/interior/swheel_01"
-        }
-    }
-    Material {
-        Alias: "Dashboard_UnlitVcolTexAOver"
-        Effect: "eut2.unlit.vcol.tex.a.over"
-        Flags: 0
-        AttributeCount: 1
-        TextureCount: 1
-        Attribute {
-            Format: FLOAT3
-            Tag: "diffuse"
-            Value: ( 1.0 1.0 1.0 )
-        }
-        Texture {
-            Tag: "texture[0]:texture_base"
-            Value: "/vehicle/truck/daf_xf_50k/interior/dashboard"
-        }
-    }
-    Material {
-        Alias: "Dashboard_DifLum"
-        Effect: "eut2.dif.spec"
-        Flags: 0
-        AttributeCount: 5
-        TextureCount: 1
         Attribute {
             Format: FLOAT3
             Tag: "diffuse"
@@ -938,8 +803,143 @@ Look {
             Value: ( 0.0 )
         }
         Texture {
+            Tag: "texture[0]:texture_nmap"
+            Value: "/vehicle/truck/daf_xf_50k/interior/swheel_02_n"
+        }
+        Texture {
+            Tag: "texture[1]:texture_base"
+            Value: "/vehicle/truck/daf_xf_50k/interior/swheel_02"
+        }
+    }
+    Material {
+        Alias: "Wheel3_DifSpec"
+        Effect: "eut2.dif.spec.tsnmap"
+        Flags: 0
+        AttributeCount: 5
+        TextureCount: 2
+        Attribute {
+            Format: FLOAT3
+            Tag: "diffuse"
+            Value: ( 1.0 1.0 1.0 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "specular"
+            Value: ( 0.33104801177978516 0.33104801177978516 0.33104801177978516 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "shininess"
+            Value: ( 60.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "add_ambient"
+            Value: ( 0.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "reflection"
+            Value: ( 0.0 )
+        }
+        Texture {
+            Tag: "texture[0]:texture_nmap"
+            Value: "/vehicle/truck/daf_xf_50k/interior/swheel_03_n"
+        }
+        Texture {
+            Tag: "texture[1]:texture_base"
+            Value: "/vehicle/truck/daf_xf_50k/interior/swheel_03"
+        }
+    }
+    Material {
+        Alias: "DashboardHD_DifLum"
+        Effect: "eut2.dif.lum"
+        Flags: 0
+        AttributeCount: 5
+        TextureCount: 1
+        Attribute {
+            Format: FLOAT3
+            Tag: "diffuse"
+            Value: ( 1.0 1.0 1.0 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "specular"
+            Value: ( 0.10048100352287292 0.10048100352287292 0.10048100352287292 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "shininess"
+            Value: ( 120.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "add_ambient"
+            Value: ( 0.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "reflection"
+            Value: ( 0.0 )
+        }
+        Texture {
             Tag: "texture[0]:texture_base"
-            Value: "/vehicle/truck/daf_xf_50k/interior/dashboard"
+            Value: "/vehicle/truck/daf_xf_50k/interior/dashboard_hd"
+        }
+    }
+    Material {
+        Alias: "Windows_Glass"
+        Effect: "eut2.glass"
+        Flags: 0
+        AttributeCount: 8
+        TextureCount: 2
+        Attribute {
+            Format: FLOAT3
+            Tag: "diffuse"
+            Value: ( 1.0 1.0 1.0 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "specular"
+            Value: ( 0.15048100054264069 0.15048100054264069 0.15048100054264069 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "shininess"
+            Value: ( 240.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "add_ambient"
+            Value: ( 0.0 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "env_factor"
+            Value: ( 0.31854701042175293 0.31854701042175293 0.31854701042175293 )
+        }
+        Attribute {
+            Format: FLOAT2
+            Tag: "fresnel"
+            Value: ( 1.0 2.0 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "tint"
+            Value: ( 0.7874119877815247 0.7874119877815247 0.7874119877815247 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "tint_opacity"
+            Value: ( 0.0 )
+        }
+        Texture {
+            Tag: "texture[0]:texture_base"
+            Value: "/vehicle/truck/daf_xf_50k/glass"
+        }
+        Texture {
+            Tag: "texture[1]:texture_reflection"
+            Value: "/material/environment/vehicle_reflection"
         }
     }
 }
