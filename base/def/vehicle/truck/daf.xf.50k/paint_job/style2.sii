@@ -14,6 +14,7 @@ accessory_paint_job_data : style2.daf.xf.50k.paint_job
 	mask_b_locked: false
 	base_color :    (0.6866, 0.6239, 0.462)
 	base_color_locked: false
-	paint_job_mask: "/vehicle/truck/upgrade/paintjob/paintjob_002_daf.tobj"
+	paint_job_mask: "/vehicle/truck/upgrade/paintjob/paintjob_002.tobj"
+	alternate_uvset: true
 }
 }

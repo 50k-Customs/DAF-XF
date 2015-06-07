@@ -3,7 +3,7 @@ SiiNunit
 accessory_paint_job_data : style4.daf.xf.50k.paint_job
 {
 	name: "Grand Tour"
-	price: 10000
+	price: 13500
 	unlock: 5
 	icon: "paintjob_style4"
 	mask_r_color : (0.0, 0.0, 0.0)
@@ -14,6 +14,8 @@ accessory_paint_job_data : style4.daf.xf.50k.paint_job
 	mask_b_locked: false
 	base_color :   (0.9, 0.9, 0.9)
 	base_color_locked: false
-	paint_job_mask: "/vehicle/truck/upgrade/paintjob/paintjob_004.tobj"
+	paint_job_mask: "/vehicle/truck/upgrade/paintjob/paintjob_004_a.tobj"
+	alternate_uvset: true
+        alternate_uvset: true
 }
 }
