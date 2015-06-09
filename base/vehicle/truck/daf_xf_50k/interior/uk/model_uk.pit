@@ -13,7 +13,7 @@
 #
 Header {
     FormatVersion: 1
-    Source: "Blender 2.74.0 (hash: 000dfc0), SCS Blender Tools: 0.5.a46f0c9"
+    Source: "Blender 2.74.0 (hash: 000dfc0), SCS Blender Tools: 0.5.9b28854"
     Type: "Trait"
     Name: "model_uk"
 }
@@ -111,12 +111,12 @@ Look {
         Attribute {
             Format: FLOAT3
             Tag: "specular"
-            Value: ( 0.33104801177978516 0.33104801177978516 0.33104801177978516 )
+            Value: ( 0.10048100352287292 0.10048100352287292 0.10048100352287292 )
         }
         Attribute {
             Format: FLOAT
             Tag: "shininess"
-            Value: ( 60.0 )
+            Value: ( 150.0 )
         }
         Attribute {
             Format: FLOAT
@@ -800,7 +800,7 @@ Look {
         Attribute {
             Format: FLOAT
             Tag: "shininess"
-            Value: ( 64.0 )
+            Value: ( 50.0 )
         }
         Attribute {
             Format: FLOAT
