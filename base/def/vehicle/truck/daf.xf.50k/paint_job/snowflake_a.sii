@@ -1,0 +1,15 @@
+SiiNunit
+{
+accessory_paint_job_data : snowflake_a.daf.xf.50k.paint_job
+{
+	name: "Glittering Snowflake"
+	price: 17200
+	unlock: 0
+	icon: "paintjob_snowflake"
+	airbrush : true
+	base_color : (0.0544, 0.3864, 0.9386)
+	paint_job_mask: "/vehicle/truck/upgrade/paintjob/paintjob_snowflake_daf_a.tobj"
+	suitable_for[]: "super_s_cab.daf.xf.50k.cabin"
+	suitable_for[]: "super_s_cabp.daf.xf.50k.cabin"
+}
+}

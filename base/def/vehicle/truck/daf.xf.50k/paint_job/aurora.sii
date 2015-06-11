@@ -1,0 +1,13 @@
+SiiNunit
+{
+accessory_paint_job_data : aurora.daf.xf.50k.paint_job
+{
+	name: "Northern Lights"
+	price: 17000
+	unlock: 0
+	icon: "paintjob_aurora"
+	airbrush : true
+	base_color : (0.0, 0.0018, 0.0051)
+	paint_job_mask: "/vehicle/truck/upgrade/paintjob/paintjob_aurora_daf.tobj"
+}
+}

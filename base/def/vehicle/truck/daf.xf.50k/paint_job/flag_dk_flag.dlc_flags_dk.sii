@@ -1,0 +1,23 @@
+SiiNunit
+{
+accessory_paint_job_data : flag.daf.xf.50k.paint_job
+{
+	name: "Danish Flag Metallic"
+	price: 20000
+	unlock: 0
+	icon: "paintjob_flag_dk_flag.dlc_flags_dk"
+	airbrush : true
+        flipflake : true
+        flip_color : (0.9734, 0.107, 0.198)
+        flip_strength : 1.7
+        flake_color : (0.2925, 0.0027, 0.0173)
+        flake_uvscale : 24.0
+        flake_density : 1.0
+        flake_shininess : 20.0
+        flake_clearcoat_rolloff : 4.5
+        flake_noise : "/material/custom/flake_noise.tobj"
+        base_color : (0.5647, 0.0036, 0.0295)
+	paint_job_mask: "/vehicle/truck/upgrade/paintjob/paintjob_flag_dk_flag_daf.dlc_flags_dk.tobj"
+        alternate_uvset: true
+}
+}

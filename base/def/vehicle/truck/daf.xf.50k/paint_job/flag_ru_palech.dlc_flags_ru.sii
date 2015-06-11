@@ -1,0 +1,27 @@
+SiiNunit
+{
+	accessory_paint_job_data : ru_palech.daf.xf.50k.paint_job
+		{
+			
+			airbrush: true
+			airbrush : true
+  flipflake : true
+  flip_color : (0.137, 0.152, 0.085)
+  flip_strength : 1.6
+  flake_color : (0.430, 0.410, 0.153)
+  flake_uvscale : 8.0
+  flake_density : 1.0
+  flake_shininess : 40.0
+  flake_clearcoat_rolloff : 4.5
+  flake_noise : "/material/custom/flake_noise.tobj"
+  base_color : (0.030, 0.030, 0.030)
+
+			icon: "paintjob_flag_ru_palech.dlc_flags_ru"
+			price: 20000
+			unlock: 0
+			paint_job_mask: "/vehicle/truck/upgrade/paintjob/paintjob_flag_ru_palech_daf.dlc_flags_ru.tobj"
+			alternate_uvset: true
+			name: "Russian Troika"
+
+		}
+}

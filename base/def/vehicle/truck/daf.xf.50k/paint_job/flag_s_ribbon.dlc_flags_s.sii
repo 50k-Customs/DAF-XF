@@ -1,0 +1,15 @@
+SiiNunit
+{
+accessory_paint_job_data : s_ribbon.daf.xf.50k.paint_job
+{
+	name: "Swedish Fan Ribbon"
+	price: 20000
+	unlock: 0
+	icon: "paintjob_flag_s_ribbon.dlc_flags_s"
+	airbrush : true
+        base_color : (0.2086, 0.2086, 0.2086)
+	base_color_locked: false
+	paint_job_mask: "/vehicle/truck/upgrade/paintjob/paintjob_flag_s_ribbon_daf.dlc_flags_s.tobj"
+        alternate_uvset: true
+}
+}

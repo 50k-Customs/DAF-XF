@@ -1,0 +1,13 @@
+SiiNunit
+{
+accessory_paint_job_data : wolf.daf.xf.50k.paint_job
+{
+	name: "Crying Wolf"
+	price: 17000
+	unlock: 0
+	icon: "paintjob_wolf"
+	airbrush : true
+	base_color : (0.0069, 0.0036, 0.0)
+	paint_job_mask: "/vehicle/truck/upgrade/paintjob/paintjob_wolf_daf.tobj"
+}
+}

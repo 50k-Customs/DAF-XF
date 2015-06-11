@@ -1,0 +1,16 @@
+SiiNunit
+{
+accessory_paint_job_data : lightning_a.daf.xf.50k.paint_job
+{
+	name: "Lightning Bolt"
+	price: 19000
+	unlock: 0
+	icon: "paintjob_lightning.dlc_nature"
+	airbrush : true
+	base_color : (0.0006, 0.0051, 0.0097)
+	paint_job_mask: "/vehicle/truck/upgrade/paintjob/paintjob_lightning_daf_a.dlc_nature.tobj"
+	suitable_for[]: "super_s_cab.daf.xf.50k.cabin"
+	suitable_for[]: "super_s_cabp.daf.xf.50k.cabin"
+	alternate_uvset: true
+}
+}

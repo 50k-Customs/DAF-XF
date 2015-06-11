@@ -1,0 +1,18 @@
+SiiNunit
+{
+accessory_paint_job_data : fire_b.daf.xf.50k.paint_job
+{
+	name: "Blazing Fire"
+	price: 18600
+	unlock: 0
+	icon: "paintjob_fire.dlc_nature"
+	airbrush : true
+	base_color :  (0.205, 0.0284, 0.0033)
+	paint_job_mask: "/vehicle/truck/upgrade/paintjob/paintjob_fire_b.dlc_nature.tobj"
+	suitable_for[]: "s_cab_plus1.daf.xf.50k.cabin"
+	suitable_for[]: "s_cab_plus.daf.xf.50k.cabin"
+	suitable_for[]: "s_cab_plus1p.daf.xf.50k.cabin"
+	suitable_for[]: "s_cab_plus_p.daf.xf.50k.cabin"
+	alternate_uvset: true
+}
+}

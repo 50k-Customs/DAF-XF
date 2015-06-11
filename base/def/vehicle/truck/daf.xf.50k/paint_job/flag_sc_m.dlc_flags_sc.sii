@@ -1,0 +1,25 @@
+SiiNunit
+{
+accessory_paint_job_data : flag_sc_m.daf.xf.50k.paint_job
+{
+  name: "Scottish Flag Metallic"
+  price: 20000
+  unlock: 0
+  icon: "paintjob_flag_sc_metal.dlc_flags_sc"
+
+  airbrush : true
+  flipflake : true
+  flip_color : (0.0085, 0.0251, 1)
+  flip_strength : 0.5
+  flake_color : (0, 1, 0.4507)
+  flake_uvscale : 20.0
+  flake_density : 0.4
+  flake_shininess : 30.0
+  flake_clearcoat_rolloff : 3.0
+  flake_noise : "/material/custom/flake_noise.tobj"
+  base_color : (0, 0.1912, 0.5394)
+  
+  paint_job_mask : "/vehicle/truck/upgrade/paintjob/paintjob_flag_sc_m.dlc_flags_sc.tobj"
+  alternate_uvset: true
+}
+}

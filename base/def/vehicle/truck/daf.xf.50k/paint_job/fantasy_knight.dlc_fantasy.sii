@@ -1,0 +1,16 @@
+SiiNunit
+{
+accessory_paint_job_data : knight.daf.xf.50k.paint_job
+{
+  name: "Knight Oath"
+  price: 50000
+  unlock: 0
+  icon: "paintjob_fantasy_knight.dlc_fantasy"
+  
+  airbrush : true
+  base_color : (0.314, 0.416, 0.573)
+  
+  paint_job_mask: "/vehicle/truck/upgrade/paintjob/paintjob_fantasy_knight_daf.dlc_fantasy.tobj"
+  alternate_uvset: true
+}
+}

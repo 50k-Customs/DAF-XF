@@ -1,0 +1,15 @@
+SiiNunit
+{
+accessory_paint_job_data : n_ribbon.daf.xf.50k.paint_job
+{
+	name: "Norwegian Fan Ribbon"
+	price: 20000
+	unlock: 0
+	icon: "paintjob_flag_n_ribbon.dlc_flags_n"
+	airbrush : true
+        base_color : (0, 0.0176, 0.1169)
+	base_color_locked: false
+	paint_job_mask: "/vehicle/truck/upgrade/paintjob/paintjob_flag_n_ribbon_daf.dlc_flags_n.tobj"
+        alternate_uvset: true
+}
+}

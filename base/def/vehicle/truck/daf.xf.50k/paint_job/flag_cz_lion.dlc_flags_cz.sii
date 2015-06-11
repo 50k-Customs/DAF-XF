@@ -1,0 +1,26 @@
+SiiNunit
+{
+accessory_paint_job_data : cz_lion.daf.xf.50k.paint_job
+{
+	name: "Two-Tailed Lion"
+	price: 20000
+	unlock: 0
+	icon: "paintjob_flag_cz_lion.dlc_flags_cz"
+	airbrush : true
+        flipflake : true
+	flip_color : (0.3049, 0.3049, 0.3049)
+	flip_strength : 1.0
+	flake_color : (0.7011, 0.7011, 0.7011)
+	flake_uvscale : 32.0
+	flake_density : 0.9
+	flake_shininess : 20.0
+	flake_clearcoat_rolloff : 3.0
+	flake_noise : "/material/custom/flake_noise.tobj"
+	base_color : (0.0251, 0.0251, 0.0251)
+    flip_color_locked : false
+    flake_color_locked : false
+    base_color_locked : false
+	paint_job_mask: "/vehicle/truck/upgrade/paintjob/paintjob_flag_cz_lion_daf.dlc_flags_cz.tobj"
+        alternate_uvset: true
+}
+}

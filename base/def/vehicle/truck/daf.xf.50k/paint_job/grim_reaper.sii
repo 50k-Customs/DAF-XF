@@ -1,0 +1,13 @@
+SiiNunit
+{
+accessory_paint_job_data : grim.daf.xf.50k.paint_job
+{
+	name: "Grim Reaper"
+	price: 17800
+	unlock: 0
+	icon: "paintjob_grim_reaper"
+	airbrush : true
+	base_color : (0.013, 0.0012, 0.0012)
+	paint_job_mask: "/vehicle/truck/upgrade/paintjob/paintjob_grim_reaper_daf.tobj"
+}
+}

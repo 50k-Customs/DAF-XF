@@ -1,0 +1,14 @@
+SiiNunit
+{
+accessory_paint_job_data : s_viking.daf.xf.50k.paint_job
+{
+	name: "Swedish Guard"
+	price: 20000
+	unlock: 0
+	icon: "paintjob_flag_s_viking.dlc_flags_s"
+	airbrush : true
+        base_color : (0.0466, 0.0802, 0.0998)
+	paint_job_mask: "/vehicle/truck/upgrade/paintjob/paintjob_flag_s_viking_daf.dlc_flags_s.tobj"
+        alternate_uvset: true
+}
+}

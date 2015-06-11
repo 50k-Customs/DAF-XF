@@ -1,0 +1,19 @@
+SiiNunit
+{
+accessory_paint_job_data : polarbear_bc.daf.xf.50k.paint_job
+{
+	name: "Mighty Polar Bear"
+	price: 17600
+	unlock: 0
+	icon: "paintjob_polarbear"
+	airbrush : true
+	base_color : (0.0065, 0.0202, 0.0307)
+	paint_job_mask: "/vehicle/truck/upgrade/paintjob/paintjob_polarbear_daf_bc.tobj"
+	suitable_for[]: "space_cab.daf.xf.50k.cabin"
+	suitable_for[]: "space_cabp.daf.xf.50k.cabin"
+	suitable_for[]: "s_cab_plus1.daf.xf.50k.cabin"
+	suitable_for[]: "s_cab_plus.daf.xf.50k.cabin"
+	suitable_for[]: "s_cab_plus1p.daf.xf.50k.cabin"
+	suitable_for[]: "s_cab_plus_p.daf.xf.50k.cabin"
+}
+}

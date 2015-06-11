@@ -1,0 +1,14 @@
+SiiNunit
+{
+accessory_paint_job_data : us_chieftain.daf.xf.50k.paint_job
+{
+	name: "Mustang Rider"
+	price: 20000
+	unlock: 0
+	icon: "paintjob_flag_us_chieftain.dlc_flags_us"
+	airbrush : true
+	base_color : (0.427, 0.243, 0.169)
+	paint_job_mask: "/vehicle/truck/upgrade/paintjob/paintjob_us_chieftain_daf.dlc_flags_us.tobj"
+    alternate_uvset: true
+}
+}

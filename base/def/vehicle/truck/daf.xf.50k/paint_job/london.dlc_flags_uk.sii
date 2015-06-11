@@ -1,0 +1,17 @@
+SiiNunit
+{
+accessory_paint_job_data : london.daf.xf.50k.paint_job
+{
+  name: "London Sights"
+  price: 20000
+  unlock: 0
+  icon: "paintjob_london.dlc_flags_uk"
+
+  airbrush : true
+  base_color : (0.0528, 0.0953, 0.2704)
+  base_color_locked : true
+  
+  paint_job_mask : "/vehicle/truck/upgrade/paintjob/paintjob_uk_london_daf.dlc_flags_uk.tobj"
+  alternate_uvset: true
+}
+}

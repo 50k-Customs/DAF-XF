@@ -1,0 +1,25 @@
+SiiNunit
+{
+accessory_paint_job_data : heavy_duty.daf.xf.50k.paint_job
+{
+	name: "Heavy Duty Universal"
+	price: 26200
+  unlock: 0
+  icon: "paintjob_heavy_duty.dlc_trailers"     
+  
+  mask_r_color :  (0.0176, 0.1811, 0.0528)
+	mask_r_locked: false
+  
+	mask_g_color : (0.7156, 0.7156, 0.7156)
+	mask_g_locked: false
+  
+	mask_b_color : (0.2501, 0, 0)
+	mask_b_locked: false
+  
+	base_color : (0, 0.0886, 0.0152)
+	base_color_locked: false
+  
+	paint_job_mask: "/vehicle/truck/upgrade/paintjob/paintjob_heavy_duty_daf.dlc_trailers.tobj"
+  alternate_uvset: true
+}
+}

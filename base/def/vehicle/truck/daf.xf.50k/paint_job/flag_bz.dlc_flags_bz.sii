@@ -1,0 +1,25 @@
+SiiNunit
+{
+accessory_paint_job_data : flag_bz_m.daf.xf.50k.paint_job
+{
+  name: "Brazilian Flag Metallic"
+  price: 20000
+  unlock: 0
+  icon: "paintjob_flag_bz_metal.dlc_flags_bz"
+  
+  airbrush : true
+  flipflake : true
+  flip_color : (0.0466, 0.1247, 0.0051)
+  flip_strength : 0.9
+  flake_color : (1, 0.5711, 0)
+  flake_uvscale : 20.0
+  flake_density : 0.6
+  flake_shininess : 60.0
+  flake_clearcoat_rolloff : 3
+  flake_noise : "/material/custom/flake_noise.tobj"
+  base_color : (0, 0.3324, 0.0666)
+  
+  paint_job_mask: "/vehicle/truck/upgrade/paintjob/paintjob_flag_bz_m.dlc_flags_bz.tobj"
+  alternate_uvset: true
+}
+}

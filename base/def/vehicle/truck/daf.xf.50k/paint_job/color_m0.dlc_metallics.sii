@@ -1,0 +1,27 @@
+SiiNunit
+{
+accessory_paint_job_data : color_m0.daf.xf.50k.paint_job
+{
+	name: "Amber Glory Metallic"
+	price: 9500
+	unlock: 0
+  icon: "met_color0.dlc_metallics"
+	base_color : (0.2462, 0.0318, 0)
+	base_color_locked: true
+	stock: false
+  
+  flipflake : true
+  
+  flip_color : (0.0953, 0.0193, 0)
+  flake_color: (1, 0.3419, 0.063)
+  
+  flip_strength: 1.7
+  flake_uvscale :  48.0
+   flake_density :  1.0
+  flake_shininess :  20.0
+  flake_clearcoat_rolloff :  4.5
+  flake_noise: "/material/custom/flake_noise.tobj"
+  
+  alternate_uvset: true
+}
+}

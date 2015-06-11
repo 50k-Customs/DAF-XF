@@ -1,0 +1,14 @@
+SiiNunit
+{
+accessory_paint_job_data : can_flag.daf.xf.50k.paint_job
+{
+	name: "Canadian Flag"
+	price: 20000
+	unlock: 0
+	icon: "paintjob_flag_ca.dlc_flags_ca"
+	airbrush : true
+        base_color : (0.4851, 0, 0)
+	paint_job_mask: "/vehicle/truck/upgrade/paintjob/paintjob_flag_ca_daf.dlc_flags_ca.tobj"
+        alternate_uvset: true
+}
+}

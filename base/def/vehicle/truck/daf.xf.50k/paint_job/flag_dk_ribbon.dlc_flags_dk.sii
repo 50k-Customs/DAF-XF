@@ -1,0 +1,15 @@
+SiiNunit
+{
+accessory_paint_job_data : dk_ribbon.daf.xf.50k.paint_job
+{
+	name: "Danish Fan Ribbon"
+	price: 20000
+	unlock: 0
+	icon: "paintjob_flag_dk_ribbon.dlc_flags_dk"
+	airbrush : true
+        base_color : (0.4507, 0.4507, 0.4507)
+	base_color_locked: false
+	paint_job_mask: "/vehicle/truck/upgrade/paintjob/paintjob_flag_dk_ribbon_daf.dlc_flags_dk.tobj"
+        alternate_uvset: true
+}
+}

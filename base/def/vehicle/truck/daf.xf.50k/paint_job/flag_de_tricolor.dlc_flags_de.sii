@@ -1,0 +1,14 @@
+SiiNunit
+{
+accessory_paint_job_data : de_tricolor.daf.xf.50k.paint_job
+{
+	name: "Black, Red and Gold"
+	price: 20000
+	unlock: 0
+	icon: "paintjob_flag_tricolor_de.dlc_flags_de"
+	airbrush : true
+        base_color : (0, 0, 0)
+	paint_job_mask: "/vehicle/truck/upgrade/paintjob/paintjob_flag_de_tricolor_daf.dlc_flags_de.tobj"
+        alternate_uvset: true
+}
+}

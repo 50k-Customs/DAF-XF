@@ -1,0 +1,14 @@
+SiiNunit
+{
+accessory_paint_job_data : de_city.daf.xf.50k.paint_job
+{
+	name: "Berlin Sights"
+	price: 20000
+	unlock: 0
+	icon: "paintjob_flag_city_de.dlc_flags_de"
+	airbrush : true
+        base_color : (0.0202, 0.0202, 0.0202)
+	paint_job_mask: "/vehicle/truck/upgrade/paintjob/paintjob_flag_de_city_daf.dlc_flags_de.tobj"
+        alternate_uvset: true
+}
+}

@@ -1,0 +1,16 @@
+SiiNunit
+{
+accessory_paint_job_data : smoke_a.daf.xf.50k.paint_job
+{
+	name: "Smoke Puffs"
+	price: 18200
+	unlock: 0
+	icon: "paintjob_smoke.dlc_nature"
+	airbrush : true
+	base_color :  (0.0003, 0.0043, 0.0074)
+	paint_job_mask: "/vehicle/truck/upgrade/paintjob/paintjob_smoke_daf.dlc_nature.tobj"
+	suitable_for[]: "super_s_cab.daf.xf.50k.cabin"
+	suitable_for[]: "super_s_cabp.daf.xf.50k.cabin"
+	alternate_uvset: true
+}
+}

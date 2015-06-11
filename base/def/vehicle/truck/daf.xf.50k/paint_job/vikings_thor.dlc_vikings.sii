@@ -1,0 +1,14 @@
+SiiNunit
+{
+accessory_paint_job_data : vl_thor.daf.xf.50k.paint_job
+{
+	name: "Thor's Fury"
+	price: 50000
+	unlock: 0
+	icon: "paintjob_vikings_thor.dlc_vikings"
+	airbrush : true
+	base_color : (0.020, 0.051, 0.141)
+	paint_job_mask: "/vehicle/truck/upgrade/paintjob/paintjob_vikings_thor_daf.dlc_vikings.tobj"
+    alternate_uvset: true
+}
+}

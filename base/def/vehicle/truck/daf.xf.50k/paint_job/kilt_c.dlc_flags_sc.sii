@@ -1,0 +1,16 @@
+SiiNunit
+{
+accessory_paint_job_data : sc_kilt_c.daf.xf.50k.paint_job
+{
+	name: "Kilted Warrior"
+	price: 20000
+	unlock: 0
+	icon: "paintjob_sc_kilt.dlc_flags_sc"
+	airbrush : true
+	base_color : (0, 0.0176, 0.0065)
+	paint_job_mask: "/vehicle/truck/upgrade/paintjob/paintjob_sc_kilt_daf_c.dlc_flags_sc.tobj"
+    suitable_for[]: "space_cab.daf.xf.50k.cabin"
+	suitable_for[]: "space_cabp.daf.xf.50k.cabin"
+    alternate_uvset: true
+}
+}

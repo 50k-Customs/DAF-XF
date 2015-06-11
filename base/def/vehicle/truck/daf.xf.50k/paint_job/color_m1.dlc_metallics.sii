@@ -1,0 +1,27 @@
+SiiNunit
+{
+accessory_paint_job_data : color_m1.daf.xf.50k.paint_job
+{
+  name: "Grand Citrine Metallic"
+	price: 9500
+	unlock: 0
+  icon: "met_color1.dlc_metallics"
+	base_color : (0.9911, 0.5332, 0.0761)
+	base_color_locked: true
+	stock: false
+  
+  flipflake : true
+  
+  flip_color : (0.3467, 0.162, 0.0003)
+  flake_color: (1, 0.4232, 0)
+  
+  flip_strength: 1.7
+  flake_uvscale :  48.0
+   flake_density :  1.0
+  flake_shininess :  20.0
+  flake_clearcoat_rolloff :  4.5
+  flake_noise: "/material/custom/flake_noise.tobj"
+  
+  alternate_uvset: true
+}
+}

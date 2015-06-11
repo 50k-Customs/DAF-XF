@@ -1,0 +1,25 @@
+SiiNunit
+{
+accessory_paint_job_data : flag_uk_m.daf.xf.50k.paint_job
+{
+  name: "UK Flag Metallic"
+  price: 20000
+  unlock: 0
+  icon: "paintjob_flag_uk_metal.dlc_flags_uk"
+
+  airbrush : true
+  flipflake : true
+  flip_color : (0.0273, 0.0307, 0.2874)
+  flip_strength : 0.9
+  flake_color : (0, 0.4735, 1)
+  flake_uvscale : 24.0
+  flake_density : 0.2
+  flake_shininess : 30.0
+  flake_clearcoat_rolloff : 3.0
+  flake_noise : "/material/custom/flake_noise.tobj"
+  base_color : (0, 0.3467, 1)
+  
+  paint_job_mask : "/vehicle/truck/upgrade/paintjob/paintjob_flag_uk_m.dlc_flags_uk.tobj"
+  alternate_uvset: true
+}
+}

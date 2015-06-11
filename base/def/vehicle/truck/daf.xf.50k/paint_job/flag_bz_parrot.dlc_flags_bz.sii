@@ -1,0 +1,14 @@
+SiiNunit
+{
+accessory_paint_job_data : bz_parrot.daf.xf.50k.paint_job
+{
+	name: "Brazilian Macaw"
+	price: 20000
+	unlock: 0
+	icon: "paintjob_flag_bz_parrot.dlc_flags_bz"
+	airbrush : true
+	base_color : (0, 0.3277, 0.063)
+	paint_job_mask: "/vehicle/truck/upgrade/paintjob/paintjob_bz_parrot_daf.dlc_flags_bz.tobj"
+    alternate_uvset: true
+}
+}

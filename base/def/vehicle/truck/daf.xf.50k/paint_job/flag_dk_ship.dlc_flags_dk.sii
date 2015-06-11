@@ -1,0 +1,14 @@
+SiiNunit
+{
+accessory_paint_job_data : ship.daf.xf.50k.paint_job
+{
+	name: "Danish Explorer"
+	price: 20000
+	unlock: 0
+	icon: "paintjob_flag_dk_ship.dlc_flags_dk"
+	airbrush : true
+        base_color : (0.0528, 0.0703, 0.0722)
+	paint_job_mask: "/vehicle/truck/upgrade/paintjob/paintjob_flag_dk_ship_daf.dlc_flags_dk.tobj"
+        alternate_uvset: true
+}
+}

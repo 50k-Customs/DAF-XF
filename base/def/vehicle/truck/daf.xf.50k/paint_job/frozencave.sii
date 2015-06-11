@@ -1,0 +1,13 @@
+SiiNunit
+{
+accessory_paint_job_data : frozencav.daf.xf.50k.paint_job
+{
+	name: "Cold Mystery"
+	price: 17400
+	unlock: 0
+	icon: "paintjob_frozencave"
+	airbrush : true
+	base_color : (0, 0.0466, 0.1301)
+	paint_job_mask: "/vehicle/truck/upgrade/paintjob/paintjob_frozencave_daf.tobj"
+}
+}

@@ -1,0 +1,16 @@
+SiiNunit
+{
+	accessory_paint_job_data : ru_flagb.daf.xf.50k.paint_job
+		{
+			base_color: (0.00784, 0.11373, 0.19608)
+			unlock: 0
+			airbrush: true
+			base_color_locked: true
+			name: "Russian Tricolor"
+			price: 20000
+			alternate_uvset: true
+			paint_job_mask: "/vehicle/truck/upgrade/paintjob/paintjob_flag_ru_flagb_daf.dlc_flags_ru.tobj"
+			icon: "paintjob_flag_ru_flagb.dlc_flags_ru"
+
+		}
+}

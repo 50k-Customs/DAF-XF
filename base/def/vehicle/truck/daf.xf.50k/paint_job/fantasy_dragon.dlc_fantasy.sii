@@ -1,0 +1,16 @@
+SiiNunit
+{
+accessory_paint_job_data : dragonf.daf.xf.50k.paint_job
+{
+  name: "Dragon Dawn"
+  price: 50000
+  unlock: 0
+  icon: "paintjob_fantasy_dragon.dlc_fantasy"
+  
+  airbrush : true
+  base_color : (0.447, 0.404, 0.392)
+  
+  paint_job_mask: "/vehicle/truck/upgrade/paintjob/paintjob_fantasy_dragon_daf.dlc_fantasy.tobj"
+  alternate_uvset: true
+}
+}

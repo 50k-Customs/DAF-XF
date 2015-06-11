@@ -1,0 +1,23 @@
+SiiNunit
+{
+accessory_paint_job_data : n_flag.daf.xf.50k.paint_job
+{
+	name: "Norwegian Flag Metallic"
+	price: 20000
+	unlock: 0
+	icon: "paintjob_flag_n_flag.dlc_flags_n"
+	airbrush : true
+        flipflake : true
+        flip_color : (1, 0.1651, 0.1682)
+        flip_strength : 1.7
+        flake_color : (0.1988, 0.0016, 0.0019)
+        flake_uvscale : 24.0
+        flake_density : 1.0
+        flake_shininess : 20.0
+        flake_clearcoat_rolloff : 4.5
+        flake_noise : "/material/custom/flake_noise.tobj"
+         base_color : (0.8549, 0.0202, 0.0221)
+	paint_job_mask: "/vehicle/truck/upgrade/paintjob/paintjob_flag_n_flag_daf.dlc_flags_n.tobj"
+        alternate_uvset: true
+}
+}

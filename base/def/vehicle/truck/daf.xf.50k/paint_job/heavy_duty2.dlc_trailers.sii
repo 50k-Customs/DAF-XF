@@ -1,0 +1,25 @@
+SiiNunit
+{
+accessory_paint_job_data : heavy_duty2.daf.xf.50k.paint_job
+{
+	name: "Heavy Duty Posh"
+	price: 26600
+  unlock: 0
+  icon: "paintjob_heavy_duty2.dlc_trailers"     
+  
+  mask_r_color : (0.0466, 0.1022, 0.1559) 
+	mask_r_locked: false
+  
+	mask_g_color : (0.8962, 0.5775, 0.2917)
+	mask_g_locked: false
+  
+	mask_b_color : (0.1559, 0.0423, 0.0018)
+	mask_b_locked: false
+  
+	base_color : (0, 0.0284, 0.0684)
+	base_color_locked: false
+  
+	paint_job_mask: "/vehicle/truck/upgrade/paintjob/paintjob_heavy_duty_daf.dlc_trailers.tobj"
+  alternate_uvset: true
+}
+}

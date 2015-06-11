@@ -1,0 +1,17 @@
+SiiNunit
+{
+accessory_paint_job_data : cz_small.daf.xf.50k.paint_job
+{
+    name: "Czech Flag Decal"
+    price: 6000
+    unlock: 0
+    icon: "paintjob_flag_cz_small.dlc_flags_cz"
+
+    airbrush : true
+    base_color : (0.4564, 0.4564, 0.4564)
+    base_color_locked : false
+  
+    paint_job_mask : "/vehicle/truck/upgrade/paintjob/paintjob_flag_cz_small_daf.dlc_flags_cz.tobj"
+    alternate_uvset: true
+}
+}

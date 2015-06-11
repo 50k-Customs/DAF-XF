@@ -1,0 +1,14 @@
+SiiNunit
+{
+accessory_paint_job_data : pl_wings.daf.xf.50k.paint_job
+{
+	name: "Wings of Freedom"
+	price: 20000
+	unlock: 0
+	icon: "paintjob_flag_pl_wings.dlc_flags_pl"
+	airbrush : true
+	base_color : (0.7454, 0.7454, 0.7454)
+	paint_job_mask: "/vehicle/truck/upgrade/paintjob/paintjob_flag_pl_wings_daf.dlc_flags_pl.tobj"
+    alternate_uvset: true
+}
+}

@@ -1,0 +1,14 @@
+SiiNunit
+{
+accessory_paint_job_data : water.daf.xf.50k.paint_job
+{
+	name: "Water Surge"
+	price: 18400
+	unlock: 0
+	icon: "paintjob_water.dlc_nature"
+	airbrush : true
+	base_color : (0, 0.1094, 0.6444)
+	paint_job_mask: "/vehicle/truck/upgrade/paintjob/paintjob_water_daf.dlc_nature.tobj"
+	alternate_uvset: true
+}
+}

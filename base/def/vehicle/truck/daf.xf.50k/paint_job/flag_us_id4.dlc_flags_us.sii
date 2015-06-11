@@ -1,0 +1,14 @@
+SiiNunit
+{
+accessory_paint_job_data : us_id4.daf.xf.50k.paint_job
+{
+	name: "Independence Day"
+	price: 20000
+	unlock: 0
+	icon: "paintjob_flag_us_id4.dlc_flags_us"
+	airbrush : true
+	base_color : (0, 0.035, 0.082)
+	paint_job_mask: "/vehicle/truck/upgrade/paintjob/paintjob_us_id4_daf.dlc_flags_us.tobj"
+    alternate_uvset: true
+}
+}

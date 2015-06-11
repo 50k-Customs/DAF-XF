@@ -1,0 +1,16 @@
+SiiNunit
+{
+	accessory_paint_job_data : ru_small.daf.xf.50k.paint_job
+		{
+			base_color: (0.4564, 0.4564, 0.4564)
+			airbrush: true
+			base_color_locked: false
+			icon: "paintjob_flag_ru_small.dlc_flags_ru"
+			price: 6000
+			unlock: 0
+			paint_job_mask: "/vehicle/truck/upgrade/paintjob/paintjob_flag_ru_small_daf.dlc_flags_ru.tobj"
+			alternate_uvset: true
+			name: "Russian Flag Decal"
+
+		}
+}
