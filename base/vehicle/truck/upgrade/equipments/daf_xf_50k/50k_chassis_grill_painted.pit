@@ -6,7 +6,7 @@
 #
 Header {
     FormatVersion: 1
-    Source: "Blender 2.74.0 (hash: 000dfc0), SCS Blender Tools: 0.5.b236e41"
+    Source: "Blender 2.74.0 (hash: 000dfc0), SCS Blender Tools: 0.5.070fd80"
     Type: "Trait"
     Name: "50k_chassis_grill_painted"
 }
@@ -20,10 +20,10 @@ Look {
     Name: "default"
     Material {
         Alias: "truckpaint"
-        Effect: "eut2.dif.spec.add.env.paint"
+        Effect: "eut2.truckpaint"
         Flags: 0
-        AttributeCount: 7
-        TextureCount: 2
+        AttributeCount: 10
+        TextureCount: 3
         Attribute {
             Format: FLOAT3
             Tag: "diffuse"
@@ -32,7 +32,7 @@ Look {
         Attribute {
             Format: FLOAT3
             Tag: "specular"
-            Value: ( 1.0 1.0 1.0 )
+            Value: ( 1.5 1.5 1.5 )
         }
         Attribute {
             Format: FLOAT
@@ -45,19 +45,34 @@ Look {
             Value: ( 0.0 )
         }
         Attribute {
-            Format: FLOAT
-            Tag: "reflection"
-            Value: ( 0.0 )
-        }
-        Attribute {
             Format: FLOAT3
             Tag: "env_factor"
-            Value: ( 0.5 0.5 0.5 )
+            Value: ( 0.30000001192092896 0.30000001192092896 0.30000001192092896 )
         }
         Attribute {
             Format: FLOAT2
             Tag: "fresnel"
             Value: ( 0.20000000298023224 0.8999999761581421 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "aux[5]"
+            Value: ( 1.0 0.0 0.0 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "aux[6]"
+            Value: ( 0.7099999785423279 0.6100000143051147 0.5 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "aux[7]"
+            Value: ( 0.33000001311302185 0.0 0.0 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "aux[8]"
+            Value: ( 1.0 0.6000000238418579 0.05000000074505806 )
         }
         Texture {
             Tag: "texture[0]:texture_base"
@@ -66,6 +81,10 @@ Look {
         Texture {
             Tag: "texture[1]:texture_reflection"
             Value: "/material/environment/vehicle_reflection"
+        }
+        Texture {
+            Tag: "texture[2]:texture_paintjob"
+            Value: "/vehicle/truck/upgrade/paintjob/paintjob_50k_daf_style"
         }
     }
 }
