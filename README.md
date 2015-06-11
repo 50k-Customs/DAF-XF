@@ -4,6 +4,8 @@ This repository is meant for DAF XF 105 by 50k project mod for Euro Truck Simula
 
 Mod presents reworked SCS DAF XF 105 with some extra content and features.
 
+![](/preview/alt_uv_preview.jpg?raw=true "Alternative UV preview")
+
 ### USAGE
 
 You have to download [Asset Conversion Tools](http://eurotrucksimulator2.com/conversion_tools.php#what-are-conversion-tools) provided by SCS Software and convert "base" folder of this repository.
