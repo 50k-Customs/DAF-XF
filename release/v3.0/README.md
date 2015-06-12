@@ -12,8 +12,8 @@
 
 ### SOFTWARE USED
 
-GIMP 2.8
-SCS Blender Tools
+- GIMP 2.8
+- SCS Blender Tools
 
 ### TERMS OF USE
 
