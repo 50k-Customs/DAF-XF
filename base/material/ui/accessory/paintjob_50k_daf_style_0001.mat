@@ -1,0 +1,5 @@
+material : "ui"
+{
+	texture : "paintjob_50k_daf_style_0001.tobj"
+	texture_name : "texture"
+}
