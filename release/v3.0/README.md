@@ -1,3 +1,5 @@
+![](/preview/uk_int_preview.jpg?raw=true "v0.3 promo")
+
 ### CHANGELOG
 
 - reworked clock and temperature displays
