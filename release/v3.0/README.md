@@ -1,30 +1,25 @@
-CHANGELOG
+### CHANGELOG
 
--engine startup animation reworked
--all currently supported indicator and sticker animations (retarder, liftable axle, 4way flasher...)
--UK compatible including interiors
--alternative UV added to be able to match all SCS paintjobs
+- engine startup animation reworked
+- all currently supported indicator and sticker animations (retarder, liftable axle, 4way flasher...)
+- UK compatible including interiors
+- alternative UV added to be able to match all SCS paintjobs
 
+***
 
-//////////////////////////////////////////////////////////////////////////////////////////////////
+### CREDITS
 
-CREDITS
+- 50keda
+- SCS
 
--50keda
--SCS
-
-SOFTWARE USED
+### SOFTWARE USED
 
 GIMP 2.8
 SCS Blender Tools
 
-//////////////////////////////////////////////////////////////////////////////////////////////////
+***
 
-************************************************************
-* DO NOT re-upload this package to others file providers!! *
-************************************************************
-
-TERMS OF USE
+### TERMS OF USE
 
 All files created by 50keda (the authors) are allowed for use by private individuals.
 
@@ -37,23 +32,21 @@ of the original author.
 
 All brand logos and images are property of their respective owners.
 
+***
 
-//////////////////////////////////////////////////////////////////////////////////////////////////
+### INSTALLATION
 
-INSTALLATION
-Install 50k_DAF_XF_v3.scs to mod folder at
+Install [50k_DAF_XF_v3.scs](https://github.com/50k-Customs/DAF-XF/raw/e38072de5b72666120ef2fa0f1d80a8535fe8709/release/v3.0/50k_DAF_XF_v3.scs) to mod folder at
 C:(username)\Documents\Euro Truck Simulator 2\mod.
 
 If you are looking for 50k_addons.scs tunning mod download
 DAF XF v2 from: http://www.mediafire.com/download/1v4b6r4pmamcr32/50k_DAF_XF_v2.rar
-and install it from there.
+and install tunning mod from that package. All needded info is within ReadMe.txt
 
+***
 
-KNOWN ISSUES
+### KNOWN ISSUES
 
 It was tested on 1.18.1.3s.
 
 Reports of issues or suggestions are encouraged!
-
-
-//////////////////////////////////////////////////////////////////////////////////////////////////
