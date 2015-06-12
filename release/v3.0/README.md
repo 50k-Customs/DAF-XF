@@ -1,5 +1,6 @@
 ### CHANGELOG
 
+- reworked clock and temperature displays
 - engine startup animation reworked
 - all currently supported indicator and sticker animations (retarder, liftable axle, 4way flasher...)
 - UK compatible including interiors
