@@ -8,6 +8,11 @@ Mod presents reworked SCS DAF XF 105 with some extra content and features.
 
 ### USAGE
 
+Most recent direct mod download and all needed info can be found here: 
+**[v3.0](release/v3.0)**
+
+***For advanced usage:***
+
 You have to download [Asset Conversion Tools](http://eurotrucksimulator2.com/conversion_tools.php#what-are-conversion-tools) provided by SCS Software and convert "base" folder of this repository.
 
 Step by step conversion:
@@ -20,8 +25,6 @@ Step by step conversion:
 6. Go to \<folder_tools>/conversion_tools/rsrc again and pack it's content as zip
 7. Use zipped file as regular mod.
 
-If you are looking for regular mod file then you will have to wait a bit :P
-Currently there is no direct usage of this mod yet, but it will be shortly inside "release" folder.
 
 ### CONTRIBUTION
 
