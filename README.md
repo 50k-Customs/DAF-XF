@@ -9,7 +9,7 @@ Mod presents reworked SCS DAF XF 105 with some extra content and features.
 ### USAGE
 
 Most recent direct mod download and all needed info can be found here: 
-**[v3.0](release/v3.0)**
+**[v3.0 - 12. 6. 2015](release/v3.0)**
 
 ***For advanced usage:***
 
