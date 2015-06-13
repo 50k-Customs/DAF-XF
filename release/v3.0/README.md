@@ -33,7 +33,7 @@ All brand logos and images are property of their respective owners.
 
 ### INSTALLATION
 
-Download and install [50k_DAF_XF_v3.scs](https://github.com/50k-Customs/DAF-XF/raw/e38072de5b72666120ef2fa0f1d80a8535fe8709/release/v3.0/50k_DAF_XF_v3.scs) to mod folder at
+Download and install [50k_DAF_XF_v3.scs](https://github.com/50k-Customs/DAF-XF/raw/master/release/v3.0/50k_DAF_XF_v3.scs) to mod folder at
 C:(username)\Documents\Euro Truck Simulator 2\mod.
 
 If you are looking for 50k_addons.scs tunning mod download
