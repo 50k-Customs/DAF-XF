@@ -16,7 +16,7 @@
 #
 Header {
     FormatVersion: 1
-    Source: "Blender 2.74.0 (hash: 000dfc0), SCS Blender Tools: 0.5.070fd80"
+    Source: "Blender 2.74.0 (hash: 000dfc0), SCS Blender Tools: 0.5.34ad67b"
     Type: "Trait"
     Name: "truck"
 }
@@ -276,12 +276,12 @@ Look {
         Attribute {
             Format: FLOAT3
             Tag: "specular"
-            Value: ( 1.5 1.5 1.5 )
+            Value: ( 1.2000000476837158 1.2000000476837158 1.2000000476837158 )
         }
         Attribute {
             Format: FLOAT
             Tag: "shininess"
-            Value: ( 250.0 )
+            Value: ( 230.0 )
         }
         Attribute {
             Format: FLOAT
@@ -291,12 +291,12 @@ Look {
         Attribute {
             Format: FLOAT3
             Tag: "env_factor"
-            Value: ( 0.30000001192092896 0.30000001192092896 0.30000001192092896 )
+            Value: ( 0.3263755440711975 0.3263755440711975 0.3263755440711975 )
         }
         Attribute {
             Format: FLOAT2
             Tag: "fresnel"
-            Value: ( 0.20000000298023224 0.8999999761581421 )
+            Value: ( 0.8999999761581421 0.5 )
         }
         Attribute {
             Format: FLOAT3

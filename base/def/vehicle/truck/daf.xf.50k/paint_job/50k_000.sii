@@ -1,0 +1,19 @@
+SiiNunit
+{
+accessory_paint_job_data : 50k_000.daf.xf.50k.paint_job
+{
+	name: "DAF skin by 50k"
+	price: 50000
+	unlock: 20
+	icon: "paintjob_50k_daf_style_0001"
+	mask_r_color :  (0.9559, 0.6653, 0.1412)
+	mask_r_locked: true
+	mask_g_color :   (0.0, 0.0, 0.0)
+	mask_g_locked: false
+	mask_b_color :  (1.0, 1.0, 1.0)
+	mask_b_locked: false
+	base_color :  (0.3901, 0.0, 0.0)
+	base_color_locked: false
+	paint_job_mask: "/vehicle/truck/upgrade/paintjob/paintjob_50k_daf_style.tobj"
+}
+}

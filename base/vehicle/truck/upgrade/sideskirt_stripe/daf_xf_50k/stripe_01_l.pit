@@ -6,7 +6,7 @@
 #
 Header {
     FormatVersion: 1
-    Source: "Blender 2.74.0 (hash: 000dfc0), SCS Blender Tools: 0.5.b236e41"
+    Source: "Blender 2.74.0 (hash: 000dfc0), SCS Blender Tools: 0.5.34ad67b"
     Type: "Trait"
     Name: "stripe_01_l"
 }
@@ -18,51 +18,6 @@ Global {
 }
 Look {
     Name: "default"
-    Material {
-        Alias: "stripe_chrome"
-        Effect: "eut2.dif.spec.add.env.nofresnel"
-        Flags: 0
-        AttributeCount: 6
-        TextureCount: 2
-        Attribute {
-            Format: FLOAT3
-            Tag: "diffuse"
-            Value: ( 1.0 1.0 1.0 )
-        }
-        Attribute {
-            Format: FLOAT3
-            Tag: "specular"
-            Value: ( 1.0 1.0 1.0 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "shininess"
-            Value: ( 60.0 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "add_ambient"
-            Value: ( 1.0 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "reflection"
-            Value: ( 0.0 )
-        }
-        Attribute {
-            Format: FLOAT3
-            Tag: "env_factor"
-            Value: ( 0.7870000004768372 0.7870000004768372 0.7870000004768372 )
-        }
-        Texture {
-            Tag: "texture[0]:texture_base"
-            Value: "/vehicle/truck/upgrade/sideskirt_stripe/daf_xf_50k/stripe_01"
-        }
-        Texture {
-            Tag: "texture[1]:texture_reflection"
-            Value: "/material/environment/vehicle_reflection"
-        }
-    }
     Material {
         Alias: "lights_upgrade"
         Effect: "eut2.lamp.add.env"
@@ -109,6 +64,51 @@ Look {
         }
         Texture {
             Tag: "texture[2]:texture_reflection"
+            Value: "/material/environment/vehicle_reflection"
+        }
+    }
+    Material {
+        Alias: "stripe_chrome"
+        Effect: "eut2.dif.spec.add.env.nofresnel"
+        Flags: 0
+        AttributeCount: 6
+        TextureCount: 2
+        Attribute {
+            Format: FLOAT3
+            Tag: "diffuse"
+            Value: ( 1.0 1.0 1.0 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "specular"
+            Value: ( 1.0 1.0 1.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "shininess"
+            Value: ( 60.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "add_ambient"
+            Value: ( 1.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "reflection"
+            Value: ( 0.0 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "env_factor"
+            Value: ( 0.7870000004768372 0.7870000004768372 0.7870000004768372 )
+        }
+        Texture {
+            Tag: "texture[0]:texture_base"
+            Value: "/vehicle/truck/upgrade/sideskirt_stripe/daf_xf_50k/stripe_01"
+        }
+        Texture {
+            Tag: "texture[1]:texture_reflection"
             Value: "/material/environment/vehicle_reflection"
         }
     }
