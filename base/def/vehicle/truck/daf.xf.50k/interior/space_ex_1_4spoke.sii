@@ -1,0 +1,33 @@
+SiiNunit
+{
+accessory_interior_data: space.exclusive_1.daf.xf.50k.4spoke.interior
+{
+name: "4 spoke - Exlusive no built-in GPS"
+price: 33900
+unlock: 12
+icon: "int_50k_daf_look1_4spoke"
+
+model: "/vehicle/truck/daf_xf_50k/interior/model.pmd"
+animated_model: "/vehicle/truck/daf_xf_50k/interior/anim_4spoke.pmd"
+look: look1
+variant: space_ex_1
+
+@include "animations.sui"
+
+dashboard_path:"/ui/dashboard/daf_xf_50k.sii"
+gps_path:"/ui/gps.sii"
+panel_intensity_min: 0.01
+
+glass_panes[]: .daf.xf.50k.pane.front
+glass_panes[]: .daf.xf.50k.pane.close
+glass_panes[]: .daf.xf.50k.pane.far
+#glass_panes[]: .daf.xf.50k.pane.top
+
+suitable_for[]: "space_cab.daf.xf.50k.cabin"
+suitable_for[]: "s_cab_plus1.daf.xf.50k.cabin"
+suitable_for[]: "space_cab_p.daf.xf.50k.cabin"
+suitable_for[]: "s_cab_plus1p.daf.xf.50k.cabin"
+  
+}
+@include "glass.sui"
+}

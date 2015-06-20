@@ -2,10 +2,10 @@ SiiNunit
 {
 accessory_interior_data: spaceplus.daf.xf.50k.uk.interior
 {
-name: "@@standard@@ UK"
+name: "Standard UK"
 price: 12960
 unlock: 0
-icon: "interior_daf_xf_std"
+icon: "int_50k_daf_look2_uk"
 
 model: "/vehicle/truck/daf_xf_50k/interior/uk/model_uk.pmd"
 animated_model: "/vehicle/truck/daf_xf_50k/interior/uk/anim_uk.pmd"

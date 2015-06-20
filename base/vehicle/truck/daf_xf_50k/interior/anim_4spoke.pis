@@ -1,0 +1,313 @@
+Header {
+    FormatVersion: 1
+    Source: "Blender 2.74.0 (hash: 000dfc0), SCS Blender Tools: 0.6.792edf5"
+    Type: "Skeleton"
+    Name: "anim_4spoke"
+}
+Global {
+    BoneCount: 43
+}
+Bones {
+    0     ( Name:  "__root__"
+            Parent: ""
+            Matrix: ( &bf800000  &27cbc9e8  &b4222169  &00000000 
+                      &277bbd2c  &3f800000  &330885a3  &00000000
+                      &34222169  &330885a4  &bf800000  &00000000
+                      &00000000  &00000000  &00000000  &3f800000 )
+       )
+    1     ( Name:  "joint7"
+            Parent: "__root__"
+            Matrix: ( &bf52ba62  &bf082e8a  &3e4b5705  &00000000 
+                      &bf115c4b  &3f456bf4  &be9363f4  &00000000
+                      &349ff248  &beb30e19  &bf6fd5c1  &00000000
+                      &3daafab7  &bec55959  &bf4bfd58  &3f800000 )
+       )
+    2     ( Name:  "joint8"
+            Parent: "__root__"
+            Matrix: ( &bd135583  &bf6fae05  &3eb2f06e  &00000000 
+                      &bf7fd597  &3d0a079e  &bc4e1b1e  &00000000
+                      &34c6f248  &beb30e18  &bf6fd5c1  &00000000
+                      &3ddf3b74  &bee24dd2  &bf466666  &3f800000 )
+       )
+    3     ( Name:  "joint9"
+            Parent: "__root__"
+            Matrix: ( &bf489d5c  &bf14fc5d  &3e5e755b  &00000000 
+                      &bf1f070c  &3f3bf26b  &be8c511a  &00000000
+                      &3447e491  &beb30e1e  &bf6fd5c1  &00000000
+                      &3cf711f6  &bef3d110  &bf43460d  &3f800000 )
+       )
+    4     ( Name:  "joint10"
+            Parent: "__root__"
+            Matrix: ( &bf50b5d0  &bf0ae1ea  &3e4f5f6f  &00000000 
+                      &bf143e45  &3f438800  &be91faa3  &00000000
+                      &327e48ff  &beb30e1f  &bf6fd5bf  &00000000
+                      &bcdb0f9c  &bef3d116  &bf43460a  &3f800000 )
+       )
+    5     ( Name:  "joint11"
+            Parent: "__root__"
+            Matrix: ( &bf441bc3  &bf1a296b  &3e662fd3  &00000000 
+                      &bf248d68  &3f37b9a9  &be892a3d  &00000000
+                      &349bf248  &beb30e1b  &bf6fd5c1  &00000000
+                      &bda00756  &bec55968  &bf4bfd49  &3f800000 )
+       )
+    6     ( Name:  "joint12"
+            Parent: "__root__"
+            Matrix: ( &3f7fffe5  &bada0d1c  &3a22cf19  &00000000 
+                      &bae8c047  &bf6fd5a8  &3eb30e0a  &00000000
+                      &33779250  &beb30e22  &bf6fd5c5  &00000000
+                      &bdd64422  &bee27f80  &bf46859e  &3f800000 )
+       )
+    7     ( Name:  "joint13"
+            Parent: "__root__"
+            Matrix: ( &bf7fed31  &3c0c04f5  &bcb75dd9  &00000000 
+                      &3c576e27  &3f7a06a7  &be5b83c8  &00000000
+                      &3ca4145f  &be5bc0ce  &bf79fba5  &00000000
+                      &3e829081  &bed1a240  &bf3c47a0  &3f800000 )
+       )
+    8     ( Name:  "joint15"
+            Parent: "__root__"
+            Matrix: ( &bf7f6f70  &b1110158  &3d87f427  &00000000 
+                      &277bbd2c  &3f800000  &330885a3  &00000000
+                      &bd87f427  &3308388c  &bf7f6f70  &00000000
+                      &bea89e80  &bed1a526  &bf8dd5ea  &3f800000 )
+       )
+    9     ( Name:  "joint37"
+            Parent: "joint15"
+            Matrix: ( &3f7f6f70  &31110164  &bd87f433  &00000000 
+                      &277bbd2c  &3f800000  &330885a3  &00000000
+                      &3d87f433  &b308388c  &3f7f6f70  &00000000
+                      &3d11cb9e  &beb53edd  &bf9014d9  &3f800000 )
+       )
+    10    ( Name:  "joint16"
+            Parent: "__root__"
+            Matrix: ( &bf800000  &27cbc9e8  &b4222169  &00000000 
+                      &277bbd2c  &3f800000  &330885a3  &00000000
+                      &34222169  &330885a4  &bf800000  &00000000
+                      &3ea575ad  &bed1a526  &bf927044  &3f800000 )
+       )
+    11    ( Name:  "joint38"
+            Parent: "joint16"
+            Matrix: ( &3f7ff353  &b02bd4ed  &3ca11af9  &00000000 
+                      &277bbd2c  &3f800000  &330885a3  &00000000
+                      &bca11af9  &b3087ee1  &3f7ff353  &00000000
+                      &3f334b09  &beb52cb4  &bf920622  &3f800000 )
+       )
+    12    ( Name:  "joint17"
+            Parent: "__root__"
+            Matrix: ( &bf800000  &27cbc9e8  &b4222169  &00000000 
+                      &277bbd2c  &3f800000  &330885a3  &00000000
+                      &34222169  &330885a4  &bf800000  &00000000
+                      &3f830d8b  &bed1a526  &bf927043  &3f800000 )
+       )
+    13    ( Name:  "joint39"
+            Parent: "joint17"
+            Matrix: ( &3f7fbb81  &b0c7afa7  &3d3b389c  &00000000 
+                      &277bbd2b  &3f7fffff  &330885a2  &00000000
+                      &bd3b389c  &b308611d  &3f7fbb81  &00000000
+                      &3fb1ef02  &beb516dd  &bf90db56  &3f800000 )
+       )
+    14    ( Name:  "joint18"
+            Parent: "__root__"
+            Matrix: ( &bf800000  &34a00001  &b4222168  &00000000 
+                      &34a00001  &3f800000  &330885b0  &00000000
+                      &34222169  &330885a4  &bf800000  &00000000
+                      &bd3a4577  &bed8e690  &3f5d9ac5  &3f800000 )
+       )
+    15    ( Name:  "joint19"
+            Parent: "__root__"
+            Matrix: ( &bf800000  &34820001  &b4222168  &00000000 
+                      &34820001  &3f800000  &330885ad  &00000000
+                      &34222169  &330885a4  &bf800000  &00000000
+                      &bc34c8b0  &bed8e690  &3f5f9ac9  &3f800000 )
+       )
+    16    ( Name:  "joint20"
+            Parent: "__root__"
+            Matrix: ( &bf800000  &34700002  &b4222169  &00000000 
+                      &34700002  &3f800000  &330885ac  &00000000
+                      &34222169  &330885a4  &bf800000  &00000000
+                      &3c3dcb27  &bed8e62e  &3f62500d  &3f800000 )
+       )
+    17    ( Name:  "joint21"
+            Parent: "__root__"
+            Matrix: ( &bf800000  &34200001  &b4222169  &00000000 
+                      &34200001  &3f800000  &330885a9  &00000000
+                      &34222169  &330885a4  &bf800000  &00000000
+                      &3cb9038e  &bed8e5f2  &3f6057f5  &3f800000 )
+       )
+    18    ( Name:  "joint23"
+            Parent: "__root__"
+            Matrix: ( &bf800000  &34200001  &b4222169  &00000000 
+                      &34200001  &3f800000  &330885a9  &00000000
+                      &34222169  &330885a4  &bf800000  &00000000
+                      &3d439858  &beed7aec  &3f6d997f  &3f800000 )
+       )
+    19    ( Name:  "joint24"
+            Parent: "__root__"
+            Matrix: ( &bf800000  &27cbc9e8  &b4222169  &00000000 
+                      &2fc0922c  &3f7fffd4  &bb18075d  &00000000
+                      &3422214d  &bb18075d  &bf7fffd3  &00000000
+                      &bde84537  &bee5c3ac  &3f5a9fbc  &3f800000 )
+       )
+    20    ( Name:  "joint25"
+            Parent: "__root__"
+            Matrix: ( &bf800000  &35200007  &b4222168  &00000000 
+                      &35200007  &3f800000  &330885bc  &00000000
+                      &34222169  &330885a4  &bf800000  &00000000
+                      &be00a745  &bededcc2  &3f54b8fc  &3f800000 )
+       )
+    21    ( Name:  "joint26"
+            Parent: "__root__"
+            Matrix: ( &bf800000  &27cbc9e8  &b4222169  &00000000 
+                      &277bbd2c  &3f800000  &330885a3  &00000000
+                      &34222169  &330885a4  &bf800000  &00000000
+                      &be001add  &bed95906  &3f5a2ff4  &3f800000 )
+       )
+    22    ( Name:  "joint27"
+            Parent: "__root__"
+            Matrix: ( &bf800000  &34a00001  &b4222168  &00000000 
+                      &34a00001  &3f800000  &330885b0  &00000000
+                      &34222169  &330885a4  &bf800000  &00000000
+                      &bdb74acb  &bebebcb4  &3f625969  &3f800000 )
+       )
+    23    ( Name:  "joint28"
+            Parent: "__root__"
+            Matrix: ( &bf800000  &27cbc9e8  &b4222169  &00000000 
+                      &277bbd2c  &3f800000  &330885a3  &00000000
+                      &34222169  &330885a4  &bf800000  &00000000
+                      &3dc7f459  &bebeeba5  &3f740edf  &3f800000 )
+       )
+    24    ( Name:  "joint36"
+            Parent: "__root__"
+            Matrix: ( &bf7ffbe1  &bc2ff722  &3b533aa2  &00000000 
+                      &bc347175  &3f62fa77  &beecb7d7  &00000000
+                      &3b0a23f7  &beecb8af  &bf62fe90  &00000000
+                      &be7d597b  &bef2f504  &bf6da104  &3f800000 )
+       )
+    25    ( Name:  "joint14"
+            Parent: "joint36"
+            Matrix: ( &bf5bcf90  &bedceb92  &3e8dac38  &00000000 
+                      &befe5ca4  &3f555d95  &be77bf1b  &00000000
+                      &be014210  &beb0bec1  &bf6e147a  &00000000
+                      &be7f8134  &becf33ed  &bf4b561b  &3f800000 )
+       )
+    26    ( Name:  "joint40"
+            Parent: "__root__"
+            Matrix: ( &bf5db3d7  &bedb6bf1  &3e83df23  &00000000 
+                      &b44af6f0  &3f03df29  &3f5b6bef  &00000000
+                      &befffffe  &3f3e0652  &bee46899  &00000000
+                      &3b3414a9  &bed63fb8  &bf13cdda  &3f800000 )
+       )
+    27    ( Name:  "joint34"
+            Parent: "joint40"
+            Matrix: ( &bf800000  &33800002  &b4b910b4  &00000000 
+                      &b373b842  &3f6d3c0e  &3ec069e9  &00000000
+                      &34ab1f7c  &3ec069e9  &bf6d3c0e  &00000000
+                      &3d4c88de  &beca0dea  &bf0fdd3a  &3f800000 )
+       )
+    28    ( Name:  "joint1"
+            Parent: "joint40"
+            Matrix: ( &bf5db3d7  &bedb6bf1  &3e83df24  &00000000 
+                      &b423d060  &3f03df29  &3f5b6bef  &00000000
+                      &befffffe  &3f3e0652  &bee46898  &00000000
+                      &3b3413b5  &beb81e1f  &bef5790c  &3f800000 )
+       )
+    29    ( Name:  "joint41"
+            Parent: "__root__"
+            Matrix: ( &bf79298c  &be568316  &3dc05d49  &00000000 
+                      &bd8ed4bb  &3f28dab5  &3f3f9633  &00000000
+                      &be5ffa6e  &3f38cae0  &bf281598  &00000000
+                      &bd222412  &bec9a5a3  &bf1091c5  &3f800000 )
+       )
+    30    ( Name:  "joint33"
+            Parent: "joint41"
+            Matrix: ( &bf69f46f  &be7534b7  &3ea7d930  &00000000 
+                      &3dea6ba0  &3f1f6e04  &3f4623e3  &00000000
+                      &bec76c97  &3f3eaf09  &bf0aaf12  &00000000
+                      &bd4c24e3  &becac6f0  &bf1050e9  &3f800000 )
+       )
+    31    ( Name:  "joint35"
+            Parent: "joint33"
+            Matrix: ( &bf69f46e  &be7534d0  &3ea7d92d  &00000000 
+                      &3dea6b95  &3f1f6dfb  &3f4623e9  &00000000
+                      &bec76c9d  &3f3eaf0d  &bf0aaf0a  &00000000
+                      &be2c01a5  &bed9f9df  &bf05b3ae  &3f800000 )
+       )
+    32    ( Name:  "retarder_i"
+            Parent: "__root__"
+            Matrix: ( &bf800000  &27cbc9e8  &b4222169  &00000000 
+                      &277bbd2c  &3f800000  &330885a3  &00000000
+                      &34222169  &330885a4  &bf800000  &00000000
+                      &3dbbb3d9  &bedb8c3a  &3f54b8fd  &3f800000 )
+       )
+    33    ( Name:  "axle_lift"
+            Parent: "__root__"
+            Matrix: ( &bf800000  &34a00001  &b4222168  &00000000 
+                      &34a00001  &3f800000  &330885b0  &00000000
+                      &34222169  &330885a4  &bf800000  &00000000
+                      &bdec5a7d  &bed3c0d6  &3f5a2ff4  &3f800000 )
+       )
+    34    ( Name:  "aux_front"
+            Parent: "__root__"
+            Matrix: ( &bf800000  &27cbc9e8  &b4222169  &00000000 
+                      &277bbd2c  &3f800000  &330885a3  &00000000
+                      &34222169  &330885a4  &bf800000  &00000000
+                      &be39dad7  &bf080266  &bf3488ee  &3f800000 )
+       )
+    35    ( Name:  "aux_front_i"
+            Parent: "aux_front"
+            Matrix: ( &bf800000  &27cbc9e8  &b4222169  &00000000 
+                      &33d4d5f6  &3f4122d4  &bf2807fb  &00000000
+                      &33f4a27c  &bf2807fb  &bf4122d3  &00000000
+                      &be39dad7  &bf08541d  &bf373ee1  &3f800000 )
+       )
+    36    ( Name:  "aux_top"
+            Parent: "__root__"
+            Matrix: ( &bf800000  &27cbc9e8  &b4222169  &00000000 
+                      &277bbd2c  &3f800000  &330885a3  &00000000
+                      &34222169  &330885a4  &bf800000  &00000000
+                      &be1ef268  &bf080266  &bf3488ee  &3f800000 )
+       )
+    37    ( Name:  "aux_top_i"
+            Parent: "aux_top"
+            Matrix: ( &bf800000  &27cbc9e8  &b4222169  &00000000 
+                      &33d4d5f6  &3f4122d4  &bf2807fb  &00000000
+                      &33f4a27c  &bf2807fb  &bf4122d3  &00000000
+                      &be1ef268  &bf08541d  &bf373ee1  &3f800000 )
+       )
+    38    ( Name:  "start"
+            Parent: "__root__"
+            Matrix: ( &bf800000  &27cbc9e8  &b4222169  &00000000 
+                      &277bbd2c  &3f800000  &330885a3  &00000000
+                      &34222169  &330885a4  &bf800000  &00000000
+                      &3b39c99f  &bf0e4090  &bf6225a6  &3f800000 )
+       )
+    39    ( Name:  "generic2"
+            Parent: "start"
+            Matrix: ( &bf800000  &27cbc9e8  &b4222169  &00000000 
+                      &277bbd2c  &3f800000  &330885a3  &00000000
+                      &34222169  &330885a4  &bf800000  &00000000
+                      &3b39c9ab  &bf0e4090  &bf6e5aea  &3f800000 )
+       )
+    40    ( Name:  "start_glass"
+            Parent: "start"
+            Matrix: ( &bf800000  &b314e15f  &b41b03f1  &00000000 
+                      &32b4a698  &3f6df30d  &bebcd994  &00000000
+                      &341dd054  &bebcd994  &bf6df30d  &00000000
+                      &3b39c995  &bf176f7f  &bf62da46  &3f800000 )
+       )
+    41    ( Name:  "axle_lift_btn"
+            Parent: ""
+            Matrix: ( &bf3504f1  &32c11243  &bf3504f5  &00000000 
+                      &277bbd2c  &3f800000  &330885a3  &00000000
+                      &3f3504f5  &32c1123f  &bf3504f1  &00000000
+                      &3e956d37  &bf15cc5f  &bf1d6db7  &3f800000 )
+       )
+    42    ( Name:  "flasher"
+            Parent: ""
+            Matrix: ( &bf800000  &27cbc9e8  &b4222169  &00000000 
+                      &277bbd2c  &3f800000  &330885a3  &00000000
+                      &34222169  &330885a4  &bf800000  &00000000
+                      &3f104b89  &bf04964e  &bee4e1d5  &3f800000 )
+       )
+}
+

@@ -1,11 +1,11 @@
 Header {
     FormatVersion: 3
-    Source: "Blender 2.74.0 (hash: 000dfc0), SCS Blender Tools: 0.5.a46f0c9"
+    Source: "Blender 2.74.0 (hash: 000dfc0), SCS Blender Tools: 0.6.792edf5"
     Type: "Animation"
     Name: "air"
 }
 Global {
-    Skeleton: "anim_uk.pis"
+    Skeleton: "anim_4spoke_uk.pis"
     TotalTime: 1.0
     BoneChannelCount: 1
     CustomChannelCount: 0

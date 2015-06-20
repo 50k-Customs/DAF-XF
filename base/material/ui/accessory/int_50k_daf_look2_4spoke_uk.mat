@@ -1,0 +1,5 @@
+material : "ui"
+{
+	texture : "int_50k_daf_look2_4spoke_uk.tobj"
+	texture_name : "texture"
+}

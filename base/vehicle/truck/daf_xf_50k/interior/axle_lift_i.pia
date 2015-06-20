@@ -1,6 +1,6 @@
 Header {
     FormatVersion: 3
-    Source: "Blender 2.74.0 (hash: 000dfc0), SCS Blender Tools: 0.5.a46f0c9"
+    Source: "Blender 2.74.0 (hash: 000dfc0), SCS Blender Tools: 0.6.792edf5"
     Type: "Animation"
     Name: "axle_lift_i"
 }
@@ -9,29 +9,6 @@ Global {
     TotalTime: 1.0
     BoneChannelCount: 2
     CustomChannelCount: 0
-}
-BoneChannel {
-    Name: "axle_lift"
-    StreamCount: 2
-    KeyframeCount: 2
-    Stream {
-        Format: FLOAT
-        Tag: "_TIME"
-        0    ( &3f800000 )
-        1    ( &3f800000 )
-    }
-    Stream {
-        Format: FLOAT4x4
-        Tag: "_MATRIX"
-        0    (  &3f800000  &34a00001  &26aa9c20  &00000000 
-                &b4a00001  &3f800000  &a6aac760  &00000000
-                &1b242aea  &1b200000  &3f800000  &00000000
-                &3dec5a6c  &bed3c0d5  &bf5a2ff5  &3f800000 )
-        1    (  &3f800000  &34a00001  &26aa9c20  &00000000 
-                &b4a00001  &3f800000  &a6aac760  &00000000
-                &1b242aea  &1b200000  &3f800000  &00000000
-                &3dec5a6c  &bed3c0d5  &3f498c35  &3f800000 )
-    }
 }
 BoneChannel {
     Name: "axle_lift_btn"
@@ -54,6 +31,29 @@ BoneChannel {
                 &be7e8378  &3f6fa9ff  &3e7e8375  &00000000
                 &3f2977d6  &3eb3f7df  &bf2977d1  &00000000
                 &3e956d37  &bf15cc5e  &bf1d6db7  &3f800000 )
+    }
+}
+BoneChannel {
+    Name: "axle_lift"
+    StreamCount: 2
+    KeyframeCount: 2
+    Stream {
+        Format: FLOAT
+        Tag: "_TIME"
+        0    ( &3f800000 )
+        1    ( &3f800000 )
+    }
+    Stream {
+        Format: FLOAT4x4
+        Tag: "_MATRIX"
+        0    (  &3f800000  &34a00001  &26aa9c20  &00000000 
+                &b4a00001  &3f800000  &a6aac760  &00000000
+                &1b242aea  &1b200000  &3f800000  &00000000
+                &3dec5a6c  &bed3c0d5  &bf5a2ff5  &3f800000 )
+        1    (  &3f800000  &34a00001  &26aa9c20  &00000000 
+                &b4a00001  &3f800000  &a6aac760  &00000000
+                &1b242aea  &1b200000  &3f800000  &00000000
+                &3dec5a6c  &bed3c0d5  &3f498c35  &3f800000 )
     }
 }
 

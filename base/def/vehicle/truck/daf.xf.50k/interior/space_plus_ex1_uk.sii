@@ -2,10 +2,10 @@ SiiNunit
 {
 accessory_interior_data: spaceplus.exclusive1.daf.xf.50k.uk.interior
 {
-name: "50k DAF: Exlusive built-in GPS UK"
+name: "Exlusive built-in GPS UK"
 price: 33900
 unlock: 12
-icon: "interior_daf_xf_lux"
+icon: "int_50k_daf_look2_uk"
 
 model: "/vehicle/truck/daf_xf_50k/interior/uk/model_uk.pmd"
 animated_model: "/vehicle/truck/daf_xf_50k/interior/uk/anim_uk.pmd"

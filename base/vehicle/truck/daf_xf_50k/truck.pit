@@ -16,7 +16,7 @@
 #
 Header {
     FormatVersion: 1
-    Source: "Blender 2.74.0 (hash: 000dfc0), SCS Blender Tools: 0.5.34ad67b"
+    Source: "Blender 2.74.0 (hash: 000dfc0), SCS Blender Tools: 0.6.792edf5"
     Type: "Trait"
     Name: "truck"
 }
@@ -78,12 +78,12 @@ Look {
         Attribute {
             Format: FLOAT3
             Tag: "specular"
-            Value: ( 0.710553765296936 0.710553765296936 0.710553765296936 )
+            Value: ( 0.6083458065986633 0.7105533480644226 0.7105533480644226 )
         }
         Attribute {
             Format: FLOAT
             Tag: "shininess"
-            Value: ( 95.0 )
+            Value: ( 150.0 )
         }
         Attribute {
             Format: FLOAT
@@ -98,12 +98,12 @@ Look {
         Attribute {
             Format: FLOAT2
             Tag: "fresnel"
-            Value: ( 0.20000000298023224 0.8999999761581421 )
+            Value: ( 1.0 2.0 )
         }
         Attribute {
             Format: FLOAT3
             Tag: "tint"
-            Value: ( 0.622461199760437 0.6500048041343689 0.6375750303268433 )
+            Value: ( 0.6224610209465027 0.6499999761581421 0.6375749707221985 )
         }
         Attribute {
             Format: FLOAT

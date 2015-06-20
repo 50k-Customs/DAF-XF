@@ -1,0 +1,33 @@
+SiiNunit
+{
+accessory_interior_data: spaceplus.exclusive_11.daf.xf.50k.uk.4spoke.interior
+{
+name: "4 spoke - Exlusive no built-in GPS UK"
+price: 33900
+unlock: 14
+icon: "int_50k_daf_look2_4spoke_uk"
+
+model: "/vehicle/truck/daf_xf_50k/interior/uk/model_uk.pmd"
+animated_model: "/vehicle/truck/daf_xf_50k/interior/uk/anim_4spoke_uk.pmd"
+look: look2
+variant: space_ex_1
+
+@include "animations_uk.sui"
+
+left_hand_traffic: true
+
+dashboard_path:"/ui/dashboard/daf_xf_50k.sii"
+gps_path:"/ui/gps.sii"
+panel_intensity_min: 0.01
+
+glass_panes[]: .daf.xf.50k.pane.front
+glass_panes[]: .daf.xf.50k.pane.close
+glass_panes[]: .daf.xf.50k.pane.far
+#glass_panes[]: .daf.xf.50k.pane.top
+
+suitable_for[]: "s_cab_plus.daf.xf.50k.cabin"
+suitable_for[]: "s_cab_plus_p.daf.xf.50k.cabin"
+
+}
+@include "glass.sui"
+}

@@ -1,0 +1,5 @@
+map	2d	int_50k_daf_look1_4spoke.tga
+addr	clamp_to_edge	clamp_to_edge
+nomips
+nocompress
+color_space linear

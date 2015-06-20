@@ -2,10 +2,10 @@ SiiNunit
 {
 accessory_interior_data: space.exclusive_11.daf.xf.50k.interior
 {
-name: "50k DAF: Exlusive no built-in GPS"
+name: "Exlusive no built-in GPS"
 price: 33900
 unlock: 14
-icon: "interior_daf_xf_lux"
+icon: "int_50k_daf_look2"
 
 model: "/vehicle/truck/daf_xf_50k/interior/model.pmd"
 animated_model: "/vehicle/truck/daf_xf_50k/interior/anim.pmd"
