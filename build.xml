@@ -1,0 +1,63 @@
+<project name="50k_DAF_XF" basedir=".">
+    <property name="release" value="current"/>
+
+    <property file="build.properties"/>
+
+    <target name="build" depends="build.base, build.paintjobs"></target>
+
+    <macrodef name="set_extra">
+        <attribute name="path"/>
+
+        <sequential>
+            <echo message="@{path}" file="${convertTool.extraMount}"/>
+        </sequential>
+    </macrodef>
+
+    <macrodef name="compile">
+        <attribute name="src"/>
+
+        <sequential>
+            <delete includeEmptyDirs="true">
+                <fileset dir="${convertTool.dep}" includes="**/*"/>
+            </delete>
+            <delete includeEmptyDirs="true">
+                <fileset dir="${convertTool.rsrc}" includes="**/*"/>
+            </delete>
+
+            <set_extra path="@{src}"/>
+
+            <exec executable="wineconsole" osfamily="unix">
+                <arg value="${convertTool.cmd}"/>
+            </exec>
+            <exec executable="cmd" osfamily="windows">
+                <arg value="/c"/>
+                <arg value="${convertTool.cmd}"/>
+            </exec>
+        </sequential>
+    </macrodef>
+
+    <macrodef name="make_scs">
+        <attribute name="src"/>
+        <attribute name="dest"/>
+        <sequential>
+            <compile src="@{src}"/>
+            <delete file="@{dest}"></delete>
+            <zip destfile="@{dest}"
+                basedir="${convertTool.rsrc}"
+                excludes=".git">
+            </zip>
+        </sequential>
+    </macrodef>
+
+
+    <target name="build.base">
+        <property name="base.scs.dest" value="${release.path}/${base.scs.filename}"/>
+        <make_scs src="${base.src}" dest="${base.scs.dest}"/>
+    </target>
+
+    <target name="build.paintjobs">
+        <property name="paintjobs.scs.dest" value="${release.path}/${paintjobs.scs.filename}"/>
+        <make_scs src="${paintjobs.src}" dest="${paintjobs.scs.dest}"/>
+    </target>
+
+</project>
