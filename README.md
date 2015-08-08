@@ -6,10 +6,11 @@ Mod presents reworked SCS DAF XF 105 with some extra content and features.
 
 ![](/preview/alt_uv_preview.jpg?raw=true "Alternative UV preview")
 
+
 ### USAGE
 
 Most recent direct mod download and all needed info can be found here: 
-**[v3.1 - 20. 6. 2015](release/v3.1)**
+**[v3.1.1 - 8. 8. 2015](release/v3.1.1)**
 
 ***For advanced usage:***
 
@@ -30,6 +31,17 @@ Step by step conversion:
 
 If you found bug or you have any reference material of DAF XF please use Issues on github.
 
+
 ### ISSUES
 
-For now none. It was tested on 1.18.1s game version
+For now none. It was tested on 1.19.2.1s game version
+
+
+### TODO
+
+This is known todo list for this mod:
+- add interior glass reflections
+- new mirrors
+- paintable visor & front fender part
+
+If you have a suggestions use Issues on github to report it ;)
