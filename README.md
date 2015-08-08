@@ -32,4 +32,4 @@ If you found bug or you have any reference material of DAF XF please use Issues 
 
 ### ISSUES
 
-For now none. It was tested on 1.18.1s game version.
+For now none. It was tested on 1.18.1s game version
