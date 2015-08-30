@@ -13,5 +13,8 @@ accessory_engine_data : mx340.daf.xf.50k.engine
 	volume:	12.9
 	
 	defaults[]: "/def/vehicle/truck/daf.xf.50k/badge/50k_bdg_460.sii"
+
+    defaults[]: "/def/vehicle/truck/daf.xf.50k/sound/interior.sii"
+	defaults[]: "/def/vehicle/truck/daf.xf.50k/sound/exterior.sii"
 }
 }
