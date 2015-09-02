@@ -4,16 +4,20 @@ DAF XF 105 modified by 50keda featuring new completely reworked truck with:
 - 30+ interior variants including 4 spoke wheel
 - paintable grills
 - complete UK variant
+- new dashboard screens
 
 ### CHANGELOG FOR LATEST VERSION
 
-- adopted to 1.19 standards with mod description files
+- new dashboard screens
+- stock sound engine reused
+- new engine added for usage of open pipe sound
 
 ### CREDITS
 
 - 50keda
 - SCS
-- JoNnii-V8
+- JoNnii-V8 -> 4 spoke wheel model
+- kuba141 -> some of his dashboard screens
 
 ### SOFTWARE USED
 

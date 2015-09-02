@@ -12,14 +12,24 @@
 #Daf XF by 50k
 #
 
+ui::text_template : txt.daf_50k.trip_dist {
+	name: "zDB  Daf 50k Trip Distance"
+	text: "<align hstyle=right><color value=FF2257FF><font face=/font/lcd_number.font xscale=1.6 yscale=1.4>%0</font><font face=/font/big.font xscale=2.5 yscale=2.5>  %1</font></align>"
+}
+
 ui::text_template : txt.daf_50k.temp {
 	name: "zDB  Daf 50k Temperature"
-	text: "<align hstyle=right><color value=FF2257FF><font face=/font/lcd_number.font xscale=3 yscale=2>%0</font><font face=/font/big.font xscale=3 yscale=3>°%1</font></align>"
+	text: "<align hstyle=right><color value=FF2257FF><font face=/font/lcd_number.font xscale=1.6 yscale=1.4>%0</font><font face=/font/big.font xscale=3 yscale=3>°%1</font></align>"
 }
 
 ui::text_template : txt.daf_50k.clock {
 	name: "zDB  Daf 50k Clock"
-	text: "<align hstyle=left><color value=FF2257FF><font face=/font/lcd_number.font xscale=2.6 yscale=2>%0</font></align>"
+	text: "<align hstyle=right><color value=FF2257FF><font face=/font/lcd_number.font xscale=2.0 yscale=1.5>%0</font></align>"
+}
+
+ui::text_template : txt.daf_50k.odometer {
+	name: "zDB  Daf 50k Odometer"
+	text: "<align hstyle=right><color value=FF2257FF><font face=/font/lcd_number.font xscale=1.9 yscale=1.4>%0</font></align>"
 }
 
 }
