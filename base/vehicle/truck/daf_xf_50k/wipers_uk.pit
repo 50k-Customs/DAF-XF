@@ -6,7 +6,7 @@
 #
 Header {
     FormatVersion: 1
-    Source: "Blender 2.74.0 (hash: 000dfc0), SCS Blender Tools: 0.5.b236e41"
+    Source: "Blender 2.75.0 (hash: c27589e), SCS Blender Tools: 0.6.32b7431"
     Type: "Trait"
     Name: "wipers_uk"
 }
@@ -21,7 +21,7 @@ Look {
     Material {
         Alias: "color_DifSpec"
         Effect: "eut2.dif.spec"
-        Flags: 0
+        Flags: 1
         AttributeCount: 5
         TextureCount: 1
         Attribute {

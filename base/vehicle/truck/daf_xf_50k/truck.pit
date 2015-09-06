@@ -16,7 +16,7 @@
 #
 Header {
     FormatVersion: 1
-    Source: "Blender 2.74.0 (hash: 000dfc0), SCS Blender Tools: 0.6.792edf5"
+    Source: "Blender 2.75.0 (hash: c27589e), SCS Blender Tools: 0.6.32b7431"
     Type: "Trait"
     Name: "truck"
 }
@@ -31,7 +31,7 @@ Look {
     Material {
         Alias: "color_DifSpec"
         Effect: "eut2.dif.spec"
-        Flags: 0
+        Flags: 1
         AttributeCount: 5
         TextureCount: 1
         Attribute {
@@ -67,7 +67,7 @@ Look {
     Material {
         Alias: "glass"
         Effect: "eut2.glass"
-        Flags: 0
+        Flags: 1
         AttributeCount: 8
         TextureCount: 2
         Attribute {
@@ -78,12 +78,12 @@ Look {
         Attribute {
             Format: FLOAT3
             Tag: "specular"
-            Value: ( 0.6083458065986633 0.7105533480644226 0.7105533480644226 )
+            Value: ( 0.8106666803359985 0.9480000138282776 0.9480000138282776 )
         }
         Attribute {
             Format: FLOAT
             Tag: "shininess"
-            Value: ( 150.0 )
+            Value: ( 50.0 )
         }
         Attribute {
             Format: FLOAT
@@ -93,17 +93,17 @@ Look {
         Attribute {
             Format: FLOAT3
             Tag: "env_factor"
-            Value: ( 3.0 3.0 3.0 )
+            Value: ( 0.8659999966621399 0.972000002861023 1.0140000581741333 )
         }
         Attribute {
             Format: FLOAT2
             Tag: "fresnel"
-            Value: ( 1.0 2.0 )
+            Value: ( 0.20000000298023224 0.8999999761581421 )
         }
         Attribute {
             Format: FLOAT3
             Tag: "tint"
-            Value: ( 0.6224610209465027 0.6499999761581421 0.6375749707221985 )
+            Value: ( 0.9430000185966492 0.9850000143051147 0.9660000205039978 )
         }
         Attribute {
             Format: FLOAT
@@ -122,7 +122,7 @@ Look {
     Material {
         Alias: "color_DifSpecAddEnvFresnel"
         Effect: "eut2.dif.spec.add.env.nofresnel"
-        Flags: 0
+        Flags: 1
         AttributeCount: 6
         TextureCount: 2
         Attribute {
@@ -167,7 +167,7 @@ Look {
     Material {
         Alias: "color_DifSpecAddEnv"
         Effect: "eut2.dif.spec.add.env"
-        Flags: 0
+        Flags: 1
         AttributeCount: 7
         TextureCount: 2
         Attribute {
@@ -217,7 +217,7 @@ Look {
     Material {
         Alias: "color_DifSpecShine"
         Effect: "eut2.dif.spec"
-        Flags: 0
+        Flags: 1
         AttributeCount: 5
         TextureCount: 1
         Attribute {
@@ -253,7 +253,7 @@ Look {
     Material {
         Alias: "shadowonly"
         Effect: "eut2.shadowonly"
-        Flags: 0
+        Flags: 1
         AttributeCount: 1
         TextureCount: 0
         Attribute {
@@ -265,7 +265,7 @@ Look {
     Material {
         Alias: "truckpaint"
         Effect: "eut2.truckpaint"
-        Flags: 0
+        Flags: 1
         AttributeCount: 10
         TextureCount: 3
         Attribute {
@@ -334,7 +334,7 @@ Look {
     Material {
         Alias: "lamp"
         Effect: "eut2.lamp.add.env"
-        Flags: 0
+        Flags: 1
         AttributeCount: 6
         TextureCount: 3
         Attribute {
@@ -383,7 +383,7 @@ Look {
     Material {
         Alias: "fakeShadow"
         Effect: "eut2.fakeshadow"
-        Flags: 0
+        Flags: 1
         AttributeCount: 1
         TextureCount: 0
         Attribute {

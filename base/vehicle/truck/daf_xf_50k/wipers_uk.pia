@@ -1,6 +1,6 @@
 Header {
     FormatVersion: 3
-    Source: "Blender 2.74.0 (hash: 000dfc0), SCS Blender Tools: 0.5.b236e41"
+    Source: "Blender 2.75.0 (hash: c27589e), SCS Blender Tools: 0.6.32b7431"
     Type: "Animation"
     Name: "wipers_uk"
 }
@@ -9,119 +9,6 @@ Global {
     TotalTime: 2.0
     BoneChannelCount: 3
     CustomChannelCount: 0
-}
-BoneChannel {
-    Name: "joint1"
-    StreamCount: 2
-    KeyframeCount: 20
-    Stream {
-        Format: FLOAT
-        Tag: "_TIME"
-        0    ( &3dd79436 )
-        1    ( &3dd79436 )
-        2    ( &3dd79436 )
-        3    ( &3dd79436 )
-        4    ( &3dd79436 )
-        5    ( &3dd79436 )
-        6    ( &3dd79436 )
-        7    ( &3dd79436 )
-        8    ( &3dd79436 )
-        9    ( &3dd79436 )
-        10   ( &3dd79436 )
-        11   ( &3dd79436 )
-        12   ( &3dd79436 )
-        13   ( &3dd79436 )
-        14   ( &3dd79436 )
-        15   ( &3dd79436 )
-        16   ( &3dd79436 )
-        17   ( &3dd79436 )
-        18   ( &3dd79436 )
-        19   ( &3dd79436 )
-    }
-    Stream {
-        Format: FLOAT4x4
-        Tag: "_MATRIX"
-        0    (  &bf800000  &9c000000  &00000000  &00000000 
-                &9c7fb1c0  &bf7fb1c0  &3d481664  &00000000
-                &9a48165a  &bd481666  &bf7fb1c3  &00000000
-                &3f722dad  &40045c16  &403c42da  &3f800000 )
-        1    (  &bf7fce7e  &3d1d92e4  &bbb46972  &00000000 
-                &bd1e793a  &bf7f83e3  &3d43e017  &00000000
-                &3b6f9323  &bd449995  &bf7fb407  &00000000
-                &3f722dad  &40045c16  &403c42da  &3f800000 )
-        2    (  &bf7ce94f  &3e1cfa6f  &bcb42f2a  &00000000 
-                &be1dd924  &bf7caf92  &3d35722a  &00000000
-                &3c7470f0  &bd4124f8  &bf7fafcc  &00000000
-                &3f722dad  &40045c16  &403c42da  &3f800000 )
-        3    (  &bf711cf3  &3eaa4590  &bd457fa7  &00000000 
-                &beab3866  &bf711271  &3d18c21c  &00000000
-                &3d072e33  &bd51ebe8  &bf7f8621  &00000000
-                &3f722dad  &40045c16  &403c42da  &3f800000 )
-        4    (  &bf560905  &3f0aeb17  &bda53cf1  &00000000 
-                &bf0bc760  &bf565dec  &3cd5f4ea  &00000000
-                &3d5aade4  &bd86f15a  &bf7f13eb  &00000000
-                &3f722dad  &40045c16  &403c42da  &3f800000 )
-        5    (  &bf2b6aad  &3f3be2f8  &bde95de0  &00000000 
-                &bf3d558a  &bf2c4742  &3c3d350d  &00000000
-                &3d8bb058  &bdbc6e72  &bf7e50bf  &00000000
-                &3f722dad  &40045c16  &403c42da  &3f800000 )
-        6    (  &bef3e39c  &3f5e1c11  &be120834  &00000000 
-                &bf60556e  &bef6a723  &bb7a73d6  &00000000
-                &3d937d99  &bdfc3569  &bf7d61ad  &00000000
-                &3f722dad  &40045c16  &403c42da  &3f800000 )
-        7    (  &be9c741e  &3f70237f  &be2754ed  &00000000 
-                &bf732786  &be9feae6  &bc89b23d  &00000000
-                &3d88d1d7  &be19ad03  &bf7c85b4  &00000000
-                &3f722dad  &40045c16  &403c42da  &3f800000 )
-        8    (  &be466dae  &3f77184e  &be33be3f  &00000000 
-                &bf7aaf0d  &be4dfede  &bcce1a78  &00000000
-                &3d7419db  &be2b04ad  &bf7bf16b  &00000000
-                &3f722dad  &40045c16  &403c42da  &3f800000 )
-        9    (  &be1faa92  &3f78a985  &be37bac1  &00000000 
-                &bf7c7471  &be27646f  &bce5239c  &00000000
-                &3d676c08  &be30b81a  &bf7bbe6b  &00000000
-                &3f722dad  &40045c16  &403c42da  &3f800000 )
-        10   (  &be3f0de2  &3f776c4d  &be348261  &00000000 
-                &bf7b0ce1  &be46a76b  &bcd27d50  &00000000
-                &3d71cae0  &be2c1c33  &bf7be7bf  &00000000
-                &3f722dad  &40045c16  &403c42da  &3f800000 )
-        11   (  &be8e3274  &3f7234b3  &be2a851c  &00000000 
-                &bf755c3d  &be91c07c  &bc9accc0  &00000000
-                &3d85b2f8  &be1e0f14  &bf7c6116  &00000000
-                &3f722dad  &40045c16  &403c42da  &3f800000 )
-        12   (  &bed76232  &3f650f89  &be19587d  &00000000 
-                &bf67881f  &beda66a4  &bc04ab51  &00000000
-                &3d91a981  &be07336e  &bf7d1ad2  &00000000
-                &3f722dad  &40045c16  &403c42da  &3f800000 )
-        13   (  &bf17bde6  &3f4ba21f  &be013d0a  &00000000 
-                &bf4d600a  &bf18d2f3  &3bae0dfb  &00000000
-                &3d91a646  &bdd5cf72  &bf7df305  &00000000
-                &3f722dad  &40045c16  &403c42da  &3f800000 )
-        14   (  &bf424fbe  &3f24c9a1  &bdc7daa0  &00000000 
-                &bf25e9db  &bf42e58b  &3c9cb601  &00000000
-                &3d7dddc2  &bd9f432a  &bf7ebb2a  &00000000
-                &3f722dad  &40045c16  &403c42da  &3f800000 )
-        15   (  &bf62ec1f  &3eea7bea  &bd89c422  &00000000 
-                &beebdb05  &bf6314b0  &3cfea35e  &00000000
-                &3d3a18f6  &bd6fc876  &bf7f4bd2  &00000000
-                &3f722dad  &40045c16  &403c42da  &3f800000 )
-        16   (  &bf7606fe  &3e8c0ff4  &bd21bf1a  &00000000 
-                &be8cd5d2  &bf75e9d7  &3d231b0a  &00000000
-                &3cdd8253  &bd493e3f  &bf7f98dd  &00000000
-                &3f722dad  &40045c16  &403c42da  &3f800000 )
-        17   (  &bf7df761  &3dff069f  &bc923a68  &00000000 
-                &be00392b  &bf7db885  &3d3954c9  &00000000
-                &3c458a1e  &bd41039e  &bf7fb26e  &00000000
-                &3f722dad  &40045c16  &403c42da  &3f800000 )
-        18   (  &bf7fdf93  &3cff0ff5  &bb9201e9  &00000000 
-                &bd0042e6  &bf7f9434  &3d44b3ac  &00000000
-                &3b418b3f  &bd452d13  &bf7fb3bd  &00000000
-                &3f722dad  &40045c16  &403c42da  &3f800000 )
-        19   (  &bf800000  &9c000000  &00000000  &00000000 
-                &9c7fb1c0  &bf7fb1c0  &3d481664  &00000000
-                &9a48165a  &bd481666  &bf7fb1c3  &00000000
-                &3f722dad  &40045c16  &403c42da  &3f800000 )
-    }
 }
 BoneChannel {
     Name: "joint2"
@@ -347,6 +234,119 @@ BoneChannel {
                 &9c7fb1c0  &bf7fb1c0  &3d481664  &00000000
                 &9a48165a  &bd481666  &bf7fb1c3  &00000000
                 &be84ddf3  &40047043  &403ddf5a  &3f800000 )
+    }
+}
+BoneChannel {
+    Name: "joint1"
+    StreamCount: 2
+    KeyframeCount: 20
+    Stream {
+        Format: FLOAT
+        Tag: "_TIME"
+        0    ( &3dd79436 )
+        1    ( &3dd79436 )
+        2    ( &3dd79436 )
+        3    ( &3dd79436 )
+        4    ( &3dd79436 )
+        5    ( &3dd79436 )
+        6    ( &3dd79436 )
+        7    ( &3dd79436 )
+        8    ( &3dd79436 )
+        9    ( &3dd79436 )
+        10   ( &3dd79436 )
+        11   ( &3dd79436 )
+        12   ( &3dd79436 )
+        13   ( &3dd79436 )
+        14   ( &3dd79436 )
+        15   ( &3dd79436 )
+        16   ( &3dd79436 )
+        17   ( &3dd79436 )
+        18   ( &3dd79436 )
+        19   ( &3dd79436 )
+    }
+    Stream {
+        Format: FLOAT4x4
+        Tag: "_MATRIX"
+        0    (  &bf800000  &9c000000  &00000000  &00000000 
+                &9c7fb1c0  &bf7fb1c0  &3d481664  &00000000
+                &9a48165a  &bd481666  &bf7fb1c3  &00000000
+                &3f722dad  &40045c16  &403c42da  &3f800000 )
+        1    (  &bf7fce99  &3d1df481  &bb9246ec  &00000000 
+                &bd1eb1ef  &bf7f755e  &3d55d08c  &00000000
+                &3b20024f  &bd565ca5  &bf7fa5ff  &00000000
+                &3f722dad  &40045c16  &403c42da  &3f800000 )
+        2    (  &bf7ceaf7  &3e1d5d82  &bc920d2c  &00000000 
+                &be1e3457  &bf7c6e47  &3d7d2e3b  &00000000
+                &3c0465ee  &bd82b512  &bf7f7840  &00000000
+                &3f722dad  &40045c16  &403c42da  &3f800000 )
+        3    (  &bf71245e  &3eaab93c  &bd1fe692  &00000000 
+                &beabca8a  &bf706058  &3d9b5c83  &00000000
+                &3c3a21f6  &bdad2b8c  &bf7f110e  &00000000
+                &3f722dad  &40045c16  &403c42da  &3f800000 )
+        4    (  &bf561a33  &3f0b5947  &bd856a27  &00000000 
+                &bf0c56aa  &bf54d2ed  &3dbb1d2f  &00000000
+                &3b90fbba  &bde5a0c4  &bf7e621c  &00000000
+                &3f722dad  &40045c16  &403c42da  &3f800000 )
+        5    (  &bf2b80ef  &3f3c9b8e  &bdbb8eee  &00000000 
+                &bf3e0251  &bf296c6e  &3dd7e1f8  &00000000
+                &bc8bb152  &be0deb39  &bf7d7dec  &00000000
+                &3f722dad  &40045c16  &403c42da  &3f800000 )
+        6    (  &bef3f99b  &3f5f2b12  &bde95f3a  &00000000 
+                &bf60b94c  &beede2f0  &3dee5a9a  &00000000
+                &bd46b604  &be1f3839  &bf7c94d2  &00000000
+                &3f722dad  &40045c16  &403c42da  &3f800000 )
+        7    (  &be9c5423  &3f717fa6  &be04f384  &00000000 
+                &bf72edb6  &be94849a  &3dfde791  &00000000
+                &bda263f5  &be24eccb  &bf7bd752  &00000000
+                &3f722dad  &40045c16  &403c42da  &3f800000 )
+        8    (  &be45c072  &3f78a6ad  &be0e3d91  &00000000 
+                &bf79dd7d  &be33ea5b  &3e03785f  &00000000
+                &bdcd68ca  &be243890  &bf7b60ec  &00000000
+                &3f722dad  &40045c16  &403c42da  &3f800000 )
+        9    (  &be1ed0d8  &3f7a48b8  &be11303f  &00000000 
+                &bf7b6682  &be0c3ebe  &3e04effc  &00000000
+                &bddc2b45  &be233295  &bf7b3999  &00000000
+                &3f722dad  &40045c16  &403c42da  &3f800000 )
+        10   (  &be3e5877  &3f78fde3  &be0ecef9  &00000000 
+                &bf7a302f  &be2c5e6b  &3e03c054  &00000000
+                &bdd0361b  &be240e93  &bf7b596a  &00000000
+                &3f722dad  &40045c16  &403c42da  &3f800000 )
+        11   (  &be8e0656  &3f739d6a  &be075a34  &00000000 
+                &bf750049  &be85ef8c  &3e001bdd  &00000000
+                &bdad01f0  &be2512cc  &bf7bb97c  &00000000
+                &3f722dad  &40045c16  &403c42da  &3f800000 )
+        12   (  &bed76a48  &3f6637aa  &bdf49f56  &00000000 
+                &bf67c242  &bed0c3a1  &3df3bb92  &00000000
+                &bd6ee2a5  &be2200a2  &bf7c55ae  &00000000
+                &3f722dad  &40045c16  &403c42da  &3f800000 )
+        13   (  &bf17d1fc  &3f4c7ceb  &bdcf45f6  &00000000 
+                &bf4dfd3c  &bf155c32  &3de1b4a6  &00000000
+                &bced6eeb  &be165160  &bf7d1e36  &00000000
+                &3f722dad  &40045c16  &403c42da  &3f800000 )
+        14   (  &bf4264e2  &3f255a81  &bda10730  &00000000 
+                &bf2691ee  &bf40bf87  &3dca27d6  &00000000
+                &bb955468  &be012428  &bf7df40e  &00000000
+                &3f722dad  &40045c16  &403c42da  &3f800000 )
+        15   (  &bf62f943  &3eeb2915  &bd5ec2fe  &00000000 
+                &beecc27f  &bf61ef4d  &3dae7a29  &00000000
+                &3c114de8  &bdce32fc  &bf7eb065  &00000000
+                &3f722dad  &40045c16  &403c42da  &3f800000 )
+        16   (  &bf760c1e  &3e8c6c4f  &bd0304ab  &00000000 
+                &be8d42be  &bf75628a  &3d921d18  &00000000
+                &3c35c0b0  &bd9e81cf  &bf7f3761  &00000000
+                &3f722dad  &40045c16  &403c42da  &3f800000 )
+        17   (  &bf7df87a  &3dffa67c  &bc6d146d  &00000000 
+                &be007c8c  &bf7d8530  &3d73868e  &00000000
+                &3be25fa9  &bd790834  &bf7f8532  &00000000
+                &3f722dad  &40045c16  &403c42da  &3f800000 )
+        18   (  &bf7fdfa5  &3cffae9f  &bb6cc3fd  &00000000 
+                &bd006f3b  &bf7f8887  &3d533849  &00000000
+                &3b02daec  &bd539461  &bf7fa861  &00000000
+                &3f722dad  &40045c16  &403c42da  &3f800000 )
+        19   (  &bf800000  &9c000000  &00000000  &00000000 
+                &9c7fb1c0  &bf7fb1c0  &3d481664  &00000000
+                &9a48165a  &bd481666  &bf7fb1c3  &00000000
+                &3f722dad  &40045c16  &403c42da  &3f800000 )
     }
 }
 
