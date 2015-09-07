@@ -925,6 +925,65 @@ Shader {
     }
 }
 Shader {
+    PresetName: "glass - interior custom"
+    Alias: "glass_custom"
+    Effect: "eut2.glass"
+    Flags: 0
+    AttributeCount: 7
+    TextureCount: 2
+    Attribute {
+        Format: FLOAT3
+        Tag: "diffuse"
+        Value: ( 1.0 1.0 1.0 )
+    }
+    Attribute {
+        Format: FLOAT3
+        Tag: "specular"
+        Value: ( 0.5 0.5 0.5 )
+    }
+    Attribute {
+        Format: FLOAT
+        Tag: "shininess"
+        Value: ( 95.0 )
+    }
+    Attribute {
+        Format: FLOAT
+        Tag: "add_ambient"
+        Value: ( 0.0 )
+    }
+    Attribute {
+        Format: FLOAT3
+        Tag: "env_factor"
+        Value: ( 3.0 3.0 3.0 )
+    }
+    Attribute {
+        Format: FLOAT2
+        Tag: "fresnel"
+        Value: ( 1.0 2.0 )
+    }
+    Attribute {
+        Format: FLOAT3
+        Tag: "tint"
+        Value: ( 0.78 0.8 0.79 )
+    }
+    Attribute {
+        Format: FLOAT
+        Tag: "tint_opacity"
+        Value: ( -0.01 )
+    }
+    Texture {
+        Tag: "texture[0]:texture_base"
+        Value: ""
+        TexCoord: ( 0 )
+    }
+    Texture {
+        Tag: "texture[1]:texture_reflection"
+        Value: "/vehicle/truck/daf_xf/interior/env"
+        Lock: "True"
+        TexCoord: ( -1 )
+    }
+}
+Shader {
     PresetName: "glass - vehicle"
     Alias: "glass_vehicle"
     Effect: "eut2.glass"

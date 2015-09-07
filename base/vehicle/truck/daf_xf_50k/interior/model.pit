@@ -13,7 +13,7 @@
 #
 Header {
     FormatVersion: 1
-    Source: "Blender 2.74.0 (hash: 000dfc0), SCS Blender Tools: 0.5.9b28854"
+    Source: "Blender 2.75.0 (hash: c27589e), SCS Blender Tools: 0.6.4a602d1"
     Type: "Trait"
     Name: "model"
 }
@@ -75,7 +75,7 @@ Look {
         Attribute {
             Format: FLOAT3
             Tag: "specular"
-            Value: ( 0.15048100054264069 0.15048100054264069 0.15048100054264069 )
+            Value: ( 0.15000000596046448 0.15000000596046448 0.15000000596046448 )
         }
         Attribute {
             Format: FLOAT
@@ -90,7 +90,7 @@ Look {
         Attribute {
             Format: FLOAT3
             Tag: "env_factor"
-            Value: ( 0.31854701042175293 0.31854701042175293 0.31854701042175293 )
+            Value: ( 1.7630000114440918 1.7630000114440918 1.7630000114440918 )
         }
         Attribute {
             Format: FLOAT2
@@ -100,7 +100,7 @@ Look {
         Attribute {
             Format: FLOAT3
             Tag: "tint"
-            Value: ( 0.7874119877815247 0.7874119877815247 0.7874119877815247 )
+            Value: ( 0.9264000058174133 0.9264000058174133 0.9264000058174133 )
         }
         Attribute {
             Format: FLOAT
@@ -113,7 +113,7 @@ Look {
         }
         Texture {
             Tag: "texture[1]:texture_reflection"
-            Value: "/material/environment/vehicle_reflection"
+            Value: "/vehicle/truck/daf_xf/interior/env"
         }
     }
     Material {
@@ -870,7 +870,7 @@ Look {
         Attribute {
             Format: FLOAT3
             Tag: "specular"
-            Value: ( 0.15048100054264069 0.15048100054264069 0.15048100054264069 )
+            Value: ( 0.15000000596046448 0.15000000596046448 0.15000000596046448 )
         }
         Attribute {
             Format: FLOAT
@@ -885,7 +885,7 @@ Look {
         Attribute {
             Format: FLOAT3
             Tag: "env_factor"
-            Value: ( 0.31854701042175293 0.31854701042175293 0.31854701042175293 )
+            Value: ( 1.7630000114440918 1.7630000114440918 1.7630000114440918 )
         }
         Attribute {
             Format: FLOAT2
@@ -895,7 +895,7 @@ Look {
         Attribute {
             Format: FLOAT3
             Tag: "tint"
-            Value: ( 0.7874119877815247 0.7874119877815247 0.7874119877815247 )
+            Value: ( 0.9264000058174133 0.9264000058174133 0.9264000058174133 )
         }
         Attribute {
             Format: FLOAT
@@ -904,11 +904,11 @@ Look {
         }
         Texture {
             Tag: "texture[0]:texture_base"
-            Value: "/vehicle/truck/share/glass"
+            Value: "/vehicle/truck/daf_xf_50k/glass"
         }
         Texture {
             Tag: "texture[1]:texture_reflection"
-            Value: "/material/environment/vehicle_reflection"
+            Value: "/vehicle/truck/daf_xf/interior/env"
         }
     }
     Material {

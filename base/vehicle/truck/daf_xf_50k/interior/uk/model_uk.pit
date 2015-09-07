@@ -13,7 +13,7 @@
 #
 Header {
     FormatVersion: 1
-    Source: "Blender 2.74.0 (hash: 000dfc0), SCS Blender Tools: 0.5.9b28854"
+    Source: "Blender 2.75.0 (hash: c27589e), SCS Blender Tools: 0.6.4a602d1"
     Type: "Trait"
     Name: "model_uk"
 }
@@ -679,61 +679,6 @@ Look {
         TextureCount: 0
     }
     Material {
-        Alias: "Windows_Glass"
-        Effect: "eut2.glass"
-        Flags: 0
-        AttributeCount: 8
-        TextureCount: 2
-        Attribute {
-            Format: FLOAT3
-            Tag: "diffuse"
-            Value: ( 1.0 1.0 1.0 )
-        }
-        Attribute {
-            Format: FLOAT3
-            Tag: "specular"
-            Value: ( 0.15048100054264069 0.15048100054264069 0.15048100054264069 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "shininess"
-            Value: ( 240.0 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "add_ambient"
-            Value: ( 0.0 )
-        }
-        Attribute {
-            Format: FLOAT3
-            Tag: "env_factor"
-            Value: ( 0.31854701042175293 0.31854701042175293 0.31854701042175293 )
-        }
-        Attribute {
-            Format: FLOAT2
-            Tag: "fresnel"
-            Value: ( 1.0 2.0 )
-        }
-        Attribute {
-            Format: FLOAT3
-            Tag: "tint"
-            Value: ( 0.7874119877815247 0.7874119877815247 0.7874119877815247 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "tint_opacity"
-            Value: ( 0.0 )
-        }
-        Texture {
-            Tag: "texture[0]:texture_base"
-            Value: "/vehicle/truck/daf_xf_50k/glass"
-        }
-        Texture {
-            Tag: "texture[1]:texture_reflection"
-            Value: "/material/environment/vehicle_reflection"
-        }
-    }
-    Material {
         Alias: "Shadowonly"
         Effect: "eut2.shadowonly"
         Flags: 0
@@ -779,6 +724,61 @@ Look {
         Texture {
             Tag: "texture[0]:texture_base"
             Value: "/vehicle/truck/daf_xf_50k/interior/dashboard"
+        }
+    }
+    Material {
+        Alias: "Windows_Glass"
+        Effect: "eut2.glass"
+        Flags: 0
+        AttributeCount: 8
+        TextureCount: 2
+        Attribute {
+            Format: FLOAT3
+            Tag: "diffuse"
+            Value: ( 1.0 1.0 1.0 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "specular"
+            Value: ( 0.15000000596046448 0.15000000596046448 0.15000000596046448 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "shininess"
+            Value: ( 240.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "add_ambient"
+            Value: ( 0.0 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "env_factor"
+            Value: ( 1.7630000114440918 1.7630000114440918 1.7630000114440918 )
+        }
+        Attribute {
+            Format: FLOAT2
+            Tag: "fresnel"
+            Value: ( 1.0 2.0 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "tint"
+            Value: ( 0.9264000058174133 0.9264000058174133 0.9264000058174133 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "tint_opacity"
+            Value: ( 0.0 )
+        }
+        Texture {
+            Tag: "texture[0]:texture_base"
+            Value: "/vehicle/truck/daf_xf_50k/glass"
+        }
+        Texture {
+            Tag: "texture[1]:texture_reflection"
+            Value: "/vehicle/truck/daf_xf/interior/env"
         }
     }
     Material {
@@ -1474,61 +1474,6 @@ Look {
         TextureCount: 0
     }
     Material {
-        Alias: "Windows_Glass"
-        Effect: "eut2.glass"
-        Flags: 0
-        AttributeCount: 8
-        TextureCount: 2
-        Attribute {
-            Format: FLOAT3
-            Tag: "diffuse"
-            Value: ( 1.0 1.0 1.0 )
-        }
-        Attribute {
-            Format: FLOAT3
-            Tag: "specular"
-            Value: ( 0.15048100054264069 0.15048100054264069 0.15048100054264069 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "shininess"
-            Value: ( 240.0 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "add_ambient"
-            Value: ( 0.0 )
-        }
-        Attribute {
-            Format: FLOAT3
-            Tag: "env_factor"
-            Value: ( 0.31854701042175293 0.31854701042175293 0.31854701042175293 )
-        }
-        Attribute {
-            Format: FLOAT2
-            Tag: "fresnel"
-            Value: ( 1.0 2.0 )
-        }
-        Attribute {
-            Format: FLOAT3
-            Tag: "tint"
-            Value: ( 0.7874119877815247 0.7874119877815247 0.7874119877815247 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "tint_opacity"
-            Value: ( 0.0 )
-        }
-        Texture {
-            Tag: "texture[0]:texture_base"
-            Value: "/vehicle/truck/share/glass"
-        }
-        Texture {
-            Tag: "texture[1]:texture_reflection"
-            Value: "/material/environment/vehicle_reflection"
-        }
-    }
-    Material {
         Alias: "Shadowonly"
         Effect: "eut2.shadowonly"
         Flags: 0
@@ -1574,6 +1519,61 @@ Look {
         Texture {
             Tag: "texture[0]:texture_base"
             Value: "/vehicle/truck/daf_xf_50k/interior/dashboard"
+        }
+    }
+    Material {
+        Alias: "Windows_Glass"
+        Effect: "eut2.glass"
+        Flags: 0
+        AttributeCount: 8
+        TextureCount: 2
+        Attribute {
+            Format: FLOAT3
+            Tag: "diffuse"
+            Value: ( 1.0 1.0 1.0 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "specular"
+            Value: ( 0.15000000596046448 0.15000000596046448 0.15000000596046448 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "shininess"
+            Value: ( 240.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "add_ambient"
+            Value: ( 0.0 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "env_factor"
+            Value: ( 1.7630000114440918 1.7630000114440918 1.7630000114440918 )
+        }
+        Attribute {
+            Format: FLOAT2
+            Tag: "fresnel"
+            Value: ( 1.0 2.0 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "tint"
+            Value: ( 0.9264000058174133 0.9264000058174133 0.9264000058174133 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "tint_opacity"
+            Value: ( 0.0 )
+        }
+        Texture {
+            Tag: "texture[0]:texture_base"
+            Value: "/vehicle/truck/daf_xf_50k/glass"
+        }
+        Texture {
+            Tag: "texture[1]:texture_reflection"
+            Value: "/vehicle/truck/daf_xf/interior/env"
         }
     }
     Material {
