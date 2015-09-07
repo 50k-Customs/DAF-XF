@@ -1,6 +1,6 @@
 Header {
     FormatVersion: 5
-    Source: "Blender 2.75.0 (hash: c27589e), SCS Blender Tools: 0.6.32b7431"
+    Source: "Blender 2.75.0 (hash: c27589e), SCS Blender Tools: 0.6.4a602d1"
     Type: "Model"
     Name: "sunshield_11_bc"
 }

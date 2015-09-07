@@ -6,7 +6,7 @@
 #
 Header {
     FormatVersion: 1
-    Source: "Blender 2.75.0 (hash: c27589e), SCS Blender Tools: 0.6.32b7431"
+    Source: "Blender 2.75.0 (hash: c27589e), SCS Blender Tools: 0.6.4a602d1"
     Type: "Trait"
     Name: "sunshield_11"
 }
@@ -21,7 +21,7 @@ Look {
     Material {
         Alias: "glass"
         Effect: "eut2.glass"
-        Flags: 1
+        Flags: 0
         AttributeCount: 8
         TextureCount: 2
         Attribute {
@@ -32,12 +32,12 @@ Look {
         Attribute {
             Format: FLOAT3
             Tag: "specular"
-            Value: ( 0.8106666803359985 0.9480000138282776 0.9480000138282776 )
+            Value: ( 0.6082500219345093 0.7110000252723694 0.7110000252723694 )
         }
         Attribute {
             Format: FLOAT
             Tag: "shininess"
-            Value: ( 50.0 )
+            Value: ( 250.0 )
         }
         Attribute {
             Format: FLOAT
@@ -47,7 +47,7 @@ Look {
         Attribute {
             Format: FLOAT3
             Tag: "env_factor"
-            Value: ( 0.8659999966621399 0.972000002861023 1.0140000581741333 )
+            Value: ( 0.8666666746139526 0.972000002861023 1.0146666765213013 )
         }
         Attribute {
             Format: FLOAT2
@@ -76,7 +76,7 @@ Look {
     Material {
         Alias: "color_DifSpec"
         Effect: "eut2.dif.spec"
-        Flags: 1
+        Flags: 0
         AttributeCount: 5
         TextureCount: 1
         Attribute {
@@ -112,7 +112,7 @@ Look {
     Material {
         Alias: "shadowonly"
         Effect: "eut2.shadowonly"
-        Flags: 1
+        Flags: 0
         AttributeCount: 1
         TextureCount: 0
         Attribute {
