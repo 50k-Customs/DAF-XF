@@ -8,6 +8,8 @@ DAF XF 105 modified by 50keda featuring new completely reworked truck with:
 
 ### CHANGELOG FOR LATEST VERSION
 
+- new interior glass reflections
+- exterior glass tweaking
 - new dashboard screens
 - stock sound engine reused
 - new engine added for usage of open pipe sound
@@ -27,4 +29,4 @@ DAF XF 105 modified by 50keda featuring new completely reworked truck with:
 ### KNOWN ISSUES
 
 No known issues.
-It was tested on 1.19.2.1s.
+It was tested on 1.20.1s.

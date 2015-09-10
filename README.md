@@ -4,7 +4,7 @@ This repository is meant for DAF XF 105 by 50k project mod for Euro Truck Simula
 
 Mod presents reworked SCS DAF XF 105 with some extra content and features.
 
-![](/preview/alt_uv_preview.jpg?raw=true "Alternative UV preview")
+![](/preview/daf_garage_preview.jpg?raw=true "DAF XF preview")
 
 
 ### USAGE
@@ -34,13 +34,12 @@ If you found bug or you have any reference material of DAF XF please use Issues 
 
 ### ISSUES
 
-For now none. It was tested on 1.19.2.1s game version
+For now none. It was tested on 1.20.1s game version
 
 
 ### TODO
 
 This is known todo list for this mod:
-- add interior glass reflections
 - new mirrors
 - paintable visor & front fender part
 
