@@ -40,6 +40,7 @@ For now none. It was tested on 1.20.1s game version
 ### TODO
 
 This is known todo list for this mod:
+- fix for missing licence plates
 - new mirrors
 - paintable visor & front fender part
 
