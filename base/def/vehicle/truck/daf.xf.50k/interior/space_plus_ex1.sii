@@ -8,6 +8,7 @@ unlock: 12
 icon: "int_50k_daf_look2"
 
 model: "/vehicle/truck/daf_xf_50k/interior/model.pmd"
+collision: "/vehicle/truck/daf_xf_50k/interior/model.pmc"
 animated_model: "/vehicle/truck/daf_xf_50k/interior/anim.pmd"
 look: look2
 variant: space_ex

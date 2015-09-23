@@ -8,6 +8,7 @@ unlock: 0
 icon: "int_50k_daf_look2_4spoke_uk"
 
 model: "/vehicle/truck/daf_xf_50k/interior/uk/model_uk.pmd"
+collision: "/vehicle/truck/daf_xf_50k/interior/uk/model_uk.pmc"
 animated_model: "/vehicle/truck/daf_xf_50k/interior/uk/anim_4spoke_uk.pmd"
 look: look2
 variant: standard

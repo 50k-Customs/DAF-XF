@@ -16,7 +16,7 @@
 #
 Header {
     FormatVersion: 1
-    Source: "Blender 2.75.0 (hash: c27589e), SCS Blender Tools: 0.6.4a602d1"
+    Source: "Blender 2.75.0 (hash: c6b042b), SCS Blender Tools: 0.6.39dce6b"
     Type: "Trait"
     Name: "truck"
 }
