@@ -13,6 +13,7 @@ accessory_addon_int_data : cube_black.daf.xf.50k.toyhang
 physics_toy_data : .cube_black.phys_data
 {
 	phys_model:      "/vehicle/truck/upgrade/interior_decors/toyhang/cube.dlc_toys.pmd"
+	phys_model_coll:      "/vehicle/truck/upgrade/interior_decors/toyhang/cube.dlc_toys.pmc"
 
   phys_model_look: black
 

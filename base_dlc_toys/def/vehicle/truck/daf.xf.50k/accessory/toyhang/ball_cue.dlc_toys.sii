@@ -14,6 +14,7 @@ accessory_addon_int_data : ball_cue.daf.xf.50k.toyhang
 physics_toy_data : .ball_cue.phys_data
 {
 	phys_model:      "/vehicle/truck/upgrade/interior_decors/toyhang/cue_ball.dlc_toys.pmd"
+	phys_model_coll:      "/vehicle/truck/upgrade/interior_decors/toyhang/cue_ball.dlc_toys.pmc"
 	
 	phys_model_look: cue_8
 	

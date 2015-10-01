@@ -13,6 +13,7 @@ accessory_addon_int_data : cube.daf.xf.50k.toyhang
 physics_toy_data : .cube.phys_data
 {
 	phys_model:      "/vehicle/truck/upgrade/interior_decors/toyhang/cube.dlc_toys.pmd"
+	phys_model_coll:      "/vehicle/truck/upgrade/interior_decors/toyhang/cube.dlc_toys.pmc"
 
 	toy_type:		"TT_rope"			# TT_rope, TT_double_rope, TT_joint
 	toy_mass:		0.15				# toy mass

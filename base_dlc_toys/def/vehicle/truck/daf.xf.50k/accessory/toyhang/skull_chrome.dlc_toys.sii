@@ -13,6 +13,7 @@ accessory_addon_int_data : skullchrome.daf.xf.50k.toyhang
 physics_toy_data : .skull_chrm.phys_data
 {
 	phys_model:      "/vehicle/truck/upgrade/interior_decors/toyhang/skull_chrome.dlc_toys.pmd"
+	phys_model_coll:      "/vehicle/truck/upgrade/interior_decors/toyhang/skull_chrome.dlc_toys.pmc"
 
 	toy_type:		"TT_rope"			# TT_rope, TT_double_rope, TT_joint
 	toy_mass:		0.3				# toy mass

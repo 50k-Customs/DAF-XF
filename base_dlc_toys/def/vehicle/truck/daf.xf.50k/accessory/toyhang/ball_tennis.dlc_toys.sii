@@ -13,6 +13,7 @@ accessory_addon_int_data : ball_tennis.daf.xf.50k.toyhang
 physics_toy_data : .ball_ten.phys_data
 {
 	phys_model:      "/vehicle/truck/upgrade/interior_decors/toyhang/ball.dlc_toys.pmd"
+	phys_model_coll:      "/vehicle/truck/upgrade/interior_decors/toyhang/ball.dlc_toys.pmc"
 	
 	phys_model_look: tennis
 
