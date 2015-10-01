@@ -9,6 +9,7 @@ DAF XF 105 modified by 50keda featuring new completely reworked truck with:
 ### CHANGELOG FOR LATEST VERSION
 
 - fixed front mirrors now appearing on all cabs
+- added support for Cabin Accessories DLC 
 
 ### CREDITS
 
@@ -25,4 +26,4 @@ DAF XF 105 modified by 50keda featuring new completely reworked truck with:
 ### KNOWN ISSUES
 
 No known issues.
-It was tested on 1.20.1s.
+It was tested on 1.21.1s.
