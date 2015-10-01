@@ -1,0 +1,12 @@
+SiiNunit
+{
+accessory_addon_int_data : notebook.daf.xf.50k.toyseat
+{
+	name: "Notebook Pro Power"
+	price: 3375
+	unlock: 0
+	icon: "notebook.dlc_toys"
+   
+	interior_model: "/vehicle/truck/upgrade/interior_decors/toybig/notebook.dlc_toys.pmd"
+}
+}

@@ -1,0 +1,12 @@
+SiiNunit
+{
+accessory_addon_int_data : cup.daf.xf.50k.toystand
+{
+	name: "SCS Coffee Mug"
+	price: 90
+	unlock: 0
+	icon: "cup.dlc_toys"
+   
+  interior_model: "/vehicle/truck/upgrade/interior_decors/toystand/cup.dlc_toys.pmd"
+}
+}

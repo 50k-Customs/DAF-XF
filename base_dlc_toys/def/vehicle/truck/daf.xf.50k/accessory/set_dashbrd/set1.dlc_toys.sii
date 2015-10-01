@@ -1,0 +1,12 @@
+SiiNunit
+{
+accessory_addon_data : dashbrd_set1.daf.xf.50k.set_dashbrd
+{
+	name: "Dash"
+	price: 1
+	unlock: 0
+	icon: "dashbrd_2.dlc_toys"
+   
+	interior_model: "/vehicle/truck/upgrade/interior_set/daf_xf/dashbrd_set_1.dlc_toys.pmd"
+}
+}

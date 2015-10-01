@@ -1,0 +1,12 @@
+SiiNunit
+{
+accessory_addon_data : glass_set3.daf.xf.50k.set_glass
+{
+	name: "Arrow"
+	price: 1
+	unlock: 0
+	icon: "glass_set_3.dlc_toys"
+   
+	interior_model: "/vehicle/truck/upgrade/interior_set/daf_xf/glass_set_3.dlc_toys.pmd"
+}
+}

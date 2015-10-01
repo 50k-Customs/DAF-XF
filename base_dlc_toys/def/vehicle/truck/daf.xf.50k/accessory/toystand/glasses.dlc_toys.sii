@@ -1,0 +1,13 @@
+SiiNunit
+{
+accessory_addon_int_data : glasses.daf.xf.50k.toystand
+{
+	name: "Aviator Shades"
+	icon: "aviators.dlc_toys"	
+  
+  interior_model: "/vehicle/truck/upgrade/interior_decors/toystand/glasses.dlc_toys.pmd"
+
+	price: 345
+	unlock: 0
+}
+}
