@@ -5,11 +5,11 @@ DAF XF 105 modified by 50keda featuring new completely reworked truck with:
 - paintable grills
 - complete UK variant
 - new dashboard screens
+- support for Cabin Accessories DLC 
 
 ### CHANGELOG FOR LATEST VERSION
 
-- fixed front mirrors now appearing on all cabs
-- added support for Cabin Accessories DLC 
+- fixed sound definitions for version 1.22.x
 
 ### CREDITS
 
@@ -26,4 +26,4 @@ DAF XF 105 modified by 50keda featuring new completely reworked truck with:
 ### KNOWN ISSUES
 
 No known issues.
-It was tested on 1.21.1s.
+It was tested on 1.22.2s.
