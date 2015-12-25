@@ -31,7 +31,7 @@ accessory_sound_data : int.open.daf.xf.50k.isound
 	air_brake[0]: .airbrake0
 	air_brake[1]: .airbrake1
 
-	motor_brake: .mbrake
+	engine_brake[]: .mbrake
 	horn: .horn
 	reverse: .reverse
 	change_gear: .changeg

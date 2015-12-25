@@ -24,7 +24,6 @@ accessory_sound_data : ext.daf.xf.50k.esound
 	engine_load[]: .el5
 	engine_load[]: .el6
 
-
 	engine_nofuel[]: .enf0
 	engine_nofuel[]: .enf1
 	engine_nofuel[]: .enf2
@@ -36,6 +35,7 @@ accessory_sound_data : ext.daf.xf.50k.esound
 	engine_exhaust[]: .ee2
 	engine_exhaust[]: .ee3
 
+	engine_brake[]: .eb
 
 	turbo: .t
 
@@ -46,16 +46,10 @@ accessory_sound_data : ext.daf.xf.50k.esound
 	air_brake[0]: .airbrake0
 	air_brake[1]: .airbrake1
 
-	motor_brake: .mbrake
 	horn: .horn
 	reverse: .reverse
 
 @include "/def/vehicle/truck/common_sound_ext.sui"
-
-    suitable_for[]: "mx265.daf.xf.50k.engine"
-    suitable_for[]: "mx300.daf.xf.50k.engine"
-    suitable_for[]: "mx340.daf.xf.50k.engine"
-    suitable_for[]: "mx375.daf.xf.50k.engine"
 
 }
 
@@ -363,6 +357,18 @@ sound_engine_data: .ee3
 	volume: 0.7
 }
 
+
+
+sound_engine_data: .eb
+{
+	name: "/sound/truck/daf_eu6/ext/engine_brake.ogg"
+	looped: true
+
+	pitch_reference: 1850
+	min_rpm: 200.0
+	max_rpm: 3000.0
+}
+
 # ----------------------------------------------------END OF ENGINE SOUNDS
 
 
@@ -402,16 +408,6 @@ sound_data: .airbrake1
 {
 	name: "/sound/truck/daf_eu6/ext/air_brake2.ogg"
 	looped: false
-}
-
-sound_engine_data: .mbrake
-{
-	name: "/sound/truck/daf_eu6/ext/engine_brake.ogg"
-	looped: true
-
-	pitch_reference: 1850
-	min_rpm: 200.0
-	max_rpm: 3000.0
 }
 
 sound_data: .horn

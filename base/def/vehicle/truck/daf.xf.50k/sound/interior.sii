@@ -35,6 +35,8 @@ accessory_sound_data : int.daf.xf.50k.isound
 	engine_exhaust[]: .ee2
 	engine_exhaust[]: .ee3
 
+	engine_brake[]: .eb
+
 	turbo: .t
 
 	air_gear[0]: .airgear0
@@ -44,7 +46,6 @@ accessory_sound_data : int.daf.xf.50k.isound
 	air_brake[0]: .airbrake0
 	air_brake[1]: .airbrake1
 
-	motor_brake: .mbrake
 	horn: .horn
 	reverse: .reverse
 
@@ -54,11 +55,6 @@ accessory_sound_data : int.daf.xf.50k.isound
 	wipers_down: .wipers_down
 
 @include "/def/vehicle/truck/common_sound_int.sui"
-
-    suitable_for[]: "mx265.daf.xf.50k.engine"
-    suitable_for[]: "mx300.daf.xf.50k.engine"
-    suitable_for[]: "mx340.daf.xf.50k.engine"
-    suitable_for[]: "mx375.daf.xf.50k.engine"
 
 }
 
@@ -366,6 +362,18 @@ sound_engine_data: .ee3
 	volume: 0.7
 }
 
+
+
+sound_engine_data: .eb
+{
+	name: "/sound/truck/daf_eu6/int/engine_brake.ogg"
+	looped: true	
+	is_2d: true
+	pitch_reference: 1850
+	min_rpm: 750.0
+	max_rpm: 3000.0
+}
+
 # ----------------------------------------------------END OF ENGINE SOUNDS
 
 sound_data: .t
@@ -404,16 +412,6 @@ sound_data: .airbrake1
 {
 	name: "/sound/truck/daf_eu6/int/air_brake2.ogg"
 	looped: false
-}
-
-sound_engine_data: .mbrake
-{
-	name: "/sound/truck/daf_eu6/int/engine_brake.ogg"
-	looped: true	
-	is_2d: true
-	pitch_reference: 1850
-	min_rpm: 750.0
-	max_rpm: 3000.0
 }
 
 sound_data: .horn
