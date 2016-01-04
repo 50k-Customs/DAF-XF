@@ -1,0 +1,16 @@
+SiiNunit
+{
+accessory_paint_job_data : trucker.daf.xf.50k.paint_job
+{
+  name: "Santa Trucker"
+  price: 25000
+  unlock: 0
+  icon: "paintjob_christmas_trucker.dlc_christmas"
+  
+  airbrush : true
+  base_color : (0.078, 0.059, 0.059)
+  
+  paint_job_mask: "/vehicle/truck/upgrade/paintjob/paintjob_christmas_trucker_daf.dlc_christmas.tobj"
+  alternate_uvset: true
+}
+}

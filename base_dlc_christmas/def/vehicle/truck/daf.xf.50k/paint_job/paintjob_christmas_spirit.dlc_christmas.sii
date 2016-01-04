@@ -1,0 +1,23 @@
+SiiNunit
+{
+accessory_paint_job_data : spirit.daf.xf.50k.paint_job
+{
+	name: "Xmas Spirit"
+	price: 25000
+	unlock: 0
+	icon: "paintjob_christmas_spirit.dlc_christmas"
+	airbrush : true
+        flipflake : true
+        flip_color : (1, 0.1169, 0.1119)
+        flip_strength : 1.3
+        flake_color : (1, 0.6038, 0.5972)
+        flake_uvscale : 60.0
+        flake_density : 1.0
+        flake_shininess : 25.0
+        flake_clearcoat_rolloff : 4.5
+        flake_noise : "/material/custom/flake_noise.tobj"
+        base_color : (0.0239, 0.0002, 0)
+	paint_job_mask: "/vehicle/truck/upgrade/paintjob/paintjob_christmas_spirit_daf.dlc_christmas.tobj"
+        alternate_uvset: true
+}
+}
