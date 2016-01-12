@@ -1,0 +1,43 @@
+SiiNunit
+{
+accessory_chassis_data : 6x4_p.daf.xf.50k.chassis
+{
+	name: "@@chassis@@ 6x4 with painted grill"
+	price: 53880
+	unlock: 14
+	info[]: "6x4"
+	info[]: "600 + 200 @@unit_l@@"
+	model: "/vehicle/truck/daf_xf_50k/truck.pmd"
+	lods[]: "/vehicle/truck/daf_xf/lod_02.pmd"
+	lods[]: "/vehicle/truck/daf_xf/lod_03.pmd"
+	collision: "/vehicle/truck/daf_xf_50k/truck.pmc"
+	residual_travel[]: 0.25 	# 1st axle
+	residual_travel[]: 0.08 	# 2nd axle
+	residual_travel[]: 0.08 	# 3rd axle
+	icon: "chassis_daf_xf_6x4"
+	tank_size: 800
+	variant: chs_6x4
+	look: default
+	defaults[]: "/def/vehicle/truck/daf.xf.50k/accessory/doorstep/shape1.sii"
+	defaults[]: "/def/vehicle/truck/daf.xf.50k/paint_job/color1.sii"
+	defaults[]: "/def/vehicle/truck/daf.xf.50k/engine/mx300.sii"
+	require[]: "sideskirt"
+	defaults[]: "/def/vehicle/truck/daf.xf.50k/accessory/sideskirt/shape0.sii"
+	extended_shadow_texture: "/vehicle/truck/daf_xf_50k/shadow_6x2.tobj"
+	extended_shadow_intensity: 0.97
+	extended_shadow_fadeout_start: 10
+	extended_shadow_fadeout_length: 0
+	ui_shadow: "/vehicle/truck/daf_xf_50k/ui_shadow_6x2.pmd"
+	powered_wheel[0]: false	# front wheel left
+	powered_wheel[1]: false	# front wheel right
+	powered_wheel[2]: true	# rear wheel left
+	powered_wheel[3]: true	# rear wheel right
+	powered_wheel[4]: true	# rear wheel left
+	powered_wheel[5]: true	# rear wheel right
+	kerb_weight[0]:	5100.1
+	kerb_weight[1]:	1350.1
+	kerb_weight[2]:	1350.1
+	
+	defaults[]: "/def/vehicle/truck/daf.xf.50k/s_equip/50k_chassis_grill_painted.sii"
+}
+}
