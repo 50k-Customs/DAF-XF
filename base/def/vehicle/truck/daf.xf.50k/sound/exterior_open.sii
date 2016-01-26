@@ -38,7 +38,7 @@ accessory_sound_data : ext.open.daf.xf.50k.esound
 
 @include "/def/vehicle/truck/common_sound_ext.sui"
 
-    suitable_for[]: "mx375.open.daf.xf.50k.engine"
+	suitable_for[]: "mx375.open.daf.xf.50k.engine"
 }
 
 sound_data: .start

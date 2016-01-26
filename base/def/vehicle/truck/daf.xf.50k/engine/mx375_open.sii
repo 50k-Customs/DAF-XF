@@ -14,7 +14,7 @@ accessory_engine_data : mx375.open.daf.xf.50k.engine
 	
 	defaults[]: "/def/vehicle/truck/daf.xf.50k/badge/50k_bdg_510.sii"
 
-    defaults[]: "/def/vehicle/truck/daf.xf.50k/sound/interior_open.sii"
+	defaults[]: "/def/vehicle/truck/daf.xf.50k/sound/interior_open.sii"
 	defaults[]: "/def/vehicle/truck/daf.xf.50k/sound/exterior_open.sii"
 }
 }

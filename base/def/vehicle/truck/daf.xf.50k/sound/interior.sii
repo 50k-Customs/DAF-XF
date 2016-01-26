@@ -56,6 +56,11 @@ accessory_sound_data : int.daf.xf.50k.isound
 
 @include "/def/vehicle/truck/common_sound_int.sui"
 
+	suitable_for[]: "mx375.daf.xf.50k.engine"
+	suitable_for[]: "mx340.daf.xf.50k.engine"
+	suitable_for[]: "mx300.daf.xf.50k.engine"
+	suitable_for[]: "mx265.daf.xf.50k.engine"
+
 }
 
 sound_data: .start

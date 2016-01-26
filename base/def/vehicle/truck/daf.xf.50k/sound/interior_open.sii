@@ -43,7 +43,7 @@ accessory_sound_data : int.open.daf.xf.50k.isound
 
 @include "/def/vehicle/truck/common_sound_int.sui"
 
-    suitable_for[]: "mx375.open.daf.xf.50k.engine"
+	suitable_for[]: "mx375.open.daf.xf.50k.engine"
 
 }
 
