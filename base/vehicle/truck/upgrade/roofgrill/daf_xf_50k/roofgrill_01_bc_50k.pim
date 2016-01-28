@@ -1,6 +1,6 @@
 Header {
     FormatVersion: 5
-    Source: "Blender 2.74.0 (hash: 000dfc0), SCS Blender Tools: 0.5.b236e41"
+    Source: "Blender 2.76.0 (hash: f337fea), SCS Blender Tools: 1.1.e7c5caf"
     Type: "Model"
     Name: "roofgrill_01_bc_50k"
 }
@@ -67,15 +67,15 @@ Locator {
     Name: "slot_8"
     Index: 6
     Position: ( &bf80439b  &bacdd961  &3f0b4380 )
-    Rotation: ( &3f7ffd25  &3c18ecd8  &333d7a97  &3339fa82 )
-    Scale: ( &3f800000  &3f7fffff  &3f7fffff )
+    Rotation: ( &3f7ffd25  &bc18fbcb  &3339f93a  &333d7bd8 )
+    Scale: ( &3f800000  &3f800000  &3f800000 )
 }
 Locator {
     Name: "slot_9"
     Index: 7
     Position: ( &3f802083  &bacdd961  &3f0b4380 )
-    Rotation: ( &3f7ffd25  &3c18ecd8  &333d7a97  &3339fa82 )
-    Scale: ( &3f800000  &3f7fffff  &3f7fffff )
+    Rotation: ( &3f7ffd25  &bc18fbcb  &3339f93a  &333d7bd8 )
+    Scale: ( &3f800000  &3f800000  &3f800000 )
 }
 Locator {
     Name: "slot_10"
@@ -194,20 +194,20 @@ Locator {
     Index: 24
     Position: ( &3f3d2321  &c00341ca  &becb890d )
     Rotation: ( &3f7fd633  &b3a56119  &bd1245ff  &332475af )
-    Scale: ( &3f7ffffd  &3f800000  &3f7ffffd )
+    Scale: ( &3f7fffff  &3f800000  &3f7fffff )
 }
 Locator {
     Name: "slot_28"
     Index: 25
     Position: ( &3f4c5fc0  &bff30008  &bec5c695 )
     Rotation: ( &3f7fd633  &b3a56119  &bd1245ff  &332475af )
-    Scale: ( &3f7ffffd  &3f800000  &3f7ffffd )
+    Scale: ( &3f7fffff  &3f800000  &3f7fffff )
 }
 Locator {
     Name: "slot_29"
     Index: 26
     Position: ( &3f534e84  &bfdef27c  &bec4c894 )
     Rotation: ( &3f7fd633  &b3a56119  &bd1245ff  &332475af )
-    Scale: ( &3f7ffffd  &3f800000  &3f7ffffd )
+    Scale: ( &3f7fffff  &3f800000  &3f7fffff )
 }
 
