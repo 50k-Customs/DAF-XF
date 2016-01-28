@@ -5,11 +5,15 @@ DAF XF 105 modified by 50keda featuring new completely reworked truck with:
 - paintable grills
 - complete UK variant
 - new dashboard screens
-- support for Cabin Accessories DLC 
+- support for Cabin Accessories DLC
+- support for Christmas DLC
 
 ### CHANGELOG FOR LATEST VERSION
 
-- fixed sound definitions for version 1.22.x
+- fixed sound definitions to work with Open Pipe sounds
+- fenders for 6x2/4 and 6x4 are cutted on the top, to prevent any intersetions on liftable chassis
+- wheels locators repositioning for better fitting of stock wheels
+- fixed horn locator rotations on only slots roof grils
 
 ### CREDITS
 
