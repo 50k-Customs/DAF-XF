@@ -32,15 +32,9 @@ Step by step conversion:
 If you found bug or you have any reference material of DAF XF please use Issues on github.
 
 
-### ISSUES
-
-For now none. It was tested on 1.20.1s game version
-
-
 ### TODO
 
 This is known todo list for this mod:
-- fix for missing licence plates
 - new mirrors
 - paintable visor & front fender part
 

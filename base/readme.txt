@@ -15,6 +15,8 @@ DAF XF 105 modified by 50keda featuring new completely reworked truck with:
 - wheels locators repositioning for better fitting of stock wheels
 - fixed horn locator rotations on only slots roof grils
 
+- fixed licence plates on 4x2
+
 ### CREDITS
 
 - 50keda
