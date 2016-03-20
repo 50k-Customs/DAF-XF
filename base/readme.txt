@@ -10,12 +10,10 @@ DAF XF 105 modified by 50keda featuring new completely reworked truck with:
 
 ### CHANGELOG FOR LATEST VERSION
 
-- fixed sound definitions to work with Open Pipe sounds
-- fenders for 6x2/4 and 6x4 are cutted on the top, to prevent any intersetions on liftable chassis
-- wheels locators repositioning for better fitting of stock wheels
-- fixed horn locator rotations on only slots roof grils
-
-- fixed licence plates on 4x2
+- 1.23 game update compatibility: removing obsolete UI attributes + proper initial wheels definitions
+- tweaked UI shadows while in dealer
+- added truck browser defs, so user can now preview truck in it
+- added definition for UK truck dealers
 
 ### CREDITS
 
@@ -32,4 +30,5 @@ DAF XF 105 modified by 50keda featuring new completely reworked truck with:
 ### KNOWN ISSUES
 
 No known issues.
-It was tested on 1.22.2s.
+It was tested on 1.23.0.2s.
+.
