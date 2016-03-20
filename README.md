@@ -6,6 +6,9 @@ Mod presents reworked SCS DAF XF 105 with some extra content and features.
 
 ![](/preview/daf_garage_preview.jpg?raw=true "DAF XF preview")
 
+Preview for 1.23 game version:
+![](/preview/daf_garage_preview_#2.jpg?raw=true "DAF XF preview 1.23")
+
 
 ### USAGE
 
