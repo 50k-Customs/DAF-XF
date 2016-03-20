@@ -16,10 +16,14 @@ vehicle: .tdealer.daf_0
  accessories[]: .daf0.sound_int
  accessories[]: .daf0.sound_ext
  accessories[]: .daf0.hlight
- accessories[]: .daf0.frim
  accessories[]: .daf0.ftire
- accessories[]: .daf0.rrim
+ accessories[]: .daf0.fdisc
+ accessories[]: .daf0.fhub
+ accessories[]: .daf0.fnuts
  accessories[]: .daf0.rtire
+ accessories[]: .daf0.rdisc
+ accessories[]: .daf0.rhub
+ accessories[]: .daf0.rnuts
  accessories[]: .daf0.paintjob
  accessories[]: .daf0.dhnadle
  accessories[]: .daf0.mirrors
@@ -79,22 +83,28 @@ vehicle_accessory : .daf0.hlight {
  data_path: "/def/vehicle/truck/daf.xf.50k/head_light/xenon.sii"
 }
 
-vehicle_wheel_accessory : .daf0.frim {
- offset: 0
- wear: 0
- data_path: "/def/vehicle/f_rim/steel.sii"
-}
-
 vehicle_wheel_accessory : .daf0.ftire {
  offset: 0
  wear: 0
  data_path: "/def/vehicle/f_tire/1.sii"
 }
 
-vehicle_wheel_accessory : .daf0.rrim {
+vehicle_wheel_accessory : .daf0.fdisc {
  offset: 0
  wear: 0
- data_path: "/def/vehicle/r_rim/steel.sii"
+ data_path: "/def/vehicle/f_disc/front_disc_02_matt_gray.sii"
+}
+
+vehicle_wheel_accessory : .daf0.fhub {
+ offset: 0
+ wear: 0
+ data_path: "/def/vehicle/f_hub/front_hub_01.sii"
+}
+
+vehicle_wheel_accessory : .daf0.fnuts {
+ offset: 0
+ wear: 0
+ data_path: "/def/vehicle/f_nuts/front_nuts_01_steel.sii"
 }
 
 vehicle_wheel_accessory : .daf0.rtire {
@@ -103,13 +113,27 @@ vehicle_wheel_accessory : .daf0.rtire {
  data_path: "/def/vehicle/r_tire/1.sii"
 }
 
-vehicle_paint_job_accessory : .daf0.paintjob {
- mask_r_color: (1, 0, 0)
- mask_g_color: (0, 1, 0)
- mask_b_color: (0, 0, 1)
- base_color: (&3e12bd3c, &3e22d0e5, &3e4432ca)
+vehicle_wheel_accessory : .daf0.rdisc {
+ offset: 0
  wear: 0
- data_path: "/def/vehicle/truck/daf.xf.50k/paint_job/color6.sii"
+ data_path: "/def/vehicle/r_disc/rear_disc_01_matt_gray.sii"
+}
+
+vehicle_wheel_accessory : .daf0.rhub {
+ offset: 0
+ wear: 0
+ data_path: "/def/vehicle/r_hub/rear_hub_01.sii"
+}
+
+vehicle_wheel_accessory : .daf0.rnuts {
+ offset: 0
+ wear: 0
+ data_path: "/def/vehicle/r_nuts/rear_nuts_01_steel.sii"
+}
+
+vehicle_paint_job_accessory : .daf0.paintjob {
+ wear: 0
+ data_path: "/def/vehicle/truck/daf.xf.50k/paint_job/color2.sii"
 }
 
 vehicle_addon_accessory : .daf0.dhnadle {

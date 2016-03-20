@@ -1,0 +1,197 @@
+SiiNunit
+{
+vehicle: .desktop.truck
+{
+ fuel_relative: &3f000000
+ user_mirror_rot: 4
+ user_mirror_rot[0]: (1; 0, 0, 0)
+ user_mirror_rot[1]: (1; 0, 0, 0)
+ user_mirror_rot[2]: (1; 0, 0, 0)
+ user_mirror_rot[3]: (1; 0, 0, 0)
+ 
+ accessories[]: .daf0.data
+ accessories[]: .daf0.chassis
+ accessories[]: .daf0.cab
+ accessories[]: .daf0.interior
+ accessories[]: .daf0.engine
+ accessories[]: .daf0.trans
+ accessories[]: .daf0.sound_int
+ accessories[]: .daf0.sound_ext
+ accessories[]: .daf0.hlight
+ accessories[]: .daf0.ftire
+ accessories[]: .daf0.fdisc
+ accessories[]: .daf0.fhub
+ accessories[]: .daf0.fnuts
+ accessories[]: .daf0.rtire
+ accessories[]: .daf0.rdisc
+ accessories[]: .daf0.rhub
+ accessories[]: .daf0.rnuts
+ accessories[]: .daf0.paintjob
+ accessories[]: .daf0.dhnadle
+ accessories[]: .daf0.mirrors
+ accessories[]: .daf0.dstep
+ accessories[]: .daf0.sunshild
+ accessories[]: .daf0.exhaust
+ accessories[]: .daf0.badge
+ accessories[]: .daf0.c_equip
+ accessories[]: .daf0.s_equip
+
+ odometer: 0
+ odometer_float_part: &3a674191
+}
+
+vehicle_accessory : .daf0.data {
+ wear: 0
+ data_path: "/def/vehicle/truck/daf.xf.50k/data.sii"
+}
+
+vehicle_accessory : .daf0.chassis {
+ wear: 0
+ data_path: "/def/vehicle/truck/daf.xf.50k/chassis/4x2.sii"
+}
+
+vehicle_accessory : .daf0.cab {
+ wear: 0
+ data_path: "/def/vehicle/truck/daf.xf.50k/cabin/super_space_cab.sii"
+}
+
+vehicle_accessory : .daf0.interior {
+ wear: 0
+ data_path: "/def/vehicle/truck/daf.xf.50k/interior/standard_uk.sii"
+}
+
+vehicle_accessory : .daf0.engine {
+ wear: 0
+ data_path: "/def/vehicle/truck/daf.xf.50k/engine/mx340.sii"
+}
+
+vehicle_accessory : .daf0.trans {
+ wear: 0
+ data_path: "/def/vehicle/truck/daf.xf.50k/transmission/12_speed_ret.sii"
+}
+
+vehicle_sound_accessory : .daf0.sound_int {
+ wear: 0
+ data_path: "/def/vehicle/truck/daf.xf.50k/sound/interior.sii"
+}
+
+vehicle_sound_accessory : .daf0.sound_ext {
+ wear: 0
+ data_path: "/def/vehicle/truck/daf.xf.50k/sound/exterior.sii"
+}
+
+vehicle_accessory : .daf0.hlight {
+ wear: 0
+ data_path: "/def/vehicle/truck/daf.xf.50k/head_light/xenon.sii"
+}
+
+vehicle_wheel_accessory : .daf0.ftire {
+ offset: 0
+ wear: 0
+ data_path: "/def/vehicle/f_tire/1.sii"
+}
+
+vehicle_wheel_accessory : .daf0.fdisc {
+ offset: 0
+ wear: 0
+ data_path: "/def/vehicle/f_disc/front_disc_02_matt_gray.sii"
+}
+
+vehicle_wheel_accessory : .daf0.fhub {
+ offset: 0
+ wear: 0
+ data_path: "/def/vehicle/f_hub/front_hub_01.sii"
+}
+
+vehicle_wheel_accessory : .daf0.fnuts {
+ offset: 0
+ wear: 0
+ data_path: "/def/vehicle/f_nuts/front_nuts_01_steel.sii"
+}
+
+vehicle_wheel_accessory : .daf0.rtire {
+ offset: 0
+ wear: 0
+ data_path: "/def/vehicle/r_tire/1.sii"
+}
+
+vehicle_wheel_accessory : .daf0.rdisc {
+ offset: 0
+ wear: 0
+ data_path: "/def/vehicle/r_disc/rear_disc_01_matt_gray.sii"
+}
+
+vehicle_wheel_accessory : .daf0.rhub {
+ offset: 0
+ wear: 0
+ data_path: "/def/vehicle/r_hub/rear_hub_01.sii"
+}
+
+vehicle_wheel_accessory : .daf0.rnuts {
+ offset: 0
+ wear: 0
+ data_path: "/def/vehicle/r_nuts/rear_nuts_01_steel.sii"
+}
+
+vehicle_paint_job_accessory : .daf0.paintjob {
+ wear: 0
+ data_path: "/def/vehicle/truck/daf.xf.50k/paint_job/color2.sii"
+}
+
+vehicle_addon_accessory : .daf0.dhnadle {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/daf.xf.50k/accessory/doorhndl/shape1.sii"
+}
+
+vehicle_addon_accessory : .daf0.mirrors {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/daf.xf.50k/accessory/mirror/shape2.sii"
+}
+
+vehicle_addon_accessory : .daf0.dstep {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/daf.xf.50k/accessory/doorstep/shape1.sii"
+}
+
+vehicle_addon_accessory : .daf0.sunshild {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/daf.xf.50k/accessory/sunshld/shape11.sii"
+}
+
+
+vehicle_addon_accessory : .daf0.exhaust {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/daf.xf.50k/accessory/exhaust_l/shape14.sii"
+}
+
+vehicle_addon_accessory : .daf0.badge {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/daf.xf.50k/badge/50k_bdg_460.sii"
+}
+
+vehicle_addon_accessory : .daf0.c_equip {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/daf.xf.50k/c_equip/50k_cab_grill.sii"
+}
+
+vehicle_addon_accessory : .daf0.s_equip {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/daf.xf.50k/s_equip/50k_chassis_grill.sii"
+}
+}

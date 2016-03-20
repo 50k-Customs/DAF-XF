@@ -17,7 +17,6 @@ ui::window : mainwin {
  my_children[8]: sharedisp
  my_children[9]: turbodisp
  my_children[10]: pressureinfo
- name: ""
  coords_l: 0
  coords_r: 1152
  coords_t: 864
@@ -29,8 +28,6 @@ ui::window : mainwin {
  id: 0
  layer: 0
  tab: -1
- p2p_pml: false
- tooltip: ""
  pointer: -1
  apparent_depth: 0
  my_parent: null
@@ -38,7 +35,6 @@ ui::window : mainwin {
 
 ui::text : backunlit {
  text: "<img src=/material/ui/white.mat xscale=stretch yscale=stretch color=FF2f3f35>"
- name: BackgroundUnlit
  coords_l: 0
  coords_r: 1152
  coords_t: 864
@@ -50,8 +46,6 @@ ui::text : backunlit {
  id: 10
  layer: -1
  tab: -1
- p2p_pml: false
- tooltip: ""
  pointer: -1
  apparent_depth: 0
  my_parent: mainwin
@@ -59,7 +53,6 @@ ui::text : backunlit {
 
 ui::text : backlit {
  text: "<img src=/material/ui/white.mat xscale=stretch yscale=stretch color=AA133d9f>"
- name: BackgroundLit
  coords_l: 0
  coords_r: 1152
  coords_t: 864
@@ -71,8 +64,6 @@ ui::text : backlit {
  id: 20
  layer: -1
  tab: -1
- p2p_pml: false
- tooltip: ""
  pointer: -1
  apparent_depth: 0
  my_parent: mainwin
@@ -87,7 +78,6 @@ ui::group : emptydisp {
  fitting: false
  my_children: 1
  my_children[0]: bbc5clocz
- name: Display1
  coords_l: 0
  coords_r: 1152
  coords_t: 864
@@ -99,8 +89,6 @@ ui::group : emptydisp {
  id: 100
  layer: -1
  tab: -1
- p2p_pml: false
- tooltip: ""
  pointer: -1
  apparent_depth: 0
  my_parent: mainwin
@@ -108,7 +96,6 @@ ui::group : emptydisp {
 
 ui::text : bbc5clocz {
  text: "<color value=BB000000><img src=/material/ui/dashboard/daf_xf_50k/czar.mat xscale=stretch yscale=stretch>"
- name: background
  coords_l: 0
  coords_r: 1152
  coords_t: 700
@@ -120,8 +107,6 @@ ui::text : bbc5clocz {
  id: 0
  layer: 7
  tab: -1
- p2p_pml: false
- tooltip: ""
  pointer: -1
  apparent_depth: 0
  my_parent: emptydisp
@@ -138,7 +123,6 @@ ui::group : dafdisp {
  fitting: false
  my_children: 1
  my_children[0]: 01e7btdaf
- name: Display1
  coords_l: 0
  coords_r: 1152
  coords_t: 864
@@ -150,8 +134,6 @@ ui::group : dafdisp {
  id: 200
  layer: -1
  tab: -1
- p2p_pml: false
- tooltip: ""
  pointer: -1
  apparent_depth: 0
  my_parent: mainwin
@@ -159,7 +141,6 @@ ui::group : dafdisp {
 
 ui::text : 01e7btdaf {
  text: "<color value=FF30bcfe><img src=/material/ui/dashboard/daf_xf_50k/dafi.mat xscale=stretch yscale=stretch>"
- name: background
  coords_l: 112
  coords_r: 1040
  coords_t: 704
@@ -171,8 +152,6 @@ ui::text : 01e7btdaf {
  id: 0
  layer: 7
  tab: -1
- p2p_pml: false
- tooltip: ""
  pointer: -1
  apparent_depth: 0
  my_parent: dafdisp
@@ -192,7 +171,6 @@ ui::group : turbodisp  {
  my_children[2]: tdback
  my_children[3]: tdbar
  my_children[4]: tdbackicon
- name: Display0
  coords_l: 0
  coords_r: 1152
  coords_t: 864
@@ -204,8 +182,6 @@ ui::group : turbodisp  {
  id: 300
  layer: -1
  tab: -1
- p2p_pml: false
- tooltip: ""
  pointer: -1
  apparent_depth: 0
  my_parent: mainwin
@@ -215,7 +191,6 @@ ui::text_common : tdtext {
  value: "Turbo pressure"
  look_template: txt.daf.text2
  text: ""
- name: "turbo"
  coords_l: 320
  coords_r: 989
  coords_t: 660
@@ -227,8 +202,6 @@ ui::text_common : tdtext {
  id: 0
  layer: 7
  tab: -1
- p2p_pml: false
- tooltip: ""
  pointer: -1
  apparent_depth: 0
  my_parent: turbodisp
@@ -236,7 +209,6 @@ ui::text_common : tdtext {
 
 ui::text : tdback {
  text: "<img src=/material/ui/white.mat xscale=stretch yscale=stretch color=FF30bcfe>"
- name: "turbo pressure"
  coords_l: 75
  coords_r: 1086
  coords_t: 332
@@ -248,8 +220,6 @@ ui::text : tdback {
  id: 1130
  layer: 6
  tab: -1
- p2p_pml: false
- tooltip: ""
  pointer: -1
  apparent_depth: 0
  my_parent: turbodisp
@@ -257,7 +227,6 @@ ui::text : tdback {
 
 ui::text : tdbar {
  text: "H~~0~~1"
- name: "turbo pressure data"
  coords_l: 75
  coords_r: 1086
  coords_t: 332
@@ -269,8 +238,6 @@ ui::text : tdbar {
  id: 1135
  layer: 5
  tab: -1
- p2p_pml: false
- tooltip: ""
  pointer: -1
  apparent_depth: 0
  my_parent: turbodisp
@@ -278,7 +245,6 @@ ui::text : tdbar {
 
 ui::text : tdbackicon {
  text: "<color value=FF30bcfe><img src=/material/ui/dashboard/daf_xf_50k/turb.mat xscale=stretch yscale=stretch>"
- name: background
  coords_l: 57
  coords_r: 1090 //950
  coords_t: 512
@@ -290,8 +256,6 @@ ui::text : tdbackicon {
  id: 0
  layer: 7
  tab: -1
- p2p_pml: false
- tooltip: ""
  pointer: -1
  apparent_depth: 0
  my_parent: turbodisp
@@ -299,7 +263,6 @@ ui::text : tdbackicon {
 
 ui::text : tdicon {
 text: "<color value=FF30bcfe>\r\n<img src=/material/ui/dashboard/volvo_fh16_2012/display_2.mat xscale=stretch yscale=stretch left=0.625 top=0.875 bottom=1 right=0.75>"
- name: icon_turbo
  coords_l: 40
  coords_r: 370 
  coords_t: 700  
@@ -311,8 +274,6 @@ text: "<color value=FF30bcfe>\r\n<img src=/material/ui/dashboard/volvo_fh16_2012
  id: 0
  layer: 7
  tab: -1
- p2p_pml: false
- tooltip: ""
  pointer: -1
  apparent_depth: 0
  my_parent: turbodisp
@@ -333,7 +294,6 @@ ui::group : fuelusage {
  my_children[3]: fucurrent
  my_children[4]: _nameless.12DF.7478
  my_children[5]: _nameless.12DF.76E8
- name: Display2
  coords_l: 0
  coords_r: 1152
  coords_t: 864
@@ -345,8 +305,6 @@ ui::group : fuelusage {
  id: 400
  layer: -1
  tab: -1
- p2p_pml: false
- tooltip: ""
  pointer: -1
  apparent_depth: 0
  my_parent: mainwin
@@ -354,7 +312,6 @@ ui::group : fuelusage {
 
 ui::text : _nameless.12E1.9900 {
  text: "<color value=FF30bcfe><img src=/material/ui/dashboard/daf_xf/pict.mat right=0.5 bottom=0.5 xscale=stretch yscale=stretch>"
- name: icon
  coords_l: &42240004
  coords_r: 191
  coords_t: 690
@@ -366,8 +323,6 @@ ui::text : _nameless.12E1.9900 {
  id: 0
  layer: 8
  tab: -1
- p2p_pml: false
- tooltip: ""
  pointer: -1
  apparent_depth: 0
  my_parent: fuelusage
@@ -377,7 +332,6 @@ ui::text_common : _nameless.12DF.6980 {
  value: "Fuel usage"
  look_template: txt.daf.text2
  text: ""
- name: CruiseControl
  coords_l: 320
  coords_r: 989
  coords_t: 660
@@ -389,8 +343,6 @@ ui::text_common : _nameless.12DF.6980 {
  id: 0
  layer: 8
  tab: -1
- p2p_pml: false
- tooltip: ""
  pointer: -1
  apparent_depth: 0
  my_parent: fuelusage
@@ -400,7 +352,6 @@ ui::text_common : fuavarage {
  value: "AVARAGE"
  look_template: txt.daf.text3
  text: ""
- name: Avarage
  coords_l: 59
  coords_r: 949
  coords_t: 557
@@ -412,8 +363,6 @@ ui::text_common : fuavarage {
  id: 0
  layer: 8
  tab: -1
- p2p_pml: false
- tooltip: ""
  pointer: -1
  apparent_depth: 0
  my_parent: fuelusage
@@ -423,7 +372,6 @@ ui::text_common : fucurrent {
  value: "CURRENT"
  look_template: txt.daf.text3
  text: ""
- name: Current
  coords_l: 59
  coords_r: 949
  coords_t: 460
@@ -435,8 +383,6 @@ ui::text_common : fucurrent {
  id: 0
  layer: 8
  tab: -1
- p2p_pml: false
- tooltip: ""
  pointer: -1
  apparent_depth: 0
  my_parent: fuelusage
@@ -446,7 +392,6 @@ ui::text_common : _nameless.12DF.7478 {
  value: "999|l/h"
  look_template: txt.daf.fuel
  text: ""
- name: Fuel
  coords_l: &42fdfff8
  coords_r: 1101
  coords_t: 480
@@ -458,8 +403,6 @@ ui::text_common : _nameless.12DF.7478 {
  id: 1160
  layer: 8
  tab: -1
- p2p_pml: false
- tooltip: ""
  pointer: -1
  apparent_depth: 0
  my_parent: fuelusage
@@ -469,7 +412,6 @@ ui::text_common : _nameless.12DF.76E8 {
  value: "2156|l/100km"
  look_template: txt.daf.fuel
  text: ""
- name: Fuel_distance
  coords_l: &42fbfff8
  coords_r: 1101
  coords_t: 577
@@ -481,8 +423,6 @@ ui::text_common : _nameless.12DF.76E8 {
  id: 1170
  layer: 8
  tab: -1
- p2p_pml: false
- tooltip: ""
  pointer: -1
  apparent_depth: 0
  my_parent: fuelusage
@@ -504,7 +444,6 @@ ui::group : pressureinfo {
  my_children[2]: bbc5akti2
  my_children[3]: bbc5powq
  my_children[4]: bbc5poww
- name: Display0
  coords_l: 0
  coords_r: 1152
  coords_t: 864
@@ -516,8 +455,6 @@ ui::group : pressureinfo {
  id: 500
  layer: -1
  tab: -1
- p2p_pml: false
- tooltip: ""
  pointer: -1
  apparent_depth: 0
  my_parent: mainwin
@@ -527,7 +464,6 @@ ui::text_common : bbc5text {
  value: "Air pressure"
  look_template: txt.daf.text2
  text: ""
- name: "text"
  coords_l: 320
  coords_r: 989
  coords_t: 660
@@ -539,8 +475,6 @@ ui::text_common : bbc5text {
  id: 0
  layer: 8
  tab: -1
- p2p_pml: false
- tooltip: ""
  pointer: -1
  apparent_depth: 0
  my_parent: pressureinfo
@@ -548,7 +482,6 @@ ui::text_common : bbc5text {
 
 ui::text : bbc5aktiv {
  text: "<img src=/material/ui/white.mat xscale=stretch yscale=stretch color=FF30bcfe>"
- name: "air pressure"
  coords_l: 85
  coords_r: 1026
  coords_t: 392
@@ -560,8 +493,6 @@ ui::text : bbc5aktiv {
  id: 1120
  layer: 6
  tab: -1
- p2p_pml: false
- tooltip: ""
  pointer: -1
  apparent_depth: 0
  my_parent: pressureinfo
@@ -569,7 +500,6 @@ ui::text : bbc5aktiv {
 
 ui::text : bbc5akti2 {
  text: "H~~0~~174"
- name: "air pressure data"
  coords_l: 85
  coords_r: 1026
  coords_t: 392
@@ -581,8 +511,6 @@ ui::text : bbc5akti2 {
  id: 1125
  layer: 5
  tab: -1
- p2p_pml: false
- tooltip: ""
  pointer: -1
  apparent_depth: 0
  my_parent: pressureinfo
@@ -590,7 +518,6 @@ ui::text : bbc5akti2 {
 
 ui::text : bbc5powq {
  text: "<color value=FF30bcfe><img src=/material/ui/dashboard/daf_xf_50k/poww.mat xscale=stretch yscale=stretch>"
- name: background
  coords_l: 60
  coords_r: 1181
  coords_t: 667
@@ -602,8 +529,6 @@ ui::text : bbc5powq {
  id: 0
  layer: 7
  tab: -1
- p2p_pml: false
- tooltip: ""
  pointer: -1
  apparent_depth: 0
  my_parent: pressureinfo
@@ -611,7 +536,6 @@ ui::text : bbc5powq {
 
 ui::text : bbc5poww {
  text: "<color value=FF30bcfe><img src=/material/ui/dashboard/daf_xf_50k/powq.mat xscale=stretch yscale=stretch>"
- name: "brake icon"
  coords_l: 40
  coords_r: 250 
  coords_t: 680  
@@ -623,8 +547,6 @@ ui::text : bbc5poww {
  id: 0
  layer: 8
  tab: -1
- p2p_pml: false
- tooltip: ""
  pointer: -1
  apparent_depth: 0
  my_parent: pressureinfo
@@ -649,7 +571,6 @@ ui::group : fuelinfo {
  my_children[3]: 01e7bbc514
  my_children[4]: 01e7bbc515
  my_children[5]: 02f6023e1
- name: Display1
  coords_l: 0
  coords_r: 1152
  coords_t: 864
@@ -661,8 +582,6 @@ ui::group : fuelinfo {
  id: 600
  layer: -1
  tab: -1
- p2p_pml: false
- tooltip: ""
  pointer: -1
  apparent_depth: 0
  my_parent: mainwin
@@ -670,7 +589,6 @@ ui::group : fuelinfo {
 
 ui::text : 01e7bbc5d {
  text: "<color value=FF30bcfe><img src=/material/ui/dashboard/daf_xf/pict.mat left=0.5 bottom=0.5 xscale=stretch yscale=stretch>"
- name: icon
  coords_l: &42240004
  coords_r: 191
  coords_t: 690
@@ -682,8 +600,6 @@ ui::text : 01e7bbc5d {
  id: 0
  layer: 8
  tab: -1
- p2p_pml: false
- tooltip: ""
  pointer: -1
  apparent_depth: 0
  my_parent: fuelinfo
@@ -693,7 +609,6 @@ ui::text_common : 01e7bbc5e {
  value: "Fuel info"
  look_template: txt.daf.text2
  text: ""
- name: info
  coords_l: 320
  coords_r: 989
  coords_t: 660
@@ -705,8 +620,6 @@ ui::text_common : 01e7bbc5e {
  id: 0
  layer: 8
  tab: -1
- p2p_pml: false
- tooltip: ""
  pointer: -1
  apparent_depth: 0
  my_parent: fuelinfo
@@ -716,7 +629,6 @@ ui::text_common : 02f602b10 {
  value: "2156|km"
  look_template: txt.daf.fuel
  text: ""
- name: Fuel_distance
  coords_l: 469
  coords_r: 1101
  coords_t: 577
@@ -728,8 +640,6 @@ ui::text_common : 02f602b10 {
  id: 1080
  layer: 8
  tab: -1
- p2p_pml: false
- tooltip: ""
  pointer: -1
  apparent_depth: 0
  my_parent: fuelinfo
@@ -739,7 +649,6 @@ ui::text_common : 01e7bbc514 {
  value: "FUEL"
  look_template: txt.daf.text3
  text: ""
- name: CruiseControl
  coords_l: 59
  coords_r: 949
  coords_t: 460
@@ -751,8 +660,6 @@ ui::text_common : 01e7bbc514 {
  id: 0
  layer: 8
  tab: -1
- p2p_pml: false
- tooltip: ""
  pointer: -1
  apparent_depth: 0
  my_parent: fuelinfo
@@ -762,7 +669,6 @@ ui::text_common : 01e7bbc515 {
  value: "DISTANCE"
  look_template: txt.daf.text3
  text: ""
- name: Distance
  coords_l: 59
  coords_r: 949
  coords_t: 557
@@ -774,8 +680,6 @@ ui::text_common : 01e7bbc515 {
  id: 0
  layer: 8
  tab: -1
- p2p_pml: false
- tooltip: ""
  pointer: -1
  apparent_depth: 0
  my_parent: fuelinfo
@@ -785,7 +689,6 @@ ui::text_common : 02f6023e1 {
  value: "999|l"
  look_template: txt.daf.fuel
  text: ""
- name: Fuel
  coords_l: 470
  coords_r: 1101
  coords_t: 480
@@ -797,8 +700,6 @@ ui::text_common : 02f6023e1 {
  id: 1060
  layer: 8
  tab: -1
- p2p_pml: false
- tooltip: ""
  pointer: -1
  apparent_depth: 0
  my_parent: fuelinfo
@@ -820,7 +721,6 @@ ui::group : speedinfo {
  my_children[1]: 01e7bbc56
  my_children[2]: 01e7bbc57
  my_children[3]: 01e7bbc54
- name: Display0
  coords_l: 0
  coords_r: 1152
  coords_t: 864
@@ -832,8 +732,6 @@ ui::group : speedinfo {
  id: 700
  layer: -1
  tab: -1
- p2p_pml: false
- tooltip: ""
  pointer: -1
  apparent_depth: 0
  my_parent: mainwin
@@ -841,7 +739,6 @@ ui::group : speedinfo {
 
 ui::text : 01e7bbc55 {
  text: "<color value=FF30bcfe><img src=/material/ui/dashboard/daf_xf/pict.mat right=0.5 bottom=0.5 xscale=stretch yscale=stretch>"
- name: icon
  coords_l: &42240004
  coords_r: 191
  coords_t: 690
@@ -853,8 +750,6 @@ ui::text : 01e7bbc55 {
  id: 0
  layer: 8
  tab: -1
- p2p_pml: false
- tooltip: ""
  pointer: -1
  apparent_depth: 0
  my_parent: speedinfo
@@ -864,7 +759,6 @@ ui::text_common : 01e7bbc56 {
  value: "Speed info"
  look_template: txt.daf.text2
  text: ""
- name: info
  coords_l: 320
  coords_r: 989
  coords_t: 660
@@ -876,8 +770,6 @@ ui::text_common : 01e7bbc56 {
  id: 0
  layer: 8
  tab: -1
- p2p_pml: false
- tooltip: ""
  pointer: -1
  apparent_depth: 0
  my_parent: speedinfo
@@ -887,7 +779,6 @@ ui::text_common : 01e7bbc57 {
  value: "CURRENT SPEED"
  look_template: txt.daf.text3
  text: ""
- name: Speed
  coords_l: 59
  coords_r: 949
  coords_t: 460
@@ -899,8 +790,6 @@ ui::text_common : 01e7bbc57 {
  id: 0
  layer: 8
  tab: -1
- p2p_pml: false
- tooltip: ""
  pointer: -1
  apparent_depth: 0
  my_parent: speedinfo
@@ -910,7 +799,6 @@ ui::text_common : 01e7bbc54 {
  value: "999|kmh"
  look_template: txt.daf.speed
  text: ""
- name: Speed
  coords_l: 246
  coords_r: 1101
  coords_t: 480
@@ -922,8 +810,6 @@ ui::text_common : 01e7bbc54 {
  id: 1020
  layer: 8
  tab: -1
- p2p_pml: false
- tooltip: ""
  pointer: -1
  apparent_depth: 0
  my_parent: speedinfo
@@ -948,7 +834,6 @@ ui::group : tempinfo {
  my_children[3]: 01e7bbc51a
  my_children[4]: 01e7bbc51b
  my_children[5]: 01e7bbc51c
- name: Display3
  coords_l: 0
  coords_r: 1152
  coords_t: 864
@@ -960,8 +845,6 @@ ui::group : tempinfo {
  id: 800
  layer: -1
  tab: -1
- p2p_pml: false
- tooltip: ""
  pointer: -1
  apparent_depth: 0
  my_parent: mainwin
@@ -969,7 +852,6 @@ ui::group : tempinfo {
 
 ui::text : 01e7bbc517 {
  text: "<color value=FF30bcfe><img src=/material/ui/dashboard/daf_xf/pict.mat left=0.5 top=0.5 xscale=stretch yscale=stretch>"
- name: icon
  coords_l: &42240004
  coords_r: 191
  coords_t: 690
@@ -981,8 +863,6 @@ ui::text : 01e7bbc517 {
  id: 0
  layer: 8
  tab: -1
- p2p_pml: false
- tooltip: ""
  pointer: -1
  apparent_depth: 0
  my_parent: tempinfo
@@ -992,7 +872,6 @@ ui::text_common : 01e7bbc518 {
  value: "Temperature"
  look_template: txt.daf.text2
  text: ""
- name: info
  coords_l: 320
  coords_r: 989
  coords_t: 660
@@ -1004,8 +883,6 @@ ui::text_common : 01e7bbc518 {
  id: 0
  layer: 8
  tab: -1
- p2p_pml: false
- tooltip: ""
  pointer: -1
  apparent_depth: 0
  my_parent: tempinfo
@@ -1015,7 +892,6 @@ ui::text_common : 01e7bbc519 {
  value: "WATER"
  look_template: txt.daf.text3
  text: ""
- name: water
  coords_l: 59
  coords_r: 949
  coords_t: 557
@@ -1027,8 +903,6 @@ ui::text_common : 01e7bbc519 {
  id: 0
  layer: 8
  tab: -1
- p2p_pml: false
- tooltip: ""
  pointer: -1
  apparent_depth: 0
  my_parent: tempinfo
@@ -1038,7 +912,6 @@ ui::text_common : 01e7bbc51a {
  value: "OIL"
  look_template: txt.daf.text3
  text: ""
- name: oil
  coords_l: 59
  coords_r: 949
  coords_t: 460
@@ -1050,8 +923,6 @@ ui::text_common : 01e7bbc51a {
  id: 0
  layer: 8
  tab: -1
- p2p_pml: false
- tooltip: ""
  pointer: -1
  apparent_depth: 0
  my_parent: tempinfo
@@ -1061,7 +932,6 @@ ui::text_common : 01e7bbc51b {
  value: "50|C"
  look_template: txt.daf.temp2
  text: ""
- name: "oil temp"
  coords_l: 248
  coords_r: 1101
  coords_t: 480
@@ -1073,8 +943,6 @@ ui::text_common : 01e7bbc51b {
  id: 1010
  layer: 8
  tab: -1
- p2p_pml: false
- tooltip: ""
  pointer: -1
  apparent_depth: 0
  my_parent: tempinfo
@@ -1084,7 +952,6 @@ ui::text_common : 01e7bbc51c {
  value: "122|F"
  look_template: txt.daf.temp2
  text: ""
- name: "water temp"
  coords_l: 248
  coords_r: 1101
  coords_t: 577
@@ -1096,8 +963,6 @@ ui::text_common : 01e7bbc51c {
  id: 1090
  layer: 8
  tab: -1
- p2p_pml: false
- tooltip: ""
  pointer: -1
  apparent_depth: 0
  my_parent: tempinfo
@@ -1124,7 +989,6 @@ ui::group : sharedisp {
  my_children[7]: sdclock
  my_children[8]: sdtemp
  my_children[9]: 01e7bbc523
- name: ShareDisplay
  coords_l: 0
  coords_r: 1152
  coords_t: 864
@@ -1136,8 +1000,6 @@ ui::group : sharedisp {
  id: 950
  layer: -1
  tab: -1
- p2p_pml: false
- tooltip: ""
  pointer: -1
  apparent_depth: 0
  my_parent: mainwin
@@ -1147,7 +1009,6 @@ ui::text_common : 01e7bbc51e {
  value: 14
  look_template: txt.daf.text0
  text: ""
- name: Gaer
  coords_l: 0
  coords_r: 1152
  coords_t: 870
@@ -1159,8 +1020,6 @@ ui::text_common : 01e7bbc51e {
  id: 1040
  layer: 8
  tab: -1
- p2p_pml: false
- tooltip: ""
  pointer: -1
  apparent_depth: 0
  my_parent: sharedisp
@@ -1168,7 +1027,6 @@ ui::text_common : 01e7bbc51e {
 
 ui::text : 01e7bbc51f {
  text: "<ret><offset vshift=165 hshift=60><img src=/material/ui/white.mat height=10 width=1042 color=FF30bcfe>"
- name: lines
  coords_l: 0
  coords_r: 1152
  coords_t: 864
@@ -1180,8 +1038,6 @@ ui::text : 01e7bbc51f {
  id: 0
  layer: 7
  tab: -1
- p2p_pml: false
- tooltip: ""
  pointer: -1
  apparent_depth: 0
  my_parent: sharedisp
@@ -1191,7 +1047,6 @@ ui::text_common : 01e7bbc5a {
  value: "999|kmh"
  look_template: txt.daf.text1
  text: ""
- name: CruiseControl
  coords_l: 902
  coords_r: 1077
  coords_t: 803
@@ -1203,8 +1058,6 @@ ui::text_common : 01e7bbc5a {
  id: 1100
  layer: 8
  tab: -1
- p2p_pml: false
- tooltip: ""
  pointer: -1
  apparent_depth: 0
  my_parent: sharedisp
@@ -1212,7 +1065,6 @@ ui::text_common : 01e7bbc5a {
 
 ui::text : 01e7bboko {
  text: "<color value=FF30bcfe><offset hshift=232 vshift=><img src=/material/ui/dashboard/scania_rcab/pict.mat height=180 width=186 left=0.5 bottom=0.5>"
- name: ""
  coords_l: 538
  coords_r: 1049
  coords_t: 849
@@ -1224,8 +1076,6 @@ ui::text : 01e7bboko {
  id: 0
  layer: 8
  tab: -1
- p2p_pml: false
- tooltip: ""
  pointer: -1
  apparent_depth: 0
  my_parent: sharedisp
@@ -1233,7 +1083,6 @@ ui::text : 01e7bboko {
 
 ui::text : 01e7bbc521 {
  text: "<ret><offset hshift=0 vshift=0><img src=/material/ui/dashboard/daf_xf/display.mat height=869 width=1159>"
- name: background
  coords_l: 0
  coords_r: 1152
  coords_t: 864
@@ -1245,8 +1094,6 @@ ui::text : 01e7bbc521 {
  id: 0
  layer: 5
  tab: -1
- p2p_pml: false
- tooltip: ""
  pointer: -1
  apparent_depth: 0
  my_parent: sharedisp
@@ -1256,7 +1103,6 @@ ui::text_common : sdodometer {
  value: "5320540|km"
  look_template: txt.daf_50k.odometer
  text: ""
- name: "odometer"
  coords_l: 15
  coords_r: 410
  coords_t: 160
@@ -1268,8 +1114,6 @@ ui::text_common : sdodometer {
  id: 1030
  layer: 8
  tab: -1
- p2p_pml: false
- tooltip: ""
  pointer: -1
  apparent_depth: 0
  my_parent: sharedisp
@@ -1279,7 +1123,6 @@ ui::text_common : sdtripdist {
  value: "532054|km"
  look_template: txt.daf_50k.trip_dist
  text: ""
- name: "trip distance"
  coords_l: 15
  coords_r: 375
  coords_t: 102
@@ -1291,8 +1134,6 @@ ui::text_common : sdtripdist {
  id: 1210
  layer: 8
  tab: -1
- p2p_pml: false
- tooltip: ""
  pointer: -1
  apparent_depth: 0
  my_parent: sharedisp
@@ -1302,7 +1143,6 @@ ui::text_common : sdclock {
  value: "13:43"
  look_template: txt.daf_50k.clock
  text: ""
- name: Clock
  coords_l: 530
  coords_r: 990
  coords_t: 170
@@ -1314,8 +1154,6 @@ ui::text_common : sdclock {
  id: 1050
  layer: 8
  tab: -1
- p2p_pml: false
- tooltip: ""
  pointer: -1
  apparent_depth: 0
  my_parent: sharedisp
@@ -1325,7 +1163,6 @@ ui::text_common : sdtemp {
  value: "-50|C"
  look_template: txt.daf_50k.temp
  text: ""
- name: Temperature
  coords_l: 680
  coords_r: 970
  coords_t: 107
@@ -1337,8 +1174,6 @@ ui::text_common : sdtemp {
  id: 1000
  layer: 8
  tab: -1
- p2p_pml: false
- tooltip: ""
  pointer: -1
  apparent_depth: 0
  my_parent: sharedisp
@@ -1359,7 +1194,6 @@ ui::group : 01e7bbc523 {
  my_children[0]: 01e7bbc526
  my_children[1]: 01e7bbc527
  my_children[2]: 01e7bbc528
- name: Warning
  coords_l: 0
  coords_r: 1152
  coords_t: 864
@@ -1371,8 +1205,6 @@ ui::group : 01e7bbc523 {
  id: 1190
  layer: -1
  tab: -1
- p2p_pml: false
- tooltip: ""
  pointer: -1
  apparent_depth: 0
  my_parent: sharedisp
@@ -1380,7 +1212,6 @@ ui::group : 01e7bbc523 {
 
 ui::text : 01e7bbc526 {
  text: "<img src=/material/ui/white.mat xscale=stretch yscale=stretch color=992333cf>"
- name: "red background"
  coords_l: 85
  coords_r: 255
  coords_t: 845
@@ -1392,8 +1223,6 @@ ui::text : 01e7bbc526 {
  id: 0
  layer: 3
  tab: -1
- p2p_pml: false
- tooltip: ""
  pointer: -1
  apparent_depth: 0
  my_parent: 01e7bbc523
@@ -1401,7 +1230,6 @@ ui::text : 01e7bbc526 {
 
 ui::text : 01e7bbc527 {
  text: "<color value=FF2211FF><img src=/material/ui/dashboard/daf_xf/pict.mat right=0.5 top=0.5 xscale=stretch yscale=stretch>"
- name: icon
  coords_l: 100
  coords_r: 240
  coords_t: 845
@@ -1413,8 +1241,6 @@ ui::text : 01e7bbc527 {
  id: 0
  layer: 8
  tab: -1
- p2p_pml: false
- tooltip: ""
  pointer: -1
  apparent_depth: 0
  my_parent: 01e7bbc523
@@ -1422,7 +1248,6 @@ ui::text : 01e7bbc527 {
 
 ui::text : 01e7bbc528 {
  text: "<img src=/material/ui/white.mat xscale=stretch yscale=stretch color=66001080>"
- name: "red background"
  coords_l: 85
  coords_r: 255
  coords_t: 845
@@ -1434,8 +1259,6 @@ ui::text : 01e7bbc528 {
  id: 0
  layer: 4
  tab: -1
- p2p_pml: false
- tooltip: ""
  pointer: -1
  apparent_depth: 0
  my_parent: 01e7bbc523

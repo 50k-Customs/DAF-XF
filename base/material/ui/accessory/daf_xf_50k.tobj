@@ -1,0 +1,3 @@
+map	2d	daf_xf_50k.dds
+addr	clamp_to_edge	clamp_to_edge
+usage	ui

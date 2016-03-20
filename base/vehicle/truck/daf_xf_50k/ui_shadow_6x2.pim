@@ -1,6 +1,6 @@
 Header {
     FormatVersion: 5
-    Source: "Blender 2.74.0 (hash: 000dfc0), SCS Blender Tools: 0.5.b236e41"
+    Source: "Blender 2.76.0 (hash: f337fea), SCS Blender Tools: 1.2.70f977c"
     Type: "Model"
     Name: "ui_shadow_6x2"
 }
@@ -27,10 +27,10 @@ Piece {
     Stream {
         Format: FLOAT3
         Tag: "_POSITION"
-        0    ( &4001f05b  &b4a5e65a  &4082f9cf )
-        1    ( &4001f05b  &348dadda  &c05fb530 )
-        2    ( &c001f05b  &348dadda  &c05fb530 )
-        3    ( &c001f05b  &b4a5e65a  &4082f9cf )
+        0    ( &4001f05b  &3b60a31d  &4082f9cf )
+        1    ( &4001f05b  &3b60acb9  &c05fb530 )
+        2    ( &c001f05b  &3b60acb9  &c05fb530 )
+        3    ( &c001f05b  &3b60a31d  &4082f9cf )
     }
     Stream {
         Format: FLOAT3
@@ -53,10 +53,10 @@ Piece {
     Stream {
         Format: FLOAT4
         Tag: "_RGBA"
-        0    ( &3f808081  &3f808081  &3f808081  &3f800000 )
-        1    ( &3f808081  &3f808081  &3f808081  &3f800000 )
-        2    ( &3f808081  &3f808081  &3f808081  &3f800000 )
-        3    ( &3f808081  &3f808081  &3f808081  &3f800000 )
+        0    ( &3f808081  &3f808081  &3f808081  &3f7efeff )
+        1    ( &3f808081  &3f808081  &3f808081  &3f7efeff )
+        2    ( &3f808081  &3f808081  &3f808081  &3f7efeff )
+        3    ( &3f808081  &3f808081  &3f808081  &3f7efeff )
     }
     Triangles {
         0    ( 2     1     0 )
