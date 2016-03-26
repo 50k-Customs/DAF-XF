@@ -17,7 +17,7 @@ Most recent direct mod download and all needed info can be found here
 
 ***For advanced usage:***
 
-You have to download [Asset Conversion Tools](http://eurotrucksimulator2.com/conversion_tools.php#what-are-conversion-tools) provided by SCS Software and convert "base" folder of this repository.
+You have to download [Conversion Tools](http://modding.scssoft.com/wiki/Documentation/Tools/Conversion_Tools) provided by SCS Software and convert "base" folder of this repository.
 
 Step by step conversion:
 
