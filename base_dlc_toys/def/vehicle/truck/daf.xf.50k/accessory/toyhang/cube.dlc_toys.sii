@@ -32,6 +32,6 @@ physics_toy_data : .cube.phys_data
 	position_iterations:	4				# number of iterations in position solver
 	node_damping:		0.2				# rope node velocity damping
   
-  rope_material: 		"/material/ropes/rope_black.dlc_toys.mat"
+	rope_material: 		"/material/ropes/rope_black.mat"
 }
 }
