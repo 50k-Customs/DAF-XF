@@ -26,10 +26,8 @@ accessory_chassis_data : 4x2_p.daf.xf.50k.chassis
 	extended_shadow_fadeout_start: 10
 	extended_shadow_fadeout_length: 0
 	ui_shadow: "/vehicle/truck/daf_xf_50k/ui_shadow_4x2.pmd"
-	powered_wheel[0]: false	# front wheel left
-	powered_wheel[1]: false	# front wheel right
-	powered_wheel[2]: true	# rear wheel left
-	powered_wheel[3]: true	# rear wheel right
+	powered_axle[0]: false	# front axle
+	powered_axle[1]: true	# rear axle
 	kerb_weight[0]:	5000.1
 	kerb_weight[1]:	4650.1
 	
