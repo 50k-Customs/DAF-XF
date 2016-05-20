@@ -1,6 +1,6 @@
 Header {
     FormatVersion: 2
-    Source: "Blender 2.76.0 (hash: f337fea), SCS Blender Tools: 1.2.70f977c"
+    Source: "Blender 2.77.0 (hash: abf6f08), SCS Blender Tools: 1.4.4ae6843"
     Type: "Collision"
     Name: "truck"
 }
@@ -10,7 +10,7 @@ Global {
     MaterialCount: 1
     PieceCount: 4
     PartCount: 14
-    LocatorCount: 8
+    LocatorCount: 16
 }
 Material {
     Alias: "convex"
@@ -441,6 +441,20 @@ Piece {
     }
 }
 Part {
+    Name: "chs_4x2"
+    PieceCount: 0
+    LocatorCount: 6
+    Pieces:
+    Locators: 0 1 2 6 13 15
+}
+Part {
+    Name: "chs_6x_base"
+    PieceCount: 0
+    LocatorCount: 6
+    Pieces:
+    Locators: 3 4 5 7 12 14
+}
+Part {
     Name: "cab_base"
     PieceCount: 0
     LocatorCount: 0
@@ -459,42 +473,28 @@ Part {
     PieceCount: 0
     LocatorCount: 1
     Pieces:
-    Locators: 0
+    Locators: 8
 }
 Part {
     Name: "cab_a"
     PieceCount: 0
     LocatorCount: 1
     Pieces:
-    Locators: 1
+    Locators: 9
 }
 Part {
     Name: "cab_c"
     PieceCount: 0
     LocatorCount: 1
     Pieces:
-    Locators: 2
+    Locators: 10
 }
 Part {
     Name: "chs_base"
     PieceCount: 0
     LocatorCount: 1
     Pieces:
-    Locators: 3
-}
-Part {
-    Name: "chs_6x_base"
-    PieceCount: 0
-    LocatorCount: 2
-    Pieces:
-    Locators: 4 6
-}
-Part {
-    Name: "chs_4x2"
-    PieceCount: 0
-    LocatorCount: 2
-    Pieces:
-    Locators: 5 7
+    Locators: 11
 }
 Part {
     Name: "cab_abbc"
@@ -539,8 +539,88 @@ Part {
     Locators:
 }
 Locator {
-    Name: "cl"
+    Name: "adv_cpling"
     Index: 0
+    Position: ( &3e64af22  &3f84e540  &3fe9a96e )
+    Rotation: ( &3f7dfa63  &3d681ccb  &3de4ceea  &3bd11c1b )
+    Alias: ""
+    Weight: &3f800000
+    Type: "Box"
+    Parameters: ( &3e87ae0c  &3e48b43a  &3f2d0e54  &00000000 )
+}
+Locator {
+    Name: "adv_cpling"
+    Index: 1
+    Position: ( &00000000  &3f87c207  &3fc15c7c )
+    Rotation: ( &3f3504f2  &00000000  &3f3504f4  &33654984 )
+    Alias: ""
+    Weight: &3f800000
+    Type: "Box"
+    Parameters: ( &3e87ae0c  &3e48b43a  &3f2d0e54  &00000000 )
+}
+Locator {
+    Name: "adv_cpling"
+    Index: 2
+    Position: ( &be64ae00  &3f84e53f  &3fe9a96e )
+    Rotation: ( &3f7dfa67  &3d681c60  &bde4cde5  &bbd0fe72 )
+    Alias: ""
+    Weight: &3f800000
+    Type: "Box"
+    Parameters: ( &3e87ae0c  &3e48b43a  &3f2d0e54  &00000000 )
+}
+Locator {
+    Name: "adv_cpling"
+    Index: 3
+    Position: ( &be64ae00  &3f84e53f  &3feb2b5d )
+    Rotation: ( &3f7dfa67  &3d681c60  &bde4cde5  &bbd0fe72 )
+    Alias: ""
+    Weight: &3f800000
+    Type: "Box"
+    Parameters: ( &3e87ae0c  &3e48b43a  &3f2d0e54  &00000000 )
+}
+Locator {
+    Name: "adv_cpling"
+    Index: 4
+    Position: ( &00000000  &3f87c207  &3fc2de6b )
+    Rotation: ( &3f3504f2  &00000000  &3f3504f4  &33654984 )
+    Alias: ""
+    Weight: &3f800000
+    Type: "Box"
+    Parameters: ( &3e87ae0c  &3e48b43a  &3f2d0e54  &00000000 )
+}
+Locator {
+    Name: "adv_cpling"
+    Index: 5
+    Position: ( &3e64af22  &3f84e540  &3feb2b5d )
+    Rotation: ( &3f7dfa63  &3d681ccb  &3de4ceea  &3bd11c1b )
+    Alias: ""
+    Weight: &3f800000
+    Type: "Box"
+    Parameters: ( &3e87ae0c  &3e48b43a  &3f2d0e54  &00000000 )
+}
+Locator {
+    Name: "cl"
+    Index: 6
+    Position: ( &3f50ed3e  &3f336e56  &3f51442c )
+    Rotation: ( &3f800000  &00000000  &00000000  &00000000 )
+    Alias: ""
+    Weight: &3f800000
+    Type: "Box"
+    Parameters: ( &3f4ccccd  &3f1db22d  &4085c28f  &00000000 )
+}
+Locator {
+    Name: "cl"
+    Index: 7
+    Position: ( &3f560bf6  &3f336e57  &3f6810cc )
+    Rotation: ( &3f800000  &00000000  &00000000  &00000000 )
+    Alias: ""
+    Weight: &3f800000
+    Type: "Box"
+    Parameters: ( &3f4e1476  &3f1db22d  &408bb645  &00000000 )
+}
+Locator {
+    Name: "cl"
+    Index: 8
     Position: ( &bc2e78d2  &401078bd  &bfef2337 )
     Rotation: ( &33654983  &33654985  &3f3504f4  &bf3504f2 )
     Alias: ""
@@ -550,7 +630,7 @@ Locator {
 }
 Locator {
     Name: "cl"
-    Index: 1
+    Index: 9
     Position: ( &bc2e7976  &400e5a71  &bfef2335 )
     Rotation: ( &33654983  &33654985  &3f3504f4  &bf3504f2 )
     Alias: ""
@@ -560,7 +640,7 @@ Locator {
 }
 Locator {
     Name: "cl"
-    Index: 2
+    Index: 10
     Position: ( &3b3d7ea2  &4002675f  &bff1eeeb )
     Rotation: ( &33654983  &33654985  &3f3504f4  &bf3504f2 )
     Alias: ""
@@ -570,7 +650,7 @@ Locator {
 }
 Locator {
     Name: "cl"
-    Index: 3
+    Index: 11
     Position: ( &3b3d7f6c  &3f462e4f  &bffeb21e )
     Rotation: ( &33654983  &33654985  &3f3504f4  &bf3504f2 )
     Alias: ""
@@ -580,42 +660,42 @@ Locator {
 }
 Locator {
     Name: "cl"
-    Index: 4
-    Position: ( &3b7e300a  &3f336e53  &40191188 )
+    Index: 12
+    Position: ( &3b7e300a  &3f336e55  &3f8077c2 )
     Rotation: ( &3f800000  &00000000  &00000000  &00000000 )
     Alias: ""
     Weight: &3fcb4395
     Type: "Box"
-    Parameters: ( &3f4e1476  &3eab020c  &40079db1  &00000000 )
+    Parameters: ( &3f4e1476  &3eab020c  &409b2b02  &00000000 )
 }
 Locator {
     Name: "cl"
-    Index: 5
-    Position: ( &3b7e3070  &3f336e53  &400793b8 )
+    Index: 13
+    Position: ( &3b7e3070  &3f336e55  &3f7b64c9 )
     Rotation: ( &3f800000  &00000000  &00000000  &00000000 )
     Alias: ""
     Weight: &3fcb4395
     Type: "Box"
-    Parameters: ( &3f4e1476  &3eab020c  &40079db1  &00000000 )
+    Parameters: ( &3f4e1476  &3eab020c  &408cc49b  &00000000 )
 }
 Locator {
     Name: "cl"
-    Index: 6
-    Position: ( &3b7e3236  &3f336e57  &3f6810cc )
+    Index: 14
+    Position: ( &bf560c0b  &3f336e57  &3f6810cc )
     Rotation: ( &3f800000  &00000000  &00000000  &00000000 )
     Alias: ""
-    Weight: &3fcae147
+    Weight: &3f800000
     Type: "Box"
-    Parameters: ( &401f0a3c  &3f1db22d  &408bb645  &00000000 )
+    Parameters: ( &3f4e1476  &3f1db22d  &408bb645  &00000000 )
 }
 Locator {
     Name: "cl"
-    Index: 7
-    Position: ( &3b7e3258  &3f336e56  &3f51442c )
+    Index: 15
+    Position: ( &bf50ed53  &3f336e56  &3f51442c )
     Rotation: ( &3f800000  &00000000  &00000000  &00000000 )
     Alias: ""
-    Weight: &3fcae147
+    Weight: &3f800000
     Type: "Box"
-    Parameters: ( &401f0a3d  &3f1db22d  &4085c28f  &00000000 )
+    Parameters: ( &3f4ccccd  &3f1db22d  &4085c28f  &00000000 )
 }
 

@@ -16,7 +16,7 @@
 #
 Header {
     FormatVersion: 1
-    Source: "Blender 2.76.0 (hash: f337fea), SCS Blender Tools: 1.2.70f977c"
+    Source: "Blender 2.77.0 (hash: abf6f08), SCS Blender Tools: 1.4.4ae6843"
     Type: "Trait"
     Name: "truck"
 }
@@ -396,6 +396,24 @@ Look {
 Variant {
     Name: "chs_4x2"
     Part {
+        Name: "chs_4x2"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 1 )
+        }
+    }
+    Part {
+        Name: "chs_6x_base"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 0 )
+        }
+    }
+    Part {
         Name: "cab_base"
         AttributeCount: 1
         Attribute {
@@ -442,24 +460,6 @@ Variant {
     }
     Part {
         Name: "chs_base"
-        AttributeCount: 1
-        Attribute {
-            Format: INT
-            Tag: "visible"
-            Value: ( 1 )
-        }
-    }
-    Part {
-        Name: "chs_6x_base"
-        AttributeCount: 1
-        Attribute {
-            Format: INT
-            Tag: "visible"
-            Value: ( 0 )
-        }
-    }
-    Part {
-        Name: "chs_4x2"
         AttributeCount: 1
         Attribute {
             Format: INT
@@ -525,6 +525,24 @@ Variant {
 Variant {
     Name: "chs_6x2_4"
     Part {
+        Name: "chs_4x2"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 0 )
+        }
+    }
+    Part {
+        Name: "chs_6x_base"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 1 )
+        }
+    }
+    Part {
         Name: "cab_base"
         AttributeCount: 1
         Attribute {
@@ -576,24 +594,6 @@ Variant {
             Format: INT
             Tag: "visible"
             Value: ( 1 )
-        }
-    }
-    Part {
-        Name: "chs_6x_base"
-        AttributeCount: 1
-        Attribute {
-            Format: INT
-            Tag: "visible"
-            Value: ( 1 )
-        }
-    }
-    Part {
-        Name: "chs_4x2"
-        AttributeCount: 1
-        Attribute {
-            Format: INT
-            Tag: "visible"
-            Value: ( 0 )
         }
     }
     Part {
@@ -654,6 +654,24 @@ Variant {
 Variant {
     Name: "chs_6x4"
     Part {
+        Name: "chs_4x2"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 0 )
+        }
+    }
+    Part {
+        Name: "chs_6x_base"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 1 )
+        }
+    }
+    Part {
         Name: "cab_base"
         AttributeCount: 1
         Attribute {
@@ -705,24 +723,6 @@ Variant {
             Format: INT
             Tag: "visible"
             Value: ( 1 )
-        }
-    }
-    Part {
-        Name: "chs_6x_base"
-        AttributeCount: 1
-        Attribute {
-            Format: INT
-            Tag: "visible"
-            Value: ( 1 )
-        }
-    }
-    Part {
-        Name: "chs_4x2"
-        AttributeCount: 1
-        Attribute {
-            Format: INT
-            Tag: "visible"
-            Value: ( 0 )
         }
     }
     Part {
@@ -783,6 +783,24 @@ Variant {
 Variant {
     Name: "c_cabin"
     Part {
+        Name: "chs_4x2"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 0 )
+        }
+    }
+    Part {
+        Name: "chs_6x_base"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 0 )
+        }
+    }
+    Part {
         Name: "cab_base"
         AttributeCount: 1
         Attribute {
@@ -829,24 +847,6 @@ Variant {
     }
     Part {
         Name: "chs_base"
-        AttributeCount: 1
-        Attribute {
-            Format: INT
-            Tag: "visible"
-            Value: ( 0 )
-        }
-    }
-    Part {
-        Name: "chs_6x_base"
-        AttributeCount: 1
-        Attribute {
-            Format: INT
-            Tag: "visible"
-            Value: ( 0 )
-        }
-    }
-    Part {
-        Name: "chs_4x2"
         AttributeCount: 1
         Attribute {
             Format: INT
@@ -912,6 +912,24 @@ Variant {
 Variant {
     Name: "c_cabin_uk"
     Part {
+        Name: "chs_4x2"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 0 )
+        }
+    }
+    Part {
+        Name: "chs_6x_base"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 0 )
+        }
+    }
+    Part {
         Name: "cab_base"
         AttributeCount: 1
         Attribute {
@@ -958,24 +976,6 @@ Variant {
     }
     Part {
         Name: "chs_base"
-        AttributeCount: 1
-        Attribute {
-            Format: INT
-            Tag: "visible"
-            Value: ( 0 )
-        }
-    }
-    Part {
-        Name: "chs_6x_base"
-        AttributeCount: 1
-        Attribute {
-            Format: INT
-            Tag: "visible"
-            Value: ( 0 )
-        }
-    }
-    Part {
-        Name: "chs_4x2"
         AttributeCount: 1
         Attribute {
             Format: INT
@@ -1041,6 +1041,24 @@ Variant {
 Variant {
     Name: "b_cabin"
     Part {
+        Name: "chs_4x2"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 0 )
+        }
+    }
+    Part {
+        Name: "chs_6x_base"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 0 )
+        }
+    }
+    Part {
         Name: "cab_base"
         AttributeCount: 1
         Attribute {
@@ -1087,24 +1105,6 @@ Variant {
     }
     Part {
         Name: "chs_base"
-        AttributeCount: 1
-        Attribute {
-            Format: INT
-            Tag: "visible"
-            Value: ( 0 )
-        }
-    }
-    Part {
-        Name: "chs_6x_base"
-        AttributeCount: 1
-        Attribute {
-            Format: INT
-            Tag: "visible"
-            Value: ( 0 )
-        }
-    }
-    Part {
-        Name: "chs_4x2"
         AttributeCount: 1
         Attribute {
             Format: INT
@@ -1170,6 +1170,24 @@ Variant {
 Variant {
     Name: "b_cabin_uk"
     Part {
+        Name: "chs_4x2"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 0 )
+        }
+    }
+    Part {
+        Name: "chs_6x_base"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 0 )
+        }
+    }
+    Part {
         Name: "cab_base"
         AttributeCount: 1
         Attribute {
@@ -1216,24 +1234,6 @@ Variant {
     }
     Part {
         Name: "chs_base"
-        AttributeCount: 1
-        Attribute {
-            Format: INT
-            Tag: "visible"
-            Value: ( 0 )
-        }
-    }
-    Part {
-        Name: "chs_6x_base"
-        AttributeCount: 1
-        Attribute {
-            Format: INT
-            Tag: "visible"
-            Value: ( 0 )
-        }
-    }
-    Part {
-        Name: "chs_4x2"
         AttributeCount: 1
         Attribute {
             Format: INT
@@ -1299,6 +1299,24 @@ Variant {
 Variant {
     Name: "c_b_cabin"
     Part {
+        Name: "chs_4x2"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 0 )
+        }
+    }
+    Part {
+        Name: "chs_6x_base"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 0 )
+        }
+    }
+    Part {
         Name: "cab_base"
         AttributeCount: 1
         Attribute {
@@ -1345,24 +1363,6 @@ Variant {
     }
     Part {
         Name: "chs_base"
-        AttributeCount: 1
-        Attribute {
-            Format: INT
-            Tag: "visible"
-            Value: ( 0 )
-        }
-    }
-    Part {
-        Name: "chs_6x_base"
-        AttributeCount: 1
-        Attribute {
-            Format: INT
-            Tag: "visible"
-            Value: ( 0 )
-        }
-    }
-    Part {
-        Name: "chs_4x2"
         AttributeCount: 1
         Attribute {
             Format: INT
@@ -1428,6 +1428,24 @@ Variant {
 Variant {
     Name: "c_b_cabin_uk"
     Part {
+        Name: "chs_4x2"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 0 )
+        }
+    }
+    Part {
+        Name: "chs_6x_base"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 0 )
+        }
+    }
+    Part {
         Name: "cab_base"
         AttributeCount: 1
         Attribute {
@@ -1474,24 +1492,6 @@ Variant {
     }
     Part {
         Name: "chs_base"
-        AttributeCount: 1
-        Attribute {
-            Format: INT
-            Tag: "visible"
-            Value: ( 0 )
-        }
-    }
-    Part {
-        Name: "chs_6x_base"
-        AttributeCount: 1
-        Attribute {
-            Format: INT
-            Tag: "visible"
-            Value: ( 0 )
-        }
-    }
-    Part {
-        Name: "chs_4x2"
         AttributeCount: 1
         Attribute {
             Format: INT
@@ -1557,6 +1557,24 @@ Variant {
 Variant {
     Name: "a_cabin"
     Part {
+        Name: "chs_4x2"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 0 )
+        }
+    }
+    Part {
+        Name: "chs_6x_base"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 0 )
+        }
+    }
+    Part {
         Name: "cab_base"
         AttributeCount: 1
         Attribute {
@@ -1603,24 +1621,6 @@ Variant {
     }
     Part {
         Name: "chs_base"
-        AttributeCount: 1
-        Attribute {
-            Format: INT
-            Tag: "visible"
-            Value: ( 0 )
-        }
-    }
-    Part {
-        Name: "chs_6x_base"
-        AttributeCount: 1
-        Attribute {
-            Format: INT
-            Tag: "visible"
-            Value: ( 0 )
-        }
-    }
-    Part {
-        Name: "chs_4x2"
         AttributeCount: 1
         Attribute {
             Format: INT
@@ -1686,6 +1686,24 @@ Variant {
 Variant {
     Name: "a_cabin_uk"
     Part {
+        Name: "chs_4x2"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 0 )
+        }
+    }
+    Part {
+        Name: "chs_6x_base"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 0 )
+        }
+    }
+    Part {
         Name: "cab_base"
         AttributeCount: 1
         Attribute {
@@ -1732,24 +1750,6 @@ Variant {
     }
     Part {
         Name: "chs_base"
-        AttributeCount: 1
-        Attribute {
-            Format: INT
-            Tag: "visible"
-            Value: ( 0 )
-        }
-    }
-    Part {
-        Name: "chs_6x_base"
-        AttributeCount: 1
-        Attribute {
-            Format: INT
-            Tag: "visible"
-            Value: ( 0 )
-        }
-    }
-    Part {
-        Name: "chs_4x2"
         AttributeCount: 1
         Attribute {
             Format: INT
