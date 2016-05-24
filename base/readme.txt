@@ -10,10 +10,8 @@ DAF XF 105 modified by 50keda featuring new completely reworked truck with:
 
 ### CHANGELOG FOR LATEST VERSION
 
-- 1.23 game update compatibility: removing obsolete UI attributes + proper initial wheels definitions
-- tweaked UI shadows while in dealer
-- added truck browser defs, so user can now preview truck in it
-- added definition for UK truck dealers
+- 1.24 game update compatibility: fixed powered wheel in chassis definitions
+- 1.24 game update compatibility: added advanced coupling collisions
 
 ### CREDITS
 
@@ -30,5 +28,5 @@ DAF XF 105 modified by 50keda featuring new completely reworked truck with:
 ### KNOWN ISSUES
 
 No known issues.
-It was tested on 1.23.0.2s.
+It was tested on 1.24.xs.
 .
