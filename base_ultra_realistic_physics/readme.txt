@@ -1,4 +1,4 @@
-Ultra Realistic Physics Mod compatibility definitions for DAF XF 105 modified by 50keda
+National Window Flags definitions for DAF XF 105 modified by 50keda
 
 ### CHANGELOG FOR LATEST VERSION
 
@@ -15,5 +15,5 @@ Ultra Realistic Physics Mod compatibility definitions for DAF XF 105 modified by
 ### KNOWN ISSUES
 
 No known issues.
-It was tested on 1.22.2s.
+It was tested on 1.24.Xs.
 .

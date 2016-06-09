@@ -13,7 +13,7 @@
 #
 Header {
     FormatVersion: 1
-    Source: "Blender 2.75.0 (hash: c6b042b), SCS Blender Tools: 0.6.39dce6b"
+    Source: "Blender 2.77.0 (hash: abf6f08), SCS Blender Tools: 1.3.bca07ca"
     Type: "Trait"
     Name: "model"
 }
@@ -1625,6 +1625,24 @@ Variant {
         }
     }
     Part {
+        Name: "space"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 0 )
+        }
+    }
+    Part {
+        Name: "super_space"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 0 )
+        }
+    }
+    Part {
         Name: "excl_1_acc"
         AttributeCount: 1
         Attribute {
@@ -1643,25 +1661,7 @@ Variant {
         }
     }
     Part {
-        Name: "space"
-        AttributeCount: 1
-        Attribute {
-            Format: INT
-            Tag: "visible"
-            Value: ( 0 )
-        }
-    }
-    Part {
         Name: "std_acc"
-        AttributeCount: 1
-        Attribute {
-            Format: INT
-            Tag: "visible"
-            Value: ( 0 )
-        }
-    }
-    Part {
-        Name: "super_space"
         AttributeCount: 1
         Attribute {
             Format: INT
@@ -1682,6 +1682,24 @@ Variant {
         }
     }
     Part {
+        Name: "space"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 0 )
+        }
+    }
+    Part {
+        Name: "super_space"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 1 )
+        }
+    }
+    Part {
         Name: "excl_1_acc"
         AttributeCount: 1
         Attribute {
@@ -1700,25 +1718,7 @@ Variant {
         }
     }
     Part {
-        Name: "space"
-        AttributeCount: 1
-        Attribute {
-            Format: INT
-            Tag: "visible"
-            Value: ( 0 )
-        }
-    }
-    Part {
         Name: "std_acc"
-        AttributeCount: 1
-        Attribute {
-            Format: INT
-            Tag: "visible"
-            Value: ( 1 )
-        }
-    }
-    Part {
-        Name: "super_space"
         AttributeCount: 1
         Attribute {
             Format: INT
@@ -1739,6 +1739,24 @@ Variant {
         }
     }
     Part {
+        Name: "space"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 0 )
+        }
+    }
+    Part {
+        Name: "super_space"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 1 )
+        }
+    }
+    Part {
         Name: "excl_1_acc"
         AttributeCount: 1
         Attribute {
@@ -1757,30 +1775,12 @@ Variant {
         }
     }
     Part {
-        Name: "space"
-        AttributeCount: 1
-        Attribute {
-            Format: INT
-            Tag: "visible"
-            Value: ( 0 )
-        }
-    }
-    Part {
         Name: "std_acc"
         AttributeCount: 1
         Attribute {
             Format: INT
             Tag: "visible"
             Value: ( 0 )
-        }
-    }
-    Part {
-        Name: "super_space"
-        AttributeCount: 1
-        Attribute {
-            Format: INT
-            Tag: "visible"
-            Value: ( 1 )
         }
     }
 }
@@ -1796,6 +1796,24 @@ Variant {
         }
     }
     Part {
+        Name: "space"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 1 )
+        }
+    }
+    Part {
+        Name: "super_space"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 0 )
+        }
+    }
+    Part {
         Name: "excl_1_acc"
         AttributeCount: 1
         Attribute {
@@ -1814,30 +1832,12 @@ Variant {
         }
     }
     Part {
-        Name: "space"
-        AttributeCount: 1
-        Attribute {
-            Format: INT
-            Tag: "visible"
-            Value: ( 1 )
-        }
-    }
-    Part {
         Name: "std_acc"
         AttributeCount: 1
         Attribute {
             Format: INT
             Tag: "visible"
             Value: ( 1 )
-        }
-    }
-    Part {
-        Name: "super_space"
-        AttributeCount: 1
-        Attribute {
-            Format: INT
-            Tag: "visible"
-            Value: ( 0 )
         }
     }
 }
@@ -1853,6 +1853,24 @@ Variant {
         }
     }
     Part {
+        Name: "space"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 1 )
+        }
+    }
+    Part {
+        Name: "super_space"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 0 )
+        }
+    }
+    Part {
         Name: "excl_1_acc"
         AttributeCount: 1
         Attribute {
@@ -1871,25 +1889,7 @@ Variant {
         }
     }
     Part {
-        Name: "space"
-        AttributeCount: 1
-        Attribute {
-            Format: INT
-            Tag: "visible"
-            Value: ( 1 )
-        }
-    }
-    Part {
         Name: "std_acc"
-        AttributeCount: 1
-        Attribute {
-            Format: INT
-            Tag: "visible"
-            Value: ( 0 )
-        }
-    }
-    Part {
-        Name: "super_space"
         AttributeCount: 1
         Attribute {
             Format: INT
@@ -1910,6 +1910,24 @@ Variant {
         }
     }
     Part {
+        Name: "space"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 0 )
+        }
+    }
+    Part {
+        Name: "super_space"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 1 )
+        }
+    }
+    Part {
         Name: "excl_1_acc"
         AttributeCount: 1
         Attribute {
@@ -1928,30 +1946,12 @@ Variant {
         }
     }
     Part {
-        Name: "space"
-        AttributeCount: 1
-        Attribute {
-            Format: INT
-            Tag: "visible"
-            Value: ( 0 )
-        }
-    }
-    Part {
         Name: "std_acc"
         AttributeCount: 1
         Attribute {
             Format: INT
             Tag: "visible"
             Value: ( 0 )
-        }
-    }
-    Part {
-        Name: "super_space"
-        AttributeCount: 1
-        Attribute {
-            Format: INT
-            Tag: "visible"
-            Value: ( 1 )
         }
     }
 }
@@ -1967,6 +1967,24 @@ Variant {
         }
     }
     Part {
+        Name: "space"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 1 )
+        }
+    }
+    Part {
+        Name: "super_space"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 0 )
+        }
+    }
+    Part {
         Name: "excl_1_acc"
         AttributeCount: 1
         Attribute {
@@ -1985,25 +2003,7 @@ Variant {
         }
     }
     Part {
-        Name: "space"
-        AttributeCount: 1
-        Attribute {
-            Format: INT
-            Tag: "visible"
-            Value: ( 1 )
-        }
-    }
-    Part {
         Name: "std_acc"
-        AttributeCount: 1
-        Attribute {
-            Format: INT
-            Tag: "visible"
-            Value: ( 0 )
-        }
-    }
-    Part {
-        Name: "super_space"
         AttributeCount: 1
         Attribute {
             Format: INT

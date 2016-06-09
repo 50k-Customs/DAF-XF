@@ -1,0 +1,28 @@
+SiiNunit
+{
+accessory_addon_patch_data : ls.daf.xf.50k.flag_r
+{
+	name: "Flag of Lesotho"
+	price: 10
+	icon: "flag/flag_ls"
+   
+  	exterior_model: "/vehicle/truck/upgrade/flag/flag_right.pmd"
+	interior_model: "/vehicle/truck/upgrade/flag/flag_right.pmd"
+	coll: "/vehicle/truck/upgrade/flag/flag_right.pmc"
+	data: .patch.phys_data
+}
+physics_patch_data : .patch.phys_data
+{
+ 	material: "/vehicle/truck/upgrade/flag/ls.mat"
+	area_density: 0.1
+ 	linear_stiffness: 0.9
+	drag_coefficient: 3.0
+	lift_coefficient: 5.0
+	aero_model_type: "AT_two_side_lift_drag"
+ 	x_res: 10
+	y_res: 8
+	x_size: 0.4
+	y_size: 0.266666666667
+ 
+}
+}
