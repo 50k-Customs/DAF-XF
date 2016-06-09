@@ -12,6 +12,7 @@ DAF XF 105 modified by 50keda featuring new completely reworked truck with:
 
 - 1.24 game update compatibility: fixed powered wheel in chassis definitions
 - 1.24 game update compatibility: added advanced coupling collisions
+- National Window Flags locators added
 
 ### CREDITS
 
@@ -28,5 +29,5 @@ DAF XF 105 modified by 50keda featuring new completely reworked truck with:
 ### KNOWN ISSUES
 
 No known issues.
-It was tested on 1.24.xs.
+It was tested on 1.24.Xs.
 .
