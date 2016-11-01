@@ -1,5 +1,0 @@
-material : "ui"
-{
-	texture : "int_50k_daf_look2.tobj"
-	texture_name : "texture"
-}
