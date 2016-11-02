@@ -5,7 +5,7 @@ accessory_paint_job_data : color2.daf.xf.50k.paint_job
 	name: "Sunshine Yellow"
 	price: 3900
 	unlock: 0
-	base_color : (0.9822, 0.5088, 0.0251)
+	base_color : (0.9822, 0.7088, 0.0251)
 	base_color_locked: true
 	stock: true
 }

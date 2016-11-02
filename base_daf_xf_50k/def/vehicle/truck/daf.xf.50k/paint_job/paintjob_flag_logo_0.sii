@@ -1,0 +1,31 @@
+SiiNunit
+{
+accessory_paint_job_data : f_logo_0.daf.xf.50k.paint_job
+{
+	name: "Beyond Borders"
+	price: 11000
+	unlock: 0
+	icon: "paintjob_flag_logo_0"
+
+	airbrush : true
+	flipflake: true
+	flip_color: (0.9734, 0.913, 0.7758)
+	flip_color_locked: true
+	flip_strength: 1.7
+
+	flake_color: (0.9734, 0.913, 0.7758)
+	flake_color_locked: true
+	flake_uvscale: 32.0
+	flake_density: 0.7
+	flake_shininess: 5.0
+	flake_clearcoat_rolloff:  2.4
+
+	flake_noise: "/material/custom/flake_noise.tobj"
+
+	base_color: (1, 0.9386, 0.7156)
+	base_color_locked: true
+
+	paint_job_mask : "/vehicle/truck/upgrade/paintjob/paintjob_logo_0_daf.tobj"
+	alternate_uvset: true
+}
+}

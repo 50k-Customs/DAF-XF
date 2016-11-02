@@ -1,34 +1,40 @@
 SiiNunit
 {
-accessory_interior_data: exclusive.daf.xf.50k.uk.interior
+accessory_interior_data: exclusive_uk.daf.xf.50.interior
 {
-name: "Exlusive built-in GPS UK"
-price: 33900
-unlock: 12
-icon: "int_50k_daf_look1_uk"
+	name: "@@exclusive@@ UK"
+	price: 33900
+	unlock: 12
+	icon: "interior_daf_xf_lux_uk"
 
-model: "/vehicle/truck/daf_xf_50k/interior/uk/model_uk.pmd"
-collision: "/vehicle/truck/daf_xf_50k/interior/uk/model_uk.pmc"
-animated_model: "/vehicle/truck/daf_xf_50k/interior/uk/anim_uk.pmd"
-look: look1
-variant: exclusive
+	model:            "/vehicle/truck/daf_xf/interior/uk/model_uk.pmd"
+	collision:        "/vehicle/truck/daf_xf/interior/uk/model_uk.pmc"
+	animated_model:   "/vehicle/truck/daf_xf/interior/uk/anim_uk.pmd"
+	look: look1
+	variant: exclusive
 
 @include "animations_uk.sui"
 
-left_hand_traffic: true
+	dashboard_path:"/ui/dashboard/daf_xf.sii"
+	gps_path:"/ui/gps.sii"
 
-dashboard_path:"/ui/dashboard/daf_xf_50k.sii"
-gps_path:"/ui/gps.sii"
-panel_intensity_min: 0.01
+	left_hand_traffic: true
 
-glass_panes[]: .daf.xf.50k.pane.front
-glass_panes[]: .daf.xf.50k.pane.close
-glass_panes[]: .daf.xf.50k.pane.far
-#glass_panes[]: .daf.xf.50k.pane.top
+	glass_panes[]: .daf.xf.pane.front
+	glass_panes[]: .daf.xf.pane.close
+	glass_panes[]: .daf.xf.pane.far
+	#glass_panes[]: .daf.xf.pane.top
 
-suitable_for[]: "super_s_cab.daf.xf.50k.cabin"
-suitable_for[]: "super_s_cabp.daf.xf.50k.cabin"
+	ext_model: "/vehicle/truck/upgrade/ext_interior/daf_xf/stock.pmd"
+	ext_variant: uk
+	ext_look: exclusive
 
+	defaults[]: "/def/vehicle/truck/daf.xf.50k/accessory/steering_w/standard.sii"
+
+	suitable_for[]: "super_s_cab.daf.xf.50k.cabin"
+
+@include "dashboard_color.sui"
+@include "seat_uk.sui"
 }
-@include "glass.sui"
+@include "glass.dat"
 }

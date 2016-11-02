@@ -1,6 +1,6 @@
 SiiNunit
 {
-accessory_paint_job_data : color1m.daf.xf.50k.paint_job
+accessory_paint_job_data : color1m.daf.xf.50k.50k.paint_job
 {
 	name: "@@custom_metallic@@ #1"
 	price: 10000

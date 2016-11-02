@@ -1,0 +1,20 @@
+SiiNunit
+{
+accessory_paint_job_data : f_xf_f_bc.daf.xf.50k.paint_job
+{
+	name: "DAF Original"
+	price: 20000
+	unlock: 0
+	icon: "paintjob_dafxf105_xf"
+
+	airbrush : true
+
+	base_color: (0.9822, 0.7088, 0.0251)
+	base_color_locked: false
+
+	paint_job_mask : "/vehicle/truck/upgrade/paintjob/paintjob_dafxf105_xfb_daf.tobj"
+
+	suitable_for[]: "space_cab.daf.xf.50k.cabin"
+	suitable_for[]: "s_cab_plus.daf.xf.50k.cabin"
+}
+}

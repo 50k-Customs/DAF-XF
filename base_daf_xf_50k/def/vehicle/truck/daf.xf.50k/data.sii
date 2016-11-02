@@ -22,17 +22,30 @@ accessory_truck_data : vehicle.daf.xf.50k
 	fallback[]: "interior|standard.sii"
 	fallback[]: "engine|mx265.sii"
 	fallback[]: "transmission|12_speed.sii"
-	fallback[]: "f_rim|steel.sii"
 	fallback[]: "f_tire|1.sii"
-	fallback[]: "r_rim|steel.sii"
+	fallback[]: "f_disc|front_disc_02_matt_gray.sii"
+	fallback[]: "f_hub|front_hub_01.sii"
+	fallback[]: "f_nuts|front_nuts_01_steel.sii"
 	fallback[]: "r_tire|1.sii"
+	fallback[]: "r_disc|rear_disc_01_matt_gray.sii"
+	fallback[]: "r_hub|rear_hub_01.sii"
+	fallback[]: "r_nuts|rear_nuts_01_steel.sii"
 	fallback[]: "paint_job|color1.sii"
 	fallback[]: "head_light|standard.sii"
+	fallback[]: "accessory|steering_w/standard.sii"
 
-	require[]: mirror
+	#chassis
+	require[]: r_bumper
 	require[]: doorstep
-	require[]: cab_doorstep
+
+	#cabin
+	require[]: f_intake_cab
+	require[]: mirror
+	require[]: s_mirror
 	require[]: doorhndl
+
+	#interior
+	require[]: steering_w
 
 }
 }

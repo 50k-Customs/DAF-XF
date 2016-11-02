@@ -1,0 +1,31 @@
+SiiNunit
+{
+accessory_paint_job_data : f_logo_5b.daf.xf.50k.paint_job
+{
+	name: "Opportunities Abound"
+	price: 11000
+	unlock: 0
+	icon: "paintjob_flag_logo_5b"
+
+	airbrush : true
+	flipflake: true
+	flip_color: (0.7991, 0.7991, 0.7991)
+	flip_color_locked: false
+	flip_strength: 1.7
+
+	flake_color: (0.9734, 0.913, 0.7758)
+	flake_color_locked: false
+	flake_uvscale: 32.0
+	flake_density: 0.7
+	flake_shininess: 5.0
+	flake_clearcoat_rolloff:  2.4
+
+	flake_noise: "/material/custom/flake_noise.tobj"
+
+	base_color: (0.6653, 0.6653, 0.6653)
+	base_color_locked: false
+
+	paint_job_mask : "/vehicle/truck/upgrade/paintjob/paintjob_logo_5b_daf.tobj"
+	alternate_uvset: true
+}
+}

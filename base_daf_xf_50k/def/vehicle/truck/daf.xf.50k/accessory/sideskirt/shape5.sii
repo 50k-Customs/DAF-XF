@@ -6,14 +6,8 @@ accessory_addon_data : shape5.daf.xf.50k.sideskirt
 	price: 12800
 	unlock: 10
 	icon: "sideskirt_02_daf_xf"
-	exterior_model: "/vehicle/truck/upgrade/sideskirts/daf_xf_50k/sideskirt_plate_full_6x2.pmd"
-	suitable_for[]: "6x2.daf.xf.50k.chassis"
-	suitable_for[]: "6x2_p.daf.xf.50k.chassis"
-	suitable_for[]: "6x4.daf.xf.50k.chassis"
-	suitable_for[]: "6x4_p.daf.xf.50k.chassis"
-	suitable_for[]: "6x2_ml.daf.xf.50k.chassis"
-	suitable_for[]: "6x2_p_ml.daf.xf.50k.chassis"
-	suitable_for[]: "6x4_tl.daf.xf.50k.chassis"
-	suitable_for[]: "6x4_p_tl.daf.xf.50k.chassis"
+	exterior_model: "/vehicle/truck/upgrade/sideskirts/daf_xf_50k/sideskirt_plate_full.pmd"
+
+	suitable_for[]: "4x2.daf.xf.50k.chassis"
 }
 }

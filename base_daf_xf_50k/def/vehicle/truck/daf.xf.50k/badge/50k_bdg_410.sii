@@ -1,8 +1,0 @@
-SiiNunit
-{
-accessory_addon_data : bdg_410.daf.xf.50k.badge
-{
-	exterior_model: "/vehicle/truck/upgrade/badges/daf_xf_50k/50k_badge_410.pmd"
-	suitable_for[]: "mx300.daf.xf.50k.engine"
-}
-}

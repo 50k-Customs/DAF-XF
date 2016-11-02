@@ -1,34 +1,40 @@
 SiiNunit
 {
-accessory_interior_data: spaceplus.daf.xf.50k.uk.interior
+accessory_interior_data: spaceplus_uk.daf.xf.50.interior
 {
-name: "Standard UK"
-price: 12960
-unlock: 0
-icon: "int_50k_daf_look2_uk"
+	name: "@@standard@@ UK"
+	price: 12960
+	unlock: 0
+	icon: "interior_daf_xf_std_uk"
 
-model: "/vehicle/truck/daf_xf_50k/interior/uk/model_uk.pmd"
-collision: "/vehicle/truck/daf_xf_50k/interior/uk/model_uk.pmc"
-animated_model: "/vehicle/truck/daf_xf_50k/interior/uk/anim_uk.pmd"
-look: look2
-variant: space
+	model:              "/vehicle/truck/daf_xf/interior/uk/model_uk.pmd"
+	collision:          "/vehicle/truck/daf_xf/interior/uk/model_uk.pmc"
+	animated_model:     "/vehicle/truck/daf_xf/interior/uk/anim_uk.pmd"
+	look: look2
+	variant: space
 
 @include "animations_uk.sui"
 
-left_hand_traffic: true
+	dashboard_path:"/ui/dashboard/daf_xf.sii"
+	gps_path:"/ui/gps.sii"
 
-dashboard_path:"/ui/dashboard/daf_xf_50k.sii"
-gps_path:"/ui/gps.sii"
-panel_intensity_min: 0.01
+	left_hand_traffic: true
 
-glass_panes[]: .daf.xf.50k.pane.front
-glass_panes[]: .daf.xf.50k.pane.close
-glass_panes[]: .daf.xf.50k.pane.far
-#glass_panes[]: .daf.xf.50k.pane.top
+	glass_panes[]: .daf.xf.pane.front
+	glass_panes[]: .daf.xf.pane.close
+	glass_panes[]: .daf.xf.pane.far
+	#glass_panes[]: .daf.xf.pane.top
 
-suitable_for[]: "s_cab_plus.daf.xf.50k.cabin"
-suitable_for[]: "s_cab_plus_p.daf.xf.50k.cabin"
+	ext_model: "/vehicle/truck/upgrade/ext_interior/daf_xf/stock.pmd"
+	ext_variant: uk
+	ext_look: default
 
+	defaults[]: "/def/vehicle/truck/daf.xf.50k/accessory/steering_w/standard.sii"
+
+	suitable_for[]: "s_cab_plus.daf.xf.50k.cabin"
+
+@include "dashboard_color.sui"
+@include "seat_uk.sui"
 }
-@include "glass.sui"
+@include "glass.dat"
 }

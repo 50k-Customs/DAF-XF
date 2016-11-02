@@ -1,0 +1,11 @@
+SiiNunit
+{
+accessory_addon_data : stock.daf.xf.50k.r_bumper
+{
+	name: "@@stock@@"
+	price: 1680
+	unlock: 0
+	icon: "rearbumper/daf_xf/rearbumper_stock" 
+	exterior_model: "/vehicle/truck/upgrade/rearbumper/daf_xf/rearbumper_stock.pmd"
+}
+}

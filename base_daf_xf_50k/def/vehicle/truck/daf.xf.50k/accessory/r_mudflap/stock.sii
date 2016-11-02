@@ -1,0 +1,11 @@
+SiiNunit
+{
+accessory_addon_data : stock.daf.xf.50k.r_mudflap
+{
+	name: "@@stock@@"
+	price: 225
+	unlock: 0
+	icon: "rearmudflaps/daf_xf/rearmudflap_stock" 
+	exterior_model: "/vehicle/truck/upgrade/rearmudflaps/daf_xf/rearmudflap_stock.pmd"
+}
+}

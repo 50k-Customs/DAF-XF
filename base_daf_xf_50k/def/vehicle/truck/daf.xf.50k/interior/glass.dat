@@ -1,0 +1,67 @@
+glass_pane_data : .daf.xf.pane.front
+{
+	locator: front_glass
+	size: (2.9, 0.9)
+	edge_angle: 20
+	wipers[]: .daf.xf.pane.wiper1
+	wipers[]: .daf.xf.pane.wiper2
+	wipers[]: .daf.xf.pane.wiper3
+	
+  #drop_size_minimum: 0.05 # heavy
+	#drop_size_maximum: 0.07 # heavy
+	
+	drop_size_minimum: 0.010
+	drop_size_maximum: 0.018
+}
+
+wiper_data : .daf.xf.pane.wiper1
+{
+	center_bone: joint37
+	length: 0.58
+}
+
+wiper_data : .daf.xf.pane.wiper2
+{
+	center_bone: joint38
+	length: 0.58
+}
+
+wiper_data : .daf.xf.pane.wiper3
+{
+	center_bone: joint39
+	length: 0.58
+}
+
+glass_pane_data : .daf.xf.pane.close
+{
+	locator: close_glass
+	size: (1.0, 1.0)
+  drop_size_minimum: 0.01
+	drop_size_maximum: 0.018
+	
+  #drop_size_minimum: 0.05 # heavy
+	#drop_size_maximum: 0.07 # heavy
+}
+
+glass_pane_data : .daf.xf.pane.far
+{
+	locator: far_glass
+	size: (1.0, 1.0)
+	drop_size_minimum: 0.013
+	drop_size_maximum: 0.020
+	
+	#drop_size_minimum: 0.05 # heavy
+	#drop_size_maximum: 0.07 # heavy
+}
+
+#glass_pane_data : .daf.xf.pane.top
+#{
+#	locator: top_glass
+#	size: (0.9, 0.5)
+	
+#	drop_size_minimum: 0.05 # heavy
+#	drop_size_maximum: 0.07 # heavy
+	
+#	drop_size_minimum: 0.010
+#	drop_size_maximum: 0.018
+#}

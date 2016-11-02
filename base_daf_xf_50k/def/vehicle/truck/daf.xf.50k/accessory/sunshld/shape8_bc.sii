@@ -8,12 +8,10 @@ accessory_addon_data: shape8_bc.daf.xf.50k.sunshld
 	icon: "sunshield_08"
 	exterior_model: "/vehicle/truck/upgrade/sunshield/daf_xf/sunshield_08_bc.pmd"
 	interior_model: "/vehicle/truck/upgrade/sunshield/daf_xf/sunshield_08_bc.pmd"
+
 	suitable_for[]: "space_cab.daf.xf.50k.cabin"
-	suitable_for[]: "s_cab_plus1.daf.xf.50k.cabin"
 	suitable_for[]: "s_cab_plus.daf.xf.50k.cabin"
-	suitable_for[]: "space_cab_p.daf.xf.50k.cabin"
-	suitable_for[]: "s_cab_plus1p.daf.xf.50k.cabin"
-	suitable_for[]: "s_cab_plus_p.daf.xf.50k.cabin"
-	conflict_with[]: "shape1bc.daf.xf.50k.f_mirror"
+
+	conflict_with[]: "shape1.daf.xf.50k.f_mirror"
 }
 }

@@ -7,7 +7,8 @@ accessory_addon_data : side_str_6x2.daf.xf.50k.exhaust_r
 	unlock: 22
 	icon: "sidestripe_01"
 	exterior_model: "/vehicle/truck/upgrade/sideskirt_stripe/daf_xf_50k/stripe_01_r_6x2.pmd"
-	
-	suitable_for[]: "shape4.daf.xf.50k.sideskirt"
+
+	suitable_for[]: "shape3.daf.xf.50k.sideskirt"	
+	suitable_for[]: "shape6.daf.xf.50k.sideskirt"
 }
 }

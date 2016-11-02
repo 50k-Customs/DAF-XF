@@ -1,0 +1,9 @@
+SiiNunit
+{
+accessory_addon_data : bdg_460.daf.xf.50k.badge
+{
+	exterior_model: "/vehicle/truck/upgrade/badges/daf_xf/badge_460.pmd"
+
+	suitable_for[]: "mx340.daf.xf.50k.engine"
+}
+}

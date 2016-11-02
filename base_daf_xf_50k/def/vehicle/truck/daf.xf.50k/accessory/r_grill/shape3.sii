@@ -8,6 +8,5 @@ accessory_addon_data : shape3.daf.xf.50k.r_grill
 	icon: "r_grill_03"
 	exterior_model: "/vehicle/truck/upgrade/roofgrill/daf_xf/roofgrill_03.pmd"
 	suitable_for[]: "super_s_cab.daf.xf.50k.cabin"
-	suitable_for[]: "super_s_cabp.daf.xf.50k.cabin"
 }
 }

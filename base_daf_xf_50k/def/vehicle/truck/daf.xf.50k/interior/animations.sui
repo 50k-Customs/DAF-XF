@@ -1,44 +1,51 @@
 
-	wiper_anim: "/vehicle/truck/daf_xf_50k/interior/wipers.pma"
+	wiper_anim: "/vehicle/truck/daf_xf/interior/wipers.pma"
 	wiper_delay[]: 2
-	wheel_anim: "/vehicle/truck/daf_xf_50k/interior/s_wheel.pma"
+	wheel_anim: "/vehicle/truck/daf_xf/interior/s_wheel.pma"
 	wheel_anim_max: 1.0
+	wheel_updown_anim: "/vehicle/truck/daf_xf/interior/steer_col_rot.pma"
+	wheel_frontback_anim: "/vehicle/truck/daf_xf/interior/steer_col_ext.pma"
+	wheel_updown_anim_default: 0.5
+	wheel_frontback_anim_default: 0.23
 	blinker_delay: 0.351
-	blinker_anim: "/vehicle/truck/daf_xf_50k/interior/turn_stick.pma"
-	lights_anim: "/vehicle/truck/daf_xf_50k/interior/cl_knob.pma"
-	high_beam_anim: "/vehicle/truck/daf_xf_50k/interior/fl_knob.pma"
-	parking_stick_anim: "/vehicle/truck/daf_xf_50k/interior/parking_st.pma"
-	wiper_stick_anim: "/vehicle/truck/daf_xf_50k/interior/wiper_st.pma"
-	retarder_stick_anim: "/vehicle/truck/daf_xf_50k/interior/retarder_st.pma"
-	flasher_4way_anim: "/vehicle/truck/daf_xf_50k/interior/4way_st.pma"
+	blinker_anim: "/vehicle/truck/daf_xf/interior/turn_stick.pma"
+	lights_anim: "/vehicle/truck/daf_xf/interior/cl_knob.pma"
+	high_beam_anim: "/vehicle/truck/daf_xf/interior/fl_knob.pma"
+	parking_stick_anim: "/vehicle/truck/daf_xf/interior/parking_st.pma"
+	wiper_stick_anim: "/vehicle/truck/daf_xf/interior/wiper_st.pma"
+	retarder_stick_anim: "/vehicle/truck/daf_xf/interior/retarder_st.pma"
+	flasher_4way_anim: "/vehicle/truck/daf_xf/interior/4way_st.pma"
 
-	tachometer_anim: "/vehicle/truck/daf_xf_50k/interior/rpm.pma"
+	tachometer_anim: "/vehicle/truck/daf_xf/interior/rpm.pma"
 	tachometer_anim_max: 2500
-	speedometer_anim: "/vehicle/truck/daf_xf_50k/interior/speed.pma"
+	speedometer_anim: "/vehicle/truck/daf_xf/interior/speed.pma"
 	speedometer_anim_min: 0
 	speedometer_anim_max: 120
-	air_psi_anim: "/vehicle/truck/daf_xf_50k/interior/air.pma"
+	air_psi_anim: "/vehicle/truck/daf_xf/interior/air.pma"
 	air_psi_anim_max: 150
-	fuel_anim: "/vehicle/truck/daf_xf_50k/interior/fuel.pma"
+	fuel_anim: "/vehicle/truck/daf_xf/interior/fuel.pma"
 	fuel_anim_max: 1.0
-	water_temp_anim: "/vehicle/truck/daf_xf_50k/interior/water.pma"
+	water_temp_anim: "/vehicle/truck/daf_xf/interior/water.pma"
 	water_temp_anim_min: 30
 	water_temp_anim_max: 110
-	ad_blue_anim: "/vehicle/truck/daf_xf_50k/interior/adblue.pma"
+	ad_blue_anim: "/vehicle/truck/daf_xf/interior/adblue.pma"
 
-	button_left_blinker: "/vehicle/truck/daf_xf_50k/interior/blinker_l.pma"
-	button_right_blinker: "/vehicle/truck/daf_xf_50k/interior/blinker_r.pma"
-	button_lights: "/vehicle/truck/daf_xf_50k/interior/cl_light.pma"
-	button_high_beam_lights: "/vehicle/truck/daf_xf_50k/interior/farlight.pma"
-	button_low_air_psi: "/vehicle/truck/daf_xf_50k/interior/prs_sign.pma"
-	button_low_fuel: "/vehicle/truck/daf_xf_50k/interior/fuel_sign.pma"
-	button_parking_brake: "/vehicle/truck/daf_xf_50k/interior/parking.pma"
+	button_left_blinker: "/vehicle/truck/daf_xf/interior/blinker_l.pma"
+	button_right_blinker: "/vehicle/truck/daf_xf/interior/blinker_r.pma"
+	button_lights: "/vehicle/truck/daf_xf/interior/cl_light.pma"
+	button_high_beam_lights: "/vehicle/truck/daf_xf/interior/farlight.pma"
+	button_low_air_psi: "/vehicle/truck/daf_xf/interior/prs_sign.pma"
+	button_low_fuel: "/vehicle/truck/daf_xf/interior/fuel_sign.pma"
+	button_parking_brake: "/vehicle/truck/daf_xf/interior/parking.pma"
 
-	indicator_retarder: "/vehicle/truck/daf_xf_50k/interior/retarder_i.pma"
-	indicator_axle_lift: "/vehicle/truck/daf_xf_50k/interior/axle_lift_i.pma"
+	indicator_retarder: "/vehicle/truck/daf_xf/interior/ret_sign.pma"
+	indicator_axle_lift: "/vehicle/truck/daf_xf/interior/axle_lift_sign.pma"
+	lift_axle_stick_anim: "/vehicle/truck/daf_xf/interior/axle_lift_st.pma"
 
-	generic_anim: "/vehicle/truck/daf_xf_50k/interior/generic.pma"
-	engine_start_anim: "/vehicle/truck/daf_xf_50k/interior/start.pma"
+	generic_anim: "/vehicle/truck/daf_xf/interior/generic.pma"
+	engine_start_anim: "/vehicle/truck/daf_xf/interior/start.pma"
 
-	indicator_aux_lights_front:"/vehicle/truck/daf_xf_50k/interior/aux_front.pma"
-	indicator_aux_lights_roof:"/vehicle/truck/daf_xf_50k/interior/aux_top.pma"
+	indicator_aux_lights_front:"/vehicle/truck/daf_xf/interior/aux_front.pma"
+	indicator_aux_lights_roof:"/vehicle/truck/daf_xf/interior/aux_top.pma"
+
+	auto_transmission_stick_anim: "/vehicle/truck/daf_xf/interior/auto_transm_st.pma"

@@ -9,9 +9,7 @@ accessory_addon_data : shape5.daf.xf.50k.exhaust_l
 	exterior_model: "/vehicle/truck/upgrade/exhaust/daf_xf/exhaust_05_l.pmd"
 	suitable_for[]: "shape1.daf.xf.50k.sideskirt"
 	suitable_for[]: "shape2.daf.xf.50k.sideskirt"
-	suitable_for[]: "shape3.daf.xf.50k.sideskirt"
-	conflict_with[]: "shape14.daf.xf.50k.exhaust_l"
+	suitable_for[]: "shape5.daf.xf.50k.sideskirt"
 	suitable_for[]: "4x2.daf.xf.50k.chassis"
-	suitable_for[]: "4x2_p.daf.xf.50k.chassis"
 }
 }

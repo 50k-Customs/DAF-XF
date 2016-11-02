@@ -1,0 +1,9 @@
+SiiNunit
+{
+accessory_addon_data : 50k_paint.daf.xf.50k.f_intake_chs
+{
+	exterior_model: "/vehicle/truck/upgrade/frontintake/daf_xf_50k/50k_chassis_grill_painted.pmd"
+	
+	conflict_with[]: "stock.daf.xf.50k.f_intake_cab"
+}
+}
