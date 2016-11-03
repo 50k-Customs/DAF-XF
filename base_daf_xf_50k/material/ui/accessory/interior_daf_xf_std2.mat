@@ -1,0 +1,5 @@
+material : "ui"
+{
+	texture : "interior_daf_xf_std2.tobj"
+	texture_name : "texture"
+}
