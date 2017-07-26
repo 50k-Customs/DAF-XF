@@ -1,0 +1,11 @@
+SiiNunit
+{
+accessory_addon_data : 50k_stig_mud.daf.xf.b_grill
+{
+	name: "50k DAF XF: Stig with mudflaps"
+	price: 1790
+	unlock: 12
+	icon: "b_grill_01"
+	exterior_model: "/vehicle/truck/upgrade/bottomgrill/daf_xf/bottomgrill_01_mud.pmd"
+}
+}

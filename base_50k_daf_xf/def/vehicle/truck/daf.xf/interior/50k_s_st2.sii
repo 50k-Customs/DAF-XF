@@ -1,0 +1,38 @@
+SiiNunit
+{
+accessory_interior_data: 50k_s_st2.daf.xf.interior
+{
+	name: "50k DAF XF: @@standard@@ 2"
+	price: 33900
+	unlock: 12
+	icon: "interior_daf_xf_lux2"
+
+	model:          "/vehicle/truck/daf_xf/interior/model.pmd"
+	collision:      "/vehicle/truck/daf_xf/interior/model.pmc"
+	animated_model: "/vehicle/truck/daf_xf/interior/anim.pmd"
+	look: look2
+	variant: space_ex
+
+@include "animations.sui"
+
+	dashboard_path:"/ui/dashboard/daf_xf.sii"
+	gps_path:"/ui/gps.sii"
+
+	glass_panes[]: .daf.xf.pane.front
+	glass_panes[]: .daf.xf.pane.close
+	glass_panes[]: .daf.xf.pane.far
+	#glass_panes[]: .daf.xf.pane.top
+
+	ext_model: "/vehicle/truck/upgrade/ext_interior/daf_xf/stock.pmd"
+	ext_variant: default
+	ext_look: default
+
+	defaults[]: "/def/vehicle/truck/daf.xf/accessory/steering_w/standard.sii"
+
+	suitable_for[]: "space_cab.daf.xf.cabin"
+
+@include "dashboard_color.sui"
+@include "seat.sui"
+}
+@include "glass.dat"
+}

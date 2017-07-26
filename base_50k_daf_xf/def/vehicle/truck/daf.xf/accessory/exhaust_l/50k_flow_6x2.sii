@@ -1,0 +1,16 @@
+SiiNunit
+{
+accessory_addon_data : 50k_flow_6x2.daf.xf.exhaust_l
+{
+	name: "50k DAF XF: Flow I"
+	price: 1560
+	unlock: 12
+	icon: "exhaust_01"
+	exterior_model: "/vehicle/truck/upgrade/exhaust/daf_xf/exhaust_01_l_6x2.pmd"
+	suitable_for[]: "6x2.daf.xf.chassis"
+	suitable_for[]: "6x2a.daf.xf.chassis"
+	suitable_for[]: "6x2a_tl.daf.xf.chassis"
+	suitable_for[]: "6x2_ml.daf.xf.chassis"
+	suitable_for[]: "6x4.daf.xf.chassis"
+}
+}

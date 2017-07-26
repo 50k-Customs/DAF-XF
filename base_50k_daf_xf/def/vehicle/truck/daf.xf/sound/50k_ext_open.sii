@@ -1,0 +1,275 @@
+SiiNunit
+{
+accessory_sound_data : 50k_ext_open.daf.xf.esound
+{
+	exterior_sound: true
+
+	start: .start
+	stop: .stop
+	start_no_fuel: .startbad
+
+	engine[]: .e0
+	engine[]: .e1
+	engine[]: .e2
+	engine[]: .e3
+	engine[]: .e4
+	engine[]: .e5
+
+	engine_load[]: .el0
+	engine_load[]: .el1
+	engine_load[]: .el2
+	engine_load[]: .el3
+	engine_load[]: .el4
+	engine_load[]: .el5
+
+	turbo: .t
+	
+	air_gear[0]: .airgear0
+	air_gear[1]: .airgear1
+	air_gear[2]: .airgear2
+	
+	air_brake[0]: .airbrake0
+	air_brake[1]: .airbrake1
+
+	engine_brake[]: .mbrake
+
+	horn: .horn
+	reverse: .reverse
+
+@include "/def/vehicle/truck/common_sound_ext.sui"
+
+}
+
+sound_data: .start
+{
+	name: "/sound/truck/renault/magnum_ext/start_ext.ogg"
+	looped: false
+}
+
+sound_data: .startbad
+{
+	name: "/sound/truck/renault/magnum_ext/start_ext_bad.ogg"
+	looped: false
+}
+
+sound_data: .stop
+{
+	name: "/sound/truck/renault/magnum_ext/stop_ext.ogg"
+	looped: false
+}
+
+sound_engine_data: .e0
+{
+	name: "/sound/truck/daf_50k/ext/idle.ogg"
+
+	looped: true
+
+	pitch_reference: 600
+
+	min_rpm:  0.0
+	max_rpm: 800.0
+	volume: 0.35
+}
+
+sound_engine_data: .e1
+{
+	name: "/sound/truck/daf_50k/ext/d600rpm.ogg"
+	
+	looped: true
+	
+	pitch_reference: 800
+
+	min_rpm: 600.0
+	max_rpm: 1000.0
+	volume: 0.63
+}
+
+sound_engine_data: .e2
+{
+	name: "/sound/truck/daf_50k/ext/d800rpm.ogg"
+	
+	looped: true
+
+	pitch_reference: 1000
+
+	min_rpm: 800.0
+	max_rpm: 1200.0
+	volume: 0.68
+}
+
+sound_engine_data: .e3
+{
+	name: "/sound/truck/daf_50k/ext/d1300rpm.ogg"
+
+	looped: true
+
+	#pitch_reference: 1250
+	pitch_reference: 1650
+
+	min_rpm: 1000.0
+	max_rpm: 1550.0
+	volume: 0.68
+}
+
+sound_engine_data: .e4
+{
+	name: "/sound/truck/daf_50k/ext/d1300rpm.ogg"
+
+	looped: true
+
+	#pitch_reference: 1500
+	pitch_reference: 1650
+
+	min_rpm: 1300.0
+	#min_rpm: 1150.0
+	max_rpm: 1870.0
+	volume: 0.75
+}
+
+sound_engine_data: .e5
+{
+	name: "/sound/truck/daf_50k/ext/d1700rpm.ogg"
+
+	looped: true
+
+	#pitch_reference: 2300
+	pitch_reference: 1900
+
+	min_rpm: 1700.0
+	max_rpm: 3000.0
+	volume: 0.69
+}
+
+
+sound_engine_data: .el0
+{
+	name: "/sound/truck/daf_50k/ext/idle.ogg"
+
+	looped: true
+
+	min_rpm:  0.0
+	max_rpm: 800.0
+	volume: 0.6
+}
+
+sound_engine_data: .el1
+{
+	name: "/sound/truck/daf_50k/ext/600rpm.ogg"
+
+	looped: true
+
+	min_rpm: 600.0
+	max_rpm: 1000.0
+	volume: 0.55
+}
+
+sound_engine_data: .el2
+{
+	name: "/sound/truck/daf_50k/ext/800rpm.ogg"
+
+	looped: true
+
+	min_rpm: 800.0
+	max_rpm: 1200.0
+	volume: 0.75
+}
+
+sound_engine_data: .el3
+{
+	name: "/sound/truck/daf_50k/ext/1000rpm.ogg"
+	
+	looped: true
+
+	pitch_reference: 1100
+
+	min_rpm: 1000.0
+	max_rpm: 1550.0
+	volume: 0.85
+}
+
+sound_engine_data: .el4
+{
+	name: "/sound/truck/daf_50k/ext/1500rpm.ogg"
+
+	looped: true
+
+	min_rpm: 1300.0
+	max_rpm: 1870.0
+	volume: 0.90
+}
+
+sound_engine_data: .el5
+{
+	name: "/sound/truck/daf_50k/ext/1500rpm.ogg"
+
+	looped: true
+
+	pitch_reference: 1550
+
+	min_rpm: 1600.0
+	max_rpm: 3000.0
+	volume: 0.95
+}
+
+sound_data: .t
+{
+	name: "/sound/truck/renault/magnum_ext/turbo_ext.ogg"
+	looped: true
+
+	volume: 1.0
+}
+
+sound_data: .airgear0
+{
+	name: "/sound/truck/daf_50k/ext/gear1.ogg"
+		volume: 0.6
+}
+sound_data: .airgear1
+{
+	name: "/sound/truck/daf_50k/ext/ngear2.ogg"
+		volume: 0.6
+}
+sound_data: .airgear2
+{
+	name: "/sound/truck/daf_50k/ext/ngear3.ogg"
+		volume: 0.6
+}
+
+sound_data: .airbrake0
+{
+	name: "/sound/truck/renault/magnum_ext/air_brake1.ogg"
+	looped: false
+}
+
+sound_data: .airbrake1
+{
+	name: "/sound/truck/renault/magnum_ext/air_brake2.ogg"
+	looped: false
+}
+
+sound_engine_data: .mbrake
+{
+	name: "/sound/truck/renault/magnum_ext/engine_brake_ext.ogg"
+	looped: true
+
+	pitch_reference: 1850
+	min_rpm: 750.0
+	max_rpm: 3000.0
+}
+
+sound_data: .horn
+{
+	name: "/sound/truck/renault/magnum_ext/horn_loop.ogg"
+	looped: true
+}
+
+sound_data: .reverse
+{
+	name: "/sound/truck/renault/magnum_ext/reverse.ogg"
+	looped: true
+}
+
+
+@include "/def/vehicle/truck/common_sound_ext_data.sui"
+
+}
