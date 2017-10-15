@@ -1,0 +1,18 @@
+SiiNunit
+{
+accessory_addon_data: 50k_shp2.daf.xf.sunshld
+{
+	name: "Samurai"
+	price: 2250
+	unlock: 5
+	icon: "sunshield_02"
+	exterior_model: "/vehicle/truck/upgrade/sunshield/daf_xf/sunshield_02.pmd"
+	interior_model: "/vehicle/truck/upgrade/sunshield/daf_xf/sunshield_02.pmd"
+
+	suitable_for[]: "super_s_cab.daf.xf.cabin"
+
+	suitable_for[]: "50k_ss_nos.daf.xf.cabin"
+
+	conflict_with[]: "shape1.daf.xf.f_mirror"
+}
+}

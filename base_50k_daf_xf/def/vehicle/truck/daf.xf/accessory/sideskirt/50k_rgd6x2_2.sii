@@ -1,0 +1,17 @@
+SiiNunit
+{
+accessory_addon_data : 50k_rgd6x2_2.daf.xf.sideskirt
+{
+	name: "50k DAF XF: Ramp Full + Lights"
+	price: 5400
+	unlock: 5
+	icon: "sideskirt/daf_xf_50k/ramp_full_lights"
+	exterior_model: "/vehicle/truck/upgrade/sideskirts/daf_xf/50k_ramp_full_rgd_6x2.pmd"
+
+	variant: lights
+
+	suitable_for[]: "50k_6x2t.daf.xf.chassis"
+
+	conflict_with[]: "50k_tk_uts.daf.xf.rgd_equip_m"
+}
+}

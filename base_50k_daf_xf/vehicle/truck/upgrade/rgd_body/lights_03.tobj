@@ -1,0 +1,5 @@
+map 2d
+     lights_03.tga
+addr
+     clamp_to_edge
+     clamp_to_edge

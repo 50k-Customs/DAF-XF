@@ -1,0 +1,5 @@
+map 2d
+     cool_liner.tga
+addr
+     clamp_to_edge
+     clamp_to_edge

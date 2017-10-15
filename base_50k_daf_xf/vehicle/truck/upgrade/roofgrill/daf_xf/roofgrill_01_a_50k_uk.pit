@@ -1,0 +1,52 @@
+# Look Names:
+#	default
+#
+# Variant Names:
+#	default
+#
+Header {
+    FormatVersion: 1
+    Source: "Blender 2.79.0 (hash: 5bd8ac9abfa), SCS Blender Tools: 1.10.001193f"
+    Type: "Trait"
+    Name: "roofgrill_01_a_50k_uk"
+}
+Global {
+    LookCount: 1
+    VariantCount: 1
+    PartCount: 3
+    MaterialCount: 0
+}
+Look {
+    Name: "default"
+}
+Variant {
+    Name: "default"
+    Part {
+        Name: "defaultpart"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 1 )
+        }
+    }
+    Part {
+        Name: "for_spoiler"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 1 )
+        }
+    }
+    Part {
+        Name: "no_spoiler"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 1 )
+        }
+    }
+}
+

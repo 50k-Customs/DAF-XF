@@ -1,0 +1,33 @@
+SiiNunit
+{
+accessory_cabin_data : 50k_sp_nos.daf.xf.cabin
+{
+	name: "50k DAF XF: SC Plus No-Spoiler"
+	price: 31000
+	unlock: 12
+
+	detail_model: "/vehicle/truck/daf_xf/50k_b_cabin_nospoiler.pmd"
+	collision: "/vehicle/truck/daf_xf/50k_b_cabin_nospoiler.pmc"
+
+	variant: eu
+	variant_uk: uk
+	look: default
+	icon: "cab/daf_xf_50k/sp"
+
+	wiper_model: "/vehicle/truck/daf_xf/wipers.pmd"
+	wiper_anim: "/vehicle/truck/daf_xf/wipers.pma"
+	wiper_model_uk: "/vehicle/truck/daf_xf/wipers_uk.pmd"
+	wiper_anim_uk: "/vehicle/truck/daf_xf/wipers_uk.pma"
+
+	defaults[]: "/def/vehicle/truck/daf.xf/paint_job/color1.sii"
+	defaults[]: "/def/vehicle/truck/daf.xf/interior/50k_sp_st2.sii"
+	defaults[]: "/def/vehicle/truck/daf.xf/head_light/xenon.sii"
+	defaults[]: "/def/vehicle/truck/daf.xf/accessory/doorhndl/shape1.sii"
+	defaults[]: "/def/vehicle/truck/daf.xf/accessory/mirror/shape2.sii"
+	defaults[]: "/def/vehicle/truck/daf.xf/accessory/s_mirror/shape1.sii"
+	defaults[]: "/def/vehicle/truck/daf.xf/accessory/f_intake_cab/stock.sii"
+	defaults[]: "/def/vehicle/truck/daf.xf/accessory/f_wnd_frame/stock.sii"
+
+	overrides[]: "/def/vehicle/truck/daf.xf/accessory/f_fender/50k_plst_nos.sii"
+}
+}

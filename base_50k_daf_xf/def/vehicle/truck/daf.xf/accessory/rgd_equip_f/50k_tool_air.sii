@@ -1,0 +1,15 @@
+﻿SiiNunit
+{
+accessory_addon_data : 50k_tool_air.daf.xf.rgd_equip_f
+{
+
+	name: "50k DAF XF: Toolbox & Air Tanks"
+
+	price: 7500
+	unlock: 10
+	icon: "rgd_equip_f/daf_xf_50k/tool_air"
+
+	exterior_model: "/vehicle/truck/upgrade/rgd_equip_f/daf_xf/50k_toolbox_air_tanks.pmd"
+		
+}
+}

@@ -1,0 +1,5 @@
+material : "ui"
+{
+	texture : "thermo_king_uts.tobj"
+	texture_name : "texture"
+}

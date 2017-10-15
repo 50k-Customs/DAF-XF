@@ -1,0 +1,5 @@
+material : "ui"
+{
+	texture : "ramp_full_lights.tobj"
+	texture_name : "texture"
+}

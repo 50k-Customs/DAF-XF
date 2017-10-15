@@ -1,0 +1,13 @@
+SiiNunit
+{
+accessory_addon_data : 50k_shp2_bc.daf.xf.r_grill
+{
+	name: "Sting"
+	price: 2910
+	unlock: 4
+	icon: "r_grill_02"
+	exterior_model: "/vehicle/truck/upgrade/roofgrill/daf_xf/roofgrill_02_bc.pmd"
+
+	suitable_for[]: "50k_sp_nos.daf.xf.cabin"
+}
+}

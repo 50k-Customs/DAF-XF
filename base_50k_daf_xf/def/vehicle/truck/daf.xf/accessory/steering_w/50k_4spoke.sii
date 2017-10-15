@@ -2,7 +2,7 @@ SiiNunit
 {
 accessory_addon_data : 50k_4spoke.daf.xf.steering_w
 {
-	name: "50k: DAF 4 Spoke"
+	name: "50k DAF XF: DAF 4 Spoke"
 	price: 2200
 	unlock: 6
 	

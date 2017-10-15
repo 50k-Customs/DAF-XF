@@ -1,0 +1,3 @@
+map	2d	extended_bumper.tga
+addr	clamp_to_edge	clamp_to_edge
+usage	ui

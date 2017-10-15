@@ -1,0 +1,16 @@
+SiiNunit
+{
+accessory_addon_data: 50k_shp10_bc.daf.xf.sunshld
+{
+	name: "Ranger"
+	price: 4260
+	unlock: 18
+	icon: "sunshield_10"
+	exterior_model: "/vehicle/truck/upgrade/sunshield/daf_xf/sunshield_10_bc.pmd"
+	interior_model: "/vehicle/truck/upgrade/sunshield/daf_xf/sunshield_10_bc.pmd"
+
+	suitable_for[]: "50k_sp_nos.daf.xf.cabin"
+
+	conflict_with[]: "shape1.daf.xf.f_mirror"
+}
+}

@@ -1,0 +1,11 @@
+SiiNunit
+{
+accessory_addon_data : 50k_plst_nos.daf.xf.f_fender
+{
+	name: "50k DAF XF: Stock No Spoiler"
+	price: 1260
+	unlock: 0
+	icon: "f_fender/daf_xf_50k/stock"
+	exterior_model: "/vehicle/truck/upgrade/f_fender/daf_xf/50k_plastic_nospoiler.pmd"
+}
+}

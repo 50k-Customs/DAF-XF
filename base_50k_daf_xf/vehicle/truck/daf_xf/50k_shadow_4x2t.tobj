@@ -1,0 +1,3 @@
+map	2d	50k_shadow_4x2t.tga
+addr	clamp_to_edge	clamp_to_edge
+nomips

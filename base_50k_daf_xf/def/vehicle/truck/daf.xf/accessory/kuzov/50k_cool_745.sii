@@ -1,0 +1,18 @@
+﻿SiiNunit
+{
+accessory_addon_data : 50k_cool_745.daf.xf.kuzov
+{
+
+	name: "50k DAF XF: Coolliner Skin 7.45m"
+
+	price: 25000
+	unlock: 10
+	icon: "kuzov/daf_xf_50k/cool"
+
+	exterior_model: "/vehicle/truck/upgrade/rgd_body/50k_coolliner_7_45_skin.pmd"
+	
+	suitable_for[]: "50k_4x2t.daf.xf.chassis"
+	suitable_for[]: "50k_6x2t.daf.xf.chassis"
+	
+}
+}

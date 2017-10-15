@@ -14,8 +14,8 @@ accessory_paint_job_data : 50k_metallic.daf.xf.paint_job
 	flip_color : (1.0, 0.65, 0.15)
 	flake_color: (1, 1, 1)
   
-	flip_strength: 0.3
-	flake_uvscale :  128.0
+	flip_strength: 0.8
+	flake_uvscale :  64.0
 	flake_density :  0.38
 	flake_shininess :  0.0
 	flake_clearcoat_rolloff :  3.710

@@ -1,0 +1,15 @@
+SiiNunit
+{
+accessory_addon_data : 50k_rgd4x2_4.daf.xf.sideskirt
+{
+	name: "50k DAF XF: Ramp For Fridge + Lights"
+	price: 7400
+	unlock: 14
+	icon: "sideskirt/daf_xf_50k/ramp_fridge_lights"
+	exterior_model: "/vehicle/truck/upgrade/sideskirts/daf_xf/50k_ramp_fridge_rgd_4x2.pmd"
+
+	variant: lights
+
+	suitable_for[]: "50k_4x2t.daf.xf.chassis"
+}
+}

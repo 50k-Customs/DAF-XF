@@ -1,0 +1,18 @@
+SiiNunit
+{
+accessory_addon_data: 50k_ts_paint.daf.xf.sunshld
+{
+	name: "Albedo @@paint@@"
+	price: 5400
+	unlock: 0
+	icon: "sunshield/daf_xf/paint_lights"
+	exterior_model: "/vehicle/truck/upgrade/sunshield/daf_xf/paint_lights.pmd"
+	interior_model: "/vehicle/truck/upgrade/sunshield/daf_xf/paint_lights.pmd"
+
+	suitable_for[]: "super_s_cab.daf.xf.cabin"
+
+	suitable_for[]: "50k_ss_nos.daf.xf.cabin"
+
+	conflict_with[]: "shape1.daf.xf.f_mirror"
+}
+}

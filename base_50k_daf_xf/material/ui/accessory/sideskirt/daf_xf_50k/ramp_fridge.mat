@@ -1,0 +1,5 @@
+material : "ui"
+{
+	texture : "ramp_fridge.tobj"
+	texture_name : "texture"
+}

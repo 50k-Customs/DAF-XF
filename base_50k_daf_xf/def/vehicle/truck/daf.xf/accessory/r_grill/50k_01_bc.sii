@@ -1,13 +1,17 @@
 SiiNunit
 {
-accessory_addon_data : 50k_01_bc.daf.xf.r_grill
+accessory_addon_data : 50k_01.daf.xf.r_grill
 {
-	name: "50k DAF XF: only slots"
+	name: "50k DAF XF: Only slots"
 	price: 2640
 	unlock: 1
-	icon: "r_grill_01"
+	icon: "50k_slots"
 	exterior_model: "/vehicle/truck/upgrade/roofgrill/daf_xf/roofgrill_01_bc_50k.pmd"
+	exterior_model_uk: "/vehicle/truck/upgrade/roofgrill/daf_xf/roofgrill_01_bc_50k_uk.pmd"
+	
 	suitable_for[]: "space_cab.daf.xf.cabin"
 	suitable_for[]: "s_cab_plus.daf.xf.cabin"
+
+	suitable_for[]: "50k_sp_nos.daf.xf.cabin"
 }
 }

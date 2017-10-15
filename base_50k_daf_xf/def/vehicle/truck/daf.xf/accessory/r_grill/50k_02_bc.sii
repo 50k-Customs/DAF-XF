@@ -5,9 +5,13 @@ accessory_addon_data : 50k_02_bc.daf.xf.r_grill
 	name: "50k DAF XF: HiBar"
 	price: 22640
 	unlock: 15
-	icon: "r_grill_01"
+	icon: "r_grill/daf_xf_50k/hibar_bc"
 	exterior_model: "/vehicle/truck/upgrade/roofgrill/daf_xf/roofgrill_02_bc_50k.pmd"
+	exterior_model_uk: "/vehicle/truck/upgrade/roofgrill/daf_xf/roofgrill_02_bc_50k_uk.pmd"
+	
 	suitable_for[]: "space_cab.daf.xf.cabin"
 	suitable_for[]: "s_cab_plus.daf.xf.cabin"
+	
+	suitable_for[]: "50k_sp_nos.daf.xf.cabin"
 }
 }

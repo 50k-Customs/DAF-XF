@@ -1,0 +1,16 @@
+﻿SiiNunit
+{
+accessory_addon_data : 50k_ssc.daf.xf.roof_spoiler
+{
+
+	name: "50k DAF XF: Normal"
+
+	price: 7500
+	unlock: 10
+	icon: "roof_spoiler/daf_xf_50k/normal"
+
+	exterior_model: "/vehicle/truck/upgrade/roof_spoiler/daf_xf/50k_ssc_spoiler.pmd"
+
+	suitable_for[]: "50k_ss_nos.daf.xf.cabin"
+}
+}

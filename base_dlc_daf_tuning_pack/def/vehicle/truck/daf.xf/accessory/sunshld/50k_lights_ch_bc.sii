@@ -1,0 +1,20 @@
+SiiNunit
+{
+accessory_addon_data: 50k_ts_ch_bc.daf.xf.sunshld
+{
+	name: "Albedo @@chrom@@"
+	price: 7200
+	unlock: 0
+	icon: "sunshield/daf_xf/chrome_lights"
+	exterior_model: "/vehicle/truck/upgrade/sunshield/daf_xf/chrome_lights_bc.pmd"
+	interior_model: "/vehicle/truck/upgrade/sunshield/daf_xf/simple_ch_int_bc.pmd"
+
+	suitable_for[]: "s_cab_plus.daf.xf.cabin"
+	suitable_for[]: "space_cab.daf.xf.cabin"
+
+	suitable_for[]: "50k_s_nos.daf.xf.cabin"
+	suitable_for[]: "50k_sp_nos.daf.xf.cabin"
+
+	conflict_with[]: "shape1.daf.xf.f_mirror"
+}
+}

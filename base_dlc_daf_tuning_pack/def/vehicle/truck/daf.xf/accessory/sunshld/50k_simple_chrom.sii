@@ -1,0 +1,18 @@
+SiiNunit
+{
+accessory_addon_data: 50k_le_chrom.daf.xf.sunshld
+{
+	name: "Aphelion @@chrom@@"
+	price: 3900
+	unlock: 0
+	icon: "sunshield/daf_xf/simple_chrome"
+	exterior_model: "/vehicle/truck/upgrade/sunshield/daf_xf/simple_chrome.pmd"
+	interior_model: "/vehicle/truck/upgrade/sunshield/daf_xf/simp_ch_int.pmd"
+
+	suitable_for[]: "super_s_cab.daf.xf.cabin"
+
+	suitable_for[]: "50k_ss_nos.daf.xf.cabin"
+
+	conflict_with[]: "shape1.daf.xf.f_mirror"
+}
+}

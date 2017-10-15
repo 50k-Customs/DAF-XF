@@ -1,0 +1,16 @@
+SiiNunit
+{
+accessory_addon_data : 50k_shp3_bc.daf.xf.r_grill
+{
+	name: "Viking"
+	price: 3720
+	unlock: 11
+	icon: "r_grill_03"
+	exterior_model: "/vehicle/truck/upgrade/roofgrill/daf_xf/roofgrill_03_bc.pmd"
+
+	suitable_for[]: "space_cab.daf.xf.cabin"
+	suitable_for[]: "s_cab_plus.daf.xf.cabin"
+
+	suitable_for[]: "50k_sp_nos.daf.xf.cabin"
+}
+}

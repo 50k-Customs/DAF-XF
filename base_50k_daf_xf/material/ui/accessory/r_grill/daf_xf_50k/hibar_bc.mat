@@ -1,0 +1,5 @@
+material : "ui"
+{
+	texture : "hibar_bc.tobj"
+	texture_name : "texture"
+}

@@ -1,0 +1,19 @@
+SiiNunit
+{
+accessory_paint_job_data : 50k_le_bc.daf.xf.paint_job
+{
+	name: "DAF Limited Edition"
+	price: 20000
+	unlock: 0
+	icon: "paintjob_dafxf105_xf1"
+
+	airbrush : true
+
+	base_color: (0.8332, 0.8332, 0.8332)
+	base_color_locked: false
+
+	paint_job_mask : "/vehicle/truck/upgrade/paintjob/paintjob_dafxf105_xf1b_daf.tobj"
+
+	suitable_for[]: "50k_sp_nos.daf.xf.cabin"
+}
+}

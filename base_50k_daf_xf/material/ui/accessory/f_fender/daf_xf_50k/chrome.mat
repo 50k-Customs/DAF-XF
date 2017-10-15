@@ -1,0 +1,5 @@
+material : "ui"
+{
+	texture : "chrome.tobj"
+	texture_name : "texture"
+}

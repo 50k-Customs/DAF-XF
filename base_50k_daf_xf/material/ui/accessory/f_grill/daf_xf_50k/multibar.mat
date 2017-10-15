@@ -1,0 +1,5 @@
+material : "ui"
+{
+	texture : "multibar.tobj"
+	texture_name : "texture"
+}

@@ -1,0 +1,51 @@
+SiiNunit
+{
+accessory_chassis_data : 50k_6x2t.daf.xf.chassis
+{
+	name: "50k DAF XF: @@chassis@@ 6x2 Steerable Tandem"
+	price: 60000
+	unlock: 8
+	info[]: "6x2t"
+	info[]: "800 @@unit_l@@"
+	icon: "chassis/daf_xf_50k/rgd_6x2"
+
+	detail_model: "/vehicle/truck/daf_xf/50k_chassis_rigid_6x2.pmd"
+	collision: "/vehicle/truck/daf_xf/50k_chassis_rigid_6x2.pmc"
+
+	residual_travel[]: 0.12 	# 1st axle
+	residual_travel[]: 0.08 	# 2nd axle
+	residual_travel[]: 0.08 	# 3rd axle
+
+	tank_size: 800
+	adblue_tank_size: 90
+	variant: default
+	look: default
+
+	extended_shadow_texture: "/vehicle/truck/daf_xf/50k_shadow_6x2t.tobj"
+	#extended_shadow_intensity: 1.0
+	#extended_shadow_fadeout_start: 10
+	#extended_shadow_fadeout_length: 0
+
+	ui_shadow: "/vehicle/truck/daf_xf/50k_ui_shadow_6x2t.pmd"
+
+	powered_axle[0]: false	# front wheel left
+	powered_axle[1]: false	# rear steerable wheel left
+	powered_axle[2]: true	# rear wheel left
+
+	liftable_axle[0]: false
+	liftable_axle[1]: true
+	liftable_axle[2]: false
+
+	kerb_weight[0]:	7500.0
+	kerb_weight[1]:	2500.0
+	kerb_weight[2]:	7500.0
+
+	defaults[]: "/def/vehicle/truck/daf.xf/paint_job/color1.sii"
+	# defaults[]: "/def/vehicle/truck/daf.xf/accessory/doorstep/shape1.sii"
+	# defaults[]: "/def/vehicle/truck/daf.xf/accessory/trlr_cables/stock.sii"
+	# defaults[]: "/def/vehicle/truck/daf.xf/accessory/r_chs_cover/stock.sii"
+	# defaults[]: "/def/vehicle/truck/daf.xf/accessory/s_equip/sidesteps.sii"
+
+	# overrides[]: "/def/vehicle/truck/daf.xf/accessory/r_bumper/stock.sii"
+}
+}

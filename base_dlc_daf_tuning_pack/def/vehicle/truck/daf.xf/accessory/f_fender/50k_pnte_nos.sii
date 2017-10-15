@@ -1,0 +1,17 @@
+SiiNunit
+{
+accessory_addon_data : 50k_pnte_nos.daf.xf.f_fender
+{
+	name: "50k DAF XF: @@paint@@ Plus No-Spoiler"
+	price: 7840
+	unlock: 0
+	exterior_model: "/vehicle/truck/upgrade/f_fender/daf_xf/50k_paint_extended_nospoiler.pmd"
+	icon: "f_fender/daf_xf_50k/paint_extended"
+
+	suitable_for[]: "50k_ss_nos.daf.xf.cabin"
+	suitable_for[]: "50k_sp_nos.daf.xf.cabin"
+	suitable_for[]: "50k_s_nos.daf.xf.cabin"
+
+	
+}
+}

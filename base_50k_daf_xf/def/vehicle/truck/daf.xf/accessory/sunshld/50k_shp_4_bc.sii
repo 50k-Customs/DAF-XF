@@ -1,0 +1,14 @@
+SiiNunit
+{
+accessory_addon_data: 50k_shp4_bc.daf.xf.sunshld
+{
+	name: "Titan"
+	price: 2220
+	unlock: 3
+	icon: "sunshield_04"
+	exterior_model: "/vehicle/truck/upgrade/sunshield/daf_xf/sunshield_04_bc.pmd"
+	interior_model: "/vehicle/truck/upgrade/sunshield/daf_xf/sunshield_04_bc.pmd"
+
+	suitable_for[]: "50k_sp_nos.daf.xf.cabin"
+}
+}

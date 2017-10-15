@@ -1,0 +1,17 @@
+﻿SiiNunit
+{
+accessory_addon_data : 50k_sc_big.daf.xf.roof_spoiler
+{
+
+	name: "50k DAF XF: Big"
+
+	price: 6000
+	unlock: 5
+	icon: "roof_spoiler/daf_xf_50k/big"
+
+	exterior_model: "/vehicle/truck/upgrade/roof_spoiler/daf_xf/50k_sc_spoiler_big.pmd"
+
+	suitable_for[]: "50k_sp_nos.daf.xf.cabin"
+		
+}
+}

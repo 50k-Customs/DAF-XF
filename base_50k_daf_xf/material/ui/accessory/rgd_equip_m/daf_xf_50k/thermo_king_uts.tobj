@@ -1,0 +1,3 @@
+map	2d	thermo_king_uts.tga
+addr	clamp_to_edge	clamp_to_edge
+usage	ui

@@ -5,7 +5,7 @@ accessory_addon_data : 50k_slots.daf.xf.b_grill
 	name: "50k DAF XF: Only slots"
 	price: 1790
 	unlock: 12
-	icon: "b_grill_01"
+	icon: "50k_slots"
 	exterior_model: "/vehicle/truck/upgrade/bottomgrill/daf_xf/bottomgrill_02_mud.pmd"
 }
 }

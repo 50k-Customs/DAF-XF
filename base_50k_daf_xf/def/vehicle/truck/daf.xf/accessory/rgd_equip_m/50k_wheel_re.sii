@@ -1,0 +1,15 @@
+﻿SiiNunit
+{
+accessory_addon_data : 50k_wheel_re.daf.xf.rgd_equip_m
+{
+
+	name: "50k DAF XF: Spare Wheel & Air Tanks"
+
+	price: 3500
+	unlock: 0
+	icon: "rgd_equip_m/daf_xf_50k/wheel_replecement"
+
+	exterior_model: "/vehicle/truck/upgrade/rgd_equip_m/daf_xf/50k_wheel_replacement.pmd"
+
+}
+}

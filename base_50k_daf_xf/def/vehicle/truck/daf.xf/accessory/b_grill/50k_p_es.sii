@@ -1,0 +1,11 @@
+SiiNunit
+{
+accessory_addon_data : 50k_p_es.daf.xf.b_grill
+{
+	name: "50k DAF XF: Paint Extra Slots"
+	price: 1790
+	unlock: 18
+	icon: "b_grill/daf_xf_50k/extended_bumper"
+	exterior_model: "/vehicle/truck/upgrade/bottomgrill/daf_xf/50k_paint_extra_slots.pmd"
+}
+}

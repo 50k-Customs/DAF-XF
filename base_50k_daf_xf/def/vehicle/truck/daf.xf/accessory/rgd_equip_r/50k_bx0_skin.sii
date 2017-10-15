@@ -1,0 +1,17 @@
+﻿SiiNunit
+{
+accessory_addon_data : 50k_bx0_skin.daf.xf.rgd_equip_r
+{
+
+	name: "50k DAF XF: Toolbox Skin"
+
+	price: 3500
+	unlock: 0
+	icon: "rgd_equip_r/daf_xf_50k/toolbox_skin"
+
+	variant: no_lights
+
+	exterior_model: "/vehicle/truck/upgrade/rgd_equip_r/daf_xf/50k_toolbox_skin.pmd"
+
+}
+}

@@ -1,6 +1,6 @@
 Header {
     FormatVersion: 5
-    Source: "Blender 2.78.0 (hash: e8299c8), SCS Blender Tools: 1.9.54925f1"
+    Source: "Blender 2.79.0 (hash: 5bd8ac9abfa), SCS Blender Tools: 1.10.001193f"
     Type: "Model"
     Name: "roofgrill_02_bc_50k"
 }
@@ -1627,14 +1627,14 @@ Locator {
 Locator {
     Name: "slot_21"
     Index: 16
-    Position: ( &bfa97f78  &bfb7c926  &3cc238c6 )
+    Position: ( &bfa97f78  &bfb7d873  &3cc23946 )
     Rotation: ( &3e002f5a  &334c3e4f  &b309a55c  &3f7dfc7e )
     Scale: ( &3f800000  &3f800000  &3f800000 )
 }
 Locator {
     Name: "slot_22"
     Index: 17
-    Position: ( &3fa9ad31  &bfb7c926  &3cc238c6 )
+    Position: ( &3fa99250  &bfb79b6e  &bc93ee3a )
     Rotation: ( &3e06c814  &b3e06ae0  &b1d133d5  &bf7dc5d6 )
     Scale: ( &3f800000  &3f800000  &3f800000 )
 }

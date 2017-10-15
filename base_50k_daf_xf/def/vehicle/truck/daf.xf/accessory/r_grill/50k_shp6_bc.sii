@@ -1,0 +1,13 @@
+SiiNunit
+{
+accessory_addon_data : 50k_shp6_bc.daf.xf.r_grill
+{
+	name: "Samurai"
+	price: 2940
+	unlock: 7
+	icon: "r_grill_06"
+	exterior_model: "/vehicle/truck/upgrade/roofgrill/daf_xf/roofgrill_06_bc.pmd"
+
+	suitable_for[]: "50k_sp_nos.daf.xf.cabin"
+}
+}

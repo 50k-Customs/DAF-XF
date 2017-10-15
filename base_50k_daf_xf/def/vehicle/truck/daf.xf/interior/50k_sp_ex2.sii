@@ -30,6 +30,7 @@ accessory_interior_data: 50k_sp_ex2.daf.xf.interior
 	defaults[]: "/def/vehicle/truck/daf.xf/accessory/steering_w/standard.sii"
 
 	suitable_for[]: "s_cab_plus.daf.xf.cabin"
+	suitable_for[]: "50k_sp_nos.daf.xf.cabin"
 
 @include "dashboard_color.sui"
 @include "seat.sui"

@@ -1,0 +1,15 @@
+﻿SiiNunit
+{
+accessory_addon_data : 50k_ftank.daf.xf.rgd_equip_f
+{
+
+	name: "50k DAF XF: Fuel Tank"
+
+	price: 5000
+	unlock: 5
+	icon: "rgd_equip_f/daf_xf_50k/fuel_tank"
+
+	exterior_model: "/vehicle/truck/upgrade/rgd_equip_f/daf_xf/50k_fuel_tank.pmd"
+		
+}
+}

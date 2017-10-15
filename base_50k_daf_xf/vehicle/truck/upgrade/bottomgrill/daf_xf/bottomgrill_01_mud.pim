@@ -11,7 +11,7 @@ Global {
     PieceCount: 1
     PartCount: 1
     BoneCount: 0
-    LocatorCount: 16
+    LocatorCount: 10
     Skeleton: "bottomgrill_01_mud.pis"
 }
 Material {
@@ -4164,9 +4164,9 @@ Piece {
 Part {
     Name: "defaultpart"
     PieceCount: 1
-    LocatorCount: 16
+    LocatorCount: 10
     Pieces: 0
-    Locators: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15
+    Locators: 0 1 2 3 4 5 6 7 8 9
 }
 Locator {
     Name: "lp"
@@ -4226,58 +4226,16 @@ Locator {
     Scale: ( &3f800000  &3f800000  &3f800000 )
 }
 Locator {
-    Name: "slot_7"
-    Index: 8
-    Position: ( &bf650c16  &bd45b6d9  &3ee9a2f8 )
-    Rotation: ( &3f800000  &342eef4c  &33a22169  &33a22168 )
-    Scale: ( &3f800000  &3f800000  &3f800000 )
-}
-Locator {
-    Name: "slot_8"
-    Index: 9
-    Position: ( &3f6a9c99  &bd45b6d9  &3ee9a2f8 )
-    Rotation: ( &3f800000  &342eef4c  &33a22169  &33a22168 )
-    Scale: ( &3f800000  &3f800000  &3f800000 )
-}
-Locator {
-    Name: "slot_9"
-    Index: 10
-    Position: ( &bf690c09  &bd45b6dc  &3f1a1280 )
-    Rotation: ( &3f800000  &342eef4c  &33a22169  &33a22168 )
-    Scale: ( &3f800000  &3f800000  &3f800000 )
-}
-Locator {
-    Name: "slot_10"
-    Index: 11
-    Position: ( &3f6dec1f  &bd45b6dc  &3f1a1280 )
-    Rotation: ( &3f800000  &342eef4c  &33a22169  &33a22168 )
-    Scale: ( &3f800000  &3f800000  &3f800000 )
-}
-Locator {
-    Name: "slot_11"
-    Index: 12
-    Position: ( &bf6d829d  &bd45b6e0  &3f465fcc )
-    Rotation: ( &3f800000  &342eef4c  &33a22169  &33a22168 )
-    Scale: ( &3f800000  &3f800000  &3f800000 )
-}
-Locator {
-    Name: "slot_12"
-    Index: 13
-    Position: ( &3f713ba6  &bd45b6e0  &3f465fcc )
-    Rotation: ( &3f800000  &342eef4c  &33a22169  &33a22168 )
-    Scale: ( &3f800000  &3f800000  &3f800000 )
-}
-Locator {
     Name: "slot_13"
-    Index: 14
-    Position: ( &bf616adf  &bd45b6cf  &3eb34418 )
+    Index: 8
+    Position: ( &bf8327f3  &be0b1bd8  &3e9a4168 )
     Rotation: ( &3f800000  &342eef4c  &33a22169  &33a22168 )
     Scale: ( &3f800000  &3f800000  &3f800000 )
 }
 Locator {
     Name: "slot_14"
-    Index: 15
-    Position: ( &3f66d401  &bd45b6cf  &3eb34418 )
+    Index: 9
+    Position: ( &3f8327f3  &be0b1bd8  &3e9a4168 )
     Rotation: ( &3f800000  &342eef4c  &33a22169  &33a22168 )
     Scale: ( &3f800000  &3f800000  &3f800000 )
 }

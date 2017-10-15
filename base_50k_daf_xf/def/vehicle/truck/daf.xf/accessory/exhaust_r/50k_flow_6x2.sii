@@ -5,8 +5,9 @@ accessory_addon_data : 50k_flow_6x2.daf.xf.exhaust_r
 	name: "50k DAF XF: Flow I"
 	price: 1560
 	unlock: 12
-	icon: "exhaust_01"
+	icon: "exhaust/daf_xf_50k/flow_6x2"
 	exterior_model: "/vehicle/truck/upgrade/exhaust/daf_xf/exhaust_01_r_6x2.pmd"
+	
 	suitable_for[]: "6x2.daf.xf.chassis"
 	suitable_for[]: "6x2a.daf.xf.chassis"
 	suitable_for[]: "6x2a_tl.daf.xf.chassis"
