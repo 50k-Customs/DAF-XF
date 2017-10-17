@@ -2,7 +2,7 @@
 
 This repository is meant for DAF XF 105 by 50k project mod for Euro Truck Simulator 2.
 
-Latest version:
+Preview of v4.0:
 ![](/preview/daf_v4_0.jpg?raw=true "DAF XF preview")
 
 Preview of v3.5 for 1.23 game version:
