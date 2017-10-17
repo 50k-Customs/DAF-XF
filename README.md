@@ -10,7 +10,7 @@ Preview of v3.5 for 1.23 game version:
 
 ## WARNING
 
-From **v4.0** on this mod is not featuring stadalone truck anymore, thus any 50k DAF XF trucks from previous versions should be sold.
+As of **v4.0** this mod ***is not featuring standalone truck anymore***, thus any 50k DAF XF trucks from previous versions should be ***sold*** before usage of this version.
 
 ### USAGE
 
