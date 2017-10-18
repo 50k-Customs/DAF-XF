@@ -16,11 +16,11 @@ Global {
 }
 Material {
     Alias: "truckpaint_rgd_cabin"
-    Effect: "eut2.truckpaint.altuv"
+    Effect: "eut2.truckpaint"
 }
 Material {
     Alias: "truckpaint"
-    Effect: "eut2.truckpaint.altuv"
+    Effect: "eut2.truckpaint"
 }
 Material {
     Alias: "color_DifSpecShine"
