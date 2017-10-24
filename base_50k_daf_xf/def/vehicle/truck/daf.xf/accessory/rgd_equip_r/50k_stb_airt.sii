@@ -1,0 +1,15 @@
+﻿SiiNunit
+{
+accessory_addon_data : 50k_stb_airt.daf.xf.rgd_equip_r
+{
+
+	name: "50k DAF XF: Small Toolbox & Airtanks"
+
+	price: 2500
+	unlock: 7
+	icon: "rgd_equip_r/daf_xf_50k/small_toolbox_airtanks"
+
+	exterior_model: "/vehicle/truck/upgrade/rgd_equip_r/daf_xf/50k_small_toolbox_airtanks.pmd"
+
+}
+}

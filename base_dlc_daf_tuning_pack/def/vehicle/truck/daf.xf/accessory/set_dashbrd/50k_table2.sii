@@ -1,0 +1,27 @@
+SiiNunit
+{
+accessory_addon_data : 50k_table2.daf.xf.set_dashbrd
+{
+	name: "@@Center_Table_Mahogany@@"
+	price: 700
+	unlock: 0
+	interior_model:"/vehicle/truck/upgrade/dash_set/daf_xf/dbt_eu_int_s.pmd"
+	exterior_model:"/vehicle/truck/upgrade/dash_set/daf_xf/dbt_eu_ext_s.pmd"
+
+	coll:	"/vehicle/truck/upgrade/dash_set/daf_xf/dbt_eu_int_s.pmc"
+
+	icon:"dash_set/daf_xf/ds_eus2"
+
+	look: wood
+
+	suitable_for[]: "50k_ss.daf.xf.interior"
+	suitable_for[]: "50k_ss_ex.daf.xf.interior"
+	suitable_for[]: "50k_ss_ex2.daf.xf.interior"
+	suitable_for[]: "50k_ss_st2.daf.xf.interior"
+	suitable_for[]: "50k_sp.daf.xf.interior"
+	suitable_for[]: "50k_sp_ex.daf.xf.interior"
+	suitable_for[]: "50k_sp_ex2.daf.xf.interior"
+	suitable_for[]: "50k_sp_st2.daf.xf.interior"
+
+}
+}

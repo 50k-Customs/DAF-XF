@@ -1,0 +1,26 @@
+SiiNunit
+{
+accessory_addon_data : 50k_table8.daf.xf.set_dashbrd
+{
+	name: "@@Long_Table_Mahogany@@"
+	price: 1000
+	unlock: 0
+	interior_model:"/vehicle/truck/upgrade/dash_set/daf_xf/dbt_uk_int_l.pmd"
+	exterior_model:"/vehicle/truck/upgrade/dash_set/daf_xf/dbt_uk_ext_l.pmd"
+
+	coll:	"/vehicle/truck/upgrade/dash_set/daf_xf/dbt_uk_int_l.pmc"
+
+	icon:"dash_set/daf_xf/ds_ukl2"
+
+	look: wood
+
+	suitable_for[]: "50k_ss_uk.daf.xf.interior"
+	suitable_for[]: "50k_ss_ex_uk.daf.xf.interior"
+	suitable_for[]: "50k_ss_ex2uk.daf.xf.interior"
+	suitable_for[]: "50k_ss_st2uk.daf.xf.interior"
+	suitable_for[]: "50k_sp_uk.daf.xf.interior"
+	suitable_for[]: "50k_sp_ex_uk.daf.xf.interior"
+	suitable_for[]: "50k_sp_ex2uk.daf.xf.interior"
+	suitable_for[]: "50k_sp_st2uk.daf.xf.interior"
+}
+}

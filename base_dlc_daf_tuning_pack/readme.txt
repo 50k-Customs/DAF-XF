@@ -2,7 +2,7 @@ DAF Tuning DLC definitions for DAF XF 105 modified by 50keda
 
 ### CHANGELOG FOR LATEST VERSION
 
-- Initial version
+- Added missing tables in new interiors
 
 ### CREDITS
 

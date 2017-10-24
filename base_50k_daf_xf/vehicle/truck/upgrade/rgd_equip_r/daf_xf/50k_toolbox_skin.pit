@@ -7,7 +7,7 @@
 #
 Header {
     FormatVersion: 1
-    Source: "Blender 2.78.0 (hash: e8299c8), SCS Blender Tools: 1.9.54925f1"
+    Source: "Blender 2.79.0 (hash: 5bd8ac9abfa), SCS Blender Tools: 1.10.001193f"
     Type: "Trait"
     Name: "50k_toolbox_skin"
 }
@@ -20,7 +20,7 @@ Global {
 Look {
     Name: "default"
     Material {
-        Alias: "daf_tuning_chrome"
+        Alias: "daf_tuning"
         Effect: "eut2.dif.spec.weight.add.env.tsnmapuv"
         Flags: 0
         AttributeCount: 7

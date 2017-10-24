@@ -12,11 +12,14 @@ DAF XF 105 modified by 50keda featuring:
 
 ### CHANGELOG FOR LATEST VERSION
 
-- Restart of the mod as extension of vanilla truck, not standalone truck anymore!
+- Fixed 4x2 chassis bug with marker lights
+- Added 3 new accessories
+- Updated DAF Tuning Pack compatibility package: tables are available in new interiors
 
-### WARNING
+### WARNING FOR PRE v4.0 USERS
 
-Sell all of your 50k DAF XF 105 trucks before using this version!
+If your previous version of this mod is lower than v4.0 then make sure
+to sell all of your 50k DAF XF 105 trucks before using this version!
 
 ### CREDITS
 
@@ -33,4 +36,3 @@ Sell all of your 50k DAF XF 105 trucks before using this version!
 
 No known issues.
 It was tested on 1.28.Xs.
-.

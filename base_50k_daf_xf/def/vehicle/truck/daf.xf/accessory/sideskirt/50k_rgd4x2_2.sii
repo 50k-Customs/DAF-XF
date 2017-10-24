@@ -13,5 +13,7 @@ accessory_addon_data : 50k_rgd4x2_2.daf.xf.sideskirt
 	suitable_for[]: "50k_4x2t.daf.xf.chassis"
 
 	conflict_with[]: "50k_tk_uts.daf.xf.rgd_equip_m"
+	conflict_with[]: "50k_tb_chrom.daf.xf.rgd_equip_m"
+	conflict_with[]: "50k_tb_skin.daf.xf.rgd_equip_m"
 }
 }

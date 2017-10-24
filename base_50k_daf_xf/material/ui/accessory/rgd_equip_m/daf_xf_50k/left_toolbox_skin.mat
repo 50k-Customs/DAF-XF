@@ -1,0 +1,5 @@
+material : "ui"
+{
+	texture : "left_toolbox_skin.tobj"
+	texture_name : "texture"
+}

@@ -1,0 +1,20 @@
+﻿SiiNunit
+{
+accessory_addon_data : 50k_tb_chrom.daf.xf.rgd_equip_m
+{
+
+	name: "50k DAF XF: Toolbox Chrome"
+
+	price: 10000
+	unlock: 12
+	icon: "rgd_equip_m/daf_xf_50k/left_toolbox_chrome"
+
+	exterior_model: "/vehicle/truck/upgrade/rgd_equip_m/daf_xf/50k_left_toolbox_chrome.pmd"
+
+	conflict_with[]: "50k_rgd6x2_1.daf.xf.sideskirt"
+	conflict_with[]: "50k_rgd6x2_2.daf.xf.sideskirt"
+	conflict_with[]: "50k_rgd4x2_1.daf.xf.sideskirt"
+	conflict_with[]: "50k_rgd4x2_2.daf.xf.sideskirt"
+
+}
+}

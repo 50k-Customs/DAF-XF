@@ -1,0 +1,5 @@
+material : "ui"
+{
+	texture : "small_toolbox_airtanks.tobj"
+	texture_name : "texture"
+}
