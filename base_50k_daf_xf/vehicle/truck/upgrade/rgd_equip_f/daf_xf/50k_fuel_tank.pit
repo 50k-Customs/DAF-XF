@@ -6,7 +6,7 @@
 #
 Header {
     FormatVersion: 1
-    Source: "Blender 2.78.0 (hash: e8299c8), SCS Blender Tools: 1.9.54925f1"
+    Source: "Blender 2.79.0 (hash: 5bd8ac9abfa), SCS Blender Tools: 1.10.001193f"
     Type: "Trait"
     Name: "50k_fuel_tank"
 }
@@ -14,7 +14,7 @@ Global {
     LookCount: 1
     VariantCount: 1
     PartCount: 1
-    MaterialCount: 4
+    MaterialCount: 3
 }
 Look {
     Name: "default"
@@ -55,8 +55,8 @@ Look {
         }
     }
     Material {
-        Alias: "color_DifSpecAddEnvFresnel"
-        Effect: "eut2.dif.spec.add.env.indenv"
+        Alias: "color_DifSpecAddEnv"
+        Effect: "eut2.dif.spec.weight.add.env"
         Flags: 0
         AttributeCount: 7
         TextureCount: 2
@@ -78,7 +78,7 @@ Look {
         Attribute {
             Format: FLOAT
             Tag: "add_ambient"
-            Value: ( 0.0 )
+            Value: ( -0.25 )
         }
         Attribute {
             Format: FLOAT
@@ -88,12 +88,12 @@ Look {
         Attribute {
             Format: FLOAT3
             Tag: "env_factor"
-            Value: ( 0.41200000047683716 0.41200000047683716 0.41200000047683716 )
+            Value: ( 0.727387011051178 0.727387011051178 0.727387011051178 )
         }
         Attribute {
             Format: FLOAT2
             Tag: "fresnel"
-            Value: ( 1.0 1.0 )
+            Value: ( 1.0 0.5 )
         }
         Texture {
             Tag: "texture[0]:texture_base"
@@ -101,43 +101,7 @@ Look {
         }
         Texture {
             Tag: "texture[1]:texture_reflection"
-            Value: "/material/environment/vehicle_reflection"
-        }
-    }
-    Material {
-        Alias: "daf_decal"
-        Effect: "eut2.dif.spec.over"
-        Flags: 0
-        AttributeCount: 5
-        TextureCount: 1
-        Attribute {
-            Format: FLOAT3
-            Tag: "diffuse"
-            Value: ( 1.0 1.0 1.0 )
-        }
-        Attribute {
-            Format: FLOAT3
-            Tag: "specular"
-            Value: ( 0.0 0.0 0.0 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "shininess"
-            Value: ( 60.0 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "add_ambient"
-            Value: ( 0.0 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "reflection"
-            Value: ( 0.0 )
-        }
-        Texture {
-            Tag: "texture[0]:texture_base"
-            Value: "/vehicle/truck/daf_xf/color"
+            Value: "/material/environment/fuzzy_reflection/fuzzy_reflection"
         }
     }
     Material {

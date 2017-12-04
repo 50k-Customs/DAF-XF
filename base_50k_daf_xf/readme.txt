@@ -12,9 +12,11 @@ DAF XF 105 modified by 50keda featuring:
 
 ### CHANGELOG FOR LATEST VERSION
 
-- Fixed 4x2 chassis bug with marker lights
-- Added 3 new accessories
-- Updated DAF Tuning Pack compatibility package: tables are available in new interiors
+- Updated mod for 1.30 interior compatibility
+- Taken over reworked chassis & tanks material from vanilla truck
+- Taken over new tank holes from vanilla truck
+- Improved rear chassis upgrades carrier
+- Added 6x2 tandem taglift chassis
 
 ### WARNING FOR PRE v4.0 USERS
 
@@ -35,4 +37,4 @@ to sell all of your 50k DAF XF 105 trucks before using this version!
 ### KNOWN ISSUES
 
 No known issues.
-It was tested on 1.28.Xs.
+It was tested on 1.30.Xs.

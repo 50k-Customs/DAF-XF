@@ -11,5 +11,6 @@ accessory_addon_data : 50k_rgd6x2_3.daf.xf.sideskirt
 	variant: no_lights
 
 	suitable_for[]: "50k_6x2t.daf.xf.chassis"
+	suitable_for[]: "50k_6x2t_tag.daf.xf.chassis"
 }
 }

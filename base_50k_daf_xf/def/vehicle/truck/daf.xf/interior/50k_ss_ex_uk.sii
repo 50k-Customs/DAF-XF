@@ -26,7 +26,7 @@ accessory_interior_data: 50k_ss_ex_uk.daf.xf.interior
 	#glass_panes[]: .daf.xf.pane.top
 
 	ext_model: "/vehicle/truck/upgrade/ext_interior/daf_xf/stock.pmd"
-	ext_variant: uk
+	ext_variant: cab_a_uk
 	ext_look: exclusive
 
 	defaults[]: "/def/vehicle/truck/daf.xf/accessory/steering_w/standard.sii"

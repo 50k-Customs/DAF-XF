@@ -18,7 +18,7 @@ accessory_chassis_data : 50k_6x2t.daf.xf.chassis
 
 	tank_size: 800
 	adblue_tank_size: 90
-	variant: default
+	variant: 6x2
 	look: default
 
 	extended_shadow_texture: "/vehicle/truck/daf_xf/50k_shadow_6x2t.tobj"
