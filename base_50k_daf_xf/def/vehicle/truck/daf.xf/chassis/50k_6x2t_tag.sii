@@ -7,7 +7,7 @@ accessory_chassis_data : 50k_6x2t_tag.daf.xf.chassis
 	unlock: 12
 	info[]: "6x4t"
 	info[]: "800 @@unit_l@@"
-	icon: "chassis/daf_xf_50k/rgd_6x4"
+	icon: "chassis/daf_xf_50k/rgd_6x2_tag"
 
 	detail_model: "/vehicle/truck/daf_xf/50k_chassis_rigid_6x2.pmd"
 	collision: "/vehicle/truck/daf_xf/50k_chassis_rigid_6x2.pmc"
