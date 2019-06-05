@@ -2,7 +2,7 @@ DAF Tuning DLC definitions for DAF XF 105 modified by 50keda
 
 ### CHANGELOG FOR LATEST VERSION
 
-- Added missing tables in new interiors
+- Re-export for 1.35
 
 ### CREDITS
 
@@ -15,4 +15,4 @@ DAF Tuning DLC definitions for DAF XF 105 modified by 50keda
 ### KNOWN ISSUES
 
 No known issues.
-It was tested on 1.28.2s.
+It was tested on 1.35.Xs.
