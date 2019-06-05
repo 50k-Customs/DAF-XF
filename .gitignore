@@ -3,6 +3,7 @@
 /backup/*
 /base/*
 /refs/*
+/base
 *.bak
 *.png
 *.mtl
